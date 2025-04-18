@@ -1,5 +1,4 @@
-# Medical Records Semantic Search Application
-
+# HEPABOT
 This application allows you to perform semantic searches across medical patient records using vector embeddings. The system extracts structured data from PDF medical records, creates a vector database, and provides a user-friendly Streamlit interface for searching.
 
 ## Features
