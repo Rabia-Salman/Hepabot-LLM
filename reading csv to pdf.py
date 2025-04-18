@@ -4,31 +4,26 @@ from fpdf import FPDF
 import unicodedata
 
 
-# Function to clean and normalize text
 def clean_text(text):
-    """
-    Replace unsupported characters with their closest equivalents or remove them.
-    """
-    text = unicodedata.normalize("NFKD", text)  # Normalize text (e.g., convert fancy quotes to plain ones)
-    return text.encode("latin-1", errors="ignore").decode(
-        "latin-1")  # Remove characters that can't be encoded in latin-1
+    """Normalize and clean text to remove unsupported characters."""
+    text = unicodedata.normalize("NFKD", str(text))
+    return text.encode("latin-1", "ignore").decode("latin-1")
 
 
-# Load the Excel file and sheet
+# Load the Excel file and select the required columns
 file_path = "data/Data_1.xlsx"
 df = pd.read_excel(file_path, sheet_name="Sheet1")
+selected_columns = df.iloc[:,
+                   [0, 1, 3, 11, 13]]  # Columns: Gender, Age, MRN, Outpatient Diagnosis, History and Physical
 
-# Get the last column
-conversation_notes = df.iloc[:, -1]
-print(conversation_notes.head())
-
-# Directory to save the PDF files
-output_dir = "/ollama-fundamentals/history_physical_pdfs"
+# Ensure the output directory exists
+output_dir = "./ollama-fundamentals/history_physical_pdfs"
 os.makedirs(output_dir, exist_ok=True)
 
 
-# PDF generation class
 class PDF(FPDF):
+    """Custom PDF class with consistent formatting."""
+
     def __init__(self):
         super().__init__()
         self.set_auto_page_break(auto=True, margin=15)
@@ -36,20 +31,30 @@ class PDF(FPDF):
         self.set_font("Arial", size=12)
 
     def add_text(self, text):
+        """Add multi-line text to the PDF."""
         self.multi_cell(0, 10, text)
 
 
-# Save each row as a separate PDF
+# Generate a PDF for each row with non-missing values
 file_paths = []
-for idx, text in enumerate(conversation_notes.dropna(), start=1):  # Drop NaN values
+cleaned_data = selected_columns.dropna()  # Skip rows with any missing data
+
+for count, (_, row) in enumerate(cleaned_data.iterrows(), start=1):
+    # Format the data with labels
+    formatted_content = (
+        f"Gender: {clean_text(row['Gender'])}\n"
+        f"Age: {clean_text(row['Age'])}\n"
+        f"MRN: {clean_text(row['MRN'])}\n"
+        f"Outpatient Diagnosis: {clean_text(row['Outpatient Diagnosis'])}\n"
+        f"History and Physical:\n{clean_text(row['History and Physical'])}"
+    )
+
+    # Create and save the PDF
     pdf = PDF()
-    cleaned_text = clean_text(str(text))  # Clean the text before adding it to the PDF
-    pdf.add_text(cleaned_text)
+    pdf.add_text(formatted_content)
+    filename = os.path.join(output_dir, f"history_physical_{count}.pdf")
+    pdf.output(filename)
+    file_paths.append(filename)
 
-    file_name = f"history_physical_{idx}.pdf"
-    file_path = os.path.join(output_dir, file_name)
-    pdf.output(file_path)
-    file_paths.append(file_path)
-
-# Show first 5 file paths
-print(file_paths[:5])
+print(f"Successfully generated {len(file_paths)} PDFs.")
+print("Sample paths:", file_paths[:5])
