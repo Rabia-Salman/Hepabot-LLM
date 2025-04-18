@@ -1,5 +1,4 @@
 import streamlit as st
-from extract_fields import extraction_template, llm
 from langchain_core.output_parsers import StrOutputParser
 from utils import load_conversations_from_pdf
 import tempfile
@@ -8,11 +7,13 @@ import re
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 from pathlib import Path
-
+from extract_fields_patients_new import extraction_template, llm, extract_metadata
 st.set_page_config(page_title="Medical Summary", layout="centered")
 st.title("🩺 Patient Details")
 
 uploaded_file = st.file_uploader("Upload a clinical conversation PDF", type=["pdf"])
+
+# In the Streamlit app code, modify the processing block:
 
 if uploaded_file:
     with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp_file:
@@ -21,10 +22,23 @@ if uploaded_file:
 
     with st.spinner("🔍 Analyzing data ..."):
         try:
+            # Extract metadata first
+            metadata = extract_metadata(tmp_path)  # Add this line
+
+            # Then load conversation
             turns = load_conversations_from_pdf(tmp_path)
             conversation_text = "\n".join([f"{t['speaker']}: {t['text']}" for t in turns])
+
             chain = extraction_template | llm | StrOutputParser()
-            raw_output = chain.invoke({"conversation": conversation_text})
+            # Add metadata to the invocation
+            raw_output = chain.invoke({
+                "gender": metadata["gender"],
+                "age": metadata["age"],
+                "mrn": metadata["mrn"],
+                "diagnosis": metadata["diagnosis"],
+                "conversation": conversation_text
+            })
+
 
             # Clean and save output in session state
             def clean_output(text):
