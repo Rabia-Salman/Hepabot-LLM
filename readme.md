@@ -48,7 +48,7 @@ streamlit run app.py
 - `enhanced_extraction.py` - Script to extract structured data from PDF files
 - `create_vector_db.py` - Script to create a Chroma vector database from extracted data
 - `app.py` - Streamlit application for searching and browsing medical records
-- `utils.py` - Utility functions for PDF processing (from your original code)
+- `utils.py` - Utility functions for PDF processing
 - `requirements.txt` - Dependencies required for the project
 
 ## Usage
