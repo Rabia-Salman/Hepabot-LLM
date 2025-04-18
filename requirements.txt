@@ -1,0 +1,9 @@
+# requirements.txt
+langchain
+langchain_ollama
+langchain_community
+pdfminer.six
+tqdm
+pandas
+streamlit
+chromadb
