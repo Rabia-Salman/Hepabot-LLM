@@ -1,5 +1,6 @@
 import os
 import tempfile
+
 import streamlit as st
 import pandas as pd
 from typing import List
@@ -12,19 +13,13 @@ from utils import process_documents, create_vector_db, load_vector_db, create_ra
 
 # Optional voice support
 try:
-    from elevenlabs import generate, play
+    from elevenlabs import Voice, VoiceSettings, generate, play
+    from elevenlabs.api import User
+
     ELEVENLABS_AVAILABLE = True
 except ImportError as e:
     print(f"ImportError: {e}")
     ELEVENLABS_AVAILABLE = False
-
-# try:
-#     from elevenlabs.client import ElevenLabs
-#     from elevenlabs import generate, stream
-#
-#     ELEVENLABS_AVAILABLE = True
-# except ImportError:
-#     ELEVENLABS_AVAILABLE = False
 
 # Load environment variables
 load_dotenv()
@@ -70,11 +65,29 @@ def text_to_speech(text: str, api_key: str = None) -> BytesIO:
         return None
 
     try:
-        client = ElevenLabs(api_key=api_key)
-        audio = generate(
+        # Set the API key explicitly first
+        import elevenlabs
+        elevenlabs.set_api_key(api_key)
+
+        # Get available voices
+        try:
+            voices = elevenlabs.voices()
+            if not voices:
+                st.error("No voices available in your ElevenLabs account")
+                return None
+
+            # Use the first available voice
+            voice_id = voices[0].voice_id
+        except Exception as voice_error:
+            st.warning(f"Could not retrieve voices: {str(voice_error)}. Using default voice.")
+            # Use a default voice from ElevenLabs free tier
+            voice_id = "21m00Tcm4TlvDq8ikWAM"  # Adam voice (default voice)
+
+        # Now generate the audio
+        audio = elevenlabs.generate(
             text=text,
-            voice="Bella",  # You can change this to your preferred voice
-            model="eleven_turbo_v2",
+            voice=st.session_state.get("selected_voice_id", "21m00Tcm4TlvDq8ikWAM"),
+            model="eleven_turbo_v2"
         )
 
         return BytesIO(audio)
@@ -106,6 +119,12 @@ def main():
         st.session_state.rag_chain = None
     if 'last_response' not in st.session_state:
         st.session_state.last_response = ""
+    if 'selected_voice_id' not in st.session_state:
+        st.session_state.selected_voice_id = "21m00Tcm4TlvDq8ikWAM"  # Default voice ID (Adam)
+
+    # Check if database exists at startup
+    if os.path.exists(DB_PATH) and not st.session_state.vector_db_created:
+        st.session_state.vector_db_created = True
 
     # Sidebar for database operations
     st.sidebar.title("Database Operations")
@@ -114,7 +133,6 @@ def main():
     db_exists = os.path.exists(DB_PATH)
     if db_exists:
         st.sidebar.success("Vector database exists! Ready to answer questions.")
-        st.session_state.vector_db_created = True
     else:
         st.sidebar.warning("No vector database found. Please upload documents.")
 
@@ -170,6 +188,7 @@ def main():
             import shutil
             shutil.rmtree(DB_PATH)
             st.session_state.vector_db_created = False
+            st.session_state.rag_chain = None  # Clear the RAG chain when DB is deleted
             st.sidebar.success("Database deleted successfully.")
         else:
             st.sidebar.info("No database to delete.")
@@ -180,19 +199,23 @@ def main():
     # Check if chain is loaded or needs to be loaded
     if st.session_state.vector_db_created and not st.session_state.rag_chain:
         with st.status("Loading RAG chain..."):
-            # Load the vector database
-            vector_db = load_vector_db(
-                persist_directory=DB_PATH,
-                collection_name=COLLECTION_NAME,
-                use_fast_embeddings=use_fast_embeddings
-            )
+            try:
+                # Load the vector database
+                vector_db = load_vector_db(
+                    persist_directory=DB_PATH,
+                    collection_name=COLLECTION_NAME,
+                    use_fast_embeddings=use_fast_embeddings
+                )
 
-            if vector_db:
-                # Create RAG chain
-                st.session_state.rag_chain = create_rag_chain(vector_db, MODEL_NAME)
-                st.success("Ready to answer your medical questions!")
-            else:
-                st.error("Failed to load vector database. Please create a new one.")
+                if vector_db:
+                    # Create RAG chain
+                    st.session_state.rag_chain = create_rag_chain(vector_db, MODEL_NAME)
+                    st.success("Ready to answer your medical questions!")
+                else:
+                    st.error("Failed to load vector database. Please create a new one.")
+            except Exception as e:
+                st.error(f"Error loading database: {str(e)}")
+                st.session_state.vector_db_created = False
 
     # Question input
     if st.session_state.vector_db_created:
@@ -207,14 +230,34 @@ def main():
 
         with col2:
             voice_enabled = st.checkbox("Enable voice output", value=ELEVENLABS_AVAILABLE)
-            if voice_enabled and not ELEVENLABS_AVAILABLE:
-                st.warning("ElevenLabs package is not installed. Voice output disabled.")
-                voice_enabled = False
 
-            if voice_enabled and not os.getenv("ELEVENLABS_API_KEY"):
-                api_key = st.text_input("ElevenLabs API Key", type="password")
-                if api_key:
-                    os.environ["ELEVENLABS_API_KEY"] = api_key
+            if voice_enabled:
+                if not ELEVENLABS_AVAILABLE:
+                    st.warning("ElevenLabs package is not installed. Voice output disabled.")
+                    voice_enabled = False
+                else:
+                    api_key = None
+                    if not os.getenv("ELEVENLABS_API_KEY"):
+                        api_key = st.text_input("ElevenLabs API Key", type="password")
+                        if api_key:
+                            os.environ["ELEVENLABS_API_KEY"] = api_key
+
+                    # Try to show available voices if API key is provided
+                    if api_key or os.getenv("ELEVENLABS_API_KEY"):
+                        try:
+                            import elevenlabs
+                            elevenlabs.set_api_key(api_key or os.getenv("ELEVENLABS_API_KEY"))
+                            voices = elevenlabs.voices()
+                            if voices:
+                                voice_options = {voice.name: voice.voice_id for voice in voices}
+                                selected_voice = st.selectbox("Select voice", options=list(voice_options.keys()))
+                                st.session_state.selected_voice_id = voice_options[selected_voice]
+                            else:
+                                st.info("No custom voices found. Will use default voice.")
+                                st.session_state.selected_voice_id = "21m00Tcm4TlvDq8ikWAM"  # Adam (default)
+                        except Exception:
+                            st.info("Could not fetch voices. Will use default voice.")
+                            st.session_state.selected_voice_id = "21m00Tcm4TlvDq8ikWAM"  # Adam (default)
 
         # Submit button
         if st.button("Get Diagnosis"):
@@ -224,9 +267,12 @@ def main():
                 st.error("RAG chain is not loaded. Please create or load a database first.")
             else:
                 with st.status("Generating answer..."):
-                    # Get answer from RAG chain
-                    response = ask_question(st.session_state.rag_chain, question)
-                    st.session_state.last_response = response
+                    try:
+                        # Get answer from RAG chain
+                        response = ask_question(st.session_state.rag_chain, question)
+                        st.session_state.last_response = response
+                    except Exception as e:
+                        st.error(f"Error generating diagnosis: {str(e)}")
 
         # Display the response
         if st.session_state.last_response:
@@ -251,9 +297,10 @@ def main():
             # Voice playback
             with col2:
                 if voice_enabled and st.button("Play Voice"):
-                    audio_data = text_to_speech(st.session_state.last_response)
-                    if audio_data:
-                        st.audio(audio_data, format='audio/mp3')
+                    with st.spinner("Generating voice..."):
+                        audio_data = text_to_speech(st.session_state.last_response, api_key)
+                        if audio_data:
+                            st.audio(audio_data, format='audio/mp3')
     else:
         st.info("Please upload documents and create a vector database to start asking questions.")
 
