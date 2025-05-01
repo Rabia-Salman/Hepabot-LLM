@@ -1,0 +1,166 @@
+{
+    "patient_id": "history_physical_49",
+    "raw_text": "Gender: Male\n\nAge: 61\n\nMRN: 821085\n\nDiagnosis: Cholangiocarcinoma\n\nHistory and Physical:\n\nPatient Visit 1 - 30/09/2024\n\nPatient: \"Doctor, I've been experiencing abdominal pain and itching for the past four days. I've also\n\nnoticed that I've lost my appetite.\"\n\nDoctor: \"I see. How long has this been going on?\"\n\nPatient: \"The itching and pain started four days ago, but I've had jaundice for about a month now. I\n\nwas admitted to Gondal Hospital, where they told me I might have cholangiocarcinoma.\"\n\nDoctor:  \"I  understand.  So,  you've  been  dealing  with  jaundice  for  a  while.  Have  you  had  any  other\n\nissues like variceal bleeding, ascites, or encephalopathy?\"\n\nPatient: \"No, none of those.\"\n\nDoctor: \"Alright. Let's take a look at your medical history. Any past surgeries or allergies?\"\n\nPatient: \"No, nothing significant. No allergies either.\"\n\nDoctor: \"What medications are you currently on?\"\n\nPatient: \"None at the moment.\"\n\n\fDoctor: \"I see. And where are you from?\"\n\nPatient: \"I'm from Gujranwala. I work as a taxi driver.\"\n\nDoctor: \"Do you smoke?\"\n\nPatient: \"Yes, I do.\"\n\nDoctor:  \"Okay,  I  will  review  your  investigation  results.  Your  CT  scan  from  September  10th  shows\n\ncholangiocarcinoma with Bismuth type 3, and there is also porta hepatis lymphadenopathy. The lab\n\nresults from the same day show the following:\n\nHemoglobin (HB): 11.3\n\nTotal Leukocyte Count (TLC): 15.7\n\nPlatelets: 165\n\nTotal Bilirubin (T.bili): 36.0\n\nALT: 134\n\nAST: 143\n\nAlkaline Phosphatase (ALP): 1424\n\nAlbumin: 3.0\n\n\fUrea: 41\n\nCreatinine: 1.2\n\nSodium: 138\n\nPotassium: 3.52\n\nHepatitis B and C markers were non-reactive. Based on these results, the diagnosis seems to align\n\nwith cholangiocarcinoma.\"\n\nPlan:\n\nWe'll proceed with an ERCP.\n\nPlease submit your CD for reporting.\n\nYoull start the following medications:\n\nNuberol, 2 tablets TDS.\n\nTramal, 100mg BD.\n\nMotilium, 10mg TDS.\n\nOmeprazole, 40mg OD.\n\n\fId like to see you again in 4 weeks for a follow-up.\n\nFollow-Up Visit 2 - 07/10/2024\n\nPatient: \"Doctor, Ive had a follow-up visit, and I still feel pain. My symptoms are the same as before.\"\n\nDoctor:  \"Let's  go  over  the  CT  scan  findings  and  your  lab  results.  Your  CT  scan  from  October  3rd\n\nshows  moderate  intrahepatic  biliary  dilatation  due  to  an  enhancing  mass  lesion,  consistent  with  a\n\nBismuth  IIIb  classification.  The  lesion  is  at  the  confluence  of  the  right  and  left  hepatic  ducts,\n\nextending  proximally  and  distally  into  the  mid  CBD.  It  seems  the  segment  IV  hepatic  artery  is\n\npartially encased by the tumor. Theres also some hypodensity in the caudate lobe, and prominent\n\nabdominal lymphadenopathy, likely metastatic.\n\nYour lab results from September 10th are as follows:\n\nHemoglobin (HB): 11.3\n\nTotal Leukocyte Count (TLC): 15.7\n\nPlatelets: 165\n\nRandom Sugar: 9\n\nTotal Bilirubin (T.bili): 36.0\n\nALT: 134\n\n\fAST: 143\n\nALP: 1424\n\nAlbumin: 3.0\n\nUrea: 41\n\nCreatinine: 1.2\n\nSodium: 138\n\nPotassium: 3.52\n\nWere planning for an ERCP and biopsy. Ive educated you on the possible complications of ERCP,\n\nsuch as pancreatitis and cholangitis.\"\n\nPlan:\n\nERCP planning and biopsy.\n\nContinue the medications as prescribed.\n\nFollow-Up Visit 3 - 21/10/2024\n\nPatient:  \"I  had  the  ERCP  procedure,  and  it  seems  like  Im  still  dealing  with  pain.  The  symptoms\n\nhavent improved much.\"\n\n\fDoctor:  \"I  see.  The  ERCP  results  from  October  11th  show  a  normal-looking  ampulla,  and  we\n\nperformed a pancreatic papillotomy. We achieved cannulation of the common bile duct with a double\n\nguidewire technique and passed it into the left hepatic duct. A sphincterotomy was performed, and\n\nwe placed a 5 French 5 cm pancreatic stent. After this, we placed biliary stents in both the right and\n\nleft  hepatic  systems  with  excellent  drainage.  Histopathology  from  the  CBD  brushings  came  back\n\nnegative for malignant cells.\"\n\nPatient: \"What does that mean for my condition, doctor?\"\n\nDoctor: \"It means that while we didnt find malignant cells in the brushing, your cholangiocarcinoma\n\ndiagnosis  remains.  We  are  focusing  on  supportive  care  at  this  stage.  Your  liver  function  tests  and\n\nliver biopsy will help us assess the next steps.\"\n\nPlan:\n\nContinue with Ursodeoxycholic acid 250 mg TDS and Omeprazole 40 mg OD.\n\nBegin Cefixime 400 mg once daily for 7 days.\n\nFollow-up in one month.\n\nFollow-Up Visit 4 - 22/11/2024\n\nPatient: \"I've been feeling more pain, especially around the PTC drain site. I'm also vomiting quite a\n\nbit.\"\n\nDoctor:  \"It  seems  you're  dealing  with  some  complications  related  to  the  cholangiocarcinoma  and\n\nyour PTC drain. Your recent lab results show some changes:\n\n\fHemoglobin (HB): 8.6\n\nPlatelets: 291\n\nTotal Leukocyte Count (WBC): 18\n\nTotal Bilirubin (T.bili): 6.41\n\nALT: 62\n\nAST: 118\n\nALP: 1414\n\nAlbumin: 2.67\n\nYour CT scan from October 3rd remains consistent with what weve discussed earlier. Im referring\n\nyou to the IR department to check the patency of your PTC drain. In the meantime, Ill adjust your\n\nmedications and continue monitoring your condition.\"\n\nPlan:\n\nRefer to IR for PTC drain patency check.\n\nContinue the following:\n\n\fOmeprazole 40mg OD\n\nNuberol 2 BD\n\nTramadol 100mg BD\n\nFollow up in 6 weeks.\n\nFollow-Up Visit 5 - 13/12/2024\n\nPatient: \"I had to come in on a wheelchair today. Im feeling a lot of pain, especially in my thighs.\"\n\nDoctor:  \"I'm  sorry  to  hear  that.  It  seems  like  youre  in  the  terminal  stages  of  metastatic\n\ncholangiocarcinoma. Your lab results from November 5th show signs of further deterioration:\n\nHemoglobin (HB): 8.6\n\nPlatelets: 291\n\nWBC: 18\n\nTotal Bilirubin (T.bili): 6.41\n\nALT: 62\n\nAST: 118\n\nALP: 1414\n\n\fCreatinine: 1.02\n\nAlbumin: 2.67\n\nGiven your condition, were now focusing on supportive care.\"\n\nPlan:\n\nContinue with the following medications:\n\nTopento IR BD\n\nGabica 75mg BD\n\nNeubrol Forte BD\n\nOmeprazole 40mg OD\n\nCiprofloxacin 500mg BD\n\nOndansetron TDS\n\nMotilium 10mg TDS\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "61",
+            "MRN": "821085",
+            "Diagnosis": "Cholangiocarcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "abdominal pain",
+                "itching",
+                "loss of appetite",
+                "jaundice",
+                "vomiting",
+                "pain around PTC drain site"
+            ],
+            "NegativeFindings": [
+                "no variceal bleeding",
+                "no ascites",
+                "no encephalopathy",
+                "no allergies",
+                "no significant past surgeries"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "cholangiocarcinoma with Bismuth type 3",
+            "moderate intrahepatic biliary dilatation",
+            "enhancing mass lesion",
+            "metastatic lymphadenopathy",
+            "negative for malignant cells in CBD brushings"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Nuberol, 2 tablets TDS",
+                "Tramal, 100mg BD",
+                "Motilium, 10mg TDS",
+                "Omeprazole, 40mg OD",
+                "Ursodeoxycholic acid 250 mg TDS",
+                "Cefixime 400 mg once daily for 7 days",
+                "Topento IR BD",
+                "Gabica 75mg BD",
+                "Neubrol Forte BD",
+                "Ciprofloxacin 500mg BD",
+                "Ondansetron TDS"
+            ],
+            "Procedures": [
+                "ERCP",
+                "biopsy",
+                "pancreatic papillotomy",
+                "sphincterotomy",
+                "biliary stent placement",
+                "PTC drain patency check"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "CT scan shows cholangiocarcinoma with Bismuth type 3",
+                "CT scan shows moderate intrahepatic biliary dilatation",
+                "CT scan shows enhancing mass lesion",
+                "CT scan shows hypodensity in the caudate lobe",
+                "CT scan shows prominent abdominal lymphadenopathy"
+            ],
+            "LabResults": [
+                {
+                    "Date": "September 10th",
+                    "Hemoglobin": "11.3",
+                    "TotalLeukocyteCount": "15.7",
+                    "Platelets": "165",
+                    "TotalBilirubin": "36.0",
+                    "ALT": "134",
+                    "AST": "143",
+                    "ALP": "1424",
+                    "Albumin": "3.0",
+                    "Urea": "41",
+                    "Creatinine": "1.2",
+                    "Sodium": "138",
+                    "Potassium": "3.52"
+                },
+                {
+                    "Date": "October 3rd",
+                    "Hemoglobin": "11.3",
+                    "TotalLeukocyteCount": "15.7",
+                    "Platelets": "165",
+                    "RandomSugar": "9",
+                    "TotalBilirubin": "36.0",
+                    "ALT": "134",
+                    "AST": "143",
+                    "ALP": "1424",
+                    "Albumin": "3.0",
+                    "Urea": "41",
+                    "Creatinine": "1.2",
+                    "Sodium": "138",
+                    "Potassium": "3.52"
+                },
+                {
+                    "Date": "November 5th",
+                    "Hemoglobin": "8.6",
+                    "Platelets": "291",
+                    "TotalLeukocyteCount": "18",
+                    "TotalBilirubin": "6.41",
+                    "ALT": "62",
+                    "AST": "118",
+                    "ALP": "1414",
+                    "Albumin": "2.67",
+                    "Creatinine": "1.02"
+                }
+            ],
+            "PathologyFindings": [
+                "negative for malignant cells in CBD brushings"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "cholangiocarcinoma"
+            ],
+            "Comorbidities": [
+                "None"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "IR department for PTC drain patency check"
+            ],
+            "ScheduledTests": [
+                "liver function tests",
+                "liver biopsy"
+            ],
+            "NextAppointmentDetails": [
+                "Follow-up in 4 weeks",
+                "Follow-up in 1 month",
+                "Follow-up in 6 weeks"
+            ]
+        },
+        "VisitTimeline": [
+            {
+                "VisitDate": "30/09/2024",
+                "VisitType": "Initial Visit"
+            },
+            {
+                "VisitDate": "07/10/2024",
+                "VisitType": "Follow-Up Visit 2"
+            },
+            {
+                "VisitDate": "21/10/2024",
+                "VisitType": "Follow-Up Visit 3"
+            },
+            {
+                "VisitDate": "22/11/2024",
+                "VisitType": "Follow-Up Visit 4"
+            },
+            {
+                "VisitDate": "13/12/2024",
+                "VisitType": "Follow-Up Visit 5"
+            }
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "The patient has experienced worsening symptoms and complications related to cholangiocarcinoma.",
+            "DiagnosticJourney": "The patient underwent multiple imaging studies and lab tests leading to the diagnosis of cholangiocarcinoma.",
+            "TreatmentResponse": "The patient has not shown significant improvement despite interventions.",
+            "OngoingConcerns": "The patient is in terminal stages of metastatic cholangiocarcinoma with significant pain and complications."
+        }
+    }
+}

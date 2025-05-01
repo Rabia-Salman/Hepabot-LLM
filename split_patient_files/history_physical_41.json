@@ -1,0 +1,71 @@
+{
+    "patient_id": "history_physical_41",
+    "raw_text": "Gender: Female\n\nAge: 72\n\nMRN: 780976\n\nDiagnosis: Cholangiocarcinoma\n\nHistory and Physical:\n\nDate: 15-Jul-24 | Clinic: HPB & LTX\n\nPatient: Doctor, Ive been having this abdominal pain for the past month, and it radiates to my back.\n\nIts getting uncomfortable. And Ive also developed jaundice.\n\nDoctor: I see. When exactly did the jaundice start?\n\nPatient: It started around the same time as the pain  so, about a month ago.\n\nDoctor: Understood. Have you noticed any changes in your weight recently?\n\nPatient: Yes, Ive lost around 10 kilograms in just the past 1 to 2 months.\n\nDoctor: Thats quite significant. Well keep that in mind. Your viral markers came back negative as of\n\n27th June. Thats good to know. Do you have any other symptoms?\n\nPatient: No, just the pain and jaundice.\n\nDoctor: Okay. On your current medications  are you taking anything regularly?\n\nPatient: Just some painkillers, whenever I really need them.\n\n\fDoctor: Alright. Lets talk a bit about your lifestyle and background. Are there any financial difficulties\n\nyou're facing right now?\n\nPatient: Yes, there are some financial strains.\n\nDoctor: Whats your occupation?\n\nPatient: I work as a laborer.\n\nDoctor: And your marital status?\n\nPatient: Im married.\n\nDoctor: Any addictions  smoking, alcohol, tobacco?\n\nPatient: I used to smoke a pack a day for the past 10 years, but I quit 3 months ago.\n\nDoctor:  Thats  a  positive  step.  Do  you  have  any  family  history  of  diabetes,  high  blood  pressure,\n\ncancer, tuberculosis, asthma, or anything else?\n\nPatient: No, nothing significant.\n\nDoctor: Good. Just a few more questions. Do you ever feel depressed?\n\nPatient: No.\n\nDoctor: Any suicidal thoughts?\n\n\fPatient: Never.\n\nDoctor: Any history of self-harm or wishing to die?\n\nPatient: No, nothing like that.\n\nDoctor: From a spiritual or religious point of view, do you have any specific practices or needs we\n\nshould be aware of during your care?\n\nPatient: No, none.\n\nDoctor: And do you have any limitations in communication  language, speech, vision, mobility?\n\nPatient: No, I can communicate fine. No impairments at all.\n\nDoctor: Thank you. Lets do a quick systemic examination. Youre conscious, well-oriented, and your\n\nGlasgow Coma Scale score is 15/15. Your heart sounds  S1 and S2  are normal. Lungs are clear\n\nwith normal vesicular breath sounds. The abdomen is soft, non-tender, and not distended.\n\nDoctor:  Based  on  all  this  and  your  imaging/workup,  it  appears  that  were  dealing  with  a  Klatskin\n\ntumor.  Were  suspecting  a  Bismuth  Type  IV  tumor  with  vascular  involvement,  affecting  both  the\n\nhepatic artery and portal vein.\n\nPatient: What does that mean for treatment?\n\nDoctor:  Well  need  urgent  ERCP  (Endoscopic  Retrograde  Cholangiopancreatography) \n\nfor\n\n\fdecompression. After that, well refer you to Dr. Ahmed Kareem, and also to oncology for potential\n\npalliative chemotherapy.\n\nPatient: Okay, I understand.\n\nDoctor: Weve provided education about your diagnosis and what to expect. Lets move ahead with\n\nscheduling the ERCP procedure as soon as possible.\n\nDate: 19-Jul-24 | Post ERCP Discussion\n\nDoctor:  Hello,  weve  completed  your  ERCP  procedure  today.  Everything  went  smoothly,  and  weve\n\ndocumented all the steps.\n\nPatient: What exactly did you do during the procedure?\n\nDoctor: First, we obtained your consent. You were placed in the prone position, and the scope was\n\npassed through your mouth down to the duodenum. Your vitals and oxygen levels were monitored\n\nthroughout. You were under deep sedation, and thankfully, there were no immediate complications.\n\nPatient: Thats a relief.\n\nDoctor: The ERCP findings included a protruding ampulla, and it was a bit challenging to cannulate\n\nthe  common  bile  duct  (CBD).  The  guide  wire  initially  entered  the  pancreatic  duct  (PD)  twice,  but\n\neventually, we achieved selective cannulation of the CBD after performing a needle-knife precut and\n\nbiliary sphincterotomy.\n\nDoctor:  We  inserted  two  guidewires    one  each  into  the  right  and  left  ductal  systems.  The\n\n\fcholangiogram  revealed  a  tight  stricture  that  extended  from  the  mid  and  proximal  CBD  up  to  the\n\ncommon hepatic duct and confluence, along with dilated intrahepatic ducts (IHDs).\n\nPatient: Did you take any samples?\n\nDoctor: Yes, we obtained 40 passes for brushing cytology to examine under the microscope. Then\n\nwe dilated both the right and left ductal strictures using an 8.5 Fr Sohendra dilator.\n\nDoctor:  Two  plastic  biliary  stents  (PBS)  were  placed    a  7  Fr  x  12  cm  stent  in  the  right  hepatic\n\nsystem,  and  a  7  Fr  x  15  cm  stent  in  the  left  hepatic  system,  both  of  which  provided  excellent\n\ndrainage.\n\nPatient: Anything I should be concerned about?\n\nDoctor:  During  the  placement  of  the  second  stent,  the  left-sided  stent  migrated  proximally,  but  it's\n\nsomething were keeping an eye on.\n\nDoctor: For now, your post-procedure plan includes:\n\nNothing by mouth (NPO) for the next 4 hours.\n\nMonitor your vitals every hour for 4 hours.\n\nAdminister Ringer Lactate 500 ml IV over 4 hours.\n\nStart Tablet Ciproxin 500 mg, twice daily, for 5 days.\n\n\fDoctor:  If  you  remain  stable,  well  discharge  you  home  soon.  Please  return  for  a  follow-up  in  2\n\nweeks, and dont forget to bring fresh liver function tests (LFTs) for the next visit.\n\nPatient: Got it, doctor. Thank you for the explanation.\n\nDoctor:  Youre  welcome.  The  procedure  was  performed  by  Dr.  Usman  Aujla,  who  is  a  Consultant\n\nGastroenterologist and Hepatologist (FRCP, UK). Well continue to guide your care step by step.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Female",
+            "Age": "72",
+            "MRN": "780976",
+            "Diagnosis": "Cholangiocarcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "abdominal pain",
+                "jaundice",
+                "weight loss"
+            ],
+            "NegativeFindings": [
+                "viral markers negative"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Klatskin tumor",
+            "Bismuth Type IV tumor with vascular involvement"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "painkillers",
+                "Ciproxin 500 mg"
+            ],
+            "Procedures": [
+                "ERCP"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "tight stricture in CBD",
+                "dilated intrahepatic ducts"
+            ],
+            "LabResults": [
+                "brushing cytology samples"
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "Dr. Ahmed Kareem",
+                "oncology"
+            ],
+            "ScheduledTests": [
+                "fresh liver function tests"
+            ],
+            "NextAppointmentDetails": [
+                "follow-up in 2 weeks"
+            ]
+        },
+        "VisitTimeline": [
+            "15-Jul-24: Initial consultation",
+            "19-Jul-24: Post ERCP discussion"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient presented with abdominal pain and jaundice, with significant weight loss.",
+            "DiagnosticJourney": "ERCP performed to assess biliary stricture and obtain cytology samples.",
+            "TreatmentResponse": "ERCP completed successfully with stent placement.",
+            "OngoingConcerns": "Monitoring of stent migration and overall condition post-procedure."
+        }
+    }
+}

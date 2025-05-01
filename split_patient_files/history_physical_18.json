@@ -1,0 +1,138 @@
+{
+    "patient_id": "history_physical_18",
+    "raw_text": "Gender: Male\n\nAge: 13\n\nMRN: 858063\n\nDiagnosis: Hepatic fibrosis\n\nHistory and Physical:\n\nDoctor: Hello, what's your name?\n\nPatient (Child): My name is Muhammad Subhan.\n\nDoctor: Nice to meet you, Subhan. How old are you?\n\nPatient's Mother: Hes 12 years and 8 months old. He was born on 12th March 2012.\n\nDoctor: Where are you from?\n\nPatient's Mother: We live in Kohat.\n\nDoctor: And how many siblings does he have?\n\nPatient's Mother: He is the youngest of 7 children.\n\nDoctor: Are you and your husband related by blood?\n\nPatient's Mother: Yes, we are consanguineous.\n\nDoctor: What brings you in today?\n\n\fPatient's Mother: He had episodes of vomiting blood. His first one was about 6 months ago. Since\n\nthen, hes had 4 more, the last one on 9th November. He had an endoscopy done that day, and they\n\ngave him two units of blood.\n\nDoctor: I see. Has he had any other health issues in the past?\n\nPatient's  Mother:  He  was  healthy  until  he  turned  6.  Then  he  had  pain  on  the  right  side  of  his\n\nstomach, but it got better with medicine.\n\nDoctor: What medications has he taken recently?\n\nPatient's  Mother:  Hes  not  taking  any  medications  currently,  but  in  the  past,  he  was  given  IV\n\nantibiotics, ondansetron, omeprazole, and Ulsanic syrup.\n\nDoctor: Has he ever had surgery?\n\nPatient's Mother: Yes, he had a liver biopsy.\n\nDoctor: Any family history of liver diseases?\n\nPatient's Mother: No, nothing like that.\n\nDoctor: How was his birth?\n\nPatient's Mother: Normal delivery. I dont remember the birth weight.\n\nDoctor: Is his vaccination up-to-date?\n\n\fPatient's Mother: Yes, according to the EPI schedule.\n\nDoctor: How is his development?\n\nPatient's Mother: Normal for his age.\n\nDoctor: Whats his usual diet like?\n\nPatient's Mother: Mostly soft foods.\n\nClinical Examination\n\nWeight: 45 kg (above 50th percentile)\n\nHeight: 160 cm (above 90th percentile)\n\nJaundice: Negative\n\nPallor: Negative\n\nEdema: Absent\n\nCardio: S1 + S2, no murmur\n\nCNS: GCS 15/15\n\nRespiratory: Normal vesicular breathing\n\n\fGIT: Soft, non-tender\n\nInvestigations\n\nTest(cid:9)Result\n\nBilirubin(cid:9)0.51\n\nALT(cid:9)24\n\nALP(cid:9)200\n\nAlbumin(cid:9)3.74\n\nCreatinine(cid:9)0.5\n\nINR(cid:9)1\n\nWBC(cid:9)4.72\n\nHemoglobin(cid:9)8.1 g/dL\n\nPlatelets(cid:9)178 ×109/L\n\nFerritin(cid:9)12.6 (Low; Ref: 30400)\n\nCeruloplasmin(cid:9)22 (Normal; Ref: 1530)\n\nViral Serology(cid:9)Negative\n\nLiver Biopsy (06-May-2024)\n\nFindings consistent with Congenital Hepatic Fibrosis\n\nNo cholestasis, steatosis, granulomatous inflammation, or malignancy\n\nRadiological Findings\n\nCT Scan (29-Apr-2024):\n\nNodular liver surface\n\n\fEnlarged caudate lobe\n\nDilated portal vein (14mm), no thrombus\n\nMild splenomegaly\n\n Impression: Chronic hepatocellular disease\n\nEndoscopies:\n\n12-Nov-2024: Grade 3 esophageal varices; 6 bands applied\n\n22-Mar-2024: Grade II varices, mild portal hypertensive gastropathy\n\nPlan\n\nCT Triphasic Liver (HCC protocol)\n\nStart Propranolol 15mg TDS\n\nStart Omeprazole 20mg BD\n\nParental counseling done\n\nEndoscopy scheduled in 4 weeks\n\nFinancial screening advised before CT Triphasic\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "13",
+            "MRN": "858063",
+            "Diagnosis": "Hepatic fibrosis"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "Episodes of vomiting blood"
+            ],
+            "NegativeFindings": [
+                "Jaundice",
+                "Pallor",
+                "Edema"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Findings consistent with Congenital Hepatic Fibrosis",
+            "Chronic hepatocellular disease"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Propranolol 15mg TDS",
+                "Omeprazole 20mg BD"
+            ],
+            "Procedures": [
+                "Liver biopsy",
+                "Endoscopy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "Nodular liver surface",
+                "Enlarged caudate lobe",
+                "Dilated portal vein (14mm), no thrombus",
+                "Mild splenomegaly"
+            ],
+            "LabResults": [
+                {
+                    "Test": "Bilirubin",
+                    "Result": "0.51"
+                },
+                {
+                    "Test": "ALT",
+                    "Result": "24"
+                },
+                {
+                    "Test": "ALP",
+                    "Result": "200"
+                },
+                {
+                    "Test": "Albumin",
+                    "Result": "3.74"
+                },
+                {
+                    "Test": "Creatinine",
+                    "Result": "0.5"
+                },
+                {
+                    "Test": "INR",
+                    "Result": "1"
+                },
+                {
+                    "Test": "WBC",
+                    "Result": "4.72"
+                },
+                {
+                    "Test": "Hemoglobin",
+                    "Result": "8.1 g/dL"
+                },
+                {
+                    "Test": "Platelets",
+                    "Result": "178 ×109/L"
+                },
+                {
+                    "Test": "Ferritin",
+                    "Result": "12.6 (Low; Ref: 30400)"
+                },
+                {
+                    "Test": "Ceruloplasmin",
+                    "Result": "22 (Normal; Ref: 1530)"
+                },
+                {
+                    "Test": "Viral Serology",
+                    "Result": "Negative"
+                }
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Hepatic fibrosis"
+            ],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [],
+            "ScheduledTests": [
+                "CT Triphasic Liver (HCC protocol)"
+            ],
+            "NextAppointmentDetails": [
+                "Endoscopy scheduled in 4 weeks"
+            ]
+        },
+        "VisitTimeline": [
+            {
+                "Date": "09-November",
+                "Event": "Last episode of vomiting blood"
+            },
+            {
+                "Date": "06-May-2024",
+                "Event": "Liver biopsy"
+            },
+            {
+                "Date": "29-Apr-2024",
+                "Event": "CT Scan"
+            },
+            {
+                "Date": "12-Nov-2024",
+                "Event": "Endoscopy with Grade 3 esophageal varices"
+            },
+            {
+                "Date": "22-Mar-2024",
+                "Event": "Endoscopy with Grade II varices"
+            }
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has had episodes of vomiting blood since 6 months ago.",
+            "DiagnosticJourney": "Underwent endoscopy and liver biopsy for diagnosis.",
+            "TreatmentResponse": "Received blood transfusion and medications.",
+            "OngoingConcerns": "Monitoring for liver disease progression and managing varices."
+        }
+    }
+}

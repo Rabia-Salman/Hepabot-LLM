@@ -1,0 +1,122 @@
+{
+    "patient_id": "history_physical_23",
+    "raw_text": "Gender: Female\n\nAge: 51\n\nMRN: 602927\n\nDiagnosis: Hepatic fibrosis\n\nHistory and Physical:\n\nDoctor:  Hello,  I  understand  you're  here  today  with  some  concerns  regarding  your  health.  Can  you\n\ntell me what brought you in?\n\nPatient:  I  have  been  experiencing  pain  in  my  right  hypochondrium  for  the  past  two  weeks.  Along\n\nwith that, I have intermittent fever, severe pruritus, and vomiting that has been ongoing since 2008.\n\nDoctor: I see. You mentioned the pain in the right hypochondrium is recent, but theres a history of\n\npruritus and vomiting. How long has this been an issue for you?\n\nPatient:  Yes,  the  pruritus  and  vomiting  have  been  persistent  since  2008.  Ive  had  work-ups  done\n\nbefore  which  suggested  a  possible  liver  carcinoma,  but  the  liver  biopsy  I  had  back  then  was\n\nnegative for any malignancy.\n\nDoctor:  Thank  you  for  sharing  that.  Based  on  the  symptoms  you  mentioned  and  your  history,  Ive\n\nreviewed the recent CT scan of your abdomen. It shows multiple patchy arterialized tumors in your\n\nright liver lobe, which involves segments 5, 6, 7, 8, 4a, and 4b, and extends into the caudate lobe.\n\nThere is also some concern about invasion of the right portal vein branch. However, the left portal\n\nvein and main portal vein are patent, and there is no sign of ascites. Does that sound familiar?\n\nPatient: Yes, that sounds similar to what I was told. What are the next steps from here?\n\nDoctor:  Given  the  extent  of  the  disease,  we  need  to  consider  surgery.  A  right  extended\n\n\fhepatectomy, or liver resection, could be a potential treatment option, but I must inform you that it's\n\na high-risk surgery, with a 5-10% chance of complications leading to mortality. Alternatively, if you\n\nchoose not to undergo surgery, a liver biopsy may be performed to gather further information. Does\n\nthat sound like something you'd like to pursue?\n\nPatient:  I  understand.  What  additional  tests  should  I  get  done  to  help  with  the  decision-making\n\nprocess?\n\nDoctor: I would advise you to undergo a few additional tests to get a clearer picture. These include:\n\nHRCT of the chest\n\nCA 19-9\n\nCA-125\n\nCEA (Carcinoembryonic Antigen)\n\nAFP (Alpha-Fetoprotein)\n\nOnce these investigations are completed, we will schedule a follow-up appointment to discuss the\n\nnext steps. Does that make sense?\n\nPatient: Yes, that makes sense. Ill get the tests done as advised.\n\nDoctor: Excellent. Ill also need to review your previous lab results to monitor your condition further.\n\nHeres what we have from your latest labs on 17.03.21:\n\n\fHemoglobin (HB): 11.0\n\nTotal Leukocyte Count (TLC): 8.4\n\nPlatelets (PLT): 509\n\nTotal Bilirubin (T-BIL): 0.8\n\nDirect Bilirubin (D-BIL): 0.5\n\nALT/AST: 108/78\n\nALP: 411\n\nAlbumin: 4.0\n\nCreatinine: 0.7\n\nSodium (Na+): Not provided\n\nPotassium (K+): Not provided\n\nINR: Not provided\n\nESR: 95\n\n\fDoctor:  Based  on  these  values,  there  are  a  few  concerns.  For  instance,  your  liver  enzymes  (ALT\n\nand AST) are elevated, which might indicate ongoing liver dysfunction. Also, your platelets are quite\n\nhigh, which may be related to the underlying liver issue. Well keep an eye on all of this during your\n\ntreatment.\n\nPatient:  Thank  you,  doctor.  Ill  get  the  tests  done  and  follow  up  with  you  as  soon  as  I  have  the\n\nresults.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Female",
+            "Age": "51",
+            "MRN": "602927",
+            "Diagnosis": "Hepatic fibrosis"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "Pain in right hypochondrium",
+                "Intermittent fever",
+                "Severe pruritus",
+                "Vomiting"
+            ],
+            "NegativeFindings": [
+                "Negative liver biopsy for malignancy"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Multiple patchy arterialized tumors in right liver lobe",
+            "Concern about invasion of right portal vein branch",
+            "Left portal vein and main portal vein are patent",
+            "No sign of ascites"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [],
+            "Procedures": [
+                "Right extended hepatectomy",
+                "Liver biopsy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "CT scan of abdomen showing tumors"
+            ],
+            "LabResults": [
+                {
+                    "Test": "Hemoglobin (HB)",
+                    "Value": "11.0"
+                },
+                {
+                    "Test": "Total Leukocyte Count (TLC)",
+                    "Value": "8.4"
+                },
+                {
+                    "Test": "Platelets (PLT)",
+                    "Value": "509"
+                },
+                {
+                    "Test": "Total Bilirubin (T-BIL)",
+                    "Value": "0.8"
+                },
+                {
+                    "Test": "Direct Bilirubin (D-BIL)",
+                    "Value": "0.5"
+                },
+                {
+                    "Test": "ALT/AST",
+                    "Value": "108/78"
+                },
+                {
+                    "Test": "ALP",
+                    "Value": "411"
+                },
+                {
+                    "Test": "Albumin",
+                    "Value": "4.0"
+                },
+                {
+                    "Test": "Creatinine",
+                    "Value": "0.7"
+                },
+                {
+                    "Test": "Sodium (Na+)",
+                    "Value": "None"
+                },
+                {
+                    "Test": "Potassium (K+)",
+                    "Value": "None"
+                },
+                {
+                    "Test": "INR",
+                    "Value": "None"
+                },
+                {
+                    "Test": "ESR",
+                    "Value": "95"
+                }
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Hepatic fibrosis"
+            ],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [],
+            "ScheduledTests": [
+                "HRCT of the chest",
+                "CA 19-9",
+                "CA-125",
+                "CEA (Carcinoembryonic Antigen)",
+                "AFP (Alpha-Fetoprotein)"
+            ],
+            "NextAppointmentDetails": [
+                "Follow-up appointment after tests"
+            ]
+        },
+        "VisitTimeline": [],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has ongoing symptoms of pruritus and vomiting since 2008, with recent onset of right hypochondrium pain.",
+            "DiagnosticJourney": "Previous work-ups suggested possible liver carcinoma, but biopsy was negative.",
+            "TreatmentResponse": "Pending further tests and potential surgery.",
+            "OngoingConcerns": "Elevated liver enzymes and high platelet count indicating ongoing liver dysfunction."
+        }
+    }
+}

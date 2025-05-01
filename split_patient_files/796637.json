@@ -1,0 +1,98 @@
+{
+    "patient_id": "796637",
+    "raw_text": "Gender: Male\n\nAge: 56\n\nMRN: 796637\n\nDiagnosis: Chronic viral hepatitis C\n\nHistory and Physical:\n\nDoctor: Hello, I see it's your first visit at the GI clinic today. How are you feeling?\n\nPatient: Ive been feeling jaundiced for the past two months. Its been really bothering me.\n\nDoctor: I see. Can you tell me if you've had any issues like vomiting blood or experiencing ascites?\n\nPatient: No, no hematemesis or ascites. But I did have melena about two weeks ago.\n\nDoctor:  Thank  you  for  sharing  that.  Have  you  experienced  any  significant  weight  loss  or  required\n\nany blood transfusions?\n\nPatient: No, I havent lost significant weight, and I haven't had any transfusions.\n\nDoctor: What about fevers or night sweats? Any of those symptoms?\n\nPatient: No, I haven't had any fevers or night sweats.\n\nDoctor:  Okay,  lets  go  over  your  medical  history  now.  Have  you  had  any  prior  medical  or  surgical\n\nissues?\n\nPatient: No, I haven't had any significant medical or surgical history.\n\n\fDoctor: Are you on any medications currently?\n\nPatient: Yes, Im taking Nexium 40 mg once a day and Urso 500 mg twice a day.\n\nDoctor: I see. Are there any allergies or any other medications you have taken in the past that we\n\nshould know about?\n\nPatient: No allergies, and no other significant past medications.\n\nDoctor: Alright. Can you tell me a little about your social history? Any addictions or financial strains?\n\nPatient: No addictions, and no financial strains either.\n\nDoctor:  That's  good  to  hear.  How  about  your  family  medical  history?  Any  history  of  diabetes,\n\nhypertension, or cancer?\n\nPatient: No, my family history is unremarkable.\n\nDoctor: Alright, let's talk about any psychological issues. Do you feel depressed?\n\nPatient: No, I dont feel depressed.\n\nDoctor: Thats reassuring. Lets proceed with a physical examination. Can you describe any cognitive\n\nor physical limitations?\n\nPatient: No, I don't have any cognitive impairment or mobility issues.\n\n\fDoctor:  Excellent.  Let's  check  your  examination  results.  Your  neurological  exam  shows  youre\n\nconscious  and  well-oriented  with  a  GCS  of  15/15.  Your  cardiovascular  system  and  respiratory\n\nexams are normal. Your abdominal exam shows no tenderness or distension.\n\nDoctor: We have some imaging results as well. Your ultrasound shows a distal CBD obstruction and\n\nmild dilatation of biliary channels. Your CT scan from August 1st shows a cirrhotic liver with a 5 cm\n\nand 2 cm lesion in segments 7 and 8, with no ascites and upper abdominal lymphadenopathy.\n\nDoctor: Your lab results from early August indicate elevated bilirubin levels and liver enzymes. Your\n\nAFP is 8, and CEA is 1.5. Your lipase is significantly elevated at 3537, and your albumin is 3.3.\n\nDoctor:  Based  on  these  results,  we  have  a  possible  diagnosis  of  HCV/DCLD  with  a  potential  liver\n\nlesion  that  might  be  HCC.  Theres  also  obstructive  jaundice,  and  unfortunately,  the  ERCP  was\n\nunsuccessful. Im recommending further imaging and labs, including HRCT, CA-19-9 levels, and liver\n\nbiopsy to get a better diagnosis.\n\nPatient: Whats the next step, doctor?\n\nDoctor:  Well  schedule  an  HRCT  and  submit  the  necessary  CDs.  Well  also  follow  up  with  the\n\nCA-19-9 levels. Based on those results, well decide whether to proceed with ERCP again or go for a\n\nliver lesion biopsy. For now, Im prescribing Urso 250 mg three times a day, Cefsapan 400 mg once\n\na day, PPI 40 mg, a multivitamin, and Distelgesic.\n\nPatient: Thank you, doctor. Ill follow the plan.\n\nDoctor: I see you have a new concern. We have a possible case of osseous metastasis now. Your\n\nlatest  imaging  shows  mild  intrahepatic  biliary  dilatation  and  a  soft  tissue  mass  in  the  distal  CBD.\n\n\fThere  are  also  enlarged  necrotic/non-necrotic  metastatic  lymph  nodes  in  the  region,  along  with\n\narterially enhancing hepatic lesions.\n\nDoctor:  The  possibilities  include  a  distal  CBD  mass  with  regional  nodal,  mesenteric,  and  hepatic\n\nmetastasis. We also need to consider the option of HCC with nodal metastasis.\n\nDoctor: The next step is to proceed with ERCP, biopsy, and stenting. We should also correlate with\n\nyour  CA-19-9  levels.  Ive  discussed  your  prognosis,  and  unfortunately,  it  appears  poor,  but  well\n\ncontinue to monitor the situation closely.\n\nPatient: I understand, doctor. Thank you for the clarity.\n\nPlan:\n\nFollow-up Diagnostics:\n\nHRCT\n\nCD submission\n\nCA-19-9 levels\n\nLiver lesion biopsy vs. ERCP (decision after review)\n\nMedications:\n\nUrso 250 mg TDS\n\n\fCefsapan 400 mg OD\n\nPPI 40 mg\n\nMultivitamin\n\nDistelgesic\n\nFollow-up in 1 week\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "56",
+            "MRN": "796637",
+            "Diagnosis": "Chronic viral hepatitis C"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "jaundice",
+                "melena"
+            ],
+            "NegativeFindings": [
+                "no hematemesis",
+                "no ascites",
+                "no significant weight loss",
+                "no blood transfusions",
+                "no fevers",
+                "no night sweats",
+                "no significant medical or surgical history",
+                "no allergies",
+                "no addictions",
+                "no financial strains",
+                "no family history of diabetes, hypertension, or cancer",
+                "no cognitive impairment",
+                "no mobility issues"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "HCV/DCLD with a potential liver lesion that might be HCC",
+            "obstructive jaundice",
+            "possible osseous metastasis",
+            "distal CBD mass with regional nodal, mesenteric, and hepatic metastasis",
+            "HCC with nodal metastasis"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Urso 250 mg TDS",
+                "Cefsapan 400 mg OD",
+                "PPI 40 mg",
+                "multivitamin",
+                "Distelgesic"
+            ],
+            "Procedures": [
+                "HRCT",
+                "liver lesion biopsy",
+                "ERCP"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "distal CBD obstruction",
+                "mild dilatation of biliary channels",
+                "cirrhotic liver with 5 cm and 2 cm lesions in segments 7 and 8",
+                "mild intrahepatic biliary dilatation",
+                "soft tissue mass in the distal CBD",
+                "enlarged necrotic/non-necrotic metastatic lymph nodes",
+                "arterially enhancing hepatic lesions"
+            ],
+            "LabResults": [
+                "elevated bilirubin levels",
+                "elevated liver enzymes",
+                "AFP 8",
+                "CEA 1.5",
+                "lipase significantly elevated at 3537",
+                "albumin 3.3"
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Chronic viral hepatitis C"
+            ],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [],
+            "ScheduledTests": [
+                "HRCT",
+                "CA-19-9 levels",
+                "liver biopsy vs. ERCP"
+            ],
+            "NextAppointmentDetails": [
+                "Follow-up in 1 week"
+            ]
+        },
+        "VisitTimeline": [],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has been experiencing jaundice and melena, with imaging and lab results indicating possible liver lesions and metastasis.",
+            "DiagnosticJourney": "Initial diagnosis of chronic viral hepatitis C, followed by imaging and lab tests leading to concerns of HCC and metastasis.",
+            "TreatmentResponse": "Patient is prescribed multiple medications and scheduled for further diagnostic tests.",
+            "OngoingConcerns": "Possible liver lesions, obstructive jaundice, and poor prognosis due to potential metastasis."
+        }
+    }
+}

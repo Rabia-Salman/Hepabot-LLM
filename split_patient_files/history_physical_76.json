@@ -1,0 +1,88 @@
+{
+    "patient_id": "history_physical_76",
+    "raw_text": "Gender: Female\n\nAge: 47\n\nMRN: 794991\n\nDiagnosis: Hepatocellular Carcinoma\n\nHistory and Physical:\n\nDoctor:\n\nHello, I see you're here for your follow-up. How have you been feeling recently?\n\nPatient:\n\nI've been having some intermittent fevers, along with abdominal pain, particularly in the upper right\n\nside. But, other than that, I don't have any major complaints at the moment.\n\nDoctor:\n\nI understand. Let's go through your recent tests. First, let me review your lab results. Your bilirubin\n\nlevel  is  at  1.34,  which  is  within  a  manageable  range.  Your  liver  enzymes  are  showing  a  slight\n\nimprovementALT  at  24,  AST  at  26,  and  ALP  at  233.  Your  albumin  is  3.22,  and  creatinine  is  0.77,\n\nwhich are also stable. The blood culture from the 4th of November came back negative, and your\n\nurine culture showed mixed growth.\n\nPatient:\n\nYes, I've been taking the prescribed medications, and things seemed to settle down after my ERCP\n\nback in September. My jaundice and itching have improved.\n\nDoctor:\n\nThat's good to hear. From your previous CT scan, it shows an infiltrative hyperechoic lesion in the\n\nright  hepatic  lobe.  The  largest  component  measures  7.5  cm,  with  bilobar  intrahepatic  biliary\n\ndilatation. There's also evidence of right portal vein angioinvasion, which is something we need to\n\n\fmonitor closely.\n\nPatient:\n\nI'm a little worried about the lesion, doctor. Does this mean the cancer has spread?\n\nDoctor:\n\nYes, there has been some progression, and the lesion is now invading the intrahepatic biliary ducts,\n\nwhich can affect bile flow. However, you're on sorafenib, which can help control the tumor growth.\n\nThe biliary stent we placed during the ERCP seems to be functioning well, and that's relieving some\n\nof the symptoms like jaundice.\n\nPatient:\n\nThat sounds reassuring. What else do we need to do?\n\nDoctor:\n\nWell continue the sorafenib treatment, as it has been effective. Additionally, I want you to follow up\n\nwith imaging in about 8 weeks, including fresh liver function tests. Ill also refer you for a review by\n\nthe interventional radiology team for possible loco-regional therapy options.\n\nPatient:\n\nWhat about the urinary symptoms? I've been having some discomfort in my right side, and I know\n\nthere's a stone in my right ureter.\n\nDoctor:\n\nYes,  the  CT  scan  from  November  showed  a  moderate  right  hydronephroureter  and  a  stone\n\nmeasuring  around  8.3  mm  in  the  distal  ureter.  Weve  already  planned  for  a  right  ureteric  stent\n\ninsertion, which is scheduled for this Friday, the 6th of December. After that, well keep monitoring\n\n\fyour kidney function and address any further issues.\n\nPatient:\n\nI see. I just want to make sure everything is managed properly.\n\nDoctor:\n\nAbsolutely, were monitoring your liver and kidney function closely. Ill also check in on your glucose\n\nlevels  as  you  mentioned  a  history  of  diabetes.  Even  though  you're  not  currently  on  medication  for\n\ndiabetes, we should make sure its under control.\n\nPatient:\n\nThanks, doctor. I feel more confident knowing you're keeping an eye on everything.\n\nDoctor:\n\nYou're  welcome.  I'll  see  you  again  for  your  follow-up  in  six  weeks,  but  if  you  have  any  concerns\n\nbefore then, don't hesitate to contact me. Well make sure you're getting the best care possible.\n\nFollow-up Plan:\n\nContinue Sorafenib 200mg twice daily.\n\nRefer to IR (Interventional Radiology) for assessment in loco-regional therapy options.\n\nFollow up in 6 weeks with updated liver function tests (LFTs).\n\nCT KUB to monitor the condition of the right ureteric stone and hydronephrosis.\n\n\fRight URS + JJ stent scheduled for 06/12/2024.\n\nContinue monitoring blood sugar levels and other systemic issues.\n\nPrevious Visits:\n\n26th  August  2024:  Your  liver  function  tests  showed  slightly  elevated  bilirubin  (11.8)  and  stable\n\nALT/AST levels. We planned an HRCT chest and additional tests, along with maintaining the Urso\n\n250mg and Ciprofloxacin 250mg.\n\n2nd September 2024: Referred for ERCP to address biliary issues.\n\n1st October 2024: Follow-up visit with urology for planning a right URS + JJ stent.\n\n5th  November  2024:  Seen  by  Dr.  Ahmad  Karim  Malik  for  intermittent  fevers  and  abdominal  pain,\n\npost-ERCP. The liver function improved after the procedure. We're proceeding with right URS + JJ\n\nstent next week.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Female",
+            "Age": "47",
+            "MRN": "794991",
+            "Diagnosis": "Hepatocellular Carcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "intermittent fevers",
+                "abdominal pain in the upper right side",
+                "discomfort in the right side"
+            ],
+            "NegativeFindings": [
+                "blood culture negative",
+                "urine culture showed mixed growth"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "infiltrative hyperechoic lesion in the right hepatic lobe",
+            "right portal vein angioinvasion",
+            "moderate right hydronephroureter",
+            "8.3 mm stone in the distal ureter"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "sorafenib 200mg twice daily",
+                "Urso 250mg",
+                "Ciprofloxacin 250mg"
+            ],
+            "Procedures": [
+                "ERCP",
+                "right ureteric stent insertion"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "CT scan shows infiltrative hyperechoic lesion",
+                "CT scan shows moderate right hydronephroureter",
+                "CT scan shows 8.3 mm stone in the distal ureter"
+            ],
+            "LabResults": [
+                "bilirubin level 1.34",
+                "ALT 24",
+                "AST 26",
+                "ALP 233",
+                "albumin 3.22",
+                "creatinine 0.77"
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Hepatocellular Carcinoma"
+            ],
+            "Comorbidities": [
+                "diabetes"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "refer to Interventional Radiology for assessment in loco-regional therapy options"
+            ],
+            "ScheduledTests": [
+                "CT KUB to monitor the condition of the right ureteric stone and hydronephrosis",
+                "updated liver function tests in 6 weeks"
+            ],
+            "NextAppointmentDetails": [
+                "follow-up in 6 weeks"
+            ]
+        },
+        "VisitTimeline": [
+            "26th August 2024: liver function tests showed slightly elevated bilirubin (11.8) and stable ALT/AST levels",
+            "2nd September 2024: referred for ERCP to address biliary issues",
+            "1st October 2024: follow-up visit with urology for planning a right URS + JJ stent",
+            "5th November 2024: seen for intermittent fevers and abdominal pain, post-ERCP"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "The patient has experienced some progression of the cancer with the lesion invading the intrahepatic biliary ducts.",
+            "DiagnosticJourney": "The patient underwent various imaging studies and lab tests to monitor liver function and urinary symptoms.",
+            "TreatmentResponse": "The patient is responding to sorafenib treatment, and symptoms like jaundice and itching have improved.",
+            "OngoingConcerns": "The patient has concerns about the lesion and urinary symptoms related to the stone in the right ureter."
+        }
+    }
+}

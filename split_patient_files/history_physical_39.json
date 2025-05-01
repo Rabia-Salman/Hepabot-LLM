@@ -1,0 +1,80 @@
+{
+    "patient_id": "history_physical_39",
+    "raw_text": "Gender: Female\n\nAge: 13\n\nMRN: 755455\n\nDiagnosis: Budd-Chiari syndrome\n\nHistory and Physical:\n\nDoctor: Good morning, Laraib. How are you feeling today?\n\nPatient: I'm feeling okay, but I've been having some itching and dryness on my hands. The skin has\n\nbeen peeling for about three weeks now.\n\nDoctor: I see. Lets talk about your medical history and any issues youve been dealing with. Can you\n\nremind me when you first noticed the jaundice?\n\nPatient: I had abdominal distension back in 2019, which was associated with jaundice. After taking\n\ndiuretics, the ascites resolved. But then, a few months later, I developed ascites again, and they had\n\nto do a therapeutic tap. Ive also had multiple endoscopic proceduresabout 12 times.\n\nDoctor:  Thats  correct,  I  see.  And  how  have  you  been  managing  since  then?  Any  other  symptoms\n\nrecently?\n\nPatient:  I  haven't  felt  any  severe  pain  or  anything  like  that,  just  mild  headaches  and  weakness\n\nsometimes. Also, my skin has been itchy, and Ive been noticing some dryness and peeling on my\n\nhands.\n\nDoctor: Let's review the treatments we've been providing. Youve had a living donor liver transplant\n\n(LDLT)  on  July  3rd,  2024.  Youve  been  on  a  combination  of  medications,  including  Tacrolimus,\n\nRivaroxaban, and Mycophenolate. How is the surgical site healing?\n\n\fPatient: The scar looks healthy. There's no pain at the surgical site, and it seems to be healing well.\n\nDoctor: Thats good to hear. Well continue with the same medications for now. I see from the latest\n\nDoppler ultrasound on July 18th that there was minimal pleural effusion and mild ascites, which is\n\nbeing monitored closely. There was also a small fluid pocket in the left subdiaphragmatic region.\n\nPatient:  Yes,  I  noticed  some  fluid  accumulation  in  the  scan,  but  I  havent  felt  any  significant\n\ndiscomfort from it.\n\nDoctor: That's good. We will continue monitoring that. I noticed the Doppler showed some changes\n\nin  flow  as  well.  The  portal  vein  is  patent  with  antegrade  flow,  and  the  hepatic  veins  are  showing\n\ntriphasic flow, which is normal post-transplant.\n\nPatient: So, should I be concerned about the flow changes?\n\nDoctor: No, these are expected post-surgery and part of your recovery. The liver is adjusting well.\n\nWell continue to follow up with Doppler exams to keep an eye on these developments. Regarding\n\nyour  medications,  weve  increased  your  Tacrolimus  dose  slightly  and  changed  some  other\n\nmedications over time. You were advised not to ride motorbikes or attend school for a while, right?\n\nPatient: Yes, Ive been resting a lot, but Ive been worried about going back to school soon.\n\nDoctor: Given your recovery, were advising that you stay home for another month to rest fully and\n\navoid strain. Youve been prescribed Mycophenolate and Tacrolimus, and weve adjusted doses for\n\nbetter liver function.\n\n\fPatient: I understand. Ive also had some hair loss recently, which has been worrying me.\n\nDoctor: Hair loss can sometimes happen after surgery and with certain medications like Tacrolimus.\n\nIt  should  improve  over  time,  but  well  keep  monitoring  it.  Now,  as  for  the  skin  issuestheres  a\n\npossibility  that  you  have  scabies.  Were  going  to  prescribe  a  special  lotion  to  apply  overnight  for  a\n\nfew days.\n\nPatient: Oh, I didnt realize it might be scabies. How do I use the lotion?\n\nDoctor: Youll need to apply Lotrix Lotion (Permethrin 5%) to your body at night for three consecutive\n\ndays. This should help clear up the skin irritation.\n\nPatient: Okay, Ill follow those instructions.\n\nDoctor:  Great!  Well  continue  with  your  current  medications  and  labs.  Well  check  in  with  another\n\nDoppler abdomen ultrasound, CMV, and EBV PCR tests soon. Your next follow-up will be in about\n\nthree weeks.\n\nPatient: Thank you, doctor. I feel more reassured now. Ill stick to the plan.\n\nDoctor:  You're  doing  well,  Laraib.  Stay  positive,  and  well  see  you  in  a  few  weeks  for  your  next\n\nfollow-up.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Female",
+            "Age": "13",
+            "MRN": "755455",
+            "Diagnosis": "Budd-Chiari syndrome"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "itching",
+                "dryness on hands",
+                "peeling skin",
+                "mild headaches",
+                "weakness",
+                "hair loss"
+            ],
+            "NegativeFindings": [
+                "no severe pain",
+                "no pain at surgical site"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "minimal pleural effusion",
+            "mild ascites",
+            "small fluid pocket in left subdiaphragmatic region",
+            "portal vein patent with antegrade flow",
+            "hepatic veins showing triphasic flow"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Tacrolimus",
+                "Rivaroxaban",
+                "Mycophenolate",
+                "Lotrix Lotion (Permethrin 5%)"
+            ],
+            "Procedures": [
+                "living donor liver transplant",
+                "therapeutic tap",
+                "endoscopic procedures"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "Doppler ultrasound showing minimal pleural effusion and mild ascites"
+            ],
+            "LabResults": [
+                "CMV PCR test",
+                "EBV PCR test"
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Budd-Chiari syndrome"
+            ],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [],
+            "ScheduledTests": [
+                "Doppler abdomen ultrasound",
+                "CMV PCR test",
+                "EBV PCR test"
+            ],
+            "NextAppointmentDetails": [
+                "in about three weeks"
+            ]
+        },
+        "VisitTimeline": [],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has been managing symptoms post-liver transplant with ongoing monitoring.",
+            "DiagnosticJourney": "Patient experienced jaundice and ascites leading to multiple interventions.",
+            "TreatmentResponse": "Surgical site healing well, medications adjusted for liver function.",
+            "OngoingConcerns": "Patient has concerns about skin issues and hair loss."
+        }
+    }
+}

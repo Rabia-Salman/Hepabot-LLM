@@ -1,0 +1,91 @@
+{
+    "patient_id": "history_physical_1",
+    "raw_text": "Gender: Male\n\nAge: 50\n\nMRN: 779743\n\nDiagnosis: Chronic viral hepatitis C\n\nHistory and Physical:\n\nInitial Visit (Urology - 11/07/24)\n\nDoctor: Hello! What brings you in today?\n\nPatient: I have been experiencing right flank pain for the past five years.\n\nDoctor: Can you describe the pain?\n\nPatient: It started gradually. It feels like a throbbing pain that radiates to my back.\n\nDoctor: Have you experienced fever or vomiting with the pain?\n\nPatient: No, I havent had fever or vomiting.\n\nDoctor: Does anything make the pain worse?\n\nPatient: No, there are no aggravating factors.\n\nDoctor: Do painkillers help?\n\nPatient: Yes, the pain is relieved by painkillers.\n\nDoctor: Have you noticed any blood in your urine?\n\nPatient: No, I havent.\n\nDoctor: Have you ever passed a stone?\n\nPatient: No.\n\nDoctor: Any previous medical conditions?\n\nPatient: No diabetes, hypertension, ischemic heart disease, asthma, or hepatitis.\n\nDoctor: Are you on any medications?\n\nPatient: Yes, but I dont remember the names. I have also been using homeopathic and hakeemic\n\nmedicines for the past two years.\n\nDoctor: Any past surgeries?\n\nPatient: Yes, I had an appendectomy more than 20 years ago and an exploratory laparotomy with a\n\n\flower midline incision 15 years ago.\n\nDoctor: Do you smoke?\n\nPatient: Yes, I have been smoking for over 25 years and also use a huqqa.\n\nDoctor: How is your sleep and food intake?\n\nPatient: Normal.\n\nDoctor: Are you married?\n\nPatient: Yes, and my family is complete.\n\nDoctor: Let's review your investigations. Your CT KUB scan shows bilateral partial staghorn calculi\n\nwith a density of 1000 HU. Your DTPA scan shows a GFR of 90 mL/min (Right: 50 mL, Left: 40 mL).\n\nYour creatinine level is 1.\n\nDoctor: Based on these findings, your diagnosis is bilateral nephrolithiasis.\n\nPatient: What is the treatment plan?\n\nDoctor: We will proceed with:\n\n(cid:9)Right-sided PCNL (Percutaneous Nephrolithotomy), followed by left-sided PCNL.\n\n(cid:9)Preoperative lab tests.\n\n(cid:9)Urine culture and sensitivity.\n\n(cid:9)Anesthesia fitness evaluation.\n\n(cid:9)ECG and chest X-ray.\n\n(cid:9)Cardiology and pulmonology consultations.\n\nFollow-up (GI OPD - 26/07/24)\n\nDoctor: You were referred from urology. How have you been feeling?\n\nPatient:  My  symptoms  remain  the  sameright  flank  pain  for  five  years,  throbbing,  radiating  to  my\n\nback, relieved by painkillers.\n\nDoctor: Any changes in your smoking habits?\n\nPatient: No, I still smoke and use huqqa.\n\nDoctor:  I  see  that  your  HCV  status  is  positive,  but  PCR  has  not  been  done  yet.  We  will  need  to\n\n\fconfirm this with HCV PCR testing.\n\nDoctor:  Regarding  your  kidney  stones,  the  plan  remains  PCNL  surgery,  as  determined  by  the\n\nurology team.\n\nDoctor: We will follow up in four weeks after your test results are available.\n\nFollow-up Visit (28/08/24)\n\nDoctor: How are you feeling today?\n\nPatient: I have pain in my right iliac fossa, which radiates my back and has increased in intensity.\n\nPainkillers help, and there are no aggravating factors.\n\nDoctor:  On  examination,  your  abdomen  is  soft  but  tender  in  the  right  region.  Bowel  sounds  are\n\naudible.\n\nDoctor: Your HCV PCR test from 1/8/24 is detected, confirming active HCV infection.\n\nDoctor: Your urinalysis on 11/07/24 showed glucose and blood. This might indicate diabetes.\n\nDoctor: We will start Sofosbuvir/Velpatasvir (400/100 mg) for three months for HCV treatment.\n\nDoctor: Also, take Nuberol Forte for pain relief.\n\nDoctor: Follow up in six weeks.\n\nUrology OPD Follow-up (30/12/24)\n\nDoctor: How has your pain been?\n\nPatient:  I  have  been  experiencing  bilateral  flank  pain  for  the  past  year,  but  no  LUTS,  fever,  stone\n\npassage, nausea, or vomiting.\n\nDoctor: I see that you completed HCV treatment on 28/10/24.\n\nDoctor: A CT KUB scan from Faisalabad (done a year ago) showed bilateral partial staghorn calculi.\n\nDoctor: We need a fresh CT KUB and some blood tests (CBC, LFTs, PT/INR, APTT).\n\nDoctor: We will also consult gastroenterology and do a urine culture and sensitivity test.\n\nFollow-up Visit (Gastroenterology - 14/02/25)\n\n\fDoctor: How have you been?\n\nPatient: I completed my three-month Sofosbuvir/Velpatasvir course for HCV.\n\nDoctor: Any active symptoms?\n\nPatient: No, I feel fine.\n\nDoctor: On examination, you have no jaundice or pallor. Your abdomen is soft and non-tender, and\n\nyour heart and lung sounds are normal.\n\nDoctor: Your HCV treatment is completed. We will do HCV PCR testing to confirm viral clearance.\n\nDoctor: Follow-up in two months.\n\nPatient: Thank you, doctor!\n\nFinal Diagnosis for Training Purposes:\n\n(cid:9)Bilateral Nephrolithiasis (Partial Staghorn Calculi)\n\n(cid:9)Hepatitis C (Treated with Sofosbuvir/Velpatasvir)\n\n(cid:9)Possible Diabetes (Pending further evaluation)\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "50",
+            "MRN": "779743",
+            "Diagnosis": "Chronic viral hepatitis C"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "Right flank pain",
+                "Bilateral flank pain"
+            ],
+            "NegativeFindings": [
+                "No fever",
+                "No vomiting",
+                "No blood in urine",
+                "No diabetes",
+                "No hypertension",
+                "No ischemic heart disease",
+                "No asthma"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Bilateral Nephrolithiasis (Partial Staghorn Calculi)",
+            "Hepatitis C (Treated with Sofosbuvir/Velpatasvir)",
+            "Possible Diabetes (Pending further evaluation)"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Sofosbuvir/Velpatasvir (400/100 mg)",
+                "Nuberol Forte"
+            ],
+            "Procedures": [
+                "Right-sided PCNL (Percutaneous Nephrolithotomy)",
+                "Left-sided PCNL"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "CT KUB scan shows bilateral partial staghorn calculi",
+                "Fresh CT KUB needed"
+            ],
+            "LabResults": [
+                "GFR of 90 mL/min",
+                "Creatinine level is 1",
+                "HCV PCR test detected",
+                "Urinalysis showed glucose and blood"
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "Cardiology",
+                "Pulmonology",
+                "Gastroenterology"
+            ],
+            "ScheduledTests": [
+                "Preoperative lab tests",
+                "Urine culture and sensitivity",
+                "ECG and chest X-ray",
+                "HCV PCR testing",
+                "Blood tests (CBC, LFTs, PT/INR, APTT)"
+            ],
+            "NextAppointmentDetails": [
+                "Follow-up in four weeks after test results",
+                "Follow-up in six weeks",
+                "Follow-up in two months"
+            ]
+        },
+        "VisitTimeline": [
+            "Initial Visit (Urology - 11/07/24)",
+            "Follow-up (GI OPD - 26/07/24)",
+            "Follow-up Visit (28/08/24)",
+            "Urology OPD Follow-up (30/12/24)",
+            "Follow-up Visit (Gastroenterology - 14/02/25)"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has experienced right flank pain for five years, which has progressed to bilateral flank pain.",
+            "DiagnosticJourney": "Initial diagnosis of bilateral nephrolithiasis confirmed with imaging; HCV status confirmed with PCR testing.",
+            "TreatmentResponse": "Patient completed HCV treatment and is currently being monitored for diabetes.",
+            "OngoingConcerns": "Monitoring for possible diabetes and follow-up on kidney stones."
+        }
+    }
+}

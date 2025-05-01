@@ -1,0 +1,147 @@
+{
+    "patient_id": "history_physical_74",
+    "raw_text": "Gender: Male\n\nAge: 58\n\nMRN: 795223\n\nDiagnosis: Hepatocellular Carcinoma\n\nHistory and Physical:\n\nDoctor: Hello, how are you doing today?\n\nPatient: Im doing okay, doctor, but I have some pain in my abdomen, especially at the surgical site.\n\nDoctor:  I  understand.  Lets  go  through  your  history.  You  were  diagnosed  with  Hepatitis  C  about  a\n\nmonth ago, correct?\n\nPatient: Yes, thats right. I havent received any treatment for it yet.\n\nDoctor:  Alright,  so  youve  been  having  some  pain  in  the  epigastric  region  for  about  a  month.  How\n\nhas your general health been apart from that?\n\nPatient:  Ive  lost  some  weight,  and  I  do  have  jaundice.  But  I  havent  had  any  blood  transfusions  or\n\nany issues like melena or fever.\n\nDoctor:  Understood.  You  mentioned  no  history  of  bleeding,  ascites,  or  encephalopathy,  which  is\n\ngood. Now, can you tell me about any past medical or surgical history?\n\nPatient: No significant history, doctor. I havent had any surgeries before, and Im not allergic to any\n\nmedications.\n\nDoctor: Great, thats helpful to know. Regarding your lifestyle, I see that youve been a smoker for 30\n\n\fyears with a 40-pack year history. Do you still smoke?\n\nPatient: Yes, I still smoke.\n\nDoctor: Thank you for sharing that. Now, in terms of your physical exam, I noticed that you have a\n\nmass in the epigastric region, about 5x5 cm, which moves with respiration. Your liver edge is also\n\npalpable 7 cm below the costal margin.\n\nPatient: Yes, I can feel some discomfort in that area.\n\nDoctor: I see. Based on your ultrasound on 1st August, you have a coarse liver and a mass in the\n\nleft  lobe.  The  CT  scan  on  3rd  August  confirmed  liver  cirrhosis  with  a  hepatocellular  carcinoma\n\n(HCC) of 5.5x3.6 cm. The mass had wash-out characteristics, which are suggestive of HCC.\n\nPatient: Oh, that sounds serious.\n\nDoctor: Yes, it is. We need to act quickly. Your lab results from 2nd August show your hemoglobin at\n\n13.6,  white  blood  cells  at  9.4,  platelets  at  111,  and  bilirubin  levels  at  0.8.  Your  liver  enzymes  are\n\nelevated, with ALT at 84 and AST at 85. However, your AFP level is relatively low at 10.8. The CTP\n\nscore is A5, indicating a more advanced state of cirrhosis.\n\nPatient: What does all this mean for me, doctor?\n\nDoctor: The HCV infection has led to liver cirrhosis, which has progressed to HCC. Your condition is\n\nbeing  managed  through  a  multidisciplinary  team  approach.  For  now,  we  are  considering\n\nlaparoscopic or robotic left lateral hepatectomy to remove the tumor.\n\n\fPatient: Whats the next step?\n\nDoctor: We will need to bring a CD for further reporting. Ill also refer you to the hepatology team for\n\ntreatment  of  your  Hepatitis  C.  We  will  discuss  this  further  in  an  MDT  (Multidisciplinary  Team)\n\nmeeting.\n\nPatient: Okay, doctor, I understand.\n\nDoctor: Now, we saw you again on 26th August for anesthesia fitness, and everything was cleared\n\nfor the surgery. We planned for a robotic left lateral hepatectomy.\n\nPatient: And I had that surgery on 24th September, correct?\n\nDoctor:  Yes,  your  surgery  went  smoothly.  One  month  post-operation,  I  see  you're  recovering  well.\n\nThe  histopathology  report  from  2nd  October  shows  that  the  tumor  was  a  well-differentiated  HCC,\n\nsolitary,  measuring  5.2  cm.  There's  no  vascular  invasion,  and  the  liver  margin  is  clear.  The\n\nbackground liver tissue shows chronic hepatitis and cirrhosis.\n\nPatient: So, the surgery seems to have been successful?\n\nDoctor:  Yes,  it  looks  promising.  Your  liver  margin  was  clear,  and  the  tumor  was  contained.  Were\n\nmonitoring your recovery closely. Youve been prescribed paracetamol for pain and omeprazole for\n\nany stomach acid issues. I encourage you to mobilize and stay active as much as possible.\n\nPatient: Ive been feeling better, but the pain is still there, especially near the scar.\n\nDoctor:  Thats  normal.  The  healing  process  takes  time.  Just  make  sure  to  follow  the  prescribed\n\n\fmedications. I also see that you're on Sofosbuvir and Velpatasvir for your Hepatitis C, starting 1st\n\nOctober, along with a multivitamin and Metformin. Well continue with these medications.\n\nPatient: Yes, Ive been taking them as prescribed.\n\nDoctor: Good. Your next follow-up will include a CT triphasic liver scan, AFP levels, and lab tests for\n\nyour Child-Pugh score and MELD score. After that, well check in again after a week.\n\nPatient: That sounds good, doctor. Thank you for the care.\n\nDoctor: You're welcome. Well keep monitoring you closely. Let us know if any issues arise, and well\n\nensure you're taken care of.\n\nFollow-up on 13th December:\n\nDoctor: Hello, how have you been feeling today?\n\nPatient: Im still having some pain in my abdomen, doctor.\n\nDoctor:  Let  me  review  your  history.  You  had  the  robotic  left  lateral  hepatectomy  in  September  for\n\nHepatitis C-related HCC, and youre still on the same medications.\n\nPatient: Yes, thats correct. The pain hasnt completely gone away.\n\nDoctor: On examination, you look healthy overall, and your abdomen is soft and non-tender, with a\n\nhealthy  scar  from  the  surgery.  Weve  prescribed  Sofosbuvir-Velpatasvir,  multivitamins,  and\n\nMetformin, which youre continuing.\n\n\fPatient: Yes, Im taking everything as prescribed.\n\nDoctor: Well need to proceed with a CT triphasic liver scan, AFP levels, and check your lab results\n\nfor the Child-Pugh and MELD scores. After that, well follow up with you in a week.\n\nPatient: Alright, Ill come in for the tests.\n\nDoctor: Perfect, well stay in touch. Let us know if any concerns arise in the meantime.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "58",
+            "MRN": "795223",
+            "Diagnosis": "Hepatocellular Carcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "abdominal pain",
+                "jaundice"
+            ],
+            "NegativeFindings": [
+                "no blood transfusions",
+                "no melena",
+                "no fever",
+                "no history of bleeding",
+                "no ascites",
+                "no encephalopathy"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Hepatitis C",
+            "liver cirrhosis",
+            "hepatocellular carcinoma"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "paracetamol",
+                "omeprazole",
+                "Sofosbuvir",
+                "Velpatasvir",
+                "multivitamin",
+                "Metformin"
+            ],
+            "Procedures": [
+                "robotic left lateral hepatectomy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "coarse liver",
+                "mass in the left lobe",
+                "CT scan confirmed liver cirrhosis with HCC"
+            ],
+            "LabResults": [
+                {
+                    "hemoglobin": "13.6"
+                },
+                {
+                    "white blood cells": "9.4"
+                },
+                {
+                    "platelets": "111"
+                },
+                {
+                    "bilirubin": "0.8"
+                },
+                {
+                    "ALT": "84"
+                },
+                {
+                    "AST": "85"
+                },
+                {
+                    "AFP": "10.8"
+                },
+                {
+                    "CTP score": "A5"
+                }
+            ],
+            "PathologyFindings": [
+                "well-differentiated HCC",
+                "tumor measuring 5.2 cm",
+                "no vascular invasion",
+                "liver margin clear",
+                "background liver tissue shows chronic hepatitis and cirrhosis"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Hepatitis C",
+                "liver cirrhosis"
+            ],
+            "Comorbidities": [
+                "smoking history"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "hepatology team"
+            ],
+            "ScheduledTests": [
+                "CT triphasic liver scan",
+                "AFP levels",
+                "lab tests for Child-Pugh score",
+                "MELD score"
+            ],
+            "NextAppointmentDetails": [
+                "follow-up in a week"
+            ]
+        },
+        "VisitTimeline": [
+            {
+                "date": "1st August",
+                "event": "ultrasound"
+            },
+            {
+                "date": "3rd August",
+                "event": "CT scan"
+            },
+            {
+                "date": "2nd August",
+                "event": "lab results"
+            },
+            {
+                "date": "24th September",
+                "event": "surgery"
+            },
+            {
+                "date": "2nd October",
+                "event": "histopathology report"
+            },
+            {
+                "date": "1st October",
+                "event": "started Hepatitis C treatment"
+            },
+            {
+                "date": "26th August",
+                "event": "anesthesia fitness"
+            },
+            {
+                "date": "13th December",
+                "event": "follow-up visit"
+            }
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient diagnosed with Hepatitis C leading to liver cirrhosis and HCC, underwent surgery and is recovering.",
+            "DiagnosticJourney": "Initial diagnosis of Hepatitis C, followed by imaging and lab tests confirming liver cirrhosis and HCC.",
+            "TreatmentResponse": "Surgery was successful with clear margins and no vascular invasion.",
+            "OngoingConcerns": "Persistent abdominal pain post-surgery."
+        }
+    }
+}

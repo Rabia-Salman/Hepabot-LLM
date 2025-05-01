@@ -1,0 +1,87 @@
+{
+    "patient_id": "history_physical_60",
+    "raw_text": "Gender: Male\n\nAge: 71\n\nMRN: 784575\n\nDiagnosis: Cholangiocarcinoma\n\nHistory and Physical:\n\nPatient:\n\nHello, doctor. I have been having issues with jaundice, and I wanted to follow up. My family history is\n\nclear, no chronic diseases, cancers, or genetic conditions run in the family.\n\nDoctor:\n\nThank you for sharing. Can you tell me a bit about your social and occupational history?\n\nPatient:\n\nSure. I work as a property dealer. I do consume tobacco and have been using pan for the last 20\n\nyears. I don't smoke, but I do drink alcohol occasionally, especially during weddings and events. My\n\nalcohol  consumption  was  more  frequent  up  until  2007,  when  I  used  to  have  about  750ml  in  one\n\nsitting, around three times a week.\n\nDoctor:\n\nGot it. Now, let me check on your physical exam. Based on the exam, your consciousness level is\n\nnormal,  and  you  are  well-oriented  with  a  GCS  of  15/15.  Your  heart  sounds  are  normal,  and  your\n\nabdomen is soft and non-tender with no distension. I have also reviewed your CT scan. The report\n\nshows  that  your  left  lobe  liver  is  affected  with  intrahepatic  cholangiocarcinoma,  extending  into  the\n\ncommon  bile  duct.  The  viral  markers  are  negative,  and  there  are  no  other  liver  decompensations\n\nexcept for the jaundice.\n\nPatient:\n\n\fYes, doctor, thats what Ive been experiencing. I understand the diagnosis, but whats the next step?\n\nDoctor:\n\nIm recommending an ERCP with metallic stent placement, along with brushings, as your condition is\n\nnot ideal for curative surgery due to the cirrhosis seen on your Fibroscan. The biopsy of the left lobe\n\nliver lesion will also be done. Im referring you to oncology for chemotherapy.\n\nPatient:\n\nThank you, doctor. What did the recent imaging say?\n\nDoctor:\n\nThe CT scan from 31st October 2023 shows a mass in your left lobe, about 8.4 x 7.3 cm in size. Its\n\nextending  into  both  the  left  hepatic  duct  and  common  hepatic  duct,  causing  moderate  intrahepatic\n\nbiliary  dilatation.  The  left  hepatic  artery  and  portal  veins  are  involved,  but  theres  no  extrahepatic\n\ndisease right now. The right side is clear. I also looked at your latest FibroScan from 15th November\n\n2023, which showed cirrhosis and severe steatosis.\n\nPatient:\n\nOkay, I see. What about the biopsy?\n\nDoctor:\n\nThe  biopsy  on  11th  December  2023  confirmed  poorly  differentiated  adenocarcinoma  of  the  liver.\n\nThe \n\nimmunohistochemistry  showed  positive  staining \n\nfor  CK7  and  CK19, \n\nindicating  a\n\npancreaticobiliary origin. Clinical and radiologic correlation is advised to understand the extent more\n\nclearly.\n\nPatient:\n\n\fUnderstood, doctor. How are my lab results looking?\n\nDoctor:\n\nHere are the key lab results from your tests:\n\nHemoglobin is stable at 13.1 g/dL.\n\nYour total white blood cell count (TLC) has dropped a bit, from 6.4 to 4.7, indicating a mild reduction.\n\nPlatelet count dropped from 719 to 227, which is notable but not critical at the moment.\n\nBilirubin levels are high, especially the total bilirubin at 20 on 6th November, which dropped to 4.3 by\n\n17th December.\n\nLiver enzymes like ALT and AST are slightly elevated, but not alarmingly so.\n\nYour albumin level is still on the lower side at 3.5, which is typical in liver disease.\n\nINR, a measure of clotting, is high at 1.86.\n\nPatient:\n\nIt seems like my liver function is quite compromised. Whats the next step?\n\nDoctor:\n\nYou are correct, and this confirms the need for close monitoring. After the ERCP and biopsy, we will\n\nproceed  with  chemotherapy,  and  Ive  referred  you  to  the  oncology  team  for  further  management.  I\n\nwill also need you to repeat fresh labs and a CT scan in two weeks to assess the current status.\n\n\fPatient:\n\nOkay, I understand. Hows my treatment progressing overall?\n\nDoctor:\n\nYouve  been  progressing  well  post-ERCP.  Your  liver  function  tests  (LFTs)  are  improving,  and\n\nclinically, youre showing some improvement. The chemotherapy from Farooq Hospital is underway,\n\nand we will continue to monitor the progress.\n\nPatient:\n\nGreat. I also had some abdominal pain and jaundice recently. Should I be concerned?\n\nDoctor:\n\nThe  pain  and  jaundice  are  common  symptoms  with  this  condition,  especially  with  obstructive\n\njaundice.  Well  need  to  keep  track  of  these  symptoms  during  your  treatment,  and  its  important  to\n\nfollow up with the oncology team for any adjustments to your chemotherapy.\n\nPatient:\n\nThank you for the thorough explanation, doctor. Ill make sure to follow your recommendations.\n\nDoctor:\n\nYou're  welcome.  We  will  keep  monitoring  your  condition  closely.  Please  ensure  to  follow  up  as\n\nscheduled, and if any new symptoms arise, let us know immediately.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "71",
+            "MRN": "784575",
+            "Diagnosis": "Cholangiocarcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "jaundice",
+                "abdominal pain"
+            ],
+            "NegativeFindings": [
+                "no chronic diseases",
+                "no genetic conditions"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "intrahepatic cholangiocarcinoma",
+            "cirrhosis",
+            "severe steatosis"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "chemotherapy"
+            ],
+            "Procedures": [
+                "ERCP with metallic stent placement",
+                "biopsy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "CT scan shows mass in left lobe",
+                "mass size 8.4 x 7.3 cm",
+                "involvement of left hepatic artery and portal veins"
+            ],
+            "LabResults": [
+                "Hemoglobin 13.1 g/dL",
+                "TLC 4.7",
+                "Platelet count 227",
+                "Total bilirubin 4.3",
+                "ALT and AST slightly elevated",
+                "Albumin 3.5",
+                "INR 1.86"
+            ],
+            "PathologyFindings": [
+                "poorly differentiated adenocarcinoma",
+                "positive staining for CK7 and CK19"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "cirrhosis"
+            ],
+            "Comorbidities": [
+                "None"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "oncology"
+            ],
+            "ScheduledTests": [
+                "repeat labs",
+                "CT scan in two weeks"
+            ],
+            "NextAppointmentDetails": [
+                "None"
+            ]
+        },
+        "VisitTimeline": [
+            "CT scan on 31st October 2023",
+            "FibroScan on 15th November 2023",
+            "biopsy on 11th December 2023"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has been experiencing jaundice and abdominal pain.",
+            "DiagnosticJourney": "Diagnosis confirmed through imaging and biopsy.",
+            "TreatmentResponse": "Liver function tests improving post-ERCP.",
+            "OngoingConcerns": "Monitoring of symptoms and liver function."
+        }
+    }
+}

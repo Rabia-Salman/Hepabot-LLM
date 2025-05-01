@@ -1,0 +1,126 @@
+{
+    "patient_id": "847714",
+    "raw_text": "Gender: Male\n\nAge: 75\n\nMRN: 847714\n\nDiagnosis: Chronic viral hepatitis C\n\nHistory and Physical:\n\nDate: 31/10/2024\n\nFirst Visit to PKLI\n\nDoctor: Good morning. What brings you to the hospital today?\n\nPatient: Good morning, doctor. I've been having pain in my right upper abdomen and jaundice. I've\n\nalso lost a lot of weight in the last three months.\n\nDoctor: I see. Can you describe the pain? When did it start?\n\nPatient: The pain started about three months ago. It was sudden and quite severe. Along with that, I\n\nnoticed my skin and eyes turning yellow.\n\nDoctor: Have you experienced any other symptoms, such as nausea, vomiting, or fever?\n\nPatient:  No,  just  the  pain,  jaundice,  and  weight  loss.  Ive  lost  around  20  kg  and  my  appetite  has\n\ndecreased significantly.\n\nDoctor:  Have  you  ever  had  any  liver-related  complications  before,  such  as  ascites,  variceal\n\nbleeding, or hepatic encephalopathy?\n\nPatient: No, doctor, nothing like that before.\n\nDoctor: Do you have any past medical or surgical history?\n\nPatient: No, I have never had any major illnesses or surgeries.\n\nDoctor: Are you taking any medications at home?\n\nPatient: No, but recently I started taking Paracetamol, Tamsulosin, Spironolactone, Furosemide, and\n\nPantoprazole.\n\nDoctor: Do you smoke, drink alcohol, or use any drugs?\n\nPatient: No, I dont drink or use drugs.\n\nDoctor: Are you married? What do you do for a living?\n\n\fPatient: Yes, I am married. I am retired now.\n\nDoctor: Thank you for sharing this information. Lets do a physical examination.\n\n(Physical Examination Performed)\n\n(cid:9)General Examination: No pallor, jaundice present, no edema.\n\n(cid:9)Gastrointestinal: Abdomen soft, non-tender, bowel sounds audible.\n\n(cid:9)Respiratory & CNS: Normal.\n\nDoctor:  Well  also  need  to  run  some  blood  tests  and  imaging  studies.  Here  are  your  recent  lab\n\nresults:\n\n(cid:9)Hemoglobin: 9.2 g/dL\n\n(cid:9)Total Bilirubin: 2.82 mg/dL\n\n(cid:9)ALT/AST: 76/218 U/L\n\n(cid:9)ALP: 103 U/L\n\n(cid:9)Albumin: 1.7 g/dL\n\n(cid:9)Creatinine: 0.87 mg/dL\n\n(cid:9)Na/K: 138/3.95\n\n(cid:9)INR: 1.53\n\n(cid:9)Hepatitis B & C: Negative\n\nYour  imaging  results  show  a  dilated  common  bile  duct  (CBD)  with  a  narrowing  near  the  ampulla,\n\nand signs of ascites.\n\nDoctor: You had two ERCP attempts in August and September, both of which failed. Well need to\n\ndo further investigations.\n\nPlan:\n\n(cid:9)Baseline Investigations\n\n(cid:9)CT Scan of Abdomen\n\n(cid:9)MRCP\n\n(cid:9)Start Ciprofloxacin 500 mg BD\n\n(cid:9)Tramadol 100 mg BD, Paracetamol 500 mg TDS\n\n\f(cid:9)Reduce Aldactone to 50 mg OD and continue Furosemide 40 mg OD\n\n(cid:9)Follow-up in 4 weeks\n\nDate: 14/11/2024\n\nFollow-Up Visit\n\nDoctor: How are you feeling now?\n\nPatient: The pain is still there, but I feel slightly better. The jaundice has improved a little.\n\nDoctor:  Thats  good  to  hear.  Your  recent  CT  scan  shows  an  ill-defined  hypodense  mass  in  the\n\nampullary  region,  causing  bile  duct  dilatation.  We  suspect  a  periampullary  tumor.  We  need  to\n\nperform an ERCP with a biopsy to confirm.\n\nPatient: I understand. Will I need surgery?\n\nDoctor:  If  the  disease  is  localized  and  theres  no  metastasis,  surgery  might  be  possible.  Well  refer\n\nyou to the hepatobiliary team to discuss further options.\n\nPlan:\n\n(cid:9)Refer to Hepatobiliary Surgery\n\n(cid:9)If surgery not possible, refer to Interventional Radiology for PTBT\n\n(cid:9)Discuss case in MDT (Multidisciplinary Team) meeting\n\nDate: 09/12/2024\n\nHepatobiliary and Liver Transplant Clinic\n\nDoctor:  Your  case  has  been  reviewed,  and  you  have  a  confirmed  diagnosis  of  a  Periampullary\n\nTumor. You are a candidate for Whipples procedure.\n\nPatient: What is that?\n\nDoctor: Its a major surgical procedure where part of the pancreas, bile duct, and small intestine are\n\nremoved. Its the best treatment for your condition.\n\nPatients Son: What are the risks involved?\n\nDoctor: The mortality risk is around 4-5%, and theres a 10-15% chance of complications. However,\n\n\fthis is the only definitive treatment.\n\nPatient: I understand. Whats the next step?\n\nDoctor: We will discuss your case in our MDT meeting and then proceed with laparoscopic Whipples\n\nprocedure. If there are complications, we may need to convert to open surgery.\n\nPlan:\n\n(cid:9)Proceed with Laparoscopic Whipples Surgery\n\n(cid:9)Explain risks to patient and family\n\n(cid:9)Refer to Financial Screening\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "75",
+            "MRN": "847714",
+            "Diagnosis": "Chronic viral hepatitis C"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "Pain in right upper abdomen",
+                "Jaundice",
+                "Weight loss"
+            ],
+            "NegativeFindings": [
+                "No nausea",
+                "No vomiting",
+                "No fever",
+                "No past liver-related complications",
+                "No major illnesses or surgeries"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Dilated common bile duct with narrowing near the ampulla",
+            "Signs of ascites",
+            "Ill-defined hypodense mass in the ampullary region suggesting periampullary tumor"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Paracetamol",
+                "Tamsulosin",
+                "Spironolactone",
+                "Furosemide",
+                "Pantoprazole",
+                "Ciprofloxacin",
+                "Tramadol"
+            ],
+            "Procedures": [
+                "ERCP",
+                "CT Scan of Abdomen",
+                "MRCP",
+                "Laparoscopic Whipples Surgery"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "Dilated common bile duct",
+                "Ill-defined hypodense mass in the ampullary region"
+            ],
+            "LabResults": [
+                {
+                    "Hemoglobin": "9.2 g/dL"
+                },
+                {
+                    "Total Bilirubin": "2.82 mg/dL"
+                },
+                {
+                    "ALT/AST": "76/218 U/L"
+                },
+                {
+                    "ALP": "103 U/L"
+                },
+                {
+                    "Albumin": "1.7 g/dL"
+                },
+                {
+                    "Creatinine": "0.87 mg/dL"
+                },
+                {
+                    "Na/K": "138/3.95"
+                },
+                {
+                    "INR": "1.53"
+                },
+                {
+                    "Hepatitis B & C": "Negative"
+                }
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Chronic viral hepatitis C"
+            ],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "Refer to Hepatobiliary Surgery",
+                "Discuss case in MDT meeting"
+            ],
+            "ScheduledTests": [
+                "CT Scan of Abdomen",
+                "MRCP"
+            ],
+            "NextAppointmentDetails": [
+                "Follow-up in 4 weeks"
+            ]
+        },
+        "VisitTimeline": [
+            {
+                "Date": "31/10/2024",
+                "VisitType": "First Visit",
+                "Summary": "Initial assessment and physical examination."
+            },
+            {
+                "Date": "14/11/2024",
+                "VisitType": "Follow-Up Visit",
+                "Summary": "Review of CT scan results and discussion of potential surgery."
+            },
+            {
+                "Date": "09/12/2024",
+                "VisitType": "Hepatobiliary and Liver Transplant Clinic",
+                "Summary": "Confirmed diagnosis of periampullary tumor and discussion of Whipples procedure."
+            }
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient presented with abdominal pain, jaundice, and weight loss, with worsening symptoms over three months.",
+            "DiagnosticJourney": "Initial tests indicated liver dysfunction and imaging revealed a mass in the ampullary region.",
+            "TreatmentResponse": "Patient reported slight improvement in jaundice but persistent pain.",
+            "OngoingConcerns": "Need for surgical intervention and potential complications from the Whipples procedure."
+        }
+    }
+}

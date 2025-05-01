@@ -1,0 +1,266 @@
+{
+    "patient_id": "history_physical_35",
+    "raw_text": "Gender: Male\n\nAge: 5\n\nMRN: 771253\n\nDiagnosis: Budd-Chiari syndrome\n\nHistory and Physical:\n\nDoctor: Hello, Sami. I see you're back for your follow-up visit. How have you been feeling since your\n\nlast appointment?\n\nPatient: Im still experiencing abdominal distention, and Ive noticed the swelling hasnt reduced much.\n\nIm continuing the medications you prescribed.\n\nDoctor: I see. Let's go over your medical history and your recent lab results.\n\nPatient: Sure, Doctor.\n\nDoctor:  You  were  born  via  spontaneous  vaginal  delivery  (SVD)  at  term,  and  your  birth  was\n\nuneventful.  You  had  no  major  health  issues  until  you  turned  2.5  years  old,  when  you  developed\n\nabdominal  distension  and  fever.  This  was  treated  at  CMH  Rawalpindi,  where  the  distension\n\nresolved,  but  the  issue  recurred  4  to  5  months  ago  with  fever,  constipation,  and  prominent\n\nsuperficial  veins  on  your  chest.  You  were  then  referred  to  Shifa  Hospital,  where  we  continued  the\n\nevaluation. Youve never experienced jaundice, loose stools, or itching, correct?\n\nPatient: Yes, thats right.\n\nDoctor: You did mention an episode of hypoglycemia that led to a loss of consciousness, but youve\n\nhad no history of seizures. And you've not been taking the prescribed Warfarin for the last 20 days?\n\n\fPatient: Correct, Doctor.\n\nDoctor: Now, lets look at the results from your recent lab work.\n\nLaboratory Results:\n\nBilirubin:\n\n22.01.2024: 1.14 mg/dL\n\n22.03.2024: 0.9 mg/dL\n\nDirect Bilirubin:\n\n22.01.2024: 0.85 mg/dL\n\nALT (Alanine Aminotransferase):\n\n22.01.2024: 81 U/L\n\n22.03.2024: 60 U/L\n\nAST (Aspartate Aminotransferase):\n\n22.01.2024: 156 U/L\n\n22.03.2024: [Data Missing]\n\n\fALP (Alkaline Phosphatase):\n\n22.01.2024: 299 U/L\n\n22.03.2024: 261 U/L\n\nGGT (Gamma-Glutamyl Transferase):\n\n22.01.2024: 234 U/L\n\n22.03.2024: 106 U/L\n\nAlbumin:\n\n22.01.2024: 4.2 g/dL\n\nINR (International Normalized Ratio):\n\n22.01.2024: 1.19\n\nWBC (White Blood Cells):\n\n22.01.2024: 11.98 x10^9/L\n\n22.03.2024: 15 x10^9/L\n\n\fHemoglobin (HB):\n\n22.01.2024: 10.4 g/dL\n\n22.03.2024: 9.7 g/dL\n\nMCV (Mean Corpuscular Volume):\n\n22.01.2024: 84 fL\n\nMCH (Mean Corpuscular Hemoglobin):\n\n22.01.2024: 24.5 pg\n\nPlatelets (PLT):\n\n22.01.2024: 397 x10^9/L\n\n22.03.2024: 263 x10^9/L\n\nSodium (Na):\n\n22.01.2024: 136 mmol/L\n\nPotassium (K):\n\n22.01.2024: 4.7 mmol/L\n\n\fCreatinine (Cr):\n\n22.01.2024: 0.32 mg/dL\n\nSpecial Tests:\n\nProtein C, Protein S, Anti-Thrombin III, and Factor V Leiden: Normal (Shifa Hospital Notes)\n\nAFP (Alpha-fetoprotein): 3.6 ng/mL\n\nFactor V Leiden: Negative\n\nAPTT (Activated Partial Thromboplastin Time): 32 seconds\n\nDoctor: You also had an ultrasound on 29.12.2023 that showed mild hepatosplenomegaly and mild\n\nto  moderate  ascites.  A  CT  scan  on  the  same  date  showed  hepatomegaly  with  a  flip-flop\n\nenhancement  pattern,  which  is  associated  with  thrombosized  or  fibrosed  hepatic  veins,  and\n\nmoderate ascites. This suggests Budd-Chiari Syndrome. You also had a right-sided hydrocele.\n\nPatient: Yes, I remember. I had some swelling on my abdomen and chest, but no jaundice.\n\nDoctor: That's correct. On physical exam, your weight is still below the 5th percentile at 14 kg. You\n\nhave pallor, but there is no edema. Your liver is palpable 6 cm below the costal margin, and theres\n\nshifting dullness on abdominal exam. The prominent veins extending from your upper abdomen to\n\nover your chest are a significant finding.\n\n\fDoctor:  Based  on  all  these  findings,  including  the  radiological  and  lab  results,  the  most  likely\n\ndiagnosis  is  Budd-Chiari  Syndrome  with  right-sided  hydrocele.  We  will  continue  the  current\n\nmedications you are on, which include spironolactone, furosemide, and the oral drops.\n\nPatient: Okay, Doctor, so what's the plan moving forward?\n\nDoctor:  We  will  keep  you  on  a  salt-free  diet  to  manage  the  ascites.  You  will  continue  with  your\n\ncurrent medications. We need to schedule further tests, including a CT triphasic scan, an ultrasound\n\nshearwave, and an esophagogastroduodenoscopy (EGD). Your follow-up is in two weeks, and well\n\nreassess your condition then.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "5",
+            "MRN": "771253",
+            "Diagnosis": "Budd-Chiari syndrome"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "abdominal distention",
+                "swelling"
+            ],
+            "NegativeFindings": [
+                "jaundice",
+                "loose stools",
+                "itching",
+                "seizures"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Budd-Chiari Syndrome",
+            "right-sided hydrocele"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "spironolactone",
+                "furosemide",
+                "oral drops"
+            ],
+            "Procedures": []
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "mild hepatosplenomegaly",
+                "mild to moderate ascites",
+                "hepatomegaly with flip-flop enhancement pattern",
+                "moderate ascites"
+            ],
+            "LabResults": [
+                {
+                    "Test": "Bilirubin",
+                    "Results": [
+                        {
+                            "Date": "22.01.2024",
+                            "Value": "1.14 mg/dL"
+                        },
+                        {
+                            "Date": "22.03.2024",
+                            "Value": "0.9 mg/dL"
+                        }
+                    ]
+                },
+                {
+                    "Test": "Direct Bilirubin",
+                    "Results": [
+                        {
+                            "Date": "22.01.2024",
+                            "Value": "0.85 mg/dL"
+                        }
+                    ]
+                },
+                {
+                    "Test": "ALT",
+                    "Results": [
+                        {
+                            "Date": "22.01.2024",
+                            "Value": "81 U/L"
+                        },
+                        {
+                            "Date": "22.03.2024",
+                            "Value": "60 U/L"
+                        }
+                    ]
+                },
+                {
+                    "Test": "AST",
+                    "Results": [
+                        {
+                            "Date": "22.01.2024",
+                            "Value": "156 U/L"
+                        },
+                        {
+                            "Date": "22.03.2024",
+                            "Value": "None"
+                        }
+                    ]
+                },
+                {
+                    "Test": "ALP",
+                    "Results": [
+                        {
+                            "Date": "22.01.2024",
+                            "Value": "299 U/L"
+                        },
+                        {
+                            "Date": "22.03.2024",
+                            "Value": "261 U/L"
+                        }
+                    ]
+                },
+                {
+                    "Test": "GGT",
+                    "Results": [
+                        {
+                            "Date": "22.01.2024",
+                            "Value": "234 U/L"
+                        },
+                        {
+                            "Date": "22.03.2024",
+                            "Value": "106 U/L"
+                        }
+                    ]
+                },
+                {
+                    "Test": "Albumin",
+                    "Results": [
+                        {
+                            "Date": "22.01.2024",
+                            "Value": "4.2 g/dL"
+                        }
+                    ]
+                },
+                {
+                    "Test": "INR",
+                    "Results": [
+                        {
+                            "Date": "22.01.2024",
+                            "Value": "1.19"
+                        }
+                    ]
+                },
+                {
+                    "Test": "WBC",
+                    "Results": [
+                        {
+                            "Date": "22.01.2024",
+                            "Value": "11.98 x10^9/L"
+                        },
+                        {
+                            "Date": "22.03.2024",
+                            "Value": "15 x10^9/L"
+                        }
+                    ]
+                },
+                {
+                    "Test": "Hemoglobin",
+                    "Results": [
+                        {
+                            "Date": "22.01.2024",
+                            "Value": "10.4 g/dL"
+                        },
+                        {
+                            "Date": "22.03.2024",
+                            "Value": "9.7 g/dL"
+                        }
+                    ]
+                },
+                {
+                    "Test": "MCV",
+                    "Results": [
+                        {
+                            "Date": "22.01.2024",
+                            "Value": "84 fL"
+                        }
+                    ]
+                },
+                {
+                    "Test": "MCH",
+                    "Results": [
+                        {
+                            "Date": "22.01.2024",
+                            "Value": "24.5 pg"
+                        }
+                    ]
+                },
+                {
+                    "Test": "Platelets",
+                    "Results": [
+                        {
+                            "Date": "22.01.2024",
+                            "Value": "397 x10^9/L"
+                        },
+                        {
+                            "Date": "22.03.2024",
+                            "Value": "263 x10^9/L"
+                        }
+                    ]
+                },
+                {
+                    "Test": "Sodium",
+                    "Results": [
+                        {
+                            "Date": "22.01.2024",
+                            "Value": "136 mmol/L"
+                        }
+                    ]
+                },
+                {
+                    "Test": "Potassium",
+                    "Results": [
+                        {
+                            "Date": "22.01.2024",
+                            "Value": "4.7 mmol/L"
+                        }
+                    ]
+                },
+                {
+                    "Test": "Creatinine",
+                    "Results": [
+                        {
+                            "Date": "22.01.2024",
+                            "Value": "0.32 mg/dL"
+                        }
+                    ]
+                },
+                {
+                    "Test": "Special Tests",
+                    "Results": [
+                        {
+                            "Test": "Protein C, Protein S, Anti-Thrombin III, Factor V Leiden",
+                            "Value": "Normal"
+                        },
+                        {
+                            "Test": "AFP",
+                            "Value": "3.6 ng/mL"
+                        },
+                        {
+                            "Test": "Factor V Leiden",
+                            "Value": "Negative"
+                        },
+                        {
+                            "Test": "APTT",
+                            "Value": "32 seconds"
+                        }
+                    ]
+                }
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [],
+            "ScheduledTests": [
+                "CT triphasic scan",
+                "ultrasound shearwave",
+                "esophagogastroduodenoscopy (EGD)"
+            ],
+            "NextAppointmentDetails": [
+                "in two weeks"
+            ]
+        },
+        "VisitTimeline": [],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient continues to experience abdominal distention and swelling.",
+            "DiagnosticJourney": "Patient was evaluated for abdominal distention and fever, leading to diagnosis of Budd-Chiari syndrome.",
+            "TreatmentResponse": "Patient has not been taking Warfarin and is on current medications.",
+            "OngoingConcerns": "Management of ascites and follow-up on liver condition."
+        }
+    }
+}

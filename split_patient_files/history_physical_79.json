@@ -1,0 +1,88 @@
+{
+    "patient_id": "history_physical_79",
+    "raw_text": "Gender: Male\n\nAge: 42\n\nMRN: 768771\n\nDiagnosis: Hepatocellular Carcinoma\n\nHistory and Physical:\n\nDoctor:\n\nHello, how have you been since your last visit?\n\nPatient:\n\nI  have  been  feeling  some  pain  in  the  right  hypochondriac  (RHC)  and  epigastric  region.  It's  been\n\nbothering me for a few months now.\n\nDoctor:\n\nI see. Last time, we discussed a potential hepatic mass. Based on your CT scans, the lesion could\n\nbe indicative of a gastrointestinal stromal tumor (GIST), though there was a possibility of an atypical\n\nhepatocellular carcinoma (HCC). How are you managing with the medications?\n\nPatient:\n\nIm  still  on  the  medications  you  prescribedTres  Orix,  Tramadol  for  the  pain,  and  Laxoberon  for\n\nconstipation. I havent had any major issues, but the pain persists.\n\nDoctor:\n\nThat's  good  to  hear  that  you're  managing  well  with  the  medications.  How  is  your  weight?  Any\n\nsignificant changes lately?\n\nPatient:\n\nIve lost about 5-7 kg in the past year. Its been gradual.\n\n\fDoctor:\n\nNoted. Have you noticed any other symptoms like fatigue, jaundice, or changes in your appetite?\n\nPatient:\n\nNo, no jaundice or anything like that. I do feel tired at times, and Ive been having some bloating and\n\ndiscomfort in my stomach.\n\nDoctor:\n\nAlright,  lets  go  over  some  of  your  investigations.  Your  CT  scan  from  May  8th  showed  a  large\n\nheterogeneously enhancing mass in the right hypochondrium, and the findings are more consistent\n\nwith  GIST,  not  HCC.  The  lesion  is  quite  large,  and  it  appears  to  involve  the  posterior  wall  of  the\n\npylorus and antrum. Its likely causing the pain and discomfort you mentioned.\n\nPatient:\n\nThat sounds like a pretty serious issue. Whats next?\n\nDoctor:\n\nYes, its important we proceed carefully. Your liver biopsy from June 5th confirmed the presence of\n\nan epithelioid-type GIST. This type of tumor can sometimes be difficult to treat, but we have options.\n\nWe are planning a resection of the tumor with a left hepatectomy.\n\nPatient:\n\nWhat exactly does that mean for me?\n\nDoctor:\n\nEssentially,  well  need  to  surgically  remove  the  tumor.  The  liver  will  also  need  to  be  part  of  the\n\n\fresection, so it's a more complex procedure. The team will be monitoring you closely throughout the\n\nprocess. Well also need to discuss the approach further with a multidisciplinary team (MDT) to make\n\nsure all options are considered.\n\nPatient:\n\nOkay, that makes sense. Is there anything else I need to be aware of before the surgery?\n\nDoctor:\n\nBefore  we  proceed,  well  do  a  few  more  things.  We'll  make  sure  your  blood  levels  are  stable,\n\nespecially  your  hemoglobin.  I  see  that  it  was  quite  low  during  your  last  visit  (6.6),  so  well  need  to\n\nensure you're getting the necessary blood transfusions. We may need to give you another round of\n\npacked  red  blood  cells.  We  also  need  to  address  the  weight  loss  and  the  low  grade  fever  you've\n\nbeen experiencing.\n\nPatient:\n\nYes, I had 2 PCV transfusions before, but the hemoglobin hasn't gone up much since.\n\nDoctor:\n\nWell continue monitoring your hemoglobin and make sure you get the right support. Lets also keep\n\nyour liver function under close observation. I'll arrange a referral to the coordinator for further steps\n\nand ensure everything is lined up for the surgery.\n\nPatient:\n\nThank you, Doctor. Im a bit anxious, but I trust your plan.\n\nDoctor:\n\nI  understand  your  concern,  but  we  will  take  good  care  of  you.  It's  important  that  we  proceed  with\n\n\fcaution and make sure all steps are thoroughly planned. After the surgery, well continue monitoring\n\nyour recovery closely.\n\nPatient:\n\nSounds good. Ill follow up with all the appointments.\n\nDoctor:\n\nPerfect. Well see you again in two weeks for a follow-up. In the meantime, make sure you're staying\n\non  top  of  your  medications  and  any  further  instructions.  If  you  have  any  issues,  dont  hesitate  to\n\nreach out.\n\nDoctor:\n\nLets now review your medical history. You mentioned that youve had no decompensation symptoms\n\nand  you  havent  had  a  history  of  significant  liver  problems  before  this.  Youve  been  feeling  some\n\nlow-grade fever lately, which is something we will monitor.\n\nPatient:\n\nYes, its been a bit of a concern for me, but its not too bad.\n\nDoctor:\n\nGood  to  note.  You've  also  mentioned  some  psychological  stress  due  to  your  current  health\n\ncondition, and I want to assure you that well help you manage this. You're not alone in this journey.\n\nPatient:\n\nI have been feeling a bit down with everything going on. Its just been a lot to handle.\n\nDoctor:\n\n\fIt's completely understandable. Well ensure you have support during this time, both physically and\n\nemotionally. We'll keep an eye on your mental health and offer resources as needed.\n\nPatient:\n\nI appreciate that, Doctor. Its reassuring to know you're keeping track of everything.\n\nDoctor:\n\nYou're welcome. You're in good hands. Well work together to ensure the best possible outcome. I'll\n\nmake sure we have everything in place for your surgery, and well discuss the next steps once we\n\nhave all the results.\n\nDoctor:\n\nFinally, let me go over the lab results from your last test on May 24th. Your liver function tests were\n\nas follows:\n\nBilirubin: 0.24\n\nALT: 13, AST: 18\n\nALP: 126\n\nAlbumin: 3.7\n\nCreatinine: 0.64\n\nSodium: 140\n\n\fPotassium: 4.25\n\nAFP: 6.93\n\nAll  of  these  values  are  within  normal  range,  though  well  continue  monitoring.  We'll  focus  on  your\n\nhemoglobin levels, as theyre a bit concerning, and plan for transfusion as needed.\n\nPatient:\n\nAlright, I understand. Thank you for explaining everything.\n\nDoctor:\n\nYou're  welcome.  Please  don't  hesitate  to  contact  me  if  you  have  any  questions.  See  you  in  two\n\nweeks for your follow-up.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "42",
+            "MRN": "768771",
+            "Diagnosis": "Hepatocellular Carcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "pain in the right hypochondriac region",
+                "epigastric discomfort",
+                "fatigue",
+                "bloating",
+                "low-grade fever"
+            ],
+            "NegativeFindings": [
+                "no jaundice",
+                "no significant liver problems"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "large heterogeneously enhancing mass in the right hypochondrium consistent with GIST",
+            "presence of an epithelioid-type GIST confirmed by liver biopsy"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Tres Orix",
+                "Tramadol",
+                "Laxoberon"
+            ],
+            "Procedures": [
+                "resection of the tumor with left hepatectomy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "CT scan from May 8th showing a large mass"
+            ],
+            "LabResults": [
+                {
+                    "Bilirubin": "0.24",
+                    "ALT": "13",
+                    "AST": "18",
+                    "ALP": "126",
+                    "Albumin": "3.7",
+                    "Creatinine": "0.64",
+                    "Sodium": "140",
+                    "Potassium": "4.25",
+                    "AFP": "6.93"
+                }
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [],
+            "Comorbidities": [
+                "psychological stress"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "referral to the coordinator for further steps"
+            ],
+            "ScheduledTests": [
+                "monitoring hemoglobin levels",
+                "monitoring liver function"
+            ],
+            "NextAppointmentDetails": [
+                "follow-up in two weeks"
+            ]
+        },
+        "VisitTimeline": [
+            "last visit discussed potential hepatic mass",
+            "CT scan on May 8th",
+            "liver biopsy on June 5th",
+            "lab results on May 24th"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has been experiencing pain and discomfort related to a large mass in the right hypochondrium.",
+            "DiagnosticJourney": "CT scan and liver biopsy confirmed the presence of an epithelioid-type GIST.",
+            "TreatmentResponse": "Patient is managing with prescribed medications but continues to experience pain.",
+            "OngoingConcerns": "Monitoring of hemoglobin levels and addressing weight loss and low-grade fever."
+        }
+    }
+}

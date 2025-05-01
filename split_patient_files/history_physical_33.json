@@ -1,0 +1,129 @@
+{
+    "patient_id": "history_physical_33",
+    "raw_text": "Gender: Male\n\nAge: 12\n\nMRN: 698512\n\nDiagnosis: Budd-Chiari syndrome\n\nHistory and Physical:\n\nPatient:\n\nHello, Doctor.\n\nDoctor:\n\nHello! How are you feeling today?\n\nPatient:\n\nIm  doing  okay,  but  Ive  been  following  up  for  my  condition,  Budd  Chiari  syndrome.  I  wanted  to\n\nupdate you on my progress.\n\nDoctor:\n\nOf course, lets go over your history first. You were diagnosed with Budd Chiari syndrome and youve\n\nhad a history of abdominal distension. This began about three years ago when you were admitted to\n\nthe Children's Hospital. You were treated by Dr. Nadeem Anjum.\n\nPatient:\n\nYes, I remember. It was pretty serious back then. I also have a family history of this condition. I am\n\nthe second in order of four siblings.\n\nDoctor:\n\nGot  it.  Lets  check  your  lab  results.  The  MRI  you  had  in  2019  showed  hepatosplenomegaly  with\n\nhypertrophy  of  the  caudate  lobe  and  narrowed  hepatic  veins,  which  pointed  to  venous  occlusive\n\n\fdisease. Your serum ceruloplasmin was elevated at 0.57. The OGD in October 2019 did not show\n\nany esophageal varices.\n\nPatient:\n\nI see. Ive been keeping track of my medications. They include:\n\nRiseK Insta sachet\n\nVida Z tablet (one per day)\n\nSpiromide 20mg (on alternate days)\n\nVadil (Carvedilol) 3.125 mg, twice a day\n\nRivaroxaban 10mg, once a day\n\nDoctor:\n\nGood, its important to stick with that regimen. Lets review the more recent lab results from May 9,\n\n2022:\n\nSodium: 134\n\nPotassium: 3.8\n\nTotal Bilirubin: 0.6\n\nDirect Bilirubin: 0.2\n\n\fIndirect Bilirubin: 0.2\n\nALT: 20\n\nAST: 36\n\nALP: 210\n\nAlbumin: 4.1\n\nHBsAg: Negative\n\nAnti-HCV: Negative\n\nCreatinine: 0.7\n\nYour CBC was:\n\nTLC: 9.9\n\nHemoglobin: 12\n\nPlatelets: 320\n\nINR: 1.0\n\n\fPatient:\n\nThank  you,  Doctor.  I  also  had  an  ultrasound  on  May  9,  2022,  which  showed  hepatomegaly  with\n\ncoarse hepatic echotexture. The hepatic veins were narrowed, but flow was present, and my spleen\n\nwas slightly enlarged at 10.9 cm. The CT scan on June 14, 2022, showed lobulated liver contours,\n\nand the hepatic veins werent visible, which is typical for my condition. I also had enlarged spleen at\n\n13.5 cm and varices in the anterior abdominal wall and pelvis.\n\nDoctor:\n\nYes, those findings match your diagnosis. I also reviewed your CT triphasic scan from July 22, 2022.\n\nThe  scan  showed  signs  of  Budd  Chiari  syndrome  with  an  enlarged,  congested  liver  and\n\nnon-opacified  hepatic  veins,  and  your  retrohepatic  IVC  was  narrowed.  No  signs  of  hepatocellular\n\ncarcinoma were found, which is good news.\n\nPatient:\n\nThats  reassuring.  On  my  physical  exam  today,  I  noticed  I  dont  have  jaundice,  but  there  is  some\n\npallor,  and  I  still  have  clubbing.  The  left  cervical  lymph  node  is  palpable.  Otherwise,  Im  alert  and\n\nactive.\n\nDoctor:\n\nThats good to hear. Your liver is palpable, with a 6 cm BCM, and your spleen is also palpable. There\n\nare  no  signs  of  ascites  right  now.  For  medications,  well  continue  your  current  regimen,  and  well\n\ndiscuss in the MDT meeting on Friday.\n\nPatient:\n\nGreat! Whats the next step in my treatment plan, Doctor?\n\nDoctor:\n\n\fWell need to monitor your liver condition closely. We plan to admit you on Monday and schedule an\n\nendoscopy on Tuesday. Additionally, well run some tests, including Protein C, S, and Antithrombin\n\nlevels, to further assess your condition.\n\nPatient:\n\nOkay, I understand. Thank you.\n\nDoctor:\n\nYou're welcome. Well also keep you informed about the next steps after your endoscopy. If needed,\n\nwell  continue  medical  management,  but  a  liver  transplant  may  be  required  if  your  liver\n\ndecompensates.\n\nPatient:\n\nUnderstood. Ill follow the plan. Ill be back for the next steps.\n\nDoctor:\n\nPerfect. Take care, and well see you on Monday.\n\nPatient:\n\nThank you, Doctor.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "12",
+            "MRN": "698512",
+            "Diagnosis": "Budd-Chiari syndrome"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "abdominal distension",
+                "pallor",
+                "clubbing"
+            ],
+            "NegativeFindings": [
+                "jaundice"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "hepatosplenomegaly",
+            "narrowed hepatic veins",
+            "venous occlusive disease",
+            "enlarged congested liver",
+            "non-opacified hepatic veins",
+            "narrowed retrohepatic IVC",
+            "no signs of hepatocellular carcinoma"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "RiseK Insta sachet",
+                "Vida Z tablet",
+                "Spiromide 20mg",
+                "Vadil (Carvedilol) 3.125 mg",
+                "Rivaroxaban 10mg"
+            ],
+            "Procedures": [
+                "endoscopy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "MRI showing hepatosplenomegaly",
+                "ultrasound showing hepatomegaly with coarse hepatic echotexture",
+                "CT scan showing lobulated liver contours",
+                "CT triphasic scan showing signs of Budd Chiari syndrome"
+            ],
+            "LabResults": [
+                {
+                    "Sodium": "134"
+                },
+                {
+                    "Potassium": "3.8"
+                },
+                {
+                    "Total Bilirubin": "0.6"
+                },
+                {
+                    "Direct Bilirubin": "0.2"
+                },
+                {
+                    "Indirect Bilirubin": "0.2"
+                },
+                {
+                    "ALT": "20"
+                },
+                {
+                    "AST": "36"
+                },
+                {
+                    "ALP": "210"
+                },
+                {
+                    "Albumin": "4.1"
+                },
+                {
+                    "HBsAg": "Negative"
+                },
+                {
+                    "Anti-HCV": "Negative"
+                },
+                {
+                    "Creatinine": "0.7"
+                },
+                {
+                    "TLC": "9.9"
+                },
+                {
+                    "Hemoglobin": "12"
+                },
+                {
+                    "Platelets": "320"
+                },
+                {
+                    "INR": "1.0"
+                }
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Budd-Chiari syndrome"
+            ],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "MDT meeting"
+            ],
+            "ScheduledTests": [
+                "Protein C levels",
+                "Protein S levels",
+                "Antithrombin levels"
+            ],
+            "NextAppointmentDetails": [
+                "admission on Monday",
+                "endoscopy on Tuesday"
+            ]
+        },
+        "VisitTimeline": [],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has been following up for Budd-Chiari syndrome with a history of abdominal distension.",
+            "DiagnosticJourney": "MRI and CT scans have confirmed the diagnosis and assessed the condition.",
+            "TreatmentResponse": "Patient is adhering to medication regimen and monitoring symptoms.",
+            "OngoingConcerns": "Need to monitor liver condition closely and consider liver transplant if decompensation occurs."
+        }
+    }
+}

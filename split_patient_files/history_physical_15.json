@@ -1,0 +1,98 @@
+{
+    "patient_id": "history_physical_15",
+    "raw_text": "Gender: Female\n\nAge: 43\n\nMRN: 742428\n\nDiagnosis: Chronic viral hepatitis C\n\nHistory and Physical:\n\nPatient: \"Doctor, I had an open cholecystectomy and CBD exploration on June 24th, 2023, due to\n\ncholelithiasis  and  Mirizzi  syndrome.  I  had  some  issues  with  an  infected  wound  and  drainage  after\n\nthe surgery.\"\n\nDoctor: \"Let me review your progress. How are you feeling now?\"\n\nPatient: \"The wound has been infected, and theres been some pus discharge, but the doctor said its\n\nimproving.\"\n\nDoctor: \"I see. Your recent lab results showed that your liver function is still a bit off. Your ALT/AST\n\nare elevated at 42/44, and your bilirubin is a bit high at 4.85. Have you had any significant weight\n\nloss, fever, or cognitive limitations recently?\"\n\nPatient: \"No weight loss, no fevers or night sweats. I feel okay aside from the abdominal pain.\"\n\nDoctor:  \"That's  good  to  hear.  Based  on  your  ultrasound  from  May  26,  2023,  it  shows  a  1.8  cm\n\ncalculus in the neck of the gallbladder and a dilated CBD. The MRCP also confirmed cholelithiasis\n\nand cholestasis. How is your appetite?\"\n\nPatient: \"Ive had some decreased appetite, but otherwise, Im okay.\"\n\n\fDoctor: \"Well continue to monitor that. Ive reviewed your recent treatment plan. Were treating your\n\nwound  infection  with  regular  wound  dressings,  antibiotics,  and  medications  like  Inj  Tanzo  and\n\nPolyfax  ointment.  Ill  also  check  your  lab  results  from  July  10th  and  continue  with  the  follow-up  on\n\nFriday.\"\n\nPatient: \"Okay, thank you, Doctor.\"\n\nFollow-up Visit (September 7, 2023)\n\nPatient:  \"Doctor,  the  wound  is  still  healing,  but  theres  still  some  pain  and  tenderness  near  the\n\nincision site.\"\n\nDoctor: \"On examination, your wound looks much better, but theres a slight sinus with minimal pus\n\ndischarge. Your lab results have shown a decrease in bilirubin and improved liver function compared\n\nto your last visit. The ultrasound from September 18th shows mild splenomegaly and ascites, but no\n\nmajor changes in the biliary system.\"\n\nPatient: \"What about my hepatitis C?\"\n\nDoctor: \"Your PCR for hepatitis C was detected at 361,470 IU/ml in June, but well need to start your\n\ntreatment as soon as we can. Weve discussed Sofosbuvir and Velpatasvir, but I understand theres\n\nsome financial concern. Lets continue to manage your symptoms until we find a solution.\"\n\nFollow-up Visit (October 13, 2023)\n\nPatient:  \"Doctor,  I've  been  feeling  some  upper  abdominal  pain  and  general  body  aches.  I've  also\n\nhad a fever for the last couple of days.\"\n\n\fDoctor: \"Your CT scan from August 8th, 2023, showed no significant changes in liver conditions, but\n\ntheres  a  slight  concern  about  a  possible  bowel  injury  leading  to  an  enterocutaneous  fistula.  The\n\nultrasound  from  September  27th  was  reassuring,  showing  no  major  collections.  Well  continue  to\n\nmonitor your symptoms and adjust medications accordingly.\"\n\nFollow-up Visit (December 7, 2023)\n\nPatient: \"Doctor, Ive been having chest pain and backache. It gets worse when I exert myself.\"\n\nDoctor: \"Its important that we rule out any heart-related issues. I'll refer you for a chest X-ray, ECG,\n\nand Trop I levels to ensure theres no cardiac involvement. Well also follow up with an ultrasound to\n\ncheck your abdomen and address any potential concerns with the biliary system.\"\n\nFollow-up Visit (January 15, 2024)\n\nPatient:  \"Doctor,  I  started  taking  Sof/Dac  for  my  HCV  as  advised.  But  Im  still  experiencing  some\n\nissues with my abdomen.\"\n\nDoctor: \"Thats good to hear about the treatment. Regarding your abdomen, your incision site seems\n\nto have healed well, but theres still some tenderness in the right hypochondrium. Well keep an eye\n\non your recovery from the cholecystectomy and plan for any necessary surgical repairs.\"\n\nFollow-up Visit (January 24, 2024)\n\nPatient: \"Doctor, Im still having pain in my epigastrium, and there's a swelling on the right side of my\n\nabdomen.\"\n\n\fDoctor: \"On examination, I found a 2 cm defect in the right hypochondrium. It looks like an incisional\n\nhernia.  Im  referring  you  for  pre-op  anesthesia  assessment  and  a  consultation  for  mesh  repair\n\nsurgery. Well proceed with scheduling the surgery as soon as possible.\"\n\nPatient Summary:\n\nDiagnoses:\n\nHCV (treatment-naive)\n\nMirizzi Syndrome (post-op)\n\nPost-operative infection with wound ulceration\n\nRecent Treatment:\n\nSofosbuvir/Daclatasvir (for HCV)\n\nERCP (multiple, with stent placements)\n\nWound care (dressings, antibiotics)\n\nSurgery consultation for incisional hernia\n\nRecent Tests:\n\nPCR (HCV), Ultrasound Abdomen, CT Scan Abdomen\n\n\fLab results show improvement in liver function with some residual concerns\n\nPlan:\n\nContinue monitoring liver function\n\nWound healing, stent management, and hernia surgery scheduled\n\nReferral for further diagnostic tests (chest X-ray, ECG)\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Female",
+            "Age": "43",
+            "MRN": "742428",
+            "Diagnosis": "Chronic viral hepatitis C"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "Abdominal pain",
+                "Tenderness near incision site",
+                "Chest pain",
+                "Backache",
+                "Swelling on right side of abdomen",
+                "General body aches",
+                "Fever"
+            ],
+            "NegativeFindings": [
+                "No weight loss",
+                "No fevers or night sweats"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Mild splenomegaly",
+            "Ascites",
+            "Possible bowel injury leading to enterocutaneous fistula",
+            "Incisional hernia"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Sofosbuvir",
+                "Daclatasvir",
+                "Inj Tanzo",
+                "Polyfax ointment",
+                "Antibiotics"
+            ],
+            "Procedures": [
+                "Open cholecystectomy",
+                "CBD exploration",
+                "ERCP (multiple, with stent placements)",
+                "Surgery consultation for incisional hernia"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "Ultrasound Abdomen",
+                "CT Scan Abdomen"
+            ],
+            "LabResults": [
+                "PCR for hepatitis C detected at 361,470 IU/ml",
+                "Elevated ALT/AST at 42/44",
+                "Bilirubin at 4.85"
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "HCV (treatment-naive)",
+                "Mirizzi Syndrome (post-op)"
+            ],
+            "Comorbidities": [
+                "Post-operative infection with wound ulceration"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "Pre-op anesthesia assessment",
+                "Consultation for mesh repair surgery",
+                "Referral for chest X-ray",
+                "Referral for ECG"
+            ],
+            "ScheduledTests": [
+                "Follow-up lab results from July 10th",
+                "Ultrasound to check abdomen"
+            ],
+            "NextAppointmentDetails": [
+                "Follow-up on Friday"
+            ]
+        },
+        "VisitTimeline": [
+            "June 24, 2023: Open cholecystectomy and CBD exploration",
+            "September 7, 2023: Follow-up visit",
+            "October 13, 2023: Follow-up visit",
+            "December 7, 2023: Follow-up visit",
+            "January 15, 2024: Follow-up visit",
+            "January 24, 2024: Follow-up visit"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has undergone surgery for cholelithiasis and Mirizzi syndrome, with subsequent wound infection and ongoing abdominal issues.",
+            "DiagnosticJourney": "Multiple imaging studies and lab tests conducted to monitor liver function and assess post-operative complications.",
+            "TreatmentResponse": "Patient started on Sofosbuvir/Daclatasvir for HCV, with ongoing management of wound healing and abdominal symptoms.",
+            "OngoingConcerns": "Continued abdominal pain, potential incisional hernia, and need for further evaluation of chest pain."
+        }
+    }
+}

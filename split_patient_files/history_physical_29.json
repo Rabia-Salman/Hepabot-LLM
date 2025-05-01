@@ -1,0 +1,89 @@
+{
+    "patient_id": "history_physical_29",
+    "raw_text": "Gender: Male\n\nAge: 5\n\nMRN: 867175\n\nDiagnosis: Budd-Chiari syndrome\n\nHistory and Physical:\n\nPatient: Ive been feeling a lot of abdominal distention again, doctor. It's causing a lot of discomfort.\n\nDoctor: I see. Can you tell me a bit more about how long you've been experiencing this issue?\n\nPatient: It started around 3 years ago, along with a fever. At first, I was treated for abdominal TB at a\n\nlocal  hospital  for  about  a  year.  After  that,  I  was  okay  for  two  years,  but  then  the  same\n\nsymptomsfever  and  abdominal  distentioncame  back.  I  saw  Dr.  Nagina  Shahzadi  who  gave  me\n\nantibiotics, but things didnt improve much, so I was referred to Childrens Hospital Lahore for further\n\ntreatment.\n\nDoctor: And what happened at Childrens Hospital?\n\nPatient: I was admitted for about 15 days, and after several investigations, they diagnosed me with\n\nBudd  Chiari  Syndrome  based  on  a  CT  scan  and  ultrasound  of  my  abdomen.  They  also  had  to  do\n\nmultiple taps during my stay.\n\nDoctor: Got it. Have you experienced any decompensations since then?\n\nPatient: Yes, Ive had jaundice and ascites.\n\nDoctor:  I  understand.  Let  me  check  your  previous  medical  history...  You  mentioned  a  history  of\n\nabdominal TB. Can you tell me more about that?\n\n\fPatient: I had treatment for abdominal TB for a year in Aziz Fatima Hospital. After that, I was stable\n\nfor about two years before the symptoms returned.\n\nDoctor: Okay, thank you for that information. Let me now check your current examination findings.\n\nYouve been showing signs of jaundice, pallor, and edema up to your ankles, correct?\n\nPatient: Yes, thats right. Ive also had some difficulty breathing and Ive been feeling really tired.\n\nDoctor: I see that your physical exam shows hepatomegaly, prominent veins, and mild to moderate\n\nascites. Well need to closely monitor your liver function and ascites management.\n\nPatient:  Ive  been  following  my  medications,  as  advised.  Im  currently  on  Syrup  Paracetamol,\n\nLasoride, Aldactone, and a few others. Is this still the right treatment for me?\n\nDoctor: Yes, your current medications seem appropriate for managing the condition. However, well\n\nneed to make some adjustments based on the latest lab results and radiological findings. Let me go\n\nover those with you.\n\nDoctor: Your recent lab results show that your bilirubin is 2.3, AST is 125, albumin is low at 2.2, and\n\nyour INR is elevated at 2.2. These all suggest liver dysfunction, and we need to continue managing\n\nthose with medications like albumin replacement. Your hemoglobin is also quite low at 8.4, and your\n\nplatelet count is 78, so we need to monitor for any bleeding risks.\n\nPatient: I see. Is there anything else I need to be concerned about?\n\nDoctor: Your livers condition is quite concerning, and I also want to highlight the findings from your\n\n\frecent radiological scans. Your ultrasound shows liver enlargement with hypertrophy of the caudate\n\nlobe.  The  CT  scan  shows  signs  of  hepatomegaly,  with  a  narrowed  intrahepatic  IVC  and  features\n\nconsistent with Budd Chiari Syndrome.\n\nPatient: Whats the plan moving forward?\n\nDoctor:  Well  continue  your  medications,  but  we  are  considering  a  liver  transplant  as  the  definitive\n\ntreatment.  Well  discuss  this  in  our  multidisciplinary  team  (MDT)  meeting.  In  the  meantime,  well\n\ndiscontinue the diuretics, monitor your lab results closely, and plan for an endoscopy to assess any\n\nother potential issues.\n\nPatient: That sounds serious. What do I need to do at home?\n\nDoctor:  Youll  need  to  continue  your  current  medications  and  make  sure  you  follow  up  with  the\n\nscheduled labs. We also recommend some additional support, such as taking Vitamin A, D, and E\n\ndrops,  and  ensuring  you're  on  the  MCT  oil  regimen.  Ill  also  prescribe  some  antibiotics  in  case  of\n\ninfection.\n\nPatient: Thank you for explaining everything, doctor. Im a bit worried, but Ill follow your instructions\n\nclosely.\n\nDoctor: I understand this is a lot to take in. We will be here every step of the way, and well ensure\n\nyou get the best care possible. Lets stay in touch and monitor your progress closely. Do you have\n\nany other questions or concerns?\n\nPatient: Not at the moment. Ill follow up as you suggested. Thank you.\n\n\fImpression: Budd Chiari Syndrome\n\nPlan:\n\nDiscuss in MDT\n\nDiscontinue diuretics (Tablet Lasoride, Aldactone)\n\nFollow up on Friday\n\nRepeat baseline labs on follow-up\n\nScreening endoscopy planned\n\nContinue current medications\n\nParental counseling done\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "5",
+            "MRN": "867175",
+            "Diagnosis": "Budd-Chiari syndrome"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "abdominal distention",
+                "jaundice",
+                "ascites",
+                "difficulty breathing",
+                "fatigue"
+            ],
+            "NegativeFindings": [
+                "None"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Budd-Chiari syndrome"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Syrup Paracetamol",
+                "Lasoride",
+                "Aldactone",
+                "Vitamin A drops",
+                "Vitamin D drops",
+                "Vitamin E drops",
+                "antibiotics"
+            ],
+            "Procedures": [
+                "multiple taps",
+                "endoscopy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "CT scan shows signs of hepatomegaly",
+                "narrowed intrahepatic IVC",
+                "ultrasound shows liver enlargement with hypertrophy of the caudate lobe"
+            ],
+            "LabResults": [
+                "bilirubin 2.3",
+                "AST 125",
+                "albumin 2.2",
+                "INR 2.2",
+                "hemoglobin 8.4",
+                "platelet count 78"
+            ],
+            "PathologyFindings": [
+                "None"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "abdominal TB"
+            ],
+            "Comorbidities": [
+                "None"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "MDT meeting"
+            ],
+            "ScheduledTests": [
+                "repeat baseline labs"
+            ],
+            "NextAppointmentDetails": [
+                "follow up on Friday"
+            ]
+        },
+        "VisitTimeline": [
+            "admitted for about 15 days at Childrens Hospital",
+            "treatment for abdominal TB for a year"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient experienced abdominal distention and fever for 3 years, treated for abdominal TB, stable for 2 years, then symptoms returned.",
+            "DiagnosticJourney": "Diagnosed with Budd-Chiari syndrome after investigations at Childrens Hospital.",
+            "TreatmentResponse": "Current medications are appropriate, but adjustments may be needed based on lab results.",
+            "OngoingConcerns": "Monitoring liver function and managing ascites, considering liver transplant."
+        }
+    }
+}

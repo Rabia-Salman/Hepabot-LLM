@@ -1,0 +1,133 @@
+{
+    "patient_id": "history_physical_46",
+    "raw_text": "Gender: Female\n\nAge: 57\n\nMRN: 851848\n\nDiagnosis: Cholangiocarcinoma\n\nHistory and Physical:\n\nDoctor: Hello! How are you feeling today?\n\nPatient: I'm having mild pain at the surgical site and some bloating.\n\nDoctor:  I  see.  That  can  be  expected  in  the  early  post-operative  days.  How's  your  appetite  and\n\nenergy?\n\nPatient: Appetite is okay but I do feel a bit weak. The discomfort is mostly around my upper belly.\n\nDoctor: That would be the epigastric region, correct?\n\nPatient: Yes, exactly there.\n\nDoctor: Understood. Let's go over some of your history to keep everything in perspective. You had\n\nH. pylori gastritis which caused a peptic ulcer and melena about a year ago, right?\n\nPatient: Yes, thats correct.\n\nDoctor: And you had a laparotomy about 30 years ago for volvulus?\n\nPatient: Yes, I had that surgery a long time ago. No issues since then.\n\n\fDoctor: Any family or social history we need to be aware of?\n\nPatient: No, nothing significant. No allergies either.\n\nDoctor: Alright. On examination, your wound is healthy and healing well. Your ultrasound abdomen\n\nfrom 23rd January shows:\n\nStatus post left hepatectomy.\n\nNo significant abdominal collection.\n\nOverall, its an unremarkable scan, which is good news.\n\nNow lets review your lab results:\n\nDate(cid:9)Hb(cid:9)WBC(cid:9)PLT(cid:9)T. Bili(cid:9)D. Bili(cid:9)ALT/AST(cid:9)Alk. Phos(cid:9)Albumin(cid:9)Creatinine(cid:9)Na+(cid:9)K+\n\n17/01/25(cid:9)\n\n(cid:9)0.81(cid:9)0.45(cid:9)220/291(cid:9)74(cid:9)3.26(cid:9)0.54(cid:9)\n\n20/01/25(cid:9)9.2(cid:9)5.8(cid:9)173(cid:9)\n\n23/01/25(cid:9)11.2(cid:9)10.6(cid:9)351(cid:9)0.3(cid:9)0.15(cid:9)56/41(cid:9)138(cid:9)4.28(cid:9)0.67(cid:9)138(cid:9)4.28\n\nAll  your  labs  are  trending  well.  Your  hemoglobin  improved,  liver  enzymes  normalized  significantly,\n\nand your bilirubin levels dropped  thats very positive. No concerns from our side at the moment.\n\nPatient: Thats a relief to hear.\n\nDoctor: Great. Well go ahead and remove your urostomy bag now. Please come for follow-up in two\n\nweeks with repeat LFTs and CBC. We'll also review your histopathology report at that time.\n\n(cid:9)\n(cid:9)\n(cid:9)\n(cid:9)\n(cid:9)\n(cid:9)\n(cid:9)\n(cid:9)\n(cid:9)\n(cid:9)\n\fPost-operative Visit 2  POD 25 (10/02/25)\n\nDoctor: Welcome back. How have you been since our last visit?\n\nPatient: I've been struggling a bit with insomnia again. I used to take Escitalopram 5 mg once daily\n\nfor this.\n\nDoctor: Understood. Anything else?\n\nPatient: I feel generalized weakness and Ive lost my appetite.\n\nDoctor: Got it. Did anything new happen over the last couple of weeks?\n\nPatient: Yes, I had a urinary tract infection about a week ago. It was managed conservatively and it's\n\nsettled now.\n\nDoctor: Alright. On examination, your abdomen is soft, and your wound is completely healed. Lets\n\ngo over your final histopathology report in detail:\n\nDiagnosis:  Intrahepatic  cholangiocarcinoma  (mixed  large  and  small  duct  type),  moderately\n\ndifferentiated, Grade 2.\n\nSize: 11 cm tumor.\n\nPathological  Stage:  pT1b,  pN0,  pMx    meaning  it's  limited  to  the  liver,  no  nodal  or  distant  spread\n\nevident.\n\nMargins:\n\n\fLiver parenchymal margin: Involved by tumor.\n\nAll other margins (capsular, hilar soft tissue, hepatic duct, artery, portal vein): Uninvolved, 0.10.6 cm\n\naway from tumor.\n\nLymph Nodes:\n\n10 nodes reactive and free of tumor.\n\nGallbladder: Chronic cholecystitis, no tumor.\n\nOther excised tissues: No malignancy seen.\n\nPatient: What does it mean that the liver margin is involved?\n\nDoctor:  That  indicates  the  tumor  reached  the  cut  edge  of  the  liver,  which  increases  the  risk  of\n\nrecurrence. We will need to monitor this closely and involve oncology for further management.\n\nLet me summarize the additional lymph node findings:\n\nRight periportal, common hepatic artery, cystic artery, and falciform ligament lymph nodes  all were\n\nreactive and free of tumor, with no granulomas or malignancy.\n\nPatient: Okay, I understand. Is there anything else?\n\nDoctor: Lets review your updated lab results up to 05/02/25:\n\n\fDate(cid:9)Hb(cid:9)WBC(cid:9)PLT(cid:9)T. Bili(cid:9)D. Bili(cid:9)ALT/AST(cid:9)Alk. Phos(cid:9)Albumin(cid:9)Creatinine(cid:9)Na+(cid:9)K+\n\n17/01/25(cid:9)\n\n(cid:9)0.81(cid:9)0.45(cid:9)220/291(cid:9)74(cid:9)3.26(cid:9)0.54(cid:9)\n\n20/01/25(cid:9)9.2(cid:9)5.8(cid:9)173(cid:9)\n\n23/01/25(cid:9)11.2(cid:9)10.6(cid:9)351(cid:9)0.3(cid:9)0.15(cid:9)56/41(cid:9)138(cid:9)4.28(cid:9)0.67(cid:9)138(cid:9)4.28\n\n05/02/25(cid:9)10.6(cid:9)4.59(cid:9)249(cid:9)0.5(cid:9)0.1(cid:9)14/26(cid:9)226(cid:9)3.9(cid:9)\n\nYour liver function tests are continuing to improve, and your bilirubin, ALT, AST, and albumin levels\n\nare acceptable post-op.\n\nCurrent Medications:\n\nOmeprazole 40 mg once daily\n\nQalsan D\n\nMultivitamin\n\nParacetamol as needed for pain\n\nPatient: Whats the next step?\n\nDoctor: Heres the plan:\n\nWeve  discussed  your  histopathology  in  detail    because  the  margin  is  involved,  well  refer  you  to\n\noncology for chemotherapy options.\n\nWell repeat CT scan in 2 months.\n\n(cid:9)\n(cid:9)\n(cid:9)\n(cid:9)\n(cid:9)\n(cid:9)\n(cid:9)\n(cid:9)\n(cid:9)\n(cid:9)\n(cid:9)\n(cid:9)\n\fAlso, repeat CA 19-9 tumor marker.\n\nAnd yes, you can resume Citanew (Escitalopram) for insomnia as before.\n\nPatient: Thank you, doctor. That really helps. Will I need regular follow-ups?\n\nDoctor:  Yes,  absolutely.  This  will  be  a  team  effort  between  us  and  oncology.  Weve  explained\n\neverything today in detail, and youll be under continued monitoring. Lets keep in close touch.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Female",
+            "Age": "57",
+            "MRN": "851848",
+            "Diagnosis": "Cholangiocarcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "mild pain at the surgical site",
+                "bloating",
+                "weakness",
+                "insomnia",
+                "loss of appetite"
+            ],
+            "NegativeFindings": [
+                "no significant abdominal collection",
+                "no allergies",
+                "no family history"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Intrahepatic cholangiocarcinoma (mixed large and small duct type), moderately differentiated, Grade 2",
+            "Size: 11 cm tumor",
+            "Pathological Stage: pT1b, pN0, pMx"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Omeprazole 40 mg once daily",
+                "Qalsan D",
+                "Multivitamin",
+                "Paracetamol as needed for pain",
+                "Escitalopram 5 mg once daily"
+            ],
+            "Procedures": [
+                "left hepatectomy",
+                "urostomy bag removal"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "Status post left hepatectomy",
+                "unremarkable ultrasound abdomen"
+            ],
+            "LabResults": [
+                {
+                    "Date": "17/01/25",
+                    "Hb": "0.81",
+                    "WBC": "0.45",
+                    "PLT": "220/291",
+                    "T. Bili": "74",
+                    "D. Bili": "3.26",
+                    "ALT/AST": "0.54"
+                },
+                {
+                    "Date": "20/01/25",
+                    "Hb": "9.2",
+                    "WBC": "5.8",
+                    "PLT": "173"
+                },
+                {
+                    "Date": "23/01/25",
+                    "Hb": "11.2",
+                    "WBC": "10.6",
+                    "PLT": "351",
+                    "T. Bili": "0.3",
+                    "D. Bili": "0.15",
+                    "ALT/AST": "56/41",
+                    "Albumin": "138",
+                    "Creatinine": "4.28",
+                    "Na+": "0.67",
+                    "K+": "138"
+                },
+                {
+                    "Date": "05/02/25",
+                    "Hb": "10.6",
+                    "WBC": "4.59",
+                    "PLT": "249",
+                    "T. Bili": "0.5",
+                    "D. Bili": "0.1",
+                    "ALT/AST": "14/26",
+                    "Alk. Phos": "226",
+                    "Albumin": "3.9"
+                }
+            ],
+            "PathologyFindings": [
+                "Liver parenchymal margin: Involved by tumor",
+                "All other margins: Uninvolved, 0.1-0.6 cm away from tumor",
+                "10 nodes reactive and free of tumor",
+                "Gallbladder: Chronic cholecystitis, no tumor",
+                "Other excised tissues: No malignancy seen"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "H. pylori gastritis",
+                "peptic ulcer",
+                "melena"
+            ],
+            "Comorbidities": [
+                "previous laparotomy for volvulus"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "oncology for chemotherapy options"
+            ],
+            "ScheduledTests": [
+                "repeat CT scan in 2 months",
+                "repeat CA 19-9 tumor marker"
+            ],
+            "NextAppointmentDetails": [
+                "follow-up in two weeks with repeat LFTs and CBC"
+            ]
+        },
+        "VisitTimeline": [
+            {
+                "VisitDate": "10/02/25",
+                "VisitType": "Post-operative Visit 2",
+                "POD": "25"
+            }
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient experienced mild pain and bloating post-surgery, with some weakness and insomnia.",
+            "DiagnosticJourney": "Diagnosis of intrahepatic cholangiocarcinoma confirmed through histopathology.",
+            "TreatmentResponse": "Liver function tests improving post-operatively.",
+            "OngoingConcerns": "Involved liver margin increases risk of recurrence; close monitoring required."
+        }
+    }
+}

@@ -1,0 +1,100 @@
+{
+    "patient_id": "history_physical_32",
+    "raw_text": "Gender: Male\n\nAge: 5\n\nMRN: 799979\n\nDiagnosis: Budd-Chiari syndrome\n\nHistory and Physical:\n\nPatient: \"Doctor, I have been feeling really unwell lately. Ive been coughing for the past three days,\n\nand its been bothering me quite a bit.\"\n\nDoctor: \"Alright, lets go over everything in detail. Youve mentioned a cough, but we need to check\n\non the other things as well. Could you tell me if youve had any other issues in the past month?\"\n\nPatient: \"Yes, actually. About a month ago, I had loose motions, vomiting, abdominal distension, and\n\nfever. I went through some investigations, and they suspected ascites.\"\n\nDoctor: \"Thank you for the details. Im reviewing your medical history. There's nothing significant in\n\nyour  past  medical  or  surgical  history,  and  your  family  history  doesnt  show  anything  remarkable\n\neither.  Your  birth  was  uneventful,  and  vaccinations  have  been  given  according  to  the  national\n\nschedule. Your development and nutrition seem to be normal, too.\"\n\nPatient: \"Yes, everything else has been fine up until now.\"\n\nDoctor: \"Alright, lets examine you. Ive noted that your weight and height are within the 5th centile for\n\nyour age, but your height is above the 50th centile. Theres no jaundice, no pallor, and no swelling.\n\nYour heart sounds normal. Your consciousness is intact, with a Glasgow Coma Scale of 15/15. Your\n\nbreathing is also normal.\"\n\nPatient: \"Okay, thats a relief.\"\n\n\fDoctor:  \"Your  abdominal  examination  shows  a  soft  abdomen  with  a  6  cm  enlarged  liver,  but  the\n\nspleen is not palpable. Theres no sign of portal vein thrombosis. Lets review your lab results. Your\n\nbilirubin is 1.7, and liver enzymes are elevated: ALT is 369, AST is 336, ALP is 218, and GGT is 34.\n\nYour albumin is at 3.4, and your INR is 1.6, indicating some liver dysfunction. You also have a mild\n\ndecrease in your platelets (100), and sodium levels are a bit low at 128.\"\n\nPatient: \"What does all that mean, doctor?\"\n\nDoctor: \"The liver enzymes are quite high, which indicates liver stress or injury. The low sodium and\n\nplatelets  can  be  related  to  liver  problems.  I  also  see  that  you  have  a  negative  autoimmune  profile\n\nand negative hepatitis B and C results. This could be helpful in understanding the cause.\"\n\nPatient: \"What do the scans show?\"\n\nDoctor: \"Your ultrasound from August 8th showed hepatomegaly with altered liver echotexture and\n\nnarrowing of the hepatic veins. It is suggestive of Budd-Chiari syndrome, which is a blockage of the\n\nhepatic  veins.  Your  CT  scan  on  August  9th  confirmed  hepatomegaly  with  heterogeneous\n\nparenchymal  enhancement,  a  narrowed  intrahepatic  IVC,  and  mild  ascites,  splenomegaly,  and\n\nnecrotic mesenteric lymph nodes. These are concerning signs of liver disease.\"\n\nPatient: \"What are we doing about it?\"\n\nDoctor:  \"Weve  started  you  on  treatment  with  spironolactone  to  manage  ascites  and  vitamin  K\n\nsupplementation.  Were  also  planning  further  tests,  including  a  Fibroscan  today,  and  we'll  need  to\n\nrepeat  some  baseline  tests  like  Protein  C,  Anti-thrombin  III,  and  IgG.  You  should  follow  a  low-salt\n\ndiet and continue taking your medications, including omeprazole for stomach protection.\"\n\n\fFollow-Up Visit (27.08.2024)\n\nPatient: \"Doctor, I dont have any major complaints right now, but Ive been following the treatment.\"\n\nDoctor:  \"Thats  good  to  hear.  Lets  review  your  condition.  Your  weight  is  stable  at  15  kg,  and  your\n\nheight is still at the 5th centile. Your jaundice is negative, theres no pallor, and your edema has not\n\nworsened.  You  still  have  a  soft  abdomen  with  a  palpable  liver.  The  shifting  dullness  in  your\n\nabdomen suggests ongoing ascites.\"\n\nPatient: \"I see. Is everything else looking fine?\"\n\nDoctor:  \"Your  liver  enzymes  have  been  monitored,  and  the  autoimmune  profile  remains  negative.\n\nThe ultrasound and CT scans still show signs of hepatomegaly and altered liver structure, consistent\n\nwith Budd-Chiari syndrome.\"\n\nPatient: \"Whats the next step?\"\n\nDoctor: \"Well do a Fibroscan to check the liver stiffness. Well also collect some more baseline tests,\n\nincluding a blood group, crossmatch, and viral serology. You need to avoid salt and continue your\n\nmedications.  We  are  also  planning  for  an  endoscopy  to  evaluate  for  esophageal  varices  and\n\ngastropathy.\"\n\nFollow-Up Visit (03.09.2024)\n\nPatient:  \"Doctor,  my  abdominal  distension  has  been  getting  worse  for  the  past  few  days.  Ive  also\n\nhad some steatorrhea.\"\n\n\fDoctor: \"Thank you for the update. It seems like your symptoms are progressing. Your weight is up\n\nto 16 kg, and your height is 112 cm, but your liver function is still impaired. The Fibroscan results\n\nshowed F0 stage, indicating no significant fibrosis, but your ascites and jaundice are still a concern.\"\n\nPatient: \"What are the latest lab results?\"\n\nDoctor: \"Your Protein C is at 49, Protein S at 79, and Anti-thrombin III at 118, which are a bit low.\n\nWe are still waiting on your IgG levels. Your autoimmune profile is negative, and both HBsAg and\n\nAnti-HCV tests remain negative.\"\n\nPatient: \"I still have the same medications, right?\"\n\nDoctor:  \"Yes,  you  continue  on  spironolactone,  omeprazole,  ora  AD  drops,  and  vitamin  K.  Ive\n\nadjusted  your  spironolactone  to  12.5  mg  twice  daily,  and  we  will  add  furosemide  to  help  with  fluid\n\nretention.\"\n\nPatient: \"Whats the next step, doctor?\"\n\nDoctor: \"Well monitor your serum IgG levels and proceed with an endoscopy to check for varices.\n\nWell  also  follow  up  in  a  few  days  for  anesthesia  and  pre-procedure  workup  for  your  upcoming\n\nprocedure.\"\n\nEndoscopy Report (10.09.2024)\n\nDoctor:  \"Your  endoscopy  today  showed  grade  2  esophageal  varices  without  red  signs,  which  is\n\nimportant  to  manage.  Well  continue  with  your  current  treatment  plan  and  monitor  for  any\n\n\fcomplications. Keep up with the low-salt diet and your medications.\"\n\nFollow-Up Visit (30.09.2024)\n\nPatient: \"Doctor, Ive been feeling worse again. Ive had loose stools for the last two days, along with\n\nabdominal pain, vomiting, and fever.\"\n\nDoctor: \"It seems like theres a worsening of your symptoms. Your weight remains stable, and your\n\nheight is still at the 50th centile. Youre still showing signs of ascites and jaundice is absent, but there\n\nare some changes we need to keep an eye on.\"\n\nPatient: \"What are the current lab results?\"\n\nDoctor: \"The lab results are mostly unchanged, with your protein levels still low. The endoscopy on\n\n10th September confirmed grade 2 esophageal varices, and your ultrasound and CT scans remain\n\nconsistent with the previous findings of hepatomegaly and ascites.\"\n\nPatient: \"Whats the plan now, doctor?\"\n\nDoctor:  \"We  will  continue  your  treatment  and  ensure  you  follow  a  strict  salt-free  diet.  You  need  to\n\nstay on your current medications, and we will repeat some tests, including CBC, liver function tests,\n\nand renal function tests, to monitor your progress. We will also keep an eye on your protein levels\n\nand plan for further interventions if needed.\"\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "5",
+            "MRN": "799979",
+            "Diagnosis": "Budd-Chiari syndrome"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "cough",
+                "abdominal distension",
+                "vomiting",
+                "loose motions",
+                "fever",
+                "steatorrhea",
+                "abdominal pain"
+            ],
+            "NegativeFindings": [
+                "jaundice",
+                "pallor",
+                "swelling"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "hepatomegaly",
+            "altered liver echotexture",
+            "narrowing of the hepatic veins",
+            "portal vein thrombosis negative",
+            "grade 2 esophageal varices"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "spironolactone",
+                "omeprazole",
+                "vitamin K",
+                "furosemide",
+                "AD drops"
+            ],
+            "Procedures": [
+                "Fibroscan",
+                "endoscopy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "ultrasound showing hepatomegaly with altered liver echotexture",
+                "CT scan confirming hepatomegaly with heterogeneous parenchymal enhancement, narrowed intrahepatic IVC, mild ascites, splenomegaly, and necrotic mesenteric lymph nodes"
+            ],
+            "LabResults": [
+                "bilirubin 1.7",
+                "ALT 369",
+                "AST 336",
+                "ALP 218",
+                "GGT 34",
+                "albumin 3.4",
+                "INR 1.6",
+                "platelets 100",
+                "sodium 128",
+                "Protein C 49",
+                "Protein S 79",
+                "Anti-thrombin III 118"
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Budd-Chiari syndrome"
+            ],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [],
+            "ScheduledTests": [
+                "CBC",
+                "liver function tests",
+                "renal function tests",
+                "blood group",
+                "crossmatch",
+                "viral serology"
+            ],
+            "NextAppointmentDetails": []
+        },
+        "VisitTimeline": [
+            "Initial Visit",
+            "Follow-Up Visit (27.08.2024)",
+            "Follow-Up Visit (03.09.2024)",
+            "Endoscopy Report (10.09.2024)",
+            "Follow-Up Visit (30.09.2024)"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "The patient has shown ongoing symptoms of abdominal distension and liver dysfunction, with stable weight but worsening abdominal symptoms.",
+            "DiagnosticJourney": "The patient underwent multiple imaging studies and lab tests leading to the diagnosis of Budd-Chiari syndrome.",
+            "TreatmentResponse": "The patient is on a treatment regimen that includes diuretics and monitoring of liver function, with some adjustments made to medications.",
+            "OngoingConcerns": "The patient continues to experience ascites and has developed esophageal varices, requiring close monitoring and potential further interventions."
+        }
+    }
+}

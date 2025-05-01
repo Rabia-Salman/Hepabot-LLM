@@ -1,0 +1,127 @@
+{
+    "patient_id": "history_physical_6",
+    "raw_text": "Gender: Female\n\nAge: 59\n\nMRN: 796689\n\nDiagnosis: Chronic viral hepatitis C\n\nHistory and Physical:\n\n15-08-2024: First Visit in PKLi Executive Clinic\n\nPatient:\n\nDoctor, I have HCV and I was treated for it. However, I haven't achieved SVR.\n\nDoctor:\n\nI  see.  You  dont  have  diabetes  or  hypertension,  but  you  do  have  decompensated  cirrhosis  with\n\nascites, portal-systemic encephalopathy (PSE), and jaundice. Well need to monitor and manage this\n\nclosely.\n\nDoctor:\n\nYou are classified as Child-Pugh Class C (10). Unfortunately, a donor is not available yet, so we'll\n\ncontinue with your treatment for acute kidney injury (AKI) and hepatorenal syndrome (HRS).\n\nPlan:\n\nSend Child-Pugh score labs\n\nAFP test\n\nMRI liver dynamic when creatinine is < 2.0\n\n\fContinue medical optimization at Shalimar Hospital\n\nThe family was informed about the need for a liver transplant after medical optimization and ECOG\n\nimprovement.\n\nThe patient will come tomorrow with a donor.\n\nDoctor:\n\nI'll be following up on this, and well discuss the transplant process more when we see the donor.\n\n23-08-2024: Initial Nephrology Visit\n\nPatient:\n\nDoctor, I came today for your opinion on the triphasic CT scan. My creatinine is 1.8.\n\nDoctor:\n\nIt looks like we can proceed with the CT scan, but youll need IV hydration first. You should get 100\n\nml normal saline in one hour before the contrast, followed by 100 ml per hour for the next 4 hours.\n\nDoctor:\n\nAfter the CT, well repeat your creatinine levels in 3 days.\n\n03-09-2024: HPB & LTX Clinic\n\nPatient:\n\nDoctor, I've been having abdominal distension and orthopnea. Ive had these symptoms for a while\n\nnow.\n\n\fDoctor:\n\nI see, you were diagnosed with HCV in 2006 and treated with DAAs for 6 months. You've achieved\n\nSVR. From July 2024, your ascites became diuretic-resistant, and you had an ascitic tap for relief.\n\nNow you're seeking a liver transplant opinion.\n\nDoctor:\n\nYouve  had  two  episodes  of  portal-systemic  encephalopathy  (PSE)  and  no  significant  jaundice  or\n\nhematemesis. Your last ascitic tap was on 02-09-2024, and we took 2L of fluid.\n\nDoctor:\n\nYouve also had significant weight loss, but no blood transfusions, fever, or night sweats.\n\nReview of Medical History:\n\nHypertension\n\nNo prior surgeries\n\nOn current medications including rifaxamine, aminoliban powder, lactulose syrup, and carvedilol.\n\nThe family history includes diabetes in your older brother and hypertension in your younger brother.\n\nExamination:\n\nConscious, well-oriented, GCS 15/15.\n\n\fAbdomen: Soft, non-tender, distended.\n\nInvestigations:\n\nUltrasound (26-06-24): Chronic liver changes, splenomegaly, severe ascites, cholelithiasis.\n\nCT Scan (26-08-24): No HCC, moderate ascites, pleural effusion, and concerns about lung infection.\n\nLabs:\n\nHb: 8.8\n\nCreatinine: 1.7\n\nAlbumin: 2.14\n\nCTP: 10C\n\nMELD Na: 18\n\nDiagnosis:\n\nHCV-related decompensated liver disease.\n\nLiver transplant is the definitive treatment option.\n\nDiscussed  donor  criteria  and  associated  risks  including  mortality,  morbidity,  and  post-transplant\n\n\fcomplications.\n\nPlan:\n\nContinue medications and optimize the patient for transplant.\n\nFamily was informed about the risks of living donor liver transplant, including potential complications\n\nand the need for lifelong immunosuppressants.\n\n26-09-2024: Gynaecology Clinic\n\nPatient:\n\nIm here for a follow-up regarding my liver transplant candidacy.\n\nDoctor:\n\nWe  reviewed  your  medical  history.  Youre  post-menopausal,  and  your  ultrasound  shows  no\n\nsignificant pelvic pathology.\n\nDoctor:\n\nYour liver transplant candidacy is still under review, and were considering your cardiovascular status\n\nas well.\n\n03-10-2024: Right Heart Catheterization\n\nPatient:\n\nI had the heart catheterization today. What are the results?\n\n\fDoctor:\n\nThe catheterization and coronary angiogram came back normal. Youre at low risk for major adverse\n\ncardiovascular  events  during  elective  non-cardiac  surgery,  so  were  clear  to  proceed  with  liver\n\ntransplant surgery after optimizing your thyroid levels.\n\nPlan:\n\nContinue with the liver transplant evaluation and treatment optimization.\n\n15-10-2024: Follow-up Visit\n\nPatient:\n\nIve been testing positive for COVID-19, so my liver transplant evaluation was delayed.\n\nDoctor:\n\nYes, weve postponed your transplant evaluation for now. Your workup is completed, but well need\n\nto re-evaluate your condition once your COVID status clears.\n\nPlan:\n\nContinue monitoring your symptoms and complete your evaluation once youre cleared.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Female",
+            "Age": "59",
+            "MRN": "796689",
+            "Diagnosis": "Chronic viral hepatitis C"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "Abdominal distension",
+                "Orthopnea"
+            ],
+            "NegativeFindings": [
+                "No significant jaundice",
+                "No blood transfusions",
+                "No fever",
+                "No night sweats"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "HCV-related decompensated liver disease",
+            "Child-Pugh Class C",
+            "Decompensated cirrhosis with ascites",
+            "Portal-systemic encephalopathy (PSE)"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Rifaxamine",
+                "Aminoliban powder",
+                "Lactulose syrup",
+                "Carvedilol"
+            ],
+            "Procedures": [
+                "Ascitic tap",
+                "CT scan",
+                "MRI liver dynamic"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "Chronic liver changes",
+                "Splenomegaly",
+                "Severe ascites",
+                "Cholelithiasis",
+                "No HCC",
+                "Moderate ascites",
+                "Pleural effusion"
+            ],
+            "LabResults": [
+                {
+                    "Hb": "8.8"
+                },
+                {
+                    "Creatinine": "1.7"
+                },
+                {
+                    "Albumin": "2.14"
+                },
+                {
+                    "CTP": "10C"
+                },
+                {
+                    "MELD Na": "18"
+                }
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Chronic viral hepatitis C",
+                "Decompensated cirrhosis"
+            ],
+            "Comorbidities": [
+                "Hypertension"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "Nephrology",
+                "Gynaecology"
+            ],
+            "ScheduledTests": [
+                "Child-Pugh score labs",
+                "AFP test",
+                "MRI liver dynamic when creatinine is < 2.0"
+            ],
+            "NextAppointmentDetails": [
+                "Follow-up visit for liver transplant evaluation"
+            ]
+        },
+        "VisitTimeline": [
+            {
+                "Date": "15-08-2024",
+                "VisitType": "First Visit in PKLi Executive Clinic"
+            },
+            {
+                "Date": "23-08-2024",
+                "VisitType": "Initial Nephrology Visit"
+            },
+            {
+                "Date": "03-09-2024",
+                "VisitType": "HPB & LTX Clinic"
+            },
+            {
+                "Date": "26-09-2024",
+                "VisitType": "Gynaecology Clinic"
+            },
+            {
+                "Date": "03-10-2024",
+                "VisitType": "Right Heart Catheterization"
+            },
+            {
+                "Date": "15-10-2024",
+                "VisitType": "Follow-up Visit"
+            }
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has chronic viral hepatitis C with decompensated cirrhosis and has been treated but has not achieved SVR.",
+            "DiagnosticJourney": "Patient underwent various imaging studies and lab tests to assess liver function and complications.",
+            "TreatmentResponse": "Patient has been on medications for liver disease and is being optimized for liver transplant.",
+            "OngoingConcerns": "Patient is currently positive for COVID-19, delaying the liver transplant evaluation."
+        }
+    }
+}

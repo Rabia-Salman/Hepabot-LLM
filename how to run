@@ -1,0 +1,91 @@
+step1: i have created pdfs of gender, age, mrn, diagnosis and converstion from xlsx using file
+reading csv to pdf.py
+
+step2: next i have ran enhanced_extractions to convert these pdfs to one comprehensive
+structured json file
+
+step3: next i ran extract_each_patient_json.py to get individual json files for each patient and
+get directory split_patient_files
+
+step4: next i will store each json in vectordb for this run file upload_patients.py (path to json directory where
+individual jsons are stored)
+this file uses vector_db and data_processor.py
+
+
+
+
+
+# Running Instructions
+
+## Setup
+
+1. First, install the required dependencies:
+
+```bash
+pip install streamlit chromadb pandas tqdm
+```
+
+2. Ensure you have all the files in the same directory:
+   - `app.py`
+   - `vector_db.py`
+   - `data_processor.py`
+   - `upload_patients.py`
+
+## Running the Streamlit App
+
+To run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+This will start the web interface where you can:
+- Import patient records via JSON file upload or direct input
+- Search for patient records using semantic queries
+- View database information
+
+## Batch Upload Using Command Line
+
+For bulk uploading patient records from JSON files, use the standalone script:
+
+```bash
+# Process a single JSON file
+python upload_patients.py path/to/patient_records.json
+
+# Process all JSON files in a directory
+python upload_patients.py path/to/json_directory/
+
+# Specify a custom database location
+python upload_patients.py path/to/patient_records.json --db ./my_custom_db_path
+```
+
+## Example Usage
+
+1. Upload a sample patient record:
+   - Navigate to the "Import Data" tab in the Streamlit app
+   - Upload a JSON file containing patient records or paste JSON directly
+
+2. Search for patients:
+   - Go to the "Search Records" tab
+   - Enter a search query like "chronic liver disease" or "esophageal varices"
+   - Use filters to narrow down results by gender, age, or diagnosis
+
+3. Check database information:
+   - Visit the "Database Info" tab to see collection statistics
+
+## Directory Structure
+
+After running the application, your directory structure should look like:
+
+```
+project/
+├── app.py
+├── vector_db.py
+├── data_processor.py
+├── upload_patients.py
+├── chroma_db/
+│   ├── chroma.sqlite3
+│   └── embeddings/
+```
+
+The `chroma_db` directory contains the persistent vector database files.

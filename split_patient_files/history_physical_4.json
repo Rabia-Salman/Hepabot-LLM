@@ -1,0 +1,113 @@
+{
+    "patient_id": "history_physical_4",
+    "raw_text": "Gender: Female\n\nAge: 53\n\nMRN: 897183\n\nDiagnosis: Chronic viral hepatitis C\n\nHistory and Physical:\n\nFirst Visit in PKLI\n\nDoctor:\n\nGood morning. How can I assist you today?\n\nPatient:\n\nIve been having black stool for about a year now. It was intermittent, but for the past three months,\n\nits been continuous.\n\nDoctor:\n\nI see. Have you been hospitalized recently for this issue?\n\nPatient (Attendant):\n\nYes, she was admitted at Faisalabad Institute of Cardiology for deranged INR. She was referred to\n\nus for an evaluation regarding capsule endoscopy.\n\nDoctor:\n\nThank you for the information. Do you have any recent blood test reports?\n\nPatient (Attendant):\n\nHer hemoglobin is 6 according to us, but we don't have a recent report available.\n\nDoctor:\n\nUnderstood. Lets go over your medical history to get a better picture.\n\nDo you have any history of hypertension or other conditions?\n\nPatient:\n\nYes, I have hypertension. I also had hemorrhoids in the past.\n\nIn 2008, I underwent a dual valve replacement, and I was diagnosed with HCV in 2008, but I have\n\nnever received treatment for it.\n\n\fIve had episodes of decompensation, including the black stool and hepatic encephalopathy (PSE).\n\nDoctor:\n\nThank you for sharing that. Lets review your liver-related decompensation history:\n\n(cid:9)Ascites: Any swelling in the abdomen?\n\nPatient: No.\n\n(cid:9)Jaundice: Have you noticed yellowing of your skin or eyes?\n\nPatient: No.\n\n(cid:9)Variceal bleed: Any bleeding from the esophagus or stomach?\n\nPatient: Yes, I required multiple transfusions for variceal bleed.\n\n(cid:9)Hepatic encephalopathy: Have you experienced confusion or changes in mental status?\n\nPatient: Yes, Ive had hepatic encephalopathy before.\n\nDoctor:\n\nThank you for the details. Now, lets proceed with your past medical and surgical history.\n\nYou mentioned hypertension. Any other medical issues?\n\nPatient:\n\nOnly the history of HTN.\n\nDoctor:\n\nAny surgeries in the past?\n\nPatient:\n\nYes, I had a C-section 23 years ago, and I underwent DVR in 2008.\n\nDoctor:\n\nThank you for sharing. Are there any known allergies?\n\nPatient:\n\nNo allergies.\n\nDoctor:\n\nLets discuss your current medications. What are you taking at the moment?\n\nPatient (Attendant):\n\n\fShe is currently on the following medications:\n\n(cid:9)Aspirin 75mg once daily (stopped 1 year ago)\n\n(cid:9)Spiromide 40mg once daily\n\n(cid:9)Warfarin 13.75mg (one and a half tablets) once daily\n\n(cid:9)Digoxin 0.25mg once daily\n\n(cid:9)Syrup Ulsanic (two spoons twice daily)\n\nDoctor:\n\nGot it. Now, moving on to your psychosocial history. Are there any concerns about your lifestyle or\n\nlimitations?\n\nPatient:\n\nNo, no limitations, and no issues with language barriers.\n\nI am married but do not have an occupation.\n\nDoctor:\n\nThank you for clarifying. Any family history of significant illnesses?\n\nPatient:\n\nYes, my sister is diabetic.\n\nDoctor:\n\nNow, lets proceed with your physical examination.\n\nOn examination:\n\n(cid:9)You are an elderly female, appearing thin and frail.\n\n(cid:9)CNS: Your Glasgow Coma Scale (GCS) is 15/15, so no signs of acute neurological issues.\n\n(cid:9)GIT: Your abdomen is soft, and there is no tenderness.\n\nDoctor:\n\nWe also reviewed your recent investigations:\n\n(cid:9)EGD (Endoscopy): Three times, last on 6-12-24, with small erosions in the duodenal bulb.\n\n(cid:9)Ultrasound Abdomen (6-12-24): Coarse liver with splenomegaly.\n\nDoctor:\n\n\fHere are your lab results from 4-12-24:\n\n(cid:9)Hemoglobin: 9.3\n\n(cid:9)TLC: 6.3\n\n(cid:9)Platelets: 177\n\n(cid:9)Sodium: 104\n\n(cid:9)Potassium: 3.97\n\n(cid:9)Chloride: 75.5\n\n(cid:9)Total Bilirubin: 0.97\n\n(cid:9)Direct Bilirubin: 0.58\n\n(cid:9)ALT: 50.8\n\n(cid:9)ALP: 92.4\n\n(cid:9)AFP: 3.57\n\n(cid:9)INR: 2.17\n\nDoctor:\n\nYour  HCV  antibody  test  is  reactive.  Based  on  all  this  information,  I  believe  you  have  HCV-related\n\ndecompensated cirrhosis (DCLD), with ongoing issues of black stool and encephalopathy.\n\nYour hypertension is poorly controlled, and your dual valve replacement from 2008 is important to\n\nconsider in your treatment.\n\nDoctor:\n\nRegarding your medications, we will continue warfarin due to your DVR, but we need to adjust your\n\nanticoagulation therapy for your upcoming colonoscopy.\n\nPlan:\n\n(cid:9)Admit you for management of melena (black stool), low hemoglobin, and to arrange a colonoscopy.\n\n(cid:9)We will need to switch your anticoagulation therapy temporarily for the procedure.\n\nDoctor:\n\nI have also provided you with patient education on your condition.\n\n\fDiagnosis:\n\n(cid:9)HCV-related DCLD\n\n(cid:9)Decompensated with black stool and encephalopathy\n\n(cid:9)Hypertension (poorly controlled)\n\n(cid:9)Dual valve replacement (DVR) in 2008\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Female",
+            "Age": "53",
+            "MRN": "897183",
+            "Diagnosis": "Chronic viral hepatitis C"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "black stool",
+                "hepatic encephalopathy"
+            ],
+            "NegativeFindings": [
+                "no ascites",
+                "no jaundice"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "HCV-related DCLD",
+            "Decompensated with black stool and encephalopathy",
+            "Hypertension (poorly controlled)",
+            "Dual valve replacement (DVR) in 2008"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Aspirin 75mg once daily (stopped 1 year ago)",
+                "Spiromide 40mg once daily",
+                "Warfarin 13.75mg (one and a half tablets) once daily",
+                "Digoxin 0.25mg once daily",
+                "Syrup Ulsanic (two spoons twice daily)"
+            ],
+            "Procedures": [
+                "admission for management of melena",
+                "arrangement for colonoscopy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "Coarse liver with splenomegaly"
+            ],
+            "LabResults": [
+                {
+                    "Hemoglobin": "9.3"
+                },
+                {
+                    "TLC": "6.3"
+                },
+                {
+                    "Platelets": "177"
+                },
+                {
+                    "Sodium": "104"
+                },
+                {
+                    "Potassium": "3.97"
+                },
+                {
+                    "Chloride": "75.5"
+                },
+                {
+                    "Total Bilirubin": "0.97"
+                },
+                {
+                    "Direct Bilirubin": "0.58"
+                },
+                {
+                    "ALT": "50.8"
+                },
+                {
+                    "ALP": "92.4"
+                },
+                {
+                    "AFP": "3.57"
+                },
+                {
+                    "INR": "2.17"
+                }
+            ],
+            "PathologyFindings": [
+                "small erosions in the duodenal bulb"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Chronic viral hepatitis C"
+            ],
+            "Comorbidities": [
+                "Hypertension",
+                "History of hemorrhoids",
+                "Dual valve replacement"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [],
+            "ScheduledTests": [
+                "colonoscopy"
+            ],
+            "NextAppointmentDetails": []
+        },
+        "VisitTimeline": [
+            "First Visit in PKLI"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has a history of black stool for about a year, worsening to continuous over the past three months.",
+            "DiagnosticJourney": "Patient was referred for evaluation after hospitalization for deranged INR.",
+            "TreatmentResponse": "Patient has not received treatment for HCV.",
+            "OngoingConcerns": "Management of melena, low hemoglobin, and adjustment of anticoagulation therapy."
+        }
+    }
+}

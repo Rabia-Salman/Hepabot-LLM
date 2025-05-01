@@ -1,0 +1,93 @@
+{
+    "patient_id": "history_physical_21",
+    "raw_text": "Gender: Male\n\nAge: 5\n\nMRN: 708087\n\nDiagnosis: Hepatic fibrosis\n\nHistory and Physical:\n\nDoctor:\n\nHello, Umer. I see you are 2.5 years old, weighing 12 kg and measuring 87 cm in height. You are\n\nthe  product  of  a  consanguineous  marriage,  and  you  have  two  siblings  who  are  alive  and  healthy.\n\nHowever,  you  had  two  siblings  who  passed  away  due  to  polycystic  kidney  disease.  How  are  you\n\nfeeling today?\n\nPatient's Caregiver (or Parent):\n\nUmer  seems  fine  today,  but  he  has  had  some  past  medical  issues.  He  was  diagnosed  with\n\npolycystic  kidney  disease  at  the  age  of  6  months  after  being  investigated  for  a  minor  illness.  His\n\nsymptoms included abdominal distension at 6-7 months of age. He also experienced hematemesis\n\nand  melena  multiple  times.  He  underwent  endoscopy  with  band  ligation  seven  times,  the  last  one\n\nbeing in May 2022. His most recent episode of upper GI bleeding was in March 2022.\n\nDoctor:\n\nI understand. I can see you have a history of complications due to polycystic kidney disease. Let me\n\nreview  your  previous  lab  results  and  ultrasound.  In  your  last  ultrasound  from  October  2020,  it\n\nshowed  bilateral  cystic  kidney  disease  associated  with  hepatic  fibrosis,  though  there  was  no\n\nevidence of progressive portal hypertension.\n\nCan you share any new symptoms or concerns today?\n\nPatient's Caregiver (or Parent):\n\nNo new complaints today. The only ongoing issue is his abdominal pain, which he has had for the\n\n\flast  15  days.  He  is  on  medications  for  his  condition,  including  Inderal  5  mg  twice  daily  and  Dmax\n\ndrops.\n\nDoctor:\n\nThank you for the update. I will review his recent medical records and tests. His latest blood tests\n\nshow  a  bilirubin  level  of  0.4,  ALT  of  19,  and  ALP  of  70.  His  INR  was  1.07,  which  seems  within\n\nnormal limits. His hemoglobin in March 2022 was 10.0 g/dL, and his platelet count was 151. There is\n\nno  jaundice  or  pallor  observed  in  the  examination.  However,  his  liver  size  is  noted  to  be  slightly\n\nenlarged, with a 3 cm liver span, and his spleen is 2 cm palpable. His abdominal distension and the\n\npresence of ascites are concerning.\n\nDoctor:\n\nI  will  order  repeat  baseline  labs,  including  CBC,  LFTs,  RFTs,  S/E,  INR,  and  ultrasound  of  the\n\nabdomen. We need to monitor his condition closely. Additionally, we may proceed with liver biopsy\n\nas part of his upcoming procedure at the Children's Hospital.\n\nI recommend you follow up in the pediatric nephrology clinic after one month.\n\nDoctor:\n\nHello, Umer. I see you are now 3 years old. Your weight is still 12 kg. You have been diagnosed with\n\nautosomal recessive polycystic kidney disease and congenital hepatic fibrosis. How have you been\n\nfeeling recently?\n\nPatient's Caregiver (or Parent):\n\nUmer is doing well, but he still experiences some abdominal distension. We haven't had any active\n\ncomplaints  recently,  but  his  weight  and  height  are  still  below  the  5th  percentile  for  his  age.  He\n\ncontinues with the same medications: Inderal 10 mg in the morning and 5 mg in the evening, along\n\nwith Dmax drops once daily.\n\n\fDoctor:\n\nIt's good to hear there are no active complaints. During today's examination, Umer has a distended\n\nabdomen with superficial veins and a spleen that is 6 cm palpable. His liver is 1 cm enlarged, and\n\nthere is ascites present. His kidneys are not palpable on bimanual examination.\n\nThe  liver  biopsy  from  May  2023  confirmed  congenital  hepatic  fibrosis,  with  60-70%  of  the  biopsy\n\nvolume showing fibrous bands. There's no evidence of cirrhosis, which is reassuring.\n\nDoctor:\n\nI reviewed his endoscopy results, and the most recent one from May 2023 showed grade II varices\n\nat  the  12  o'clock  position.  Previous  endoscopies  also  showed  grade  1  and  grade  2  varices,  with\n\nbanding applied during several of them.\n\nDoctor:\n\nFor todays follow-up, we will proceed with the necessary investigations including CBC, RFTs, LFTs,\n\nS/E,  and  INR.  We  will  also  repeat  the  urine  C/S  and  urine  R/E.  Given  his  condition,  we  are\n\nconsidering liver transplantation as a definitive treatment.\n\nYou can continue his current medications, and we will schedule follow-up after the lab results.\n\nPlan for Future:\n\nRepeat CBC, LFT, RFT, S/E, INR\n\nUltrasound abdomen and pelvis\n\nLiver biopsy scheduled\n\nContinue current medications (Inderal, Dmax)\n\n\fFollow-up visit in one month after lab tests\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "5",
+            "MRN": "708087",
+            "Diagnosis": "Hepatic fibrosis"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "abdominal pain"
+            ],
+            "NegativeFindings": [
+                "no jaundice",
+                "no pallor"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "congenital hepatic fibrosis",
+            "autosomal recessive polycystic kidney disease"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Inderal 5 mg twice daily",
+                "Dmax drops",
+                "Inderal 10 mg in the morning",
+                "Inderal 5 mg in the evening",
+                "Dmax drops once daily"
+            ],
+            "Procedures": [
+                "endoscopy with band ligation",
+                "liver biopsy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "bilateral cystic kidney disease",
+                "slightly enlarged liver with a 3 cm liver span",
+                "spleen 2 cm palpable",
+                "distended abdomen with superficial veins",
+                "spleen 6 cm palpable",
+                "1 cm enlarged liver",
+                "ascites present"
+            ],
+            "LabResults": [
+                "bilirubin level 0.4",
+                "ALT 19",
+                "ALP 70",
+                "INR 1.07",
+                "hemoglobin 10.0 g/dL",
+                "platelet count 151"
+            ],
+            "PathologyFindings": [
+                "60-70% of biopsy volume showing fibrous bands",
+                "no evidence of cirrhosis"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "polycystic kidney disease",
+                "hepatic fibrosis"
+            ],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "pediatric nephrology clinic"
+            ],
+            "ScheduledTests": [
+                "CBC",
+                "LFTs",
+                "RFTs",
+                "S/E",
+                "INR",
+                "urine C/S",
+                "urine R/E",
+                "ultrasound abdomen and pelvis"
+            ],
+            "NextAppointmentDetails": [
+                "follow-up visit in one month after lab tests"
+            ]
+        },
+        "VisitTimeline": [],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Umer has a history of complications due to polycystic kidney disease and has been experiencing abdominal pain for the last 15 days.",
+            "DiagnosticJourney": "Umer was diagnosed with polycystic kidney disease at 6 months and has undergone multiple endoscopies and imaging studies.",
+            "TreatmentResponse": "Umer is currently stable with ongoing management of his condition.",
+            "OngoingConcerns": "Abdominal distension and the need for potential liver transplantation."
+        }
+    }
+}

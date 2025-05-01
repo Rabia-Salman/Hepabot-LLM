@@ -1,0 +1,140 @@
+{
+    "patient_id": "history_physical_61",
+    "raw_text": "Gender: Male\n\nAge: 62\n\nMRN: 892479\n\nDiagnosis: Hepatocellular Carcinoma\n\nHistory and Physical:\n\nPatient:\n\nIve been feeling feverish, with body aches and some weight loss recently. Its been concerning.\n\nDoctor:\n\nI  understand.  Let  me  go  over  your  medical  history  and  current  condition.  You  have  a  history  of\n\ndiabetes, hypertension, and youve also had acute bacterial meningitis in the past, where you were\n\nadmitted to the ICU. You're also dealing with jaundice, cough, and a history of fever, for which youre\n\non IV antibiotics.\n\nWeve reviewed your recent CT scan, and it shows a large hepatic mass in the right lobe of the liver,\n\nwhich  appears  to  be  a  malignant  mass.  There  is  also  a  thrombosis  in  the  posterior  division  of  the\n\nright  portal  vein.  The  biopsy  results  suggest  that  it  could  be  a  poorly  differentiated  hepatocellular\n\ncarcinoma (HCC), cholangiocarcinoma, or a metastatic disease.\n\nPatient:\n\nThat sounds serious. What about the lab results?\n\nDoctor:\n\nHere are your latest lab results from January 15, 2025:\n\nTotal Bilirubin: 10.6\n\n\fAlkaline Phosphatase (ALP): 684\n\nAlbumin: 2.87\n\nINR: 1.1\n\nPlatelets: 493\n\nHemoglobin: 10.2\n\nAFP (Alpha-Fetoprotein): 540\n\nViral markers: Negative\n\nALT: 40\n\nThese  results  confirm  some  issues  with  your  liver  function,  and  were  monitoring  closely  for  any\n\nfurther changes.\n\nPatient:\n\nWhats the plan going forward?\n\nDoctor:\n\nWere  referring  you  to  the  gastroenterology  outpatient  department  today.  Ive  discussed  your  case\n\nwith  Dr.  Usman  Aujla,  and  were  preparing  for  an  ERCP  to  address  any  biliary  obstructions.  Weve\n\nalso  planned  for  an  HRCT  and  an  anesthesia  evaluation.  Well  continue  with  the  meropenem  for\n\nnow, along with Ursodeoxycholic acid for bile flow.\n\n\fPatient:\n\nI see. How will the ERCP help?\n\nDoctor:\n\nThe  ERCP  will  help  assess  the  biliary  system  and  check  if  there  are  any  blockages.  If  necessary,\n\nwell place a stent to help with bile drainage. We have explained the risks of the procedure to your\n\ndaughter, including potential complications like bleeding, perforation, and infection.\n\nFollow-Up Visit on February 10, 2025\n\nDoctor:\n\nYoure back for a follow-up. How have you been feeling?\n\nPatient:\n\nIm still having abdominal pain, fever, and a loss of appetite.\n\nDoctor:\n\nWe reviewed your CT scan from January 24, 2025. It shows a large mass in segments VII, VIII, V,\n\nand VI, likely representing HCC, but theres a possibility of a mixed hepatocholangiocarcinoma. The\n\nliver surface is slightly undulating, but theres no sign of ascites or significant collateralization.\n\nYour bilirubin levels are still elevated:\n\nTotal Bilirubin: 9.2\n\nDirect Bilirubin: 8\n\n\fALT/AST: 31/125\n\nALP: 1743\n\nAlbumin: 2.6\n\nTheres no significant improvement in your jaundice despite the ERCP. Well rebook you for another\n\nERCP to assess and possibly change the stent.\n\nPatient:\n\nWhat about the pain and fever?\n\nDoctor:\n\nWell manage your pain with Panadol, and I recommend continuing with the current antibiotics. The\n\nfever should subside once we get better control over your biliary system.\n\nFollow-Up Visit on March 4, 2025\n\nDoctor:\n\nLets review your latest results. We noticed that theres no significant improvement in your jaundice,\n\neven after the two ERCP procedures. Were still seeing the liver mass and thrombosis. The bilirubin\n\nlevel remains elevated.\n\nHeres the comparison of the lab results from February 27 and March 4, 2025:\n\nTotal Bilirubin: 9.2  11.91\n\n\fDirect Bilirubin: 8\n\nALT/AST: 31/125  22\n\nALP: 1743  582\n\nAlbumin: 2.6  2.1\n\nPatient:\n\nThats worrying. Whats next?\n\nDoctor:\n\nWeve  discussed  your  case  with  the  multidisciplinary  team.  We  plan  to  repeat  imaging  with  a  CT\n\ntriphasic to better understand the disease extension and biliary invasion. Well follow up after a week.\n\nWe also recommend considering an IR-guided biopsy if there's no improvement in your bilirubin.\n\nFollow-Up Visit on March 18, 2025\n\nDoctor:\n\nThe multidisciplinary team has reviewed your case again. Your liver mass remains stable, with no\n\nsignificant change since the last evaluation. Theres some mild ascites and a few stable nodules in\n\nyour left lung. Theres also a new nodule in the right basal segment, which well need to follow up.\n\nWell  continue  monitoring  the  liver  lesion  closely.  If  the  bilirubin  doesnt  improve,  we  may  consider\n\nanother ERCP or an IR-guided biopsy of the liver lesion.\n\n\fPatient:\n\nWhats the current treatment plan?\n\nDoctor:\n\nWere  continuing  your  Ursodeoxycholic  acid  and  antibiotics.  Ive  prescribed  Lasix  to  help  with  fluid\n\nretention. Well continue monitoring your appetite and overall health.\n\nHepatology Visit on March 25, 2025\n\nDoctor (to daughter):\n\nI see your fathers condition remains concerning, with a total bilirubin of 13 mg/dL. His performance\n\nstatus is poor, and were working on adjusting his medications.\n\nWeve  reviewed  the  CT  scan,  and  the  liver  mass  still  appears  large,  but  stable.  Weve  planned  the\n\nfollowing:\n\nUrsodeoxycholic acid 500mg twice a day\n\nCiprofloxacin for 7 days\n\nFollow-up LFTs in two weeks\n\nWe'll keep monitoring his condition closely.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "62",
+            "MRN": "892479",
+            "Diagnosis": "Hepatocellular Carcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "feverish",
+                "body aches",
+                "weight loss",
+                "jaundice",
+                "cough",
+                "abdominal pain",
+                "loss of appetite"
+            ],
+            "NegativeFindings": [
+                "viral markers negative",
+                "no sign of ascites",
+                "no significant collateralization"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "malignant hepatic mass",
+            "thrombosis in the posterior division of the right portal vein",
+            "poorly differentiated hepatocellular carcinoma or cholangiocarcinoma or metastatic disease",
+            "stable liver mass",
+            "mild ascites",
+            "stable nodules in left lung",
+            "new nodule in right basal segment"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "IV antibiotics",
+                "meropenem",
+                "Ursodeoxycholic acid",
+                "Panadol",
+                "Lasix",
+                "Ciprofloxacin"
+            ],
+            "Procedures": [
+                "ERCP",
+                "HRCT",
+                "IR-guided biopsy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "CT scan showing large hepatic mass",
+                "CT scan showing mass in segments VII, VIII, V, and VI",
+                "CT scan showing stable liver mass",
+                "CT scan showing mild ascites and stable nodules"
+            ],
+            "LabResults": [
+                {
+                    "Date": "January 15, 2025",
+                    "Total Bilirubin": "10.6",
+                    "Alkaline Phosphatase (ALP)": "684",
+                    "Albumin": "2.87",
+                    "INR": "1.1",
+                    "Platelets": "493",
+                    "Hemoglobin": "10.2",
+                    "AFP": "540",
+                    "ALT": "40"
+                },
+                {
+                    "Date": "January 24, 2025",
+                    "Total Bilirubin": "9.2",
+                    "Direct Bilirubin": "8",
+                    "ALT/AST": "31/125",
+                    "ALP": "1743",
+                    "Albumin": "2.6"
+                },
+                {
+                    "Date": "February 27, 2025",
+                    "Total Bilirubin": "9.2",
+                    "Direct Bilirubin": "8",
+                    "ALT/AST": "31/125",
+                    "ALP": "1743",
+                    "Albumin": "2.6"
+                },
+                {
+                    "Date": "March 4, 2025",
+                    "Total Bilirubin": "11.91",
+                    "Direct Bilirubin": "8",
+                    "ALT/AST": "22",
+                    "ALP": "582",
+                    "Albumin": "2.1"
+                },
+                {
+                    "Date": "March 25, 2025",
+                    "Total Bilirubin": "13"
+                }
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "diabetes",
+                "hypertension"
+            ],
+            "Comorbidities": [
+                "acute bacterial meningitis"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "gastroenterology outpatient department",
+                "multidisciplinary team"
+            ],
+            "ScheduledTests": [
+                "repeat imaging with CT triphasic",
+                "follow-up LFTs in two weeks"
+            ],
+            "NextAppointmentDetails": [
+                "February 10, 2025",
+                "March 4, 2025",
+                "March 18, 2025",
+                "March 25, 2025"
+            ]
+        },
+        "VisitTimeline": [
+            "Initial visit on January 15, 2025",
+            "Follow-up visit on February 10, 2025",
+            "Follow-up visit on March 4, 2025",
+            "Follow-up visit on March 18, 2025",
+            "Hepatology visit on March 25, 2025"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has experienced worsening symptoms including abdominal pain, fever, and jaundice despite interventions.",
+            "DiagnosticJourney": "Multiple imaging studies and lab tests have been conducted to assess liver function and disease progression.",
+            "TreatmentResponse": "No significant improvement in jaundice or liver mass despite ERCP procedures.",
+            "OngoingConcerns": "Continued elevation of bilirubin levels and stability of liver mass with new nodules in the lung."
+        }
+    }
+}

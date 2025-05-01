@@ -1,0 +1,145 @@
+{
+    "patient_id": "history_physical_8",
+    "raw_text": "Gender: Male\n\nAge: 55\n\nMRN: 798650\n\nDiagnosis: Chronic viral hepatitis C\n\nHistory and Physical:\n\nDate: 5/8/2024\n\nDoctor (Dr. Osama Tariq Butt):\n\nWelcome to the Executive Clinic. Let's review your medical history. You have a history of Hepatitis C\n\nVirus (HCV), Cirrhosis (DCLD), and currently no Hepatocellular Carcinoma (HCC). However, a CT\n\nscan revealed a GB mass with hepatic metastases. What brings you in today?\n\nPatient:\n\nI'm experiencing right upper quadrant (RUQ) pain and feeling very lethargic.\n\nDoctor:\n\nUnderstood. We will run a series of tests. Your recent lab results on 4/8/2024 show:\n\nPIVKA: 4461\n\nINR: 1.0\n\nAmylase: 245\n\nHemoglobin (Hb): 12.9, Platelets (PLT): 158\n\n\fLiver Function Test (LFT):\n\nTotal Bilirubin (t.billi): 5.0\n\nAlbumin (alb): 6.0\n\nCreatinine: 0.7\n\nDoctor's Plan:\n\nWe will submit a CT scan for further assessment and establish baseline data. A High-Resolution CT\n\n(HRCT)  scan  will  be  performed,  and  the  liver  biopsy  versus  ERCP  decision  will  be  made  after\n\ndiscussion in the MDT.\n\nDate: 20/09/2024\n\nDoctor (Dr. Osama Tariq Butt):\n\nWe  have  completed  the  MDT  (Multi-Disciplinary  Team)  review.  We've  discussed  your  case  and\n\nmade  some  decisions.  Your  official  follow-up  appointment  is  scheduled  for  20/11/2024,  but  weve\n\nadvised you to have a virtual clinic appointment for an early follow-up.\n\nDate: 20/11/2024\n\nDoctor (Dr. Osama Tariq Butt / Dr. Rimsha Saeed):\n\nYou are here for your follow-up. Lets summarize your case. You have a history of HCV, DCLD, and\n\nHCC.  Youve  experienced  weight  loss  and  currently  have  jaundice,  burning  micturition,  and  fever.\n\nWe see decompensation with jaundice and HCC. Your examination shows youre weak-looking, with\n\nan ECOG score of 0. The abdomen is soft and non-tender.\n\n\fDoctor:\n\nLets go over your recent lab results from 4/8/2024 and 20/11/2024:\n\n4/8/2024:\n\nPIVKA: 4461\n\nINR: 1.0\n\nAmylase: 245\n\nHemoglobin: 12.9  8.6\n\nPlatelets: 158  277\n\nWBC: 19.22\n\nTotal Bilirubin: 5.0  16\n\nAlbumin: 6.0  2.89\n\nALT/AST: 83/195\n\nALP: 334\n\nCreatinine: 0.7\n\n\fSodium: 130\n\nPotassium: 3.48\n\nDoctor's Assessment:\n\nYour condition seems to be HCV-related HCC with possible biliary invasion or cholangiocarcinoma.\n\nThe MDT review indicates three HCC lesions, two in the right lobe and one at the confluence. The\n\ntumor  at  the  hilum  is  uncertainit  might  be  cholangiocarcinoma  or  biliary  invasion  of  HCC.  We\n\nsuggest an ERCP to manage jaundice and a possible biopsy of the hilar lymph node.\n\nDoctor's Plan:\n\nUrsodeoxycholic acid 250mg twice daily\n\nMultivitamin\n\nCefspan\n\nSodium alginate (Gaviscon syrup)\n\nAll baseline tests for the Child-MELD score\n\nTriphasic CT scan\n\nFollow-up in two weeks to decide on liver biopsy\n\n\fDate: 2/12/2024\n\nDoctor (Dr. Atif):\n\nIn this visit, you continue to have jaundice, burning micturition, and fever. Lets review your current\n\ncondition. You have a history of HCV, DCLD, and HCC with weight loss. On examination, you are\n\nweak-looking, with an ECOG score of 0. Your abdomen remains soft and non-tender.\n\nDoctor:\n\nYour recent labs from 2/12/2024 show:\n\nTotal Bilirubin (BILI): 1.65\n\nALT: 68\n\nAST: 85\n\nALP: 660\n\nGGT: 1226\n\nCreatinine: 0.66\n\nPlatelets: 392\n\nDoctor's Plan:\n\nContinue Ursodeoxycholic acid, multivitamin, and other medications\n\n\fCT Triphasic HCC protocol\n\nFollow-up after 2 days to review progress\n\nDiscuss liver biopsy after CT results\n\nDate: 6/1/2025\n\nDoctor (Hepatology Clinic):\n\nYou have a history of treatment-experienced HCV and have achieved an SVR (Sustained Virologic\n\nResponse).  Currently,  you're  experiencing  jaundice.  You've  had  ERCP  and  EUS  procedures  with\n\nstenting.  Post-ERCP  biopsies  didnt  show  malignancy,  but  theres  ongoing  suspicion  for  HCC  or\n\ncholangiocarcinoma.\n\nDoctor's Plan:\n\nContinue Ursodeoxycholic acid, Distalgesic, and Gaviscon\n\nRepeat ERCP and follow-up in oncology for review\n\nFurther CT scans to assess liver lesions and guide biopsy decisions\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "55",
+            "MRN": "798650",
+            "Diagnosis": "Chronic viral hepatitis C"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "right upper quadrant pain",
+                "lethargy",
+                "weight loss",
+                "jaundice",
+                "burning micturition",
+                "fever"
+            ],
+            "NegativeFindings": [
+                "no Hepatocellular Carcinoma"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "HCV-related HCC with possible biliary invasion or cholangiocarcinoma",
+            "three HCC lesions",
+            "uncertain tumor at the hilum"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Ursodeoxycholic acid 250mg twice daily",
+                "Multivitamin",
+                "Cefspan",
+                "Sodium alginate (Gaviscon syrup)",
+                "Distalgesic"
+            ],
+            "Procedures": [
+                "CT scan",
+                "liver biopsy",
+                "ERCP",
+                "EUS"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "CT scan revealed a GB mass with hepatic metastases",
+                "Triphasic CT scan"
+            ],
+            "LabResults": [
+                {
+                    "Date": "4/8/2024",
+                    "PIVKA": "4461",
+                    "INR": "1.0",
+                    "Amylase": "245",
+                    "Hemoglobin": "12.9",
+                    "Platelets": "158",
+                    "Total Bilirubin": "5.0",
+                    "Albumin": "6.0",
+                    "Creatinine": "0.7",
+                    "WBC": "19.22",
+                    "ALT": "83",
+                    "AST": "195",
+                    "ALP": "334",
+                    "Sodium": "130",
+                    "Potassium": "3.48"
+                },
+                {
+                    "Date": "20/11/2024",
+                    "Hemoglobin": "8.6",
+                    "Platelets": "277",
+                    "Total Bilirubin": "16",
+                    "Albumin": "2.89",
+                    "ALT": "68",
+                    "AST": "85",
+                    "ALP": "660",
+                    "GGT": "1226",
+                    "Creatinine": "0.66"
+                },
+                {
+                    "Date": "2/12/2024",
+                    "Total Bilirubin": "1.65",
+                    "ALT": "68",
+                    "AST": "85",
+                    "ALP": "660",
+                    "GGT": "1226",
+                    "Creatinine": "0.66",
+                    "Platelets": "392"
+                }
+            ],
+            "PathologyFindings": [
+                "Post-ERCP biopsies didn't show malignancy"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "HCV",
+                "DCLD",
+                "HCC"
+            ],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "oncology for review"
+            ],
+            "ScheduledTests": [
+                "further CT scans",
+                "liver biopsy"
+            ],
+            "NextAppointmentDetails": [
+                "20/11/2024",
+                "follow-up in two weeks",
+                "follow-up after 2 days"
+            ]
+        },
+        "VisitTimeline": [
+            {
+                "Date": "5/8/2024",
+                "Doctor": "Dr. Osama Tariq Butt"
+            },
+            {
+                "Date": "20/09/2024",
+                "Doctor": "Dr. Osama Tariq Butt"
+            },
+            {
+                "Date": "20/11/2024",
+                "Doctor": "Dr. Osama Tariq Butt / Dr. Rimsha Saeed"
+            },
+            {
+                "Date": "2/12/2024",
+                "Doctor": "Dr. Atif"
+            },
+            {
+                "Date": "6/1/2025",
+                "Doctor": "Hepatology Clinic"
+            }
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "The patient has experienced worsening symptoms including jaundice and weight loss, with a diagnosis of HCV-related HCC.",
+            "DiagnosticJourney": "The patient underwent multiple imaging studies and lab tests to assess liver function and disease progression.",
+            "TreatmentResponse": "The patient has been treated with medications and procedures, with ongoing monitoring for malignancy.",
+            "OngoingConcerns": "There is ongoing suspicion for HCC or cholangiocarcinoma despite negative biopsy results."
+        }
+    }
+}

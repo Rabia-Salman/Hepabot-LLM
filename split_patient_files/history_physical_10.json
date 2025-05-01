@@ -1,0 +1,82 @@
+{
+    "patient_id": "history_physical_10",
+    "raw_text": "Gender: Male\n\nAge: 10\n\nMRN: 795395\n\nDiagnosis: Chronic viral hepatitis C\n\nHistory and Physical:\n\nPatient (Syed Muhammad Kazeem Abbas Rizvi):\n\n\"Doctor, I have been experiencing abdominal pain on and off for the past year. Recently, I have also\n\nbeen having loose stools and noticed some rectal bleeding.\"\n\nDoctor:\n\n\"Thank  you  for  sharing  that.  I  understand  it  must  be  concerning.  When  did  these  symptoms  start,\n\nand do you have any history of similar issues?\"\n\nPatient:\n\n\"The pain started about a year ago when I was in the US. I have had loose stools along with rectal\n\nbleeding. Ive recently been diagnosed with HCV.\"\n\nDoctor:\n\n\"I see. Ill need to review your medical history and test results. Have you had any previous medical or\n\nsurgical issues?\"\n\nPatient:\n\n\"I had fits at a very young age, but there is no remarkable surgical history.\"\n\nDoctor:\n\n\"Thank  you  for  sharing  that.  Lets  check  your  current  condition.  Ill  go  over  your  vital  signs  and  lab\n\nresults. You mentioned you're taking no medications at the moment, correct?\"\n\n\fPatient:\n\n\"Yes, no medications currently.\"\n\nDoctor (Reviewing Examination and Lab Results):\n\n\"Your  weight  and  height  are  appropriate  for  your  age,  and  there's  no  sign  of  jaundice,  pallor,  or\n\nedema.  On  examination,  your  heart  and  lungs  are  normal,  and  your  gastrointestinal  exam  shows\n\nnormal bowel sounds. Let me review your lab results. Your bilirubin is normal at 0.4, but your ALT is\n\nelevated at 89, which is concerning. Your HCV PCR is quite high at 1,090,000 IU/mL.\"\n\nDoctor:\n\n\"It  looks  like  you  have  Hepatitis  C,  based  on  your  test  results.  I  recommend  starting  antiviral\n\ntreatment.  I'll  also  prepare  you  for  some  procedures.  We  will  proceed  with  an  EGD  and\n\ncolonoscopy, with specific preparations starting on the 16th of August. I will continue your treatment\n\nwith Sofosbuvir + Velpatasvir daily.\"\n\nPatient:\n\n\"What about my follow-up? When should I return to the clinic?\"\n\nDoctor:\n\n\"Your  follow-up  will  be  in  three  months.  Well  repeat  your  liver  function  tests  and  an  abdominal\n\nultrasound at that time. In the meantime, well follow the colonoscopy preparation instructions, which\n\ninclude  starting  a  soft  diet  on  the  16th  and  a  liquid-only  diet  by  the  19th.  Ill  also  prescribe  Movcol\n\nsachets for you to take in increasing doses starting from the 16th.\"\n\nPatient:\n\n\"Got it, Doctor. Ill follow those instructions. Whats next after the colonoscopy?\"\n\n\fDoctor:\n\n\"After the colonoscopy, well assess the findings. The biopsies from your duodenum, stomach, and\n\ncolon look mostly normal, but there are signs of mild gastritis and chronic active colitis in the colon,\n\nwhich we'll continue to monitor.\"\n\nPatient:\n\n\"Thanks for explaining everything. Ill see you in a few months.\"\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "10",
+            "MRN": "795395",
+            "Diagnosis": "Chronic viral hepatitis C"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "abdominal pain",
+                "loose stools",
+                "rectal bleeding"
+            ],
+            "NegativeFindings": [
+                "no sign of jaundice",
+                "no sign of pallor",
+                "no sign of edema",
+                "normal heart examination",
+                "normal lung examination",
+                "normal bowel sounds"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Hepatitis C based on test results"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Sofosbuvir + Velpatasvir",
+                "Movcol sachets"
+            ],
+            "Procedures": [
+                "EGD",
+                "colonoscopy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [],
+            "LabResults": [
+                {
+                    "Bilirubin": "0.4",
+                    "ALT": "89",
+                    "HCV PCR": "1,090,000 IU/mL"
+                }
+            ],
+            "PathologyFindings": [
+                "mild gastritis",
+                "chronic active colitis"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Chronic viral hepatitis C"
+            ],
+            "Comorbidities": [
+                "history of fits"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [],
+            "ScheduledTests": [
+                "liver function tests",
+                "abdominal ultrasound"
+            ],
+            "NextAppointmentDetails": [
+                "in three months"
+            ]
+        },
+        "VisitTimeline": [
+            "Symptoms started about a year ago",
+            "Follow-up in three months"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has been experiencing abdominal pain, loose stools, and rectal bleeding for the past year.",
+            "DiagnosticJourney": "Patient was recently diagnosed with HCV and underwent lab tests.",
+            "TreatmentResponse": "Antiviral treatment recommended and procedures planned.",
+            "OngoingConcerns": "Monitoring of gastritis and colitis."
+        }
+    }
+}

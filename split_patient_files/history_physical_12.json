@@ -1,0 +1,100 @@
+{
+    "patient_id": "history_physical_12",
+    "raw_text": "Gender: Male\n\nAge: 65\n\nMRN: 724329\n\nDiagnosis: Chronic viral hepatitis C\n\nHistory and Physical:\n\nPatient: Muhammad Shafique\n\nAge: 66 years\n\nGender: Male\n\nMarital Status: Married\n\nChildren: 7\n\nOccupation: Businessman\n\nLocation: Rawalpindi\n\nVisit Date: 18th April 2023\n\nDoctor: Dr. Faisal Dar / Dr. Sadia\n\nSon Muhammad Nasir (Son of Muhammad Shafique): \"We are here to discuss my father's case. His\n\nworkup for LDLT has been completed at Shifa Hospital.\"\n\nDoctor: \"Okay, let me go over his medical history. He has a history of HCV/CLD/HCC diagnosed 5\n\nyears ago. He has completed treatment and achieved sustained viral response (SVR), with the last\n\nPCR test showing no detectable virus.\"\n\nMedical History:\n\nHCV Diagnosis: 5 years ago\n\nTreatment: Experienced, SVR achieved\n\n\fLast PCR: Not detected\n\nDecompensations:\n\nHematemesis (2014)\n\nMelena (UGIB)\n\nDiuretic-sensitive Ascites (2017)\n\nPSE: Nil\n\nJaundice: Nil\n\nDoctor:  \"His  last  OGD  with/without  EVBL  was  done  in  2014.  His  weight  loss  is  not  present,  and\n\nthere have been no major decompensations in recent years.\"\n\nImaging:\n\nCT (21-Dec-2022): Indeterminate right upper lung nodule.\n\nHRCT  (27-Mar-2023):  Interval  development  of  tree-in-bud  and  nodular  infiltrates  in  the  bilateral\n\nupper lobes, s. lingula, and left lower lobe. Likely infective etiology.\n\nMRI  Liver  (29-Dec-2022):  CLD  with  an  arterially  enhancing  lesion  in  segment  5/7,  suggestive  of\n\nHCC.\n\n\fMRI Liver (5-Mar-2023): Increase in size of segment 5 HCC from 1.2 x 0.7 cm to 4 x 2 cm, with no\n\nnew lesions or vascular thrombus.\n\nDoctor: \"The MRI shows an interval increase in the HCC size. We need to monitor the lesion closely\n\nand ensure theres no vascular invasion or further complications.\"\n\nLab Results (15-Mar-2023):\n\nHB: [Value missing]\n\nTLC: [Value missing]\n\nPLT: [Value missing]\n\nT. Billi: 0.45\n\nD. Billi: 0.21\n\nALT/AST: 17/15\n\nALP: 106\n\nALB: [Value missing]\n\nCreat: 0.9\n\nNA: 136\n\n\fK: 4.4\n\nINR: [Value missing]\n\nPIVKA-II: [Value missing]\n\nAFP: 326 (Dec 2022)\n\nCTP/MELD-Na: [Value missing]\n\nDoctor:  \"His  liver  synthetic  function  is  still  good,  and  his  AFP  is  elevated  at  326.  We  will  need  to\n\nkeep monitoring this closely.\"\n\nDiagnosis:\n\nHCV-related Cirrhosis with Hepatocellular Carcinoma (HCC).\n\nPlan:\n\nLDLT: Due to HCC, this remains the definitive treatment option.\n\nBridging TACE: If there is any delay in LDLT due to unforeseen circumstances.\n\nFurther Workup: Bring all previous workups done for LDLT.\n\nFollow-Up Visit: 2nd May 2023\n\nDoctor: Dr. Hassan Nadeem\n\n\fSon  Muhammad  Nasir:  \"We're  following  up  on  the  latest  MRI  and  lab  results.  I  see  the  lesion  in\n\nsegment V has increased.\"\n\nDoctor:  \"Yes,  the  MRI  from  March  2023  shows  that  the  size  of  the  HCC  lesion  in  segment  V\n\nincreased from 1.4 cm to 4.2 x 1.7 cm. The overall disease progression is noted. No new HCC has\n\ndeveloped.\"\n\nDoctor: \"We will continue monitoring the AFP, and if it rises significantly, we will perform a recheck\n\nCT scan to assess for any residual or recurrent disease. Since the MELD score is low at 7, and his\n\nECOG score is 1, we will proceed with the LDLT workup.\"\n\nRecent Medications:\n\nAldactone 100mg every third day\n\nPPI\n\nSitagliptin\n\nCarvedilol 6.25mg daily\n\nLactulose\n\nAspirin\n\nFollow-Up Visit: 5th May 2023\n\nDoctor: Dr. Osama Tariq\n\n\fSon Muhammad Nasir: \"He's been feeling okay post-TACE. His medications are the same.\"\n\nDoctor: \"Yes, the TACE procedure went well. His AFP is now 171, which is a slight decrease, but we\n\nmust continue with screening and adjust medications as necessary.\"\n\nPlan:\n\nMedications:\n\nCarvedilol 3.125mg BD\n\nLasix 20mg OD\n\nSurbex Z\n\nEGD Screening: Advise to monitor varices.\n\nFollow-Up Visit: 1st June 2023\n\nDoctor: Dr. Ammara\n\nSon Muhammad Nasir: \"Post-TACE, his lung issues are stable. Were continuing the medication as\n\ndirected.\"\n\nDoctor: \"The recent CT scan of the chest shows further resolution of atelectasis, but the right upper\n\nlobe nodule remains stable. Well continue to monitor his lung condition with HRCT.\"\n\nPlan:\n\n\fEGD Screening\n\nContinue Medical Management\n\nRefer to Cardiology for TR evaluation\n\nRepeat HRCT if any lung issues persist.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "66",
+            "MRN": "724329",
+            "Diagnosis": "Chronic viral hepatitis C"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "None"
+            ],
+            "NegativeFindings": [
+                "Weight loss not present",
+                "No major decompensations in recent years"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "HCV-related Cirrhosis with Hepatocellular Carcinoma (HCC)"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Aldactone 100mg every third day",
+                "PPI",
+                "Sitagliptin",
+                "Carvedilol 6.25mg daily",
+                "Lactulose",
+                "Aspirin",
+                "Carvedilol 3.125mg BD",
+                "Lasix 20mg OD",
+                "Surbex Z"
+            ],
+            "Procedures": [
+                "LDLT",
+                "Bridging TACE",
+                "EGD Screening"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "CT (21-Dec-2022): Indeterminate right upper lung nodule",
+                "HRCT (27-Mar-2023): Interval development of tree-in-bud and nodular infiltrates in the bilateral upper lobes, s. lingula, and left lower lobe. Likely infective etiology",
+                "MRI Liver (29-Dec-2022): CLD with an arterially enhancing lesion in segment 5/7, suggestive of HCC",
+                "MRI Liver (5-Mar-2023): Increase in size of segment 5 HCC from 1.2 x 0.7 cm to 4 x 2 cm, with no new lesions or vascular thrombus"
+            ],
+            "LabResults": [
+                "T. Billi: 0.45",
+                "D. Billi: 0.21",
+                "ALT/AST: 17/15",
+                "ALP: 106",
+                "Creat: 0.9",
+                "NA: 136",
+                "K: 4.4",
+                "AFP: 326 (Dec 2022)",
+                "AFP: 171 (Post-TACE)"
+            ],
+            "PathologyFindings": [
+                "None"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Chronic viral hepatitis C",
+                "HCV-related Cirrhosis",
+                "Hepatocellular Carcinoma (HCC)"
+            ],
+            "Comorbidities": [
+                "None"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "Refer to Cardiology for TR evaluation"
+            ],
+            "ScheduledTests": [
+                "Repeat HRCT if any lung issues persist",
+                "Continue monitoring AFP"
+            ],
+            "NextAppointmentDetails": [
+                "2nd May 2023",
+                "5th May 2023",
+                "1st June 2023"
+            ]
+        },
+        "VisitTimeline": [
+            "18th April 2023: Initial visit",
+            "2nd May 2023: Follow-up visit",
+            "5th May 2023: Follow-up visit",
+            "1st June 2023: Follow-up visit"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "The patient has a history of HCV/CLD/HCC diagnosed 5 years ago, with SVR achieved. Recent imaging shows an increase in HCC size.",
+            "DiagnosticJourney": "The patient underwent various imaging studies and lab tests to monitor liver function and HCC progression.",
+            "TreatmentResponse": "The patient is currently stable post-TACE with a slight decrease in AFP levels.",
+            "OngoingConcerns": "Monitoring of HCC size and AFP levels, as well as lung condition."
+        }
+    }
+}

@@ -1,0 +1,151 @@
+{
+    "patient_id": "history_physical_27",
+    "raw_text": "Gender: Male\n\nAge: 7\n\nMRN: 753394\n\nDiagnosis: Budd-Chiari syndrome\n\nHistory and Physical:\n\nDoctor: How has Jawad been doing since your last visit?\n\nPatient's  Mother:  Hes  still  having  some  issues,  doctor.  The  abdominal  distention  hasnt  improved,\n\nand  hes  still  been  very  sleepy  and  irritable.  He  also  has  loose  stools  after  every  meal,  and  Ive\n\nnoticed black, tarry stools quite frequently.\n\nDoctor: I see. How is his cough? Has it gotten any better?\n\nPatient's Mother: His cough is dry and mild, and it's been going on for about 15 days now. It doesn't\n\nseem to be getting worse, though.\n\nDoctor: Any other new symptoms, or is it just the same as before?\n\nPatient's Mother: Theres no new bleeding or vomiting, but he has been extremely drowsy and not\n\nvery responsive. He isnt even responding to pain, which is worrying. His abdomen is still distended,\n\nand when I checked, I could feel a fluid thrill.\n\nDoctor: How's his appetite and behavior? Has he been eating normally?\n\nPatient's Mother: His appetite is not great, and he is just sleeping a lot. Hes very irritable when hes\n\nawake and doesnt seem to be his usual self.\n\n\fDoctor: Lets go over some of the key investigations and examinations weve done. On his ultrasound\n\non  March  17th,  2024,  it  showed  mild  hepatomegaly,  but  the  texture  was  homogeneous.  His  lab\n\nresults  from  May  2024  showed  a  few  important  things:  his  hemoglobin  was  14,  and  his  platelets\n\nwere  at  191.  His  liver  function  tests  showed  elevated  GGT  (227)  and  a  slightly  low  albumin  level\n\n(2.9). His INR is 1.53, which suggests some risk with clotting.\n\nPatient's  Mother:  Yes,  I  remember  those  numbers.  The  doctor  had  mentioned  his  liver  being\n\naffected and had done some testing, but Im still unclear on what exactly this means for him.\n\nDoctor:  Jawad  is  suspected  to  have  congenital  hepatic  fibrosis,  which  has  led  to  some\n\ndecompensation,  particularly  hepatic  encephalopathy,  ascites,  and  varices.  Weve  seen  him\n\npreviously for endoscopies. The last one was on May 21, 2024, and showed grade 1 varices with no\n\ngastroenteropathy.\n\nPatient's Mother: He had some banding done earlier, right? Did that help at all?\n\nDoctor: Yes, there were bands applied during his previous endoscopies, including one in July 2023.\n\nBut as you can see, we are still monitoring him closely for varices and any changes in his condition.\n\nPatient's Mother: He seems much sleepier now. Is that because of his liver condition?\n\nDoctor:  Yes,  the  drowsiness  and  lack  of  responsiveness  youre  seeing  can  be  linked  to  hepatic\n\nencephalopathy. His liver is struggling to process toxins, which may be affecting his brain function.\n\nDoctor: I see that youre following the medication regimen. He is currently on:\n\nInderal 10mg twice a day for his blood pressure and varices.\n\n\fA D E Drops, 5 drops daily for his vitamin A, D, and E.\n\nMCT Oil, 5ml twice a day for nutritional support.\n\nSpironolactone, 6.25mg three times a day, for ascites.\n\nVitamin K injections, twice a week, to help with clotting.\n\nPatient's  Mother:  Yes,  hes  been  on  these  medications.  Is  there  anything  else  that  needs  to  be\n\nchanged or added?\n\nDoctor: Were going to continue with this regimen for now. The plan includes medical optimization,\n\nespecially  for  the  hepatic  encephalopathy  and  ascites.  I  will  also  refer  you  to  Childrens  Hospital\n\nLahore for further management, as they can provide additional support for his liver condition. Well\n\nalso need to arrange blood donors for a potential liver transplant, so please keep that in mind.\n\nPatient's Mother: That sounds serious. I know his blood group is AB+, so Ill make sure to arrange\n\ntwo donors as instructed.\n\nDoctor:  Yes,  thats  crucial.  Well  continue  to  monitor  his  liver  function  and  perform  more  tests,\n\nincluding  a  liver  biopsy  and  imaging  to  better  assess  his  condition.  I  also  recommend  we  monitor\n\nammonia levels and consider starting anti-ammonia treatments.\n\nPatient's Mother: Should I be worried about his condition worsening?\n\nDoctor: Its important to be cautious, but we are taking the necessary steps to stabilize his condition.\n\n\fHowever, the liver is quite a delicate organ, and we need to keep a close eye on him. Well continue\n\nto monitor his varices and hepatic function closely.\n\nPatient's  Mother:  Thank  you  for  explaining  everything.  Ill  make  sure  to  follow  the  instructions  and\n\narrange for the blood donors.\n\nDoctor: Youre welcome. Well take it step by step, and Ill see you back in a few months for follow-up.\n\nMake sure you continue with the prescribed medications, and let me know if theres any change in\n\nhis condition.\n\nFollow-up Plan:\n\nContinue current medications as prescribed.\n\nLiver biopsy and shearwave elastography to assess liver stiffness.\n\nAnti-ammonia treatment and monitoring of ammonia levels.\n\nBlood donors arranged for potential liver transplant.\n\nFollow-up at Childrens Hospital Lahore for medical optimization and transplant counseling.\n\nFollow-up after 3 months at PKLI.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "7",
+            "MRN": "753394",
+            "Diagnosis": "Budd-Chiari syndrome"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "abdominal distention",
+                "sleepiness",
+                "irritability",
+                "loose stools",
+                "black tarry stools",
+                "dry cough",
+                "extreme drowsiness",
+                "lack of responsiveness"
+            ],
+            "NegativeFindings": [
+                "no new bleeding",
+                "no vomiting"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "suspected congenital hepatic fibrosis",
+            "hepatic encephalopathy",
+            "ascites",
+            "varices"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                {
+                    "Name": "Inderal",
+                    "Dosage": "10mg",
+                    "Frequency": "twice a day"
+                },
+                {
+                    "Name": "A D E Drops",
+                    "Dosage": "5 drops",
+                    "Frequency": "daily"
+                },
+                {
+                    "Name": "MCT Oil",
+                    "Dosage": "5ml",
+                    "Frequency": "twice a day"
+                },
+                {
+                    "Name": "Spironolactone",
+                    "Dosage": "6.25mg",
+                    "Frequency": "three times a day"
+                },
+                {
+                    "Name": "Vitamin K injections",
+                    "Dosage": "twice a week",
+                    "Frequency": "None"
+                }
+            ],
+            "Procedures": [
+                {
+                    "Name": "endoscopy",
+                    "Date": "May 21, 2024",
+                    "Findings": "grade 1 varices with no gastroenteropathy"
+                },
+                {
+                    "Name": "banding",
+                    "Date": "July 2023",
+                    "Findings": "None"
+                }
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                {
+                    "Type": "ultrasound",
+                    "Date": "March 17, 2024",
+                    "Findings": "mild hepatomegaly, homogeneous texture"
+                }
+            ],
+            "LabResults": [
+                {
+                    "Test": "hemoglobin",
+                    "Value": "14"
+                },
+                {
+                    "Test": "platelets",
+                    "Value": "191"
+                },
+                {
+                    "Test": "GGT",
+                    "Value": "227"
+                },
+                {
+                    "Test": "albumin",
+                    "Value": "2.9"
+                },
+                {
+                    "Test": "INR",
+                    "Value": "1.53"
+                }
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Budd-Chiari syndrome",
+                "congenital hepatic fibrosis"
+            ],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "Childrens Hospital Lahore for further management"
+            ],
+            "ScheduledTests": [
+                "liver biopsy",
+                "shearwave elastography",
+                "monitoring of ammonia levels"
+            ],
+            "NextAppointmentDetails": [
+                "follow-up after 3 months at PKLI"
+            ]
+        },
+        "VisitTimeline": [
+            {
+                "Date": "March 17, 2024",
+                "Event": "ultrasound"
+            },
+            {
+                "Date": "May 2024",
+                "Event": "lab results"
+            },
+            {
+                "Date": "May 21, 2024",
+                "Event": "endoscopy"
+            },
+            {
+                "Date": "July 2023",
+                "Event": "banding"
+            }
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Jawad has shown persistent symptoms related to his liver condition, including abdominal distention and drowsiness.",
+            "DiagnosticJourney": "He has undergone imaging and lab tests that indicate liver dysfunction and potential complications.",
+            "TreatmentResponse": "Despite ongoing treatment, his condition remains concerning with signs of hepatic encephalopathy.",
+            "OngoingConcerns": "Monitoring for varices and liver function is critical, and there is a need for potential liver transplant."
+        }
+    }
+}

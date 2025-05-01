@@ -1,0 +1,81 @@
+{
+    "patient_id": "history_physical_64",
+    "raw_text": "Gender: Female\n\nAge: 18\n\nMRN: 831652\n\nDiagnosis: Hepatocellular Carcinoma\n\nHistory and Physical:\n\nDoctor: Hi there! How are you today?\n\nPatient: I'm doing fine, thank you!\n\nDoctor:  Great  to  hear!  So,  today  well  be  discussing  your  potential  role  as  a  liver  donor.  Can  you\n\nconfirm that you're considering donating part of your liver to your father?\n\nPatient: Yes, that's correct. I am considering donating part of my liver to my father.\n\nDoctor:  Alright.  I  see  that  you're  18  years  old,  an  intermediate  student  from  Samanabad,  and  you\n\nare currently single. Just to confirm, your fathers recipient MRN is 761922, and his blood group is\n\nB+ve, is that right?\n\nPatient: Yes, that's correct.\n\nDoctor:  Your  blood  group  is  also  compatible,  and  your  fathers  indication  for  the  transplant  is\n\ncryptogenic/NASH DCLD. The CTP score for your father is B8, and his MELD score is 23.\n\nPatient: Yes, thats all right.\n\nDoctor: Okay, so there are no active complaints or symptoms at the moment. Youve had no history\n\nof  blood  transfusions,  fevers,  or  night  sweats.  Your  prior  medical  and  surgical  history  are\n\n\funremarkable, and you have no allergies, correct?\n\nPatient: Yes, that's right.\n\nDoctor:  Moving  on  to  your  socio-economic  background,  it  appears  you  do  not  have  any  religious,\n\ncultural, or spiritual needs for your care. You mentioned you are currently unemployed, single, and\n\nhave no addictions, including smoking, alcohol, or tobacco use.\n\nPatient: Yes, thats all accurate.\n\nDoctor:  Youve  never  been  on  any  current  medications,  nor  do  you  have  any  past  history  of\n\nmedications. And your family history is also unremarkable.\n\nPatient: Correct.\n\nDoctor: Now, for the psychological screening, I see that you have no history of depression, suicidal\n\nthoughts, or self-harm attempts. Thats good to hear. Is that still accurate?\n\nPatient: Yes, that's accurate.\n\nDoctor:  Regarding  any  religious  or  cultural  practices,  theres  nothing  specific  you  need  to  consider\n\nfor your care, is that right?\n\nPatient: Yes, thats right.\n\nDoctor:  As  for  physical  or  cognitive  limitations,  it  seems  there  are  none.  You  have  no  issues  with\n\nlanguage, speech, vision, cognition, or mobility.\n\n\fPatient: Yes, no issues there.\n\nDoctor:  Now,  during  your  physical  examination,  I  found  your  abdomen  to  be  soft,  non-tender,  and\n\nnon-distended.  Your  lungs  had  normal  vesicular  breathing,  and  your  heart  sounds  were  normal\n\nwithout murmurs. You were conscious, well-oriented, and had a GCS of 15/15. All seems to be in\n\norder.\n\nPatient: Yes, everything sounds normal.\n\nDoctor:  Great!  Lets  review  your  vital  signs.  Your  blood  pressure  is  120/78,  heart  rate  is  71,\n\ntemperature is 36.9°C, and your oxygen saturation is 97%. Your height is 154 cm, weight is 58 kg,\n\nand your BMI is 26.9.\n\nPatient: Okay, that seems accurate.\n\nDoctor: Now, let me explain the risks associated with being a liver donor. The mortality risk is very\n\nlow,  around  0.5%,  which  means  theres  1  in  200  chance.  However,  the  morbidity  risk  is  higher,  at\n\nabout  15-20%.  This  could  include  complications  like  liver  failure,  deep  vein  thrombosis  (DVT),\n\npulmonary embolism (PE), pneumonia, incisional hernia, biliary leaks, or strictures. Some of these\n\nmay  require  endoscopic,  radiological,  or  surgical  interventions.  As  part  of  the  hepatectomy\n\nprocedure, we will also be performing a cholecystectomy. These risks have been explained to you,\n\nand you understand them, correct?\n\nPatient: Yes, I understand the risks.\n\nDoctor:  Excellent.  I  also  see  that  you  have  been  educated  about  living  donor  liver  transplantation\n\n\f(LDLT), and you are fully aware of the procedure and its associated risks. We can proceed to the\n\nnext step. Is that alright with you?\n\nPatient: Yes, I'm ready to proceed.\n\nDoctor:  Moving  on  to  the  psychiatry  evaluation  now,  I  see  you're  a  student,  third  among  four\n\nsiblings, and living in Lahore. You have denied any history of recent illness, past medical or surgical\n\nhistory, and have no psychiatric conditions or medication history. You also denied any addiction.\n\nPatient: Thats correct.\n\nDoctor:  Youve  also  confirmed  that  theres  no  coercion  in  your  decision,  and  you  are  aware  of  the\n\ntransplant  process,  its  risks,  and  complications.  You  have  adequate  support  for  the  process,  and\n\nthere are no financial concerns at the moment, correct?\n\nPatient: Yes, thats all true.\n\nDoctor: Regarding suicide risk, Ive asked you about any suicidal thoughts or intentions, and youve\n\nconfirmed there are none. Your response to the C-SSRS (Columbia-Suicide Severity Rating Scale)\n\nshows no suicidal behavior or risk. Therefore, your risk level is considered to be zero.\n\nPatient: Yes, I am not at risk.\n\nDoctor:  Thats  good  to  hear.  Based  on  my  assessment,  I  believe  you  have  the  decision-making\n\ncapacity  and  the  necessary  support  for  this  donation.  There  are  no  concerns  from  the  psychiatric\n\nside.\n\n\fPatient: Thank you, Doctor.\n\nDoctor: You're welcome! Well proceed with the next steps and keep monitoring your progress. If you\n\nhave any questions or concerns, feel free to reach out.\n\nPatient: Thank you! I feel confident moving forward.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Female",
+            "Age": "18",
+            "MRN": "831652",
+            "Diagnosis": "Hepatocellular Carcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "None"
+            ],
+            "NegativeFindings": [
+                "No history of blood transfusions",
+                "No fevers",
+                "No night sweats",
+                "Unremarkable prior medical and surgical history",
+                "No allergies",
+                "No history of depression",
+                "No suicidal thoughts",
+                "No self-harm attempts",
+                "No physical or cognitive limitations"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Cryptogenic/NASH DCLD",
+            "CTP score B8",
+            "MELD score 23"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "None"
+            ],
+            "Procedures": [
+                "Hepatectomy",
+                "Cholecystectomy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "None"
+            ],
+            "LabResults": [
+                "None"
+            ],
+            "PathologyFindings": [
+                "None"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "None"
+            ],
+            "Comorbidities": [
+                "None"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "None"
+            ],
+            "ScheduledTests": [
+                "None"
+            ],
+            "NextAppointmentDetails": [
+                "None"
+            ]
+        },
+        "VisitTimeline": [
+            "None"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient is considering donating part of her liver to her father.",
+            "DiagnosticJourney": "Patient has been evaluated for living donor liver transplantation.",
+            "TreatmentResponse": "Patient understands the risks associated with being a liver donor.",
+            "OngoingConcerns": "None"
+        }
+    }
+}

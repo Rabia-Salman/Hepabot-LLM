@@ -1,0 +1,98 @@
+{
+    "patient_id": "history_physical_38",
+    "raw_text": "Gender: Male\n\nAge: 12\n\nMRN: 770943\n\nDiagnosis: Budd-Chiari syndrome\n\nHistory and Physical:\n\nPatient: Hello Doctor, Ive come in for my follow-up today.\n\nDoctor: Hello, Husnain. How have you been feeling since our last visit?\n\nPatient:  The  abdominal  pain  has  improved  from  before.  Its  now  intermittent  and  mostly  in  the  left\n\nlumbar region. The pain occurs both before and after meals but resolves on its own.\n\nDoctor: That's good to hear. Have you experienced any other symptoms?\n\nPatient: Ive been sleeping a lot more than usual, but other than that, no major changes. My doctor\n\nhad stopped my warfarin about 1.5 months ago. It was prescribed in 2017 and I had been taking it\n\nregularly until Dr. Tariq decided to stop it after I developed ascites.\n\nDoctor: I see. Hows the ascites now?\n\nPatient: The ascites has resolved, thankfully.\n\nDoctor: Thats a relief. Lets go through some of your recent medical history. We know that you were\n\ndiagnosed  with  Budd-Chiari  syndrome  based  on  your  previous  CT  triphasic  scan.  How  have  you\n\nbeen managing with your medications?\n\nPatient: Im still on a few medications. I take Inderal 10 mg twice daily, Evion 250 mg once a day,\n\n\fD-Max  drops  3  drops  daily,  Aldactone  25  mg  once  a  day,  and  Folic  Acid  once  a  day.  Im  also  on\n\nPedia Max drops and Lysovit syrup.\n\nDoctor:  Sounds  like  a  good  routine.  Now,  regarding  your  liver  health,  lets  go  over  the  latest\n\ninvestigations. On your last visit, your bilirubin was at 1.3, ALT at 58, and AST at 42. Your INR was\n\nslightly elevated at 1.4, which we should keep an eye on. Your platelet count is within normal limits,\n\nthough, and your WBC count is 3.8. I see your protein C was low at 59% in May. Well monitor that.\n\nPatient: Yes, I remember those results.\n\nDoctor:  For  your  recent  ultrasound,  it  showed  a  mildly  enlarged  liver  with  a  heterogeneous\n\nechotexture  and  some  varices  in  the  hypertrophied  caudate  lobe.  There  was  also  an  echogenic\n\nchronic  thrombus  in  the  main  hepatic  veins,  which  is  consistent  with  the  sequelae  of  Budd-Chiari\n\nsyndrome. Your recent CT from June 7th also shows stenosis and occlusion at the confluence of the\n\nright, left, and middle hepatic veins with multiple intrahepatic collaterals draining into the infrahepatic\n\nIVC. You also have some background changes of chronic liver disease and splenomegaly.\n\nPatient: That sounds concerning. Is there anything new we should do?\n\nDoctor: Yes, the findings confirm that we need to continue with your liver disease workup. You are at\n\nstage F4 of fibrosis, as indicated by the shearwave elastography. Well continue monitoring closely.\n\nFor now, Id like to continue with your current medications and the follow-up plan.\n\nPatient: Okay, Doctor. Anything else I should know?\n\nDoctor:  We  are  also  planning  an  EGD  tomorrow  to  assess  any  varices  or  gastrointestinal\n\ninvolvement. During the procedure, we'll check the esophagus and band any varices if necessary.\n\n\fAdditionally, your blood work will include checking your protein C levels again, as well as screening\n\nfor celiac disease, given your family history. Well also recheck your ceruloplasmin and IgG levels, as\n\nwe need to rule out autoimmune causes.\n\nPatient: I understand. Is there anything else in the plan?\n\nDoctor: Yes, we will be doing a full baseline workup, including PELD/MELD scoring to evaluate your\n\nliver  function  and  potential  for  a  liver  transplant  in  the  future.  Ill  also  discuss  your  case  with  our\n\nmultidisciplinary  team  this  Friday.  Well  monitor  the  progression  closely,  and  I'll  make  sure  all  your\n\ntests and treatments are coordinated.\n\nPatient: Alright, Doctor. Thanks for explaining everything. Ill get ready for the EGD tomorrow.\n\nDoctor: Youre welcome, Husnain. Well make sure everything goes smoothly. See you tomorrow for\n\nthe procedure. Lets keep an eye on your condition and adjust as needed.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "12",
+            "MRN": "770943",
+            "Diagnosis": "Budd-Chiari syndrome"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "intermittent abdominal pain in the left lumbar region",
+                "increased sleep"
+            ],
+            "NegativeFindings": [
+                "ascites resolved"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "stage F4 of fibrosis",
+            "chronic liver disease",
+            "splenomegaly"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Inderal 10 mg twice daily",
+                "Evion 250 mg once a day",
+                "D-Max drops 3 drops daily",
+                "Aldactone 25 mg once a day",
+                "Folic Acid once a day",
+                "Pedia Max drops",
+                "Lysovit syrup"
+            ],
+            "Procedures": [
+                "EGD"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "mildly enlarged liver with heterogeneous echotexture",
+                "varices in the hypertrophied caudate lobe",
+                "echogenic chronic thrombus in the main hepatic veins",
+                "stenosis and occlusion at the confluence of the right, left, and middle hepatic veins",
+                "multiple intrahepatic collaterals draining into the infrahepatic IVC"
+            ],
+            "LabResults": [
+                {
+                    "Bilirubin": "1.3"
+                },
+                {
+                    "ALT": "58"
+                },
+                {
+                    "AST": "42"
+                },
+                {
+                    "INR": "1.4"
+                },
+                {
+                    "WBC count": "3.8"
+                },
+                {
+                    "Protein C": "59%"
+                }
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Budd-Chiari syndrome",
+                "chronic liver disease"
+            ],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "multidisciplinary team discussion"
+            ],
+            "ScheduledTests": [
+                "recheck protein C levels",
+                "screening for celiac disease",
+                "recheck ceruloplasmin and IgG levels",
+                "full baseline workup including PELD/MELD scoring"
+            ],
+            "NextAppointmentDetails": [
+                "EGD tomorrow"
+            ]
+        },
+        "VisitTimeline": [],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Abdominal pain improved, ascites resolved.",
+            "DiagnosticJourney": "Diagnosed with Budd-Chiari syndrome based on CT scan.",
+            "TreatmentResponse": "Currently on multiple medications with ongoing monitoring.",
+            "OngoingConcerns": "Need to monitor liver function and potential for liver transplant."
+        }
+    }
+}

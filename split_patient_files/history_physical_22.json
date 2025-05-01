@@ -1,0 +1,122 @@
+{
+    "patient_id": "history_physical_22",
+    "raw_text": "Gender: Male\n\nAge: 14\n\nMRN: 629161\n\nDiagnosis: Hepatic fibrosis\n\nHistory and Physical:\n\nDoctor:\n\nHello, how are you feeling today? What brings you in?\n\nPatient:\n\nIve  had  hematemesis  and  melena  for  the  last  two  months,  about  3-4  episodes.  I  was  admitted  in\n\nPeshawar where they did an OGD and applied 4 bands.\n\nDoctor:\n\nI see. What medications were you prescribed after that?\n\nPatient:\n\nI was started on Inderal 2 tabs twice daily and Spiromide 20 mg once daily.\n\nDoctor:\n\nThank you for sharing that. We also did a CT scan, which showed a suspicion of Caroli disease. We\n\nperformed an ultrasound of the abdomen, which showed a normal caliber portal vein and CBD. How\n\nare you feeling now?\n\nPatient:\n\nIm actually asymptomatic for the past two months. No issues with jaundice, abdominal distension,\n\nperipheral edema, petechiae, or bruises.\n\n\fDoctor:\n\nGood to hear. On examination, I noticed the liver is enlarged by 5 cm, and the spleen is enlarged by\n\n2 cm. The left lobe of the liver is palpable.\n\nPatient:\n\nOkay.\n\nDoctor:\n\nLets proceed with some tests to investigate further. Well do a CBC, LFTs, PT/INR, RFTs, Hepatitis\n\nB, Anti-HCV, ANA, IGA, IGG, IGM, Ceruloplasmin, and a slit-lamp examination. Id also like to get a\n\nCT triphasic, ultrasound of the abdomen, EGD, and possibly a liver biopsy.\n\nPatient:\n\nSounds good. What should I do in the meantime?\n\nDoctor:\n\nYou  should  follow  a  salt  restriction  diet  and  eat  egg  whites.  Continue  your  current  medications  for\n\nnow. After we get the lab results, we will plan for the EGD and liver biopsy.\n\nDoctor:\n\nYour slit-lamp eye examination for Kayser-Fleischer rings was negative. We can now proceed with\n\nscheduling your EGD and liver biopsy.\n\nPatient:\n\nThank you.\n\nDoctor:\n\n\fOn  your  follow-up  visit,  you  mentioned  no  active  complaints.  There  has  been  no  hematemesis  or\n\nmelena, and youre not experiencing any fever or jaundice, correct?\n\nPatient:\n\nYes, that's right.\n\nDoctor:\n\nGood.  You're  still  taking  your  usual  medications:  Inderal  20  mg  twice  daily,  Spiromide  20/50  mg\n\nonce daily, and Risek sachets for two weeks. During your examination, I noted no jaundice or pallor.\n\nYour left lobe of the liver is still palpable, and the spleen is 3 cm palpable. Your chest sounds clear\n\nbilaterally, and theres no ascites.\n\nPatient:\n\nOkay.\n\nDoctor:\n\nHere are your lab results:\n\nWBC: 4.9\n\nHb: 12\n\nPlatelets: 138\n\nTotal Bilirubin: 1.23\n\nALT: 31\n\n\fAST: 43\n\nALP: 285\n\nGGT: 65\n\nAlbumin: 4.29\n\nUrea: 16\n\nCreatinine: 0.5\n\nNa: 139\n\nK: 4\n\nCl: 99\n\nPT: 14.8\n\nINR: 1.14\n\nThe CT triphasic results suggest primary biliary cholangitis or primary sclerosing cholangitis. Theres\n\nalso a small soft tissue nodule in the periampullary region, possibly a polyp. Further evaluation with\n\nMRCP and ERCP, with possible tissue sampling, is recommended.\n\n\fPatient:\n\nWhats the next step?\n\nDoctor:\n\nWell  proceed  with  an  EGD  tomorrow  and  also  consult  regarding  a  liver  transplant.  We'll  perform\n\nfurther  tests,  including  CBC,  LFTs,  RFTs,  PT/INR,  and  COVID-19  testing.  We  will  also  need  to\n\ncross-match your blood.\n\nPatient:\n\nOkay, I understand.\n\nDoctor:\n\nOn your next follow-up, you were admitted for surveillance and an EGD procedure. Youre still taking\n\nyour medications as usual. Your blood pressure was 106/60, and your heart rate was 117.\n\nPatient:\n\nYes, thats correct.\n\nDoctor:\n\nThe plan includes MRCP tomorrow, along with CBC, INR, LFTs, RFTs, SE, and COVID-19 antigen\n\ntests. You will be seen by Dr. Iqtidar, Dr. Seerat, and Dr. Ali tomorrow.\n\nDoctor:\n\nYour  follow-up  visit  on  27th  September  showed  no  active  complaints.  The  EGD  was  completed\n\nearlier this year, and youve been prescribed the following:\n\nInderal 10 mg twice daily\n\n\fSpiromide 50/20 mg once-half tablet twice daily\n\nIndrop D injection once every two months\n\nFor  today,  youre  scheduled  for  surveillance  endoscopy.  The  anesthesia  consult  is  arranged,  and\n\nyour lab work will include CBC, LFTs, RFTs, S/E, PT/INR, and an abdominal ultrasound.\n\nPatient:\n\nGot it.\n\nDoctor:\n\nAfter the endoscopy, well optimize your medication as follows:\n\nInderal 30 mg twice daily\n\nSpiromide 50/20 mg once-half tablet twice daily\n\nWell schedule your next follow-up for endoscopy in 6 weeks.\n\nPatient:\n\nOkay, thank you.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "14",
+            "MRN": "629161",
+            "Diagnosis": "Hepatic fibrosis"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "None"
+            ],
+            "NegativeFindings": [
+                "No jaundice",
+                "No abdominal distension",
+                "No peripheral edema",
+                "No petechiae",
+                "No bruises"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Suspicion of Caroli disease",
+            "Primary biliary cholangitis or primary sclerosing cholangitis",
+            "Small soft tissue nodule in the periampullary region, possibly a polyp"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Inderal 2 tabs twice daily",
+                "Spiromide 20 mg once daily",
+                "Inderal 20 mg twice daily",
+                "Spiromide 20/50 mg once daily",
+                "Risek sachets for two weeks",
+                "Inderal 10 mg twice daily",
+                "Spiromide 50/20 mg once-half tablet twice daily",
+                "Indrop D injection once every two months",
+                "Inderal 30 mg twice daily",
+                "Spiromide 50/20 mg once-half tablet twice daily"
+            ],
+            "Procedures": [
+                "OGD",
+                "CT scan",
+                "Ultrasound of the abdomen",
+                "Slit-lamp examination",
+                "EGD",
+                "Liver biopsy",
+                "MRCP",
+                "ERCP",
+                "Surveillance endoscopy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "CT triphasic results suggest primary biliary cholangitis or primary sclerosing cholangitis",
+                "Normal caliber portal vein and CBD",
+                "Liver enlarged by 5 cm",
+                "Spleen enlarged by 2 cm",
+                "Left lobe of the liver palpable",
+                "Spleen 3 cm palpable"
+            ],
+            "LabResults": [
+                "WBC: 4.9",
+                "Hb: 12",
+                "Platelets: 138",
+                "Total Bilirubin: 1.23",
+                "ALT: 31",
+                "AST: 43",
+                "ALP: 285",
+                "GGT: 65",
+                "Albumin: 4.29",
+                "Urea: 16",
+                "Creatinine: 0.5",
+                "Na: 139",
+                "K: 4",
+                "Cl: 99",
+                "PT: 14.8",
+                "INR: 1.14"
+            ],
+            "PathologyFindings": [
+                "Negative for Kayser-Fleischer rings"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Hepatic fibrosis"
+            ],
+            "Comorbidities": [
+                "None"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "Dr. Iqtidar",
+                "Dr. Seerat",
+                "Dr. Ali"
+            ],
+            "ScheduledTests": [
+                "CBC",
+                "LFTs",
+                "RFTs",
+                "PT/INR",
+                "COVID-19 testing",
+                "Abdominal ultrasound"
+            ],
+            "NextAppointmentDetails": [
+                "Follow-up in 6 weeks"
+            ]
+        },
+        "VisitTimeline": [
+            "Initial visit",
+            "Follow-up visit on 27th September",
+            "Next follow-up after endoscopy"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient was asymptomatic for the past two months with no active complaints.",
+            "DiagnosticJourney": "Underwent multiple imaging studies and lab tests leading to suspicion of chronic liver conditions.",
+            "TreatmentResponse": "Patient is currently stable on medications with no new symptoms.",
+            "OngoingConcerns": "Monitoring for potential liver transplant and further evaluation of liver conditions."
+        }
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "patient_id": "history_physical_13",
+    "raw_text": "Gender: Female\n\nAge: 33\n\nMRN: 765344\n\nDiagnosis: Chronic hepatic failure\n\nHistory and Physical:\n\nPatient Information:\n\nName: Sobia Pervaiz\n\nAge: 32 years\n\nGender: Female\n\nMarital Status: Married, has a child\n\nResidence: Bahrain\n\nOccupation: Housewife\n\nMedical History: Diabetic (most likely Type 1), controlled on Insulin\n\nSocial History: No smoking, No alcohol, Post-graduate education\n\nFamily History:\n\nParents: Diabetic, Mother is hypertensive\n\n\fGrandmother and Aunt had Breast cancer\n\nMaternal uncle had Blood cancer\n\nCurrent Medications:\n\nHormonal medications for conception\n\nMetformin 500mg OD\n\nInsulin\n\nDoctor's Conversation with Patient:\n\nDoctor: Hello, Sobia. What brings you in today?\n\nPatient: I have been feeling nauseous lately.\n\nDoctor:  I  see.  Let  me  ask  you  a  few  questions.  Have  you  experienced  any  significant  weight  loss\n\nrecently?\n\nPatient: No, I havent had any weight loss.\n\nDoctor: Have you had any fevers or night sweats?\n\nPatient: No, no fevers or night sweats.\n\n\fDoctor: Any physical or cognitive limitations?\n\nPatient: No, I dont have any limitations.\n\nDoctor: Lets go over your investigations. You had an ultrasound, CT scan, and MRI. I see from the\n\nCT scan dated 15th February that it showed multiple bilobar hepatic lesions. Did you experience any\n\nsymptoms like jaundice or melena?\n\nPatient: No, I didnt have jaundice or melena.\n\nDoctor: I see your MRI from 6th March shows a large mass centered over segment 4 of 12cm with\n\nwashout  and  diffusion  restriction,  suggesting  HCC.  The  biopsy  shows  a  well-differentiated\n\nhepatocellular lesion, which favors hepatic adenoma.\n\nPatient: Yes, Ive been informed about the diagnosis of hepatic adenoma.\n\nDoctor:  Good.  We  are  discussing  surgery  options  for  you.  The  plan  is  to  perform  a  central\n\nhepatectomy  after  Eid.  I  would  like  to  submit  the  CDs  of  your  CT  scan  and  MRI  for  further  MDT\n\ndiscussion.\n\nPatient: Okay, I understand. I will send the CDs. Is there anything else I need to do?\n\nDoctor: You will meet Mr. Asif for surgery coordination, and we will perform a pre-operative workup.\n\nThe  risk  of  mortality  is  around  1-2%,  and  the  morbidity  risk  is  around  10%.  We  will  monitor  your\n\nprogress closely.\n\nFollow-Up Visit:\n\n\fDoctor: Welcome back, Sobia. How have you been feeling since your last visit?\n\nPatient: I dont have any active complaints. Everything feels normal.\n\nDoctor:  Great  to  hear.  I  see  that  your  CT  scan  from  PKLI,  dated  15th  February,  shows  multifocal\n\nbilobar  arterialized  lesions.  Though  the  biopsy  confirmed  hepatic  adenoma,  the  radiology  report\n\nsuggests that fibrolamellar HCC and fibro-nodular hyperplasia remain differential diagnoses.\n\nPatient: Yes, the doctors explained that.\n\nDoctor: For now, the MDT has advised surgery, as the liver mass could be related to either hepatic\n\nadenoma or fibro-nodular hyperplasia. We are proceeding with surgery after Eid.\n\nPatient: Got it. Is there any additional preparation I need to make?\n\nDoctor:  We  will  proceed  with  the  pre-operative  workup  and  fitness  tests.  Please  meet  the\n\ncoordinator,  Mr.  Asif,  for  further  details.  And  dont  forget,  the  risks  for  surgery  are  minimal,  but  it's\n\nimportant to be aware of the potential for complications.\n\nLab Results:\n\nHB: 14.4\n\nTLC: 10.6\n\nPLT: 349\n\n\fT-BIL: 0.7\n\nD-BIL: (Not recorded)\n\nALT/AST: 59/30\n\nALP: 239\n\nAlbumin: 4.8\n\nCreatinine: 0.51\n\nNa+: 139\n\nK+: 4.51\n\nINR: 1.03\n\nAssessment / Diagnosis:\n\nHepatic Adenoma\n\nPlan:\n\nCentral Hepatectomy after Eid\n\n\fSubmit CDs of CT and MRI for MDT discussion\n\nPre-operative workup and fitness check (Meet Mr. Asif)\n\nExplain risks of mortality (1-2%) and morbidity (10%)\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Female",
+            "Age": "33",
+            "MRN": "765344",
+            "Diagnosis": "Chronic hepatic failure"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "Nausea"
+            ],
+            "NegativeFindings": [
+                "No weight loss",
+                "No fevers",
+                "No night sweats",
+                "No jaundice",
+                "No melena"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Hepatic Adenoma",
+            "Differential diagnoses: fibrolamellar HCC, fibro-nodular hyperplasia"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Hormonal medications for conception",
+                "Metformin 500mg OD",
+                "Insulin"
+            ],
+            "Procedures": [
+                "Central Hepatectomy after Eid"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "CT scan shows multiple bilobar hepatic lesions",
+                "MRI shows a large mass centered over segment 4 of 12cm"
+            ],
+            "LabResults": [
+                "HB: 14.4",
+                "TLC: 10.6",
+                "PLT: 349",
+                "T-BIL: 0.7",
+                "D-BIL: None",
+                "ALT/AST: 59/30",
+                "ALP: 239",
+                "Albumin: 4.8",
+                "Creatinine: 0.51",
+                "Na+: 139",
+                "K+: 4.51",
+                "INR: 1.03"
+            ],
+            "PathologyFindings": [
+                "Biopsy shows a well-differentiated hepatocellular lesion favoring hepatic adenoma"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Diabetes"
+            ],
+            "Comorbidities": [
+                "Hypertension in mother",
+                "Diabetes in parents",
+                "Breast cancer in grandmother and aunt",
+                "Blood cancer in maternal uncle"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "Meet Mr. Asif for surgery coordination"
+            ],
+            "ScheduledTests": [
+                "Pre-operative workup and fitness check"
+            ],
+            "NextAppointmentDetails": [
+                "After Eid"
+            ]
+        },
+        "VisitTimeline": [
+            "Initial visit",
+            "Follow-up visit"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient presented with nausea and was diagnosed with hepatic adenoma after imaging and biopsy.",
+            "DiagnosticJourney": "CT and MRI scans were performed, leading to the diagnosis of hepatic adenoma.",
+            "TreatmentResponse": "Patient is scheduled for surgery after Eid.",
+            "OngoingConcerns": "Monitoring for potential complications and ensuring fitness for surgery."
+        }
+    }
+}

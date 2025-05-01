@@ -1,0 +1,88 @@
+{
+    "patient_id": "history_physical_67",
+    "raw_text": "Gender: Female\n\nAge: 26\n\nMRN: 847861\n\nDiagnosis: Hepatocellular Carcinoma\n\nHistory and Physical:\n\nDoctor: Good morning. I see you are here for the evaluation of potential liver donation. Let's go over\n\nyour medical history first.\n\nPatient: Sure, Doctor.\n\nDoctor: How have you been feeling lately? Any active complaints?\n\nPatient: No, I don't have any active complaints.\n\nDoctor: Alright. Let me ask you about your medical history. Have you had any prior medical issues\n\nor surgeries?\n\nPatient:  No,  no  medical  history.  I  havent  had  any  surgeries  either,  except  for  a  normal  vaginal\n\ndelivery a year ago.\n\nDoctor: Thats good to know. Have you had any allergies?\n\nPatient: No allergies.\n\nDoctor:  Okay.  Now,  lets  move  to  your  social  background.  Do  you  have  any  religious,  cultural,  or\n\nspiritual needs that we should be aware of for your care?\n\n\fPatient: No, nothing in particular.\n\nDoctor: Any financial strains or issues that could affect your treatment?\n\nPatient: No, everything is fine financially.\n\nDoctor: And your education level?\n\nPatient: I have a bachelor's degree.\n\nDoctor: What about your occupation?\n\nPatient: Im a housewife, and I have two children.\n\nDoctor: Do you have any addictions, like smoking or alcohol?\n\nPatient: No, none of that.\n\nDoctor: Alright, and now let's talk about your family history. Are there any conditions like diabetes,\n\nhypertension, cancer, or asthma in your family?\n\nPatient: No, theres nothing of that sort in my family history.\n\nDoctor:  Moving  on  to  psychological  screening.  Have  you  ever  felt  depressed  or  had  any  suicidal\n\nthoughts?\n\nPatient: No, not at all. Ive never had those thoughts.\n\n\fDoctor: Thats reassuring. Now, any issues with language, speech, vision, or cognitive abilities?\n\nPatient: No, everything is normal in that regard.\n\nDoctor: Let me ask you about your menstrual history. Any issues there?\n\nPatient: No, everything is fine.\n\nDoctor:  Lets  proceed  with  the  examination.  Your  abdomen  is  soft,  non-tender,  and  non-distended.\n\nYour  lungs  are  clear  with  normal  breathing  sounds,  and  your  heart  sounds  are  normal  without\n\nmurmurs. Neurologically, you are conscious and oriented, and your GCS score is 15 out of 15.\n\nDoctor: Now, lets review the lab results and vital signs.\n\nFor the donor:\n\nBlood Pressure: 107/72\n\nHeart Rate: 66 beats per minute\n\nTemperature: 36.4°C\n\nOxygen Saturation: 99%\n\nHeight: 165 cm\n\n\fWeight: 83 kg\n\nBMI: 30.5\n\nFor the recipient:\n\nBlood Pressure: 124/60\n\nHeart Rate: 115 beats per minute\n\nTemperature: 36.2°C\n\nOxygen Saturation: 98%\n\nHeight: 77 cm\n\nWeight: 7 kg\n\nDoctor: Your donor risk assessment shows a 0.5% mortality risk and a 15-20% morbidity risk. The\n\nrisks include liver failure, deep vein thrombosis, pulmonary embolism, pneumonia, incisional hernia,\n\nand  biliary  leaks,  which  may  require  interventions.  As  part  of  the  donor  hepatectomy,  a\n\ncholecystectomy will also be performed. These risks have been explained to you.\n\nPatient: Yes, I understand the risks involved.\n\nDoctor:  Good.  Now,  lets  move  forward  with  the  plan.  Youll  need  to  get  blood  tests  and  an\n\nultrasound. Also, please meet with Mr. Touseef for further discussions.\n\n\fPatient: Okay, I will do that.\n\nDoctor:  Great.  Let  me  summarize  the  plan  for  you.  Youve  been  educated  about  living  donor  liver\n\ntransplantation (LDLT), and you understand the associated risk factors. We'll proceed with Step 1:\n\nblood tests and ultrasound.\n\nFollow-up visits:\n\nDoctor (November 13, 2024): I noticed you didn't show up for your appointment today.\n\nPatient: Yes, something came up, and I couldn't make it.\n\nDoctor  (November  20,  2024):  Let's  review  your  latest  gynecology  examination.  Your  ultrasound\n\nshows that your uterus is anteverted, measuring 9.2 x 3.4 x 5.6 cm, and the endometrium is 4 mm\n\nthick.  Your  right  ovary  measures  3.1  x  1.5  x  2.8  cm  with  a  volume  of  7.3  ml,  and  your  left  ovary\n\nmeasures 2.6 x 1.8 x 3.7 cm with a volume of 9.6 ml. No gross pelvic pathology was found.\n\nPatient: Okay, Doctor.\n\nDoctor: Your beta HCG is less than 0.1, which is normal. Also, the pap smear kit was unavailable,\n\nbut there are no risk factors for cervical or endometrial cancer. You have a curdy white discharge,\n\nbut otherwise, the examination is normal.\n\nPatient: What does that mean?\n\nDoctor: It seems like you have vaginal candidiasis, which is a fungal infection. I recommend taking\n\n\fCanestein tablets once per week for three weeks. After that, youll be fit to proceed with the donation\n\nprocess.\n\nPatient: Understood. Thank you, Doctor.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Female",
+            "Age": "26",
+            "MRN": "847861",
+            "Diagnosis": "Hepatocellular Carcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "None"
+            ],
+            "NegativeFindings": [
+                "No prior medical issues",
+                "No allergies",
+                "No family history of diabetes, hypertension, cancer, or asthma",
+                "No issues with language, speech, vision, or cognitive abilities",
+                "No menstrual issues",
+                "No risk factors for cervical or endometrial cancer"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Normal ultrasound findings",
+            "Normal beta HCG",
+            "Vaginal candidiasis"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Canestein tablets once per week for three weeks"
+            ],
+            "Procedures": [
+                "Cholecystectomy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "Uterus anteverted, measuring 9.2 x 3.4 x 5.6 cm",
+                "Endometrium 4 mm thick",
+                "Right ovary 3.1 x 1.5 x 2.8 cm with a volume of 7.3 ml",
+                "Left ovary 2.6 x 1.8 x 3.7 cm with a volume of 9.6 ml"
+            ],
+            "LabResults": [
+                "Blood Pressure: 107/72",
+                "Heart Rate: 66 beats per minute",
+                "Temperature: 36.4°C",
+                "Oxygen Saturation: 99%",
+                "BMI: 30.5"
+            ],
+            "PathologyFindings": [
+                "None"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "None"
+            ],
+            "Comorbidities": [
+                "None"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "Mr. Touseef for further discussions"
+            ],
+            "ScheduledTests": [
+                "Blood tests",
+                "Ultrasound"
+            ],
+            "NextAppointmentDetails": [
+                "November 13, 2024",
+                "November 20, 2024"
+            ]
+        },
+        "VisitTimeline": [
+            "Initial evaluation",
+            "Follow-up on November 13, 2024",
+            "Follow-up on November 20, 2024"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient evaluated for potential liver donation with no active complaints and normal findings.",
+            "DiagnosticJourney": "Underwent ultrasound and lab tests revealing normal results except for vaginal candidiasis.",
+            "TreatmentResponse": "Patient to take Canestein tablets for vaginal candidiasis.",
+            "OngoingConcerns": "Monitoring for candidiasis treatment and preparation for liver donation."
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "patient_id": "history_physical_66",
+    "raw_text": "Gender: Male\n\nAge: 26\n\nMRN: 827360\n\nDiagnosis: Hepatocellular Carcinoma\n\nHistory and Physical:\n\natient: Good morning, doctor.\n\nDoctor: Good morning! How are you today?\n\nPatient: I'm doing well, thank you. Im here as a potential donor for my mother.\n\nDoctor: Alright, lets go over some details. Youre Ahmad Raza, 25 years old, from Sarghodha, and\n\nyou are single, correct?\n\nPatient: Yes, thats correct.\n\nDoctor: And youre considering being a living donor for your mother, Samina Bibi, who is undergoing\n\nliver transplant. Her MRN is 788437, and her blood type is A+. Is that right?\n\nPatient: Yes, thats right. My mom is suffering from HCV-related decompensated cirrhosis of the liver\n\n(DCLD).\n\nDoctor: Exactly. Your mothers Child-Turcotte-Pugh (CTP) score is B8, and her MELD score is 22.\n\nThese scores help us understand the severity of her condition. Now, lets go over your health status.\n\nAre you having any active complaints?\n\nPatient: No, I dont have any complaints at the moment.\n\n\fDoctor: Good to hear. Any recent history of blood transfusions, fevers, or night sweats?\n\nPatient:  No,  Ive  never  had  any  blood  transfusions,  and  I  havent  experienced  any  fevers  or  night\n\nsweats.\n\nDoctor: Thats great. How about your past medical history or surgeries?\n\nPatient: No significant medical or surgical history. Im healthy.\n\nDoctor: Any allergies?\n\nPatient: No allergies.\n\nDoctor:  Lets  talk  a  little  bit  about  your  social  and  economic  situation.  Do  you  have  any  financial\n\nconcerns or strains related to this?\n\nPatient: Yes, there are some financial concerns, but nothing major.\n\nDoctor: I understand. And your education level?\n\nPatient: Im an LLB student.\n\nDoctor: Single, with no addictions to smoking, alcohol, or tobacco?\n\nPatient: Yes, thats correct.\n\n\fDoctor: Now, lets move on to the psychological screening. Are you feeling depressed at all?\n\nPatient: No, Im doing fine mentally.\n\nDoctor: Any thoughts of self-harm or suicide?\n\nPatient: No, nothing like that.\n\nDoctor: Good. Lets proceed with the physical and cognitive screening. Theres no language barrier,\n\nno speech or visual impairments, and no cognitive or mobility issues, correct?\n\nPatient: Yes, thats all correct.\n\nDoctor:  Ill  move  on  to  the  physical  examination.  Your  abdomen  is  soft,  non-tender,  and\n\nnon-distended,  which  is  great.  Your  respiratory  and  cardiovascular  systems  are  normal,  with\n\nbilateral  normal  vesicular  breathing  and  normal  heart  sounds.  Your  consciousness  and  orientation\n\nare intact, and your GCS score is 15/15.\n\nPatient: Thats a relief.\n\nDoctor: As for investigations, there are no major findings at the moment. Lets review your vitals. For\n\nyou, the donor: your blood pressure is 122/73, heart rate is 73, temperature is 36.4°C, SpO2 is 98%,\n\nheight is 175 cm, weight is 65 kg, and BMI is 21.2. For your mother, the recipient: her weight is 43\n\nkg, and her BMI is 19.11.\n\nPatient: Okay, I understand the numbers.\n\n\fDoctor: Regarding the donor risk, there is a mortality risk of 0.5% (1 in 200) and morbidity risks of\n\n15-20%,  which  includes  potential  liver  failure,  deep  vein  thrombosis,  pulmonary  embolism,\n\npneumonia,  incisional  hernia,  and  biliary  leaks  or  strictures,  which  might  require  interventions  like\n\nendoscopy, radiology, or surgery.\n\nPatient: I understand the risks involved, doctor. Im ready to proceed.\n\nDoctor: As part of the donor hepatectomy, we will also perform a cholecystectomy. Weve explained\n\nall these risks to you, and you seem to understand them well.\n\nPatient: Yes, I understand everything.\n\nDoctor: Great. The next step is to proceed with Step 1. Youll need to go through further evaluations.\n\nPatient: Okay, thank you, doctor. Im ready to continue with the process.\n\nDoctor: You're welcome. If you have any more questions, don't hesitate to ask.\n\nPatient: Ill reach out if I have any concerns. Thank you!\n\nDoctor: Take care, Ahmad. We'll be in touch soon.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "26",
+            "MRN": "827360",
+            "Diagnosis": "Hepatocellular Carcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "None"
+            ],
+            "NegativeFindings": [
+                "No blood transfusions",
+                "No fevers",
+                "No night sweats",
+                "No significant medical or surgical history",
+                "No allergies"
+            ]
+        },
+        "DiagnosticConclusions": [],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "None"
+            ],
+            "Procedures": [
+                "Cholecystectomy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "None"
+            ],
+            "LabResults": [
+                "None"
+            ],
+            "PathologyFindings": [
+                "None"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "HCV-related decompensated cirrhosis of the liver"
+            ],
+            "Comorbidities": [
+                "None"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "Further evaluations"
+            ],
+            "ScheduledTests": [
+                "None"
+            ],
+            "NextAppointmentDetails": [
+                "None"
+            ]
+        },
+        "VisitTimeline": [
+            "Initial consultation"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient is healthy and ready to proceed with the donation process.",
+            "DiagnosticJourney": "No significant findings during the examination.",
+            "TreatmentResponse": "Patient understands the risks involved in the donation.",
+            "OngoingConcerns": "Financial concerns but nothing major."
+        }
+    }
+}

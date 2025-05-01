@@ -1,0 +1,124 @@
+{
+    "patient_id": "history_physical_17",
+    "raw_text": "Gender: Male\n\nAge: 5\n\nMRN: 708087\n\nDiagnosis: Hepatic fibrosis\n\nHistory and Physical:\n\nConversation: First Visit  22 September 2022\n\nDoctor: Hello! What brings you here today?\n\nMother: This is my son, Muhammad Umer. He's 2.5 years old, weighs 12 kg, and is 87 cm tall. We\n\ncame in for a follow-up on his kidney disease.\n\nDoctor: Alright. Any significant family or birth history?\n\nMother:  Yes,  we  are  a  consanguineous  couple.  Umer  has  two  siblings  who  passed  away  from\n\npolycystic  kidney  disease.  Two  other  siblings  are  healthy.  He  was  born  full-term  and  had  no\n\ncomplications during birth.\n\nDoctor: Got it. Has he been meeting his developmental milestones?\n\nMother: Yes, developmentally he's normal. His vaccinations are up to date as per schedule.\n\nDoctor: When was he diagnosed with polycystic kidney disease?\n\nMother:  He  was  fine  until  6  months  of  age.  We  got  some  tests  done  during  a  minor  illness  and\n\ndiscovered he had PKD. His belly was also swollen around that time.\n\nDoctor: Any history of GI bleeding?\n\n\fMother: Yes, he had around 45 episodes of hematemesis and melena. Hes undergone band ligation\n\nthrough endoscopy seven times. The last episode of GI bleeding was in March 2022, and the most\n\nrecent endoscopy was on May 21, 2022.\n\nDoctor:  Let  me  check  the  records.  The  last  EGD  shows  one  column  of  Grade  I  varices  and  mild\n\ngastropathy. Lets also look at his labs.\n\nLab Results (20202022)\n\nDoctor (reading labs):\n\nBilirubin: 0.4\n\nALT: 19\n\nALP: 70\n\nINR: 1.07\n\nHB (Mar 2022): 10.0\n\nWBC: 9.4\n\nPlatelets: 151\n\nDoctor: His labs seem stable for now. Imaging shows bilateral cystic kidneys with hepatic fibrosis,\n\nbut no signs of progressive portal hypertension.\n\n\fPlan (by Dr. Aneeqa Adnan)\n\nRepeat CBC, LFTs, RFTs, S/E, INR\n\nBlood group typing\n\nUrine R/E and C/S\n\nUltrasound abdomen and pelvis\n\nStart Tab Inderal 5mg TDS\n\nConsider liver biopsy (as EGD is due)\n\nFollow-up in one month with Pediatric Nephrology\n\nConversation: 22 May 2023  Paeds Gastro\n\nDoctor: Hello again. How is Umer doing?\n\nMother: Hes been having abdominal pain for about 15 days. Hes still on Inderal and D-Max drops.\n\nDoctor: Any new symptoms or GI bleeding?\n\nMother: No recent bleeding. The last one was in March 2022. He's had endoscopies regularly. The\n\nmost recent was September 2022, showing Grade I varices.\n\nDoctor: Let's examine him.\n\n\fExamination\n\nWeight/Height: 12 kg / 89 cm (Below 5th centile)\n\nGIT: Soft, non-tender abdomen, liver 3 cm BCM, spleen 2 cm BCM\n\nCVS, CNS, Respiratory: Normal\n\nNo jaundice, pallor, or edema\n\nDoctor:  Based  on  his  history  and  imaging,  this  is  consistent  with  Autosomal  Recessive  Polycystic\n\nKidney Disease (ARPKD) with suspected Congenital Hepatic Fibrosis.\n\nPlan\n\nLabs: CBC, LFT, RFT, S/E, INR\n\nLiver biopsy and EGD planned for tomorrow\n\nContinue current medications\n\nSalt-free diet advised\n\nAnesthesia and OR booking completed\n\nConversation: Follow-up  17 July 2023\n\nDoctor (Dr. Aneeqa Adnan and Dr. Iqra): Good to see you again. How is Umer now?\n\n\fMother: Hes stable and doesnt have any active complaints.\n\nDoctor: Great. Let's go over his labs from May 23:\n\nLab Results  23 May 2023\n\nALT: 74\n\nAST: 39\n\nALP: 138\n\nUrea: 24\n\nS/Cr: 0.7\n\nNa+: 136\n\nK+: 3.29\n\nHB: 7.9\n\nTLC: 4.3\n\nPlatelets: 180\n\nCa++: 9.36\n\n\fPhosphate: 4.8\n\nPTH: 107\n\nVitamin D: 27.24\n\nUrine C/E: LE +++\n\nUrine C/S: No growth\n\nPT/APTT: Normal\n\nDoctor:  His  hemoglobin  is  low.  Urinalysis  also  shows  leukocyte  esterase.  No  infection  grew  on\n\nculture though.\n\nPlan\n\nRepeat labs: CBC, RFTs, LFTs, S/E, Ca++, PO4, HCO3, PT/APTT, INR\n\nUrine R/E and C/S\n\nContinue current medications\n\nFollow-up after 1 month\n\nSummary  Final Diagnosis (as of 17 July 2023)\n\nDiagnosis:\n\nAutosomal  Recessive  Polycystic  Kidney  Disease  (ARPKD)  with  Congenital  Hepatic  Fibrosis\n\n\f(confirmed by liver biopsy)\n\nCurrent status: Not on dialysis\n\nLiver biopsy (24 May 2023):\n\nDuctal plate malformation\n\nFibrosis involving 6070% of biopsy volume\n\nNo cirrhosis\n\nEndoscopy (24 May 2023): Grade II varices (12 o'clock position)\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "5",
+            "MRN": "708087",
+            "Diagnosis": "Autosomal Recessive Polycystic Kidney Disease (ARPKD) with Congenital Hepatic Fibrosis"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "abdominal pain"
+            ],
+            "NegativeFindings": [
+                "no recent GI bleeding",
+                "no jaundice",
+                "no pallor",
+                "no edema"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Hepatic fibrosis",
+            "Polycystic kidney disease",
+            "Congenital hepatic fibrosis confirmed by liver biopsy"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Tab Inderal 5mg TDS",
+                "D-Max drops"
+            ],
+            "Procedures": [
+                "band ligation through endoscopy",
+                "liver biopsy",
+                "EGD"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "bilateral cystic kidneys",
+                "hepatic fibrosis"
+            ],
+            "LabResults": [
+                {
+                    "Date": "Mar 2022",
+                    "Bilirubin": "0.4",
+                    "ALT": "19",
+                    "ALP": "70",
+                    "INR": "1.07",
+                    "HB": "10.0",
+                    "WBC": "9.4",
+                    "Platelets": "151"
+                },
+                {
+                    "Date": "23 May 2023",
+                    "ALT": "74",
+                    "AST": "39",
+                    "ALP": "138",
+                    "Urea": "24",
+                    "S/Cr": "0.7",
+                    "Na+": "136",
+                    "K+": "3.29",
+                    "HB": "7.9",
+                    "TLC": "4.3",
+                    "Platelets": "180",
+                    "Ca++": "9.36",
+                    "Phosphate": "4.8",
+                    "PTH": "107",
+                    "Vitamin D": "27.24"
+                }
+            ],
+            "PathologyFindings": [
+                "ductal plate malformation",
+                "fibrosis involving 60-70% of biopsy volume",
+                "no cirrhosis"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Autosomal Recessive Polycystic Kidney Disease (ARPKD)",
+                "Congenital Hepatic Fibrosis"
+            ],
+            "Comorbidities": [
+                "None"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "Pediatric Nephrology"
+            ],
+            "ScheduledTests": [
+                "CBC",
+                "LFTs",
+                "RFTs",
+                "S/E",
+                "INR",
+                "Urine R/E and C/S"
+            ],
+            "NextAppointmentDetails": [
+                "Follow-up in one month"
+            ]
+        },
+        "VisitTimeline": [
+            {
+                "Date": "22 September 2022",
+                "VisitType": "First Visit"
+            },
+            {
+                "Date": "22 May 2023",
+                "VisitType": "Paeds Gastro"
+            },
+            {
+                "Date": "17 July 2023",
+                "VisitType": "Follow-up"
+            }
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Stable with no active complaints as of last visit.",
+            "DiagnosticJourney": "Diagnosed with PKD at 6 months, developed hepatic fibrosis.",
+            "TreatmentResponse": "Currently stable on medications, with regular endoscopies.",
+            "OngoingConcerns": "Monitoring for GI bleeding and managing abdominal pain."
+        }
+    }
+}

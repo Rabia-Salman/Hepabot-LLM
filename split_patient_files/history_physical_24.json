@@ -1,0 +1,81 @@
+{
+    "patient_id": "history_physical_24",
+    "raw_text": "Gender: Male\n\nAge: 17\n\nMRN: 776512\n\nDiagnosis: Budd-Chiari syndrome\n\nHistory and Physical:\n\nDoctor: Good afternoon. How are you feeling today?\n\nPatient:  Ive  been  experiencing  some  episodes  of  melena  and  hematemesis  again,  between  12th\n\nand 13th of October. Ive also been feeling generally weak and sometimes I get fever off and on.\n\nDoctor:  I  see.  Can  you  tell  me  a  little  more  about  what  happened  before  these  recent  episodes?\n\nWhen did you last have these symptoms?\n\nPatient: I was in my usual health six months ago, but back in July, I had about 5-6 episodes of upper\n\nGI  bleeding,  with  hematemesis  and  melena.  My  hemoglobin  dropped,  and  I  had  to  get  two  blood\n\ntransfusions.  Since  then,  I  havent  experienced  any  more  bleeding  episodes  until  the  ones  this\n\nmonth.\n\nDoctor:  Understood.  Well  look  at  your  recent  lab  results  and  past  medical  history  to  get  a  better\n\npicture. Are you currently on any medications?\n\nPatient: Yes, Im on Carvedilol 3.125 mg twice a day, Spironolactone 100 mg once daily, Lactulose\n\nsyrup 30 ml once daily, Furosemide 40 mg once daily, and Albumin 100 ml IV once a week.\n\nDoctor:  Thanks  for  sharing  that.  Lets  go  over  the  results  of  your  investigations.  Your  latest\n\nendoscopy  from  October  1st  shows  esophageal  varices  with  red  signs,  and  band  ligation  was\n\nperformed  with  six  bands  applied.  Your  recent  ultrasound  from  October  21st  showed  coarse  liver\n\n\ftexture, splenomegaly, and moderate ascites. Additionally, your CT scan and MRI from earlier this\n\nyear also showed cirrhotic liver with splenomegaly and ascites. How have you been managing your\n\nsymptoms?\n\nPatient:  Ive  been  dealing  with  occasional  abdominal  distension,  and  Ive  had  some  issues  with\n\nconstipation as well. Other than that, I havent had any significant weight loss or fevers.\n\nDoctor: It seems like your liver condition has remained stable, but we need to continue monitoring\n\nthings  closely.  Based  on  your  recent  labs,  your  liver  function  is  stable,  though  there  are  signs  of\n\ndecompensation,  as  indicated  by  your  ascites  and  portal  hypertension.  For  now,  we  dont  need  to\n\nconsider  a  liver  transplant  immediately,  but  we  will  continue  with  medical  management  and\n\nsurveillance.\n\nPatient: Is there a need for a transplant now, or should I wait?\n\nDoctor:  At  this  stage,  liver  transplant  surgery  is  not  urgently  required.  Your  liver  function  is  still\n\ncompensated, but its important to keep an eye on any changes. We will do regular follow-up exams,\n\nincluding repeat ultrasound, AFP tests, and blood work in three months. If you notice any worsening\n\nof symptoms before then, dont hesitate to come in for a visit.\n\nPatient: Thank you, doctor. Ill make sure to follow the plan and return for my follow-up.\n\nDoctor:  You're  welcome.  Ill  also  keep  you  informed  about  the  potential  for  a  liver  transplant  if  the\n\ncondition progresses, but for now, let's focus on surveillance and managing the current symptoms.\n\nWell continue to work on your medications and follow-up tests.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "17",
+            "MRN": "776512",
+            "Diagnosis": "Budd-Chiari syndrome"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "melena",
+                "hematemesis",
+                "general weakness",
+                "intermittent fever",
+                "abdominal distension",
+                "constipation"
+            ],
+            "NegativeFindings": [
+                "significant weight loss"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "esophageal varices with red signs",
+            "coarse liver texture",
+            "splenomegaly",
+            "moderate ascites",
+            "cirrhotic liver"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Carvedilol 3.125 mg twice a day",
+                "Spironolactone 100 mg once daily",
+                "Lactulose syrup 30 ml once daily",
+                "Furosemide 40 mg once daily",
+                "Albumin 100 ml IV once a week"
+            ],
+            "Procedures": [
+                "band ligation with six bands applied"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "ultrasound showing coarse liver texture, splenomegaly, and moderate ascites",
+                "CT scan showing cirrhotic liver with splenomegaly and ascites",
+                "MRI showing cirrhotic liver with splenomegaly and ascites"
+            ],
+            "LabResults": [
+                "stable liver function",
+                "signs of decompensation indicated by ascites and portal hypertension"
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Budd-Chiari syndrome"
+            ],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [],
+            "ScheduledTests": [
+                "repeat ultrasound",
+                "AFP tests",
+                "blood work in three months"
+            ],
+            "NextAppointmentDetails": []
+        },
+        "VisitTimeline": [
+            "October 1st - endoscopy",
+            "October 21st - ultrasound"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "The patient's liver condition has remained stable with no urgent need for a transplant at this stage.",
+            "DiagnosticJourney": "The patient has a history of upper GI bleeding and recent episodes of melena and hematemesis.",
+            "TreatmentResponse": "The patient is currently on multiple medications for management.",
+            "OngoingConcerns": "Monitoring for any worsening of symptoms and potential need for liver transplant in the future."
+        }
+    }
+}

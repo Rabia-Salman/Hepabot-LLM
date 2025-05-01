@@ -1,0 +1,93 @@
+{
+    "patient_id": "history_physical_63",
+    "raw_text": "Gender: Male\n\nAge: 56\n\nMRN: 742289\n\nDiagnosis: Hepatocellular Carcinoma\n\nHistory and Physical:\n\nPatient:\n\nHi, Doctor. Im here for my follow-up. Ive been experiencing some pain in my right upper quadrant for\n\nthe past three weeks, along with a loss of appetite and trouble sleeping.\n\nDoctor:\n\nHello, Mukhtar. Lets review your history. I see that you've been diagnosed with Hepatitis C in 2001,\n\ntreated  with  interferon,  and  achieved  a  sustained  virologic  response  (SVR).  Unfortunately,  you\n\nrelapsed in 2015, but after treatment with DAAs, you achieved SVR again. Your last HCV PCR in\n\n2019 showed no detection of the virus.\n\nPatient:\n\nYes, that's right. The pain in my right upper abdomen has been bothering me a lot lately. It started\n\nabout three weeks ago, and I also feel very tired and can't sleep well.\n\nDoctor:\n\nI understand. Let me quickly go through the investigations weve done so far. Your ultrasound from\n\nSeptember 2022 showed chronic liver disease (CLD) with a focal lesion in the left lobe of your liver.\n\nYour  CT  scan  in  June  2023  showed  a  large  hepatocellular  carcinoma  (HCC)  at  the  junction  of\n\nsegments 2 and 3, measuring about 7.5 x 4.5 x 5.5 cm. There were also some nodules in your lungs\n\nand a few cysts in your right kidney, but there were no signs of portal lesions.\n\nPatient:\n\n\fYes, I remember that CT scan. Is the tumor still growing?\n\nDoctor:\n\nThe tumor is quite large, and since it's near the portal vein, we need to monitor it closely. We also\n\nperformed a liver biopsy in July, which showed chronic hepatitis with focal bridging fibrosis, but no\n\nevidence  of  malignancy.  The  Metavir  score  showed  significant  activity  (A3/A3),  and  fibrosis  was\n\nscored at F2-3/F4.\n\nPatient:\n\nI see. So, what's the next step in my treatment?\n\nDoctor:\n\nWe  need  to  proceed  with  a  follow-up  CT  scan  and  AFP  test  in  the  next  few  weeks.  If  the  donor\n\nworkup for a liver transplant is completed before that, we can do the scan sooner to reassess the\n\ntumor. Based on the size and location of the tumor, its crucial to check for any changes. We are also\n\nworking on the donors evaluation.\n\nPatient:\n\nI understand. And in the meantime, what should I be doing?\n\nDoctor:\n\nYou should continue with the rehabilitation process, take your prescribed medications, and manage\n\nsymptoms as needed. Theres no decompensation of your liver function right now, which is a good\n\nsign.\n\nPatient:\n\nOkay, Ill keep up with everything youve mentioned. Thanks for explaining everything, Doctor.\n\n\fDoctor:\n\nYou're  welcome,  Mukhtar.  Remember,  youre  not  alone  in  this.  Were  here  to  support  you  through\n\nevery step. Lets plan the next steps carefully and keep monitoring your health.\n\nFollow-up Visit:\n\nDoctor:\n\nHow have you been feeling since your last visit?\n\nPatient:\n\nIm  still  having  the  same  symptomspain  in  my  right  upper  quadrant,  loss  of  appetite,  and  difficulty\n\nsleeping.\n\nDoctor:\n\nLet me review your latest lab results and check the updates. Your hemoglobin is slightly improved at\n\n10.6, but your white blood cell count has increased a bit to 9.3. Your platelets are elevated, which\n\nwell need to keep an eye on. Liver enzymes have improved, with ALT at 30 and AST at 20. Your\n\nalbumin levels are stable at 4.4, but your creatinine remains normal at 0.81. Your AFP is still low at\n\n0.2, and your MELD score is still 7 points, which indicates moderate liver dysfunction.\n\nPatient:\n\nIm relieved to hear the AFP is still low. Does this mean the tumor hasnt spread?\n\nDoctor:\n\nYes, its a positive sign for now, but well continue monitoring it closely. Based on the tumors location,\n\na repeat CT scan in a few weeks will help us evaluate its current state.\n\n\fPatient:\n\nWhats the next step in terms of treatment?\n\nDoctor:\n\nWell  proceed  with  the  donor  workup  for  a  potential  liver  transplant.  Well  also  continue  with  the\n\nrehabilitation, and symptomatic treatment as needed. A follow-up CT scan after 3 weeks is essential\n\nto reassess the tumor, and we will do the AFP test again at that time.\n\nPatient:\n\nThat sounds like a good plan. Thanks for the update, Doctor.\n\nDoctor:\n\nYoure welcome. Stay on top of your medications, and well keep moving forward with the treatment\n\nplan. Keep me updated on how you're feeling. Well see you for the next follow-up soon.\n\nDischarge Summary (4th August 2023):\n\nDoctor:\n\nMukhtar,  you  were  admitted  for  TACE  (Transarterial  Chemoembolization)  on  August  3rd  for  the\n\nHCC in segments 2 and 3. The procedure went smoothly, and you tolerated it well. There were no\n\nimmediate complications, and youre stable for discharge today.\n\nPatient:\n\nI feel much better. What medications will I need to take?\n\nDoctor:\n\n\fYoull  continue  on  Omeprazole  for  the  next  two  weeks,  along  with  Cefixime  for  5  days.  If  you\n\nexperience any pain, you can take Tonflex-P. Ill also prescribe Lactulose to help with your digestive\n\nsymptoms, and Onset for any vomiting.\n\nPatient:\n\nGot it. When should I follow up?\n\nDoctor:\n\nYoull follow up in 3 weeks with a fresh CBC and LFT, and well plan another CT scan and AFP test\n\nafter 6 weeks to check for any changes in the tumor.\n\nPatient:\n\nThanks, Doctor. Ill make sure to follow the plan.\n\nDoctor:\n\nYou're welcome, Mukhtar. Stay in touch, and well see you soon.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "56",
+            "MRN": "742289",
+            "Diagnosis": "Hepatocellular Carcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "pain in right upper quadrant",
+                "loss of appetite",
+                "difficulty sleeping"
+            ],
+            "NegativeFindings": [
+                "no signs of portal lesions",
+                "no evidence of malignancy"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "chronic liver disease with focal lesion",
+            "large hepatocellular carcinoma at the junction of segments 2 and 3",
+            "chronic hepatitis with focal bridging fibrosis"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Omeprazole",
+                "Cefixime",
+                "Tonflex-P",
+                "Lactulose",
+                "Onset"
+            ],
+            "Procedures": [
+                "Transarterial Chemoembolization"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "ultrasound showed chronic liver disease with focal lesion",
+                "CT scan showed large hepatocellular carcinoma",
+                "CT scan showed nodules in lungs and cysts in right kidney"
+            ],
+            "LabResults": [
+                "hemoglobin at 10.6",
+                "white blood cell count at 9.3",
+                "platelets elevated",
+                "ALT at 30",
+                "AST at 20",
+                "albumin at 4.4",
+                "creatinine at 0.81",
+                "AFP at 0.2",
+                "MELD score at 7"
+            ],
+            "PathologyFindings": [
+                "Metavir score A3/A3",
+                "fibrosis scored at F2-3/F4"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Hepatitis C",
+                "chronic liver disease"
+            ],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "follow-up for liver transplant donor workup"
+            ],
+            "ScheduledTests": [
+                "follow-up CT scan",
+                "AFP test"
+            ],
+            "NextAppointmentDetails": [
+                "3 weeks for follow-up",
+                "6 weeks for CT scan and AFP test"
+            ]
+        },
+        "VisitTimeline": [
+            "Initial visit",
+            "Follow-up visit",
+            "Discharge summary on 4th August 2023"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has been experiencing pain and other symptoms related to hepatocellular carcinoma.",
+            "DiagnosticJourney": "Multiple imaging studies and lab tests have been conducted to monitor liver condition and tumor status.",
+            "TreatmentResponse": "Patient tolerated TACE well and is stable for discharge.",
+            "OngoingConcerns": "Monitoring of tumor growth and liver function is essential."
+        }
+    }
+}

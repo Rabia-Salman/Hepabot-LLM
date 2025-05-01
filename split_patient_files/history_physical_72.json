@@ -1,0 +1,157 @@
+{
+    "patient_id": "history_physical_72",
+    "raw_text": "Gender: Male\n\nAge: 60\n\nMRN: 792863\n\nDiagnosis: Hepatocellular Carcinoma\n\nHistory and Physical:\n\nPatient: Good morning, doctor. I've been feeling okay, but I wanted to discuss my recent tests and\n\ntreatments.\n\nDoctor:  Good  morning!  Sure,  let's  go  over  your  recent  medical  history  and  test  results.  Youre  59\n\nyears  old,  and  weve  been  managing  your  condition  for  some  time  now.  You  were  diagnosed  with\n\nHepatitis C (HCV) back in 2020. You were treated with DAAs for three months, and your last HCV\n\nPCR test on 1st August 2024 came back as 'Not detected.'\n\nPatient:  Yes,  that's  right.  I  feel  fine  now,  but  I  had  a  pretty  rough  time  with  hematemesis  back  in\n\nMarch 2024.\n\nDoctor:  Yes,  I  remember.  You  had  an  episode  of  hematemesis  in  March  2024.  Fortunately,  you\n\nhavent  had  any  significant  decompensations  like  jaundice,  ascites,  or  encephalopathy  since  then.\n\nYour weight loss of 6kg over the last 6 months is a concern, though.\n\nPatient:  I  did  lose  some  weight.  Honestly,  I  didnt  think  much  of  it  at  first,  but  now  I  realize  its\n\nsomething I need to pay attention to. Also, I had 4 pints of RBCs transfused due to low blood levels.\n\nDoctor:  Right,  I  see.  You  havent  had  any  fevers  or  night  sweats,  so  thats  good.  Youre  currently\n\ntaking Carveda, Osonate, and Fefol. These medications are part of your ongoing management.\n\nPatient: Yes, those are my medications. No allergies, and I havent had any prior significant medical\n\n\for surgical issues besides cataract surgeries in 2020 and July 2024.\n\nDoctor: Understood. You also mentioned that youve been a former smoker, quitting 6 months ago.\n\nThats  good  progress.  Regarding  your  family  history,  your  father  had  diabetes,  but  no  other  major\n\nconditions, correct?\n\nPatient: Yes, thats right.\n\nDoctor:  Let's  go  over  your  systemic  examination  findings.  You  are  conscious,  well-oriented,  and\n\nyour Glasgow Coma Scale is 15/15. Your cardiovascular and gastrointestinal exams are normal with\n\nno tenderness in the abdomen.\n\nPatient: That's a relief.\n\nDoctor:  Now,  about  your  investigations:  Your  last  OGD  with  EVBL  was  done  in  March,  where  we\n\nfound F3 esophageal varices. The CT scan from July showed a small lesion of 2x2.5 cm in segment\n\n6 of your liver, along with multiple nodes at the porta hepatis.\n\nPatient: So, the lesion is still a concern?\n\nDoctor:  Yes,  the  lesion  is  concerning.  Your  liver  function  tests  showed  a  mild  elevation  in  AFP  to\n\n69.7 and PIVKA II to 109, which were keeping an eye on. Your MELD score is 8, which indicates the\n\nseverity of your liver disease.\n\nPatient: Whats the next step in treatment?\n\nDoctor:  We're  considering  a  liver  transplant  as  a  definitive  treatment  option,  but  for  now,  we  are\n\n\fplanning to proceed with TACE, as it is a less invasive alternative. Well also keep monitoring your\n\ncondition closely with MR liver dynamics and CT scans.\n\nPatient: I understand. I had my TACE done on 30th September 2024, and it seems to have helped,\n\nas I havent had any active complaints since then.\n\nDoctor: Yes, your condition seems stable, and your latest lab results show no significant changes in\n\nyour  liver  function.  Your  AFP  was  568  pre-TACE,  but  now  it  has  decreased.  Well  continue  with\n\nregular surveillance. Youll need an EGD to monitor varices and a follow-up CT scan for HCC.\n\nPatient: How are things looking now?\n\nDoctor: Based on your latest follow-up on 16th January 2025, your HCV RNA is still not detected.\n\nYour sodium levels are stable, and your creatinine is within normal limits. Youre doing well after the\n\nTACE,  and  well  continue  monitoring  your  condition.  The  CT  scan  from  22nd  January  2025  shows\n\ngood  response  in  the  treated  lesion,  with  no  signs  of  recurrence.  There's  a  slight  decrease  in  the\n\nsize of the gastro-hepatic lymph nodes, and no new lesions have appeared.\n\nPatient: Thats reassuring. So, I dont need to worry about any new growth for now?\n\nDoctor:  For  now,  theres  no  evidence  of  recurrent  disease,  which  is  good  news.  Well  continue\n\nsurveillance  with  a  CT  scan  and  EGD.  Your  liver  function  is  stable,  and  theres  no  evidence  of\n\npulmonary or bone metastasis.\n\nPatient: Thats a relief, doctor. Whats the next step?\n\nDoctor:  Well  continue  with  your  current  plan.  Well  do  another  EGD  in  4  weeks,  follow  up  with  CT\n\n\fscans for HCC protocol, and see you for another check-up in 4 weeks. Keep taking your prescribed\n\nmedications, and well monitor your condition closely.\n\nPatient: Thank you, doctor. Ill make sure to follow the plan.\n\nLab Results:\n\nHB: 12.1\n\nTLC: 6.7\n\nPLT: 69\n\nT-BIL: 0.9\n\nD-BIL: 0.4\n\nALT: 37\n\nAST: 20\n\nALP: 87\n\nAlbumin: 3.5\n\nCreatinine: 1.0\n\n\fNa+: 136\n\nK+: 3.8\n\nINR: 1.2\n\nAFP: 69.7\n\nPIVKA II: 109\n\nCTP: A6\n\nMELD Na: 8\n\nECOG: 0\n\nBMI: 27.39\n\nBlood Group: AB+ve\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "60",
+            "MRN": "792863",
+            "Diagnosis": "Hepatocellular Carcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "None"
+            ],
+            "NegativeFindings": [
+                "No significant decompensations",
+                "No fevers",
+                "No night sweats"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Hepatitis C (HCV) treated",
+            "F3 esophageal varices",
+            "Lesion in liver concerning",
+            "Stable liver function",
+            "No evidence of recurrent disease"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Carveda",
+                "Osonate",
+                "Fefol"
+            ],
+            "Procedures": [
+                "TACE on 30th September 2024",
+                "EGD planned in 4 weeks"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "CT scan from July showed a small lesion of 2x2.5 cm in segment 6 of liver",
+                "CT scan from 22nd January 2025 shows good response in treated lesion"
+            ],
+            "LabResults": [
+                {
+                    "HB": "12.1"
+                },
+                {
+                    "TLC": "6.7"
+                },
+                {
+                    "PLT": "69"
+                },
+                {
+                    "T-BIL": "0.9"
+                },
+                {
+                    "D-BIL": "0.4"
+                },
+                {
+                    "ALT": "37"
+                },
+                {
+                    "AST": "20"
+                },
+                {
+                    "ALP": "87"
+                },
+                {
+                    "Albumin": "3.5"
+                },
+                {
+                    "Creatinine": "1.0"
+                },
+                {
+                    "Na+": "136"
+                },
+                {
+                    "K+": "3.8"
+                },
+                {
+                    "INR": "1.2"
+                },
+                {
+                    "AFP": "69.7"
+                },
+                {
+                    "PIVKA II": "109"
+                },
+                {
+                    "CTP": "A6"
+                },
+                {
+                    "MELD Na": "8"
+                },
+                {
+                    "ECOG": "0"
+                },
+                {
+                    "BMI": "27.39"
+                },
+                {
+                    "Blood Group": "AB+ve"
+                }
+            ],
+            "PathologyFindings": [
+                "None"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Hepatitis C",
+                "Hepatocellular Carcinoma"
+            ],
+            "Comorbidities": [
+                "Cataract surgeries in 2020 and July 2024",
+                "Former smoker"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "Follow-up in 4 weeks"
+            ],
+            "ScheduledTests": [
+                "EGD in 4 weeks",
+                "CT scans for HCC protocol"
+            ],
+            "NextAppointmentDetails": [
+                "Check-up in 4 weeks"
+            ]
+        },
+        "VisitTimeline": [
+            {
+                "Date": "1st August 2024",
+                "Event": "HCV PCR test 'Not detected'"
+            },
+            {
+                "Date": "30th September 2024",
+                "Event": "TACE performed"
+            },
+            {
+                "Date": "16th January 2025",
+                "Event": "Follow-up, HCV RNA still not detected"
+            },
+            {
+                "Date": "22nd January 2025",
+                "Event": "CT scan shows good response"
+            }
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has been stable after TACE with no active complaints.",
+            "DiagnosticJourney": "Patient diagnosed with Hepatitis C in 2020, treated, and later diagnosed with Hepatocellular Carcinoma.",
+            "TreatmentResponse": "TACE has shown good response with decreased AFP levels.",
+            "OngoingConcerns": "Monitoring for recurrence of HCC and managing liver function."
+        }
+    }
+}

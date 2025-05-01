@@ -1,0 +1,92 @@
+{
+    "patient_id": "history_physical_55",
+    "raw_text": "Gender: Male\n\nAge: 52\n\nMRN: 797724\n\nDiagnosis: Cholangiocarcinoma\n\nHistory and Physical:\n\nPatient-Doctor Conversation (First Visit)\n\nPatient:  \"Ive  been  diagnosed  with  a  pancreatic  mass,  and  Im  experiencing  jaundice  and  itching.  I\n\nalso have a history of ischemic heart disease and underwent a PCI four years ago.\"\n\nDoctor:  \"I  see.  Lets  review  your  recent  diagnostic  results.  Your  CT  scan  from  July  31st  shows\n\ndilated intrahepatic biliary channels and a dilated common bile duct (CBD) of 16mm. An MRCP from\n\nAugust  3rd  reveals  a  30  x  20mm  mass  in  the  region  of  the  ampulla  of  Vater,  causing  significant\n\nproximal biliary dilatation, along with a dilated CBD and intrahepatic biliary channels.\"\n\nPatient: \"Yes, Ive been having some discomfort in my abdomen too.\"\n\nDoctor:  \"Thats  consistent  with  the  findings.  On  August  9th,  an  ERCP  was  performed,  but  they\n\ncouldnt cannulate the CBD. An EUS on August 10th identified a 2.1 x 2.5 cm hypoechoic mass in\n\nthe pancreatic head, which is causing retrograde dilatation of the CBD. A biopsy was done, and it\n\ncame back as moderately differentiated adenocarcinoma.\"\n\nPatient: \"That sounds serious. What should I expect next?\"\n\nDoctor:  \"Yes,  it  is  serious.  Based  on  the  biopsy  results,  we  have  confirmed  a  periampullary\n\ncarcinoma.  Ive  reviewed  your  labs  as  well.  Your  hemoglobin  is  13,  white  blood  cells  at  9.3,  and\n\nplatelets  are  at  313.  Your  total  bilirubin  is  elevated  at  21.8,  which  aligns  with  the  jaundice.  Liver\n\n\fenzymes  ALT  and  AST  are  both  slightly  elevated  at  81  and  90,  respectively,  and  your  alkaline\n\nphosphatase is quite high at 390. Your creatinine is normal at 0.8, and electrolytes are within range.\"\n\nPatient: \"Im taking some medications for my heart condition as well. Can you explain what needs to\n\nbe done?\"\n\nDoctor:  \"Youre  on  Omeprazole,  Cetrizine,  and  medications  for  your  ischemic  heart  disease.  For\n\nnow, we need to proceed with ERCP to attempt stenting of the CBD to relieve the obstruction. You\n\nwill also be referred to hepatobiliary surgery for further management and to oncology for treatment\n\nplanning. Ill arrange for a follow-up with Dr. Aujla to discuss the ERCP procedure.\"\n\nPatient-Doctor Conversation (Follow-Up Visit)\n\nPatient: \"Im back for a follow-up visit. Im still struggling with the jaundice and itching. Has there been\n\nany progress?\"\n\nDoctor:  \"Yes,  let's  review  everything.  Your  condition  remains  largely  the  same.  The  CT  scan  from\n\nJuly  31st  showed  the  dilated  biliary  system,  and  the  MRCP  revealed  the  mass  in  the  ampulla  of\n\nVater.  The  biopsy  confirmed  that  you  have  moderately  differentiated  pancreatic  adenocarcinoma.\n\nWe attempted the ERCP on August 9th, but it was unsuccessful in cannulating the CBD. On August\n\n10th, the EUS showed the mass in the pancreatic head causing biliary dilatation.\"\n\nPatient: \"What about my lab results? I know the bilirubin is high.\"\n\nDoctor: \"Correct. Your bilirubin was high at 21.8. Let me confirm that. On the most recent labs from\n\nAugust 7th, your hemoglobin was 13, and white blood cell count was 9.3. Your liver enzymes were\n\nelevated,  with  ALT  at  81  and  AST  at  90,  while  alkaline  phosphatase  was  at  390.  Everything  else,\n\n\flike  creatinine  and  albumin,  was  within  normal  ranges.  Your  viral  markers,  including  HCV  and\n\nHBsAg, were negative.\"\n\nPatient: \"Whats the next step in my treatment plan?\"\n\nDoctor: \"For the next steps, were planning a multidisciplinary team discussion on Friday, September\n\n19th, to review your case. Well also need some fresh lab work before that meeting. We are moving\n\nforward  with  your  treatment  and  discussing  the  potential  for  a  Whipples  procedure,  which  will  be\n\nyour only curative option. We are aiming to proceed with the ERCP as previously planned on August\n\n28th to help manage your bile duct obstruction.\"\n\nPatient-Doctor Conversation (After ERCP and Further Discussion)\n\nPatient: \"I had the ERCP performed on August 30th. Can you explain what happened?\"\n\nDoctor:  \"Yes,  we  performed  the  ERCP  on  August  30th.  The  procedure  revealed  Situs  inversus\n\ntotalis, meaning that your internal organs are mirrored. We also found a bulky, infiltrative ampulla, so\n\nwe did a limited sphincterotomy. The cholangiogram showed a rotational anatomy and a short distal\n\nCBD stricture. The CBD and intrahepatic biliary system were massively dilated. We placed a stent,\n\nand drainage was excellent.\"\n\nPatient: \"I still feel some discomfort. What does my lab work show after the procedure?\"\n\nDoctor:  \"Your  recent  labs  show  some  improvement.  Pre-ERCP,  your  total  bilirubin  was  36.18,  but\n\nafter the procedure, it has dropped to 10.8. Your direct bilirubin was 7.6 post-procedure. Your ALT\n\nand AST are now slightly elevated at 105 and 110, respectively, and alkaline phosphatase is 449.\n\nYour albumin level has dropped from 3.65 to 2.1, which we will monitor closely.\"\n\n\fPatient: \"Whats the plan going forward?\"\n\nDoctor:  \"We  had  an  MDT  discussion  on  August  29th  and  confirmed  your  diagnosis  of  pancreatic\n\nadenocarcinoma with Situs inversus totalis. The plan is to refer you for the Whipples procedure. We\n\nwill start you on adjuvant chemotherapy a month after the surgery to help prevent recurrence.\"\n\nPatient: \"I understand. What are the risks of the surgery?\"\n\nDoctor: \"The surgery carries a 5-10% risk of mortality and a 20% risk of morbidity. However, weve\n\nexplained  everything  to  you,  and  you  seem  to  understand  and  are  willing  to  proceed  with  the\n\nsurgery. Ill have Mr. Asif, the coordinator, schedule your surgery for next week. You will be prepared\n\nfor the procedure, and we will continue to monitor your progress.\"\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "52",
+            "MRN": "797724",
+            "Diagnosis": "Cholangiocarcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "jaundice",
+                "itching",
+                "abdominal discomfort"
+            ],
+            "NegativeFindings": []
+        },
+        "DiagnosticConclusions": [
+            "moderately differentiated pancreatic adenocarcinoma",
+            "periampullary carcinoma"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Omeprazole",
+                "Cetrizine"
+            ],
+            "Procedures": [
+                "ERCP",
+                "EUS",
+                "biopsy",
+                "Whipples procedure"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "CT scan showing dilated intrahepatic biliary channels and dilated CBD",
+                "MRCP revealing a 30 x 20mm mass in the region of the ampulla of Vater",
+                "EUS identifying a 2.1 x 2.5 cm hypoechoic mass in the pancreatic head"
+            ],
+            "LabResults": [
+                "hemoglobin 13",
+                "white blood cells 9.3",
+                "platelets 313",
+                "total bilirubin 21.8",
+                "ALT 81",
+                "AST 90",
+                "alkaline phosphatase 390",
+                "creatinine 0.8",
+                "albumin 3.65",
+                "total bilirubin post-ERCP 10.8",
+                "direct bilirubin post-ERCP 7.6",
+                "ALT post-ERCP 105",
+                "AST post-ERCP 110",
+                "alkaline phosphatase post-ERCP 449",
+                "albumin post-ERCP 2.1"
+            ],
+            "PathologyFindings": [
+                "biopsy confirmed moderately differentiated adenocarcinoma"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "ischemic heart disease"
+            ],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "hepatobiliary surgery",
+                "oncology"
+            ],
+            "ScheduledTests": [
+                "fresh lab work before MDT discussion"
+            ],
+            "NextAppointmentDetails": [
+                "follow-up with Dr. Aujla"
+            ]
+        },
+        "VisitTimeline": [
+            "First Visit",
+            "Follow-Up Visit",
+            "After ERCP and Further Discussion"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient diagnosed with pancreatic mass and jaundice, underwent multiple diagnostic procedures leading to a confirmed diagnosis of pancreatic adenocarcinoma.",
+            "DiagnosticJourney": "CT scan, MRCP, EUS, and biopsy were performed to confirm the diagnosis.",
+            "TreatmentResponse": "ERCP performed with stenting, showing improvement in bilirubin levels post-procedure.",
+            "OngoingConcerns": "Patient continues to experience jaundice and itching, with plans for Whipples procedure and adjuvant chemotherapy."
+        }
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "patient_id": "history_physical_53",
+    "raw_text": "Gender: Male\n\nAge: 66\n\nMRN: 764547\n\nDiagnosis: Cholangiocarcinoma\n\nHistory and Physical:\n\nPatient:  Good  morning,  doctor.  Ive  been  having  a  few  issues  lately,  and  I  wanted  to  get  them\n\nchecked out. My son, Aamir, brought me here today. Hes doing a PhD in Biochemistry and has all\n\nthe necessary documents with him.\n\nDoctor:  Good  morning!  I  understand  you're  dealing  with  a  few  concerns.  Can  you  please  tell  me\n\nmore about your symptoms?\n\nPatient:  Yes,  Ive  been  experiencing  significant  weight  loss,  about  12  to  15  kilograms,  but  I  didnt\n\ntrack it properly. Im also having trouble sleeping, and Ive lost my appetite. Recently, Ive also been\n\nfeeling some pain in my chest, right in the middle.\n\nDoctor: That sounds concerning. Have you had any fevers or night sweats?\n\nPatient: No, I havent had any fevers or night sweats.\n\nDoctor: Good to know. Any issues with physical or cognitive limitations?\n\nPatient: No, I dont have any physical or cognitive limitations.\n\nDoctor:  Alright,  lets  review  your  medical  history.  I  see  that  you  have  diabetes,  but  its  been\n\nuncontrolled. You also have a history of APD and underwent an open appendectomy back in 1980.\n\nDo you have any allergies?\n\n\fPatient: No allergies that I know of.\n\nDoctor: Thank you for the information. Lets discuss your lifestyle. You live with your family in Mirpur,\n\nAJK, and have a BA degree. You used to work as a shopkeeper, but youre not working now. Are\n\nyou smoking or consuming alcohol?\n\nPatient: I used to smoke, but I quit about seven years ago. I dont drink alcohol.\n\nDoctor:  Got  it.  Now,  lets  talk  about  the  recent  investigations.  You  had  an  OGD  on  February  10th,\n\nand  it  showed  normal  CBD,  but  two  lymph  nodes  at  the  porta  hepatis,  with  the  largest  one\n\nmeasuring 1.3 x 1.4 cm. The biopsy taken from the periportal lymph node showed no malignancy.\n\nThats a good sign.\n\nPatient: Yes, the biopsy didnt show anything concerning.\n\nDoctor:  Your  CT  scan  from  February  7th  showed  mild  hepatomegaly  and  a  subtle  enhancing  soft\n\ntissue  fullness  at  the  confluence  of  the  right  and  left  hepatic  ducts,  with  some  mild  to  moderate\n\nintrahepatic  bile  duct  dilation  and  a  thrombosed  left  portal  vein.  Some  prominent  upper  abdominal\n\nnodes were also noted, and the imaging suggested cholangiocarcinoma.\n\nPatient: Thats a bit alarming. What does this mean for me?\n\nDoctor:  We  need  to  take  a  closer  look  at  your  liver  and  bile  ducts.  Youve  been  diagnosed  with\n\nlocally advanced cholangiocarcinoma. The right posterior artery appears to be involved, and theres\n\nmild narrowing of the main portal vein. We also see some changes in your liver's left lobe.\n\n\fPatient: What does this mean for treatment?\n\nDoctor:  Let  me  walk  you  through  the  plan.  Ill  order  a  fresh  CT  scan  from  PKLI  to  get  updated\n\nimaging.  After  that,  well  bring  you  into  the  multidisciplinary  team  (MDT)  for  further  discussion.  We\n\nwill also meet with our coordinator, Asif, to facilitate your follow-up and any necessary support.\n\nPatient: Okay, I understand. What about my current medication?\n\nDoctor: You dont have any major issues with your current meds. Lets wait until we get the updated\n\nscan before making any adjustments.\n\nPatient: Thank you for explaining, doctor. Its a lot to process, but I appreciate your help.\n\nDoctor: You're welcome. We'll be here to guide you through this. Let's take it step by step.\n\nDoctor: Good to see you again. Based on the recent evaluation, your diagnosis of locally advanced\n\ncholangiocarcinoma still stands. Unfortunately, you're not a candidate for surgery due to the extent\n\nof the disease.\n\nPatient: Thats disappointing, doctor. Whats next for me?\n\nDoctor: I understand how you feel. The next step is an ERCP with a spyglass to evaluate your bile\n\nducts further and obtain a biopsy. After that, well refer you to oncology for a definite diagnosis and\n\ntreatment options as per the MDTs decision.\n\nPatient: What about my current medication?\n\n\fDoctor:  You  can  stop  taking  urso  for  now,  as  its  not  beneficial  given  your  current  condition.  Well\n\nreassess everything once we have the biopsy results.\n\nPatient: Alright, I will follow your advice. Thank you for your guidance.\n\nDoctor:  You're  welcome.  Well  keep  you  informed  and  make  sure  youre  supported  throughout  this\n\njourney.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "66",
+            "MRN": "764547",
+            "Diagnosis": "Cholangiocarcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "significant weight loss",
+                "trouble sleeping",
+                "loss of appetite",
+                "chest pain"
+            ],
+            "NegativeFindings": [
+                "no fevers",
+                "no night sweats",
+                "no physical limitations",
+                "no cognitive limitations",
+                "no allergies"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "locally advanced cholangiocarcinoma",
+            "not a candidate for surgery"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "stop urso"
+            ],
+            "Procedures": [
+                "ERCP with spyglass"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "mild hepatomegaly",
+                "subtle enhancing soft tissue fullness at the confluence of the right and left hepatic ducts",
+                "mild to moderate intrahepatic bile duct dilation",
+                "thrombosed left portal vein",
+                "prominent upper abdominal nodes"
+            ],
+            "LabResults": [],
+            "PathologyFindings": [
+                "biopsy from periportal lymph node showed no malignancy"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "diabetes"
+            ],
+            "Comorbidities": [
+                "APD"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "oncology"
+            ],
+            "ScheduledTests": [
+                "fresh CT scan"
+            ],
+            "NextAppointmentDetails": [
+                "multidisciplinary team discussion"
+            ]
+        },
+        "VisitTimeline": [
+            "OGD on February 10th",
+            "CT scan on February 7th"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has been experiencing significant weight loss, trouble sleeping, loss of appetite, and chest pain.",
+            "DiagnosticJourney": "Imaging suggested cholangiocarcinoma, and biopsy showed no malignancy.",
+            "TreatmentResponse": "Patient is not a candidate for surgery and will undergo further evaluation with ERCP.",
+            "OngoingConcerns": "Patient is concerned about the extent of the disease and next steps in treatment."
+        }
+    }
+}

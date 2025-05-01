@@ -1,0 +1,119 @@
+{
+    "patient_id": "history_physical_20",
+    "raw_text": "Gender: Male\n\nAge: 9\n\nMRN: 808374\n\nDiagnosis: Hepatic fibrosis\n\nHistory and Physical:\n\nDoctor: Hello, how are you today?\n\nPatient's Guardian: We are here for our child's follow-up appointment.\n\nDoctor: Could you please tell me your child's name and age?\n\nPatient's Guardian: His name is Adnan Shafiq, and he is 10 years old.\n\nDoctor: Great, thank you. Let's start with his medical history. What are his presenting complaints?\n\nPatient's Guardian: He has been experiencing malena (dark stool) for the past two weeks.\n\nDoctor: I see. Can you tell me more about his previous medical history?\n\nPatient's Guardian: He had kidney stones at 9 months old, and was operated on for that. Later, he\n\ndeveloped  recurrent  fevers,  and  at  7  years  old,  he  was  diagnosed  with  hepatosplenomegaly  and\n\nunderwent a bone marrow biopsy. After extensive investigations, he was diagnosed with congenital\n\nhepatic fibrosis. He has had two EGDs (Esophagogastroduodenoscopies) done.\n\nDoctor:  Thank  you \n\nfor \n\nthat \n\ninformation.  Does  he  have  any  known  complications  or\n\ndecompensations?\n\n\fPatient's Guardian: Yes, he has had an upper gastrointestinal bleed (UGIB) and some issues with\n\nhis spleen and liver. He also has pancytopenia.\n\nDoctor:  Understood.  Lets  move  on  to  his  physical  examination.  What  did  you  observe  during  his\n\ncheck-up?\n\nPatient's Guardian: His weight is 25 kg and his height is 131 cm, both above the 25th percentile for\n\nhis age. There was no jaundice, but he has some pallor. His spleen was palpable 12 cm below the\n\ncostal margin, and the liver was also palpable. There was no ascites. His abdomen was distended.\n\nDoctor: Thats noted. How about his current medications?\n\nPatient's  Guardian:  He  is  taking  propranolol  10mg  twice  daily,  omeprazole  10mg  once  daily,  and\n\nmaltofer 5ml once daily.\n\nDoctor:  Now,  let's  look  at  his  recent  lab  results.  The  bilirubin  is  0.4,  ALT  is  45,  AST  and  ALP  are\n\nnormal, albumin is 3.4, and INR is 1.0. His white blood cell count (WBC) is 2.47, hemoglobin (Hb) is\n\n6.6,  and  platelets  (PLT)  are  78.  His  sodium  is  136,  potassium  is  3.96,  and  chloride  is  103.8.  The\n\nreticulocyte count is 2.0, and CRP and procalcitonin are not available.\n\nDoctor: Have there been any recent imaging results?\n\nPatient's Guardian: Yes, we have had a CT scan and an ultrasound done. The ultrasound showed\n\ncoarse  liver  and  splenomegaly.  The  CT  scan,  done  on  29th  August,  showed  a  small  liver  with\n\nirregular  serrated  margins,  capsular  retraction,  splenomegaly,  and  dilated  portal  veins.  It  also\n\nindicated varices and minimal ascites.\n\n\fDoctor: Based on all of this, the diagnosis is congenital hepatic fibrosis with portal hypertension. We\n\nwill  continue  the  current  treatment  with  propranolol  and  omeprazole,  and  monitor  him  closely.  His\n\nupcoming appointments are for an EGD on October 1st and liver biopsy in one month.\n\nPatient's Guardian: Thank you, doctor.\n\nDoctor: You're welcome. Please follow up after the planned tests, and we will adjust the treatment\n\nas needed.\n\nPlan Summary:\n\nEGD scheduled for 1st October 2024.\n\nLiver biopsy scheduled in one month.\n\nContinue propranolol 10mg BID, omeprazole 10mg daily, and maltofer 5ml daily.\n\nMonitor lab results closely, including liver function and hemoglobin levels.\n\nFinancial screening and baseline liver disease work-up planned.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "9",
+            "MRN": "808374",
+            "Diagnosis": "Hepatic fibrosis"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "malena"
+            ],
+            "NegativeFindings": [
+                "no jaundice",
+                "no ascites"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "congenital hepatic fibrosis with portal hypertension"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "propranolol 10mg BID",
+                "omeprazole 10mg daily",
+                "maltofer 5ml daily"
+            ],
+            "Procedures": [
+                "EGD",
+                "liver biopsy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "coarse liver",
+                "splenomegaly",
+                "small liver with irregular serrated margins",
+                "capsular retraction",
+                "dilated portal veins",
+                "varices",
+                "minimal ascites"
+            ],
+            "LabResults": [
+                {
+                    "Bilirubin": "0.4"
+                },
+                {
+                    "ALT": "45"
+                },
+                {
+                    "AST": "normal"
+                },
+                {
+                    "ALP": "normal"
+                },
+                {
+                    "Albumin": "3.4"
+                },
+                {
+                    "INR": "1.0"
+                },
+                {
+                    "WBC": "2.47"
+                },
+                {
+                    "Hb": "6.6"
+                },
+                {
+                    "PLT": "78"
+                },
+                {
+                    "Sodium": "136"
+                },
+                {
+                    "Potassium": "3.96"
+                },
+                {
+                    "Chloride": "103.8"
+                },
+                {
+                    "ReticulocyteCount": "2.0"
+                },
+                {
+                    "CRP": "None"
+                },
+                {
+                    "Procalcitonin": "None"
+                }
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "congenital hepatic fibrosis"
+            ],
+            "Comorbidities": [
+                "pancytopenia",
+                "upper gastrointestinal bleed",
+                "issues with spleen and liver"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [],
+            "ScheduledTests": [
+                "EGD on 1st October 2024",
+                "liver biopsy in one month"
+            ],
+            "NextAppointmentDetails": []
+        },
+        "VisitTimeline": [],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has a history of recurrent fevers, hepatosplenomegaly, and congenital hepatic fibrosis.",
+            "DiagnosticJourney": "Diagnosed with congenital hepatic fibrosis after extensive investigations including a bone marrow biopsy.",
+            "TreatmentResponse": "Currently on propranolol and omeprazole, with ongoing monitoring.",
+            "OngoingConcerns": "Monitoring liver function and hemoglobin levels closely."
+        }
+    }
+}

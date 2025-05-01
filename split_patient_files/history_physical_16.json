@@ -1,0 +1,98 @@
+{
+    "patient_id": "history_physical_16",
+    "raw_text": "Gender: Male\n\nAge: 64\n\nMRN: 760184\n\nDiagnosis: Chronic viral hepatitis C\n\nHistory and Physical:\n\nPatient Visit: 22/2/2024 - First visit at PKLI\n\nDoctor:\n\nHello, how can I help you today?\n\nPatient:\n\nI have been experiencing abdominal pain, abdominal distention, and swelling in my feet.\n\nDoctor:\n\nWhen did these symptoms start?\n\nPatient:\n\nIt came on suddenly. The pain is dull and non-radiating. It's not related to food intake, and there are\n\nno specific factors that make it better or worse.\n\nDoctor:\n\nDo you have any medical conditions or past surgeries?\n\nPatient:\n\nI dont have any comorbidities. I had multiple blood transfusions, the last one being about 1.5 months\n\nago. I also had a firearm injury in the past.\n\n\fDoctor:\n\nAre you currently taking any medications?\n\nPatient:\n\nNo, I'm not taking anything at the moment.\n\nDoctor:\n\nAny allergies or history of substance use?\n\nPatient:\n\nNo allergies. I used to use naswar, but I don't have any other addictions.\n\nDoctor:\n\nCan you tell me about your family and work?\n\nPatient:\n\nIm married and have six children. I work as a driver.\n\nDoctor:\n\nDo you have any family history of diseases?\n\nPatient:\n\nNo significant family history.\n\nDoctor:\n\nLet's perform a physical examination.\n\n\fExamination Findings:\n\nJaundice\n\nAscites\n\nLab Results:\n\nHCV, REACTIVE\n\nHB: 4.1 (as of 25/11/2023)\n\nT-BIL: 4.6\n\nD-BIL: Not recorded\n\nALT/AST: 390/375\n\nALP: 490\n\nCreatinine: 1.2 (as of 16/12/2024)\n\nAFP: Not recorded\n\nHCV PCR (Nov 21, 2023): Viral load: 1,860,000\n\nUltrasound Abdomen (16/12/2023): Liver normal, multiple dilated intrahepatic ducts.\n\n\fCT Scan: Not provided.\n\nCurrent Medication:\n\nTab. Nospa SOS (As needed)\n\nDiagnosis:\n\nHCV-related cirrhosis with decompensated liver disease (HCV/DCLD)\n\nPlan:\n\nCT triphasic for HCC protocol\n\nBaseline AFP\n\nSputum for AFB after CT\n\nMedications:\n\nTab. Cefixime 400 mg 1 tab OD\n\nTab. Aldactone 100 mg 1 tab OD\n\nTab. Surbex Z 1 tab OD\n\nNebulize Atem 2cc + Clenil 2cc 8 hourly\n\n\fLab Alert (22/2/24, 11:50 PM):\n\nReceived  alert  from  lab  about  low  hemoglobin  (4.1).  Informed  patient's  son-in-law,  M.  Haris,  and\n\nadvised transfusion of 2 PRBCs at a local hospital.\n\nDoctor (Dr. Hashaam):\n\nPlease ensure the patient receives the transfusion promptly.\n\nFollow-up Visit: 28/2/24\n\nAFP: 1.64\n\nCTP: C11\n\nMELD-Na: 29 points\n\nCA 19-9: Not available\n\nCT Triphasic (26/2/24):\n\nMalignant looking poorly enhancing and ill-defined growth at the left lobe of the liver, involving the\n\nleft portal vein and hepatic artery.\n\nExtension into the common hepatic duct, resulting in moderate intrahepatic biliary dilatation.\n\nSuspicious peripancreatic and porta hepatic lymph nodes.\n\n\fNo lung or bone metastasis.\n\nBilateral lung parenchymal infection and prominent para-tracheal lymph nodes noted.\n\nModerate abdominopelvic ascites.\n\nImpression:\n\nAdvanced Cholangiocarcinoma\n\nPlan:\n\nDiscussion with Dr. Ammara Naveed and Dr. Lubna.\n\nFamily counseled about advanced stage of the disease. The patient requires admission for medical\n\noptimization.\n\nDue to bed unavailability at PKLI, the patient is being referred to a nearby hospital for pneumonia\n\nmanagement.\n\nThe  patient  will  need  palliative  ERCP  for  biliary  decompression  to  determine  if  chemotherapy  is\n\npossible.\n\nERCP after managing pneumonia with IV Tazocin (4.5g every 8 hours for 8 days).\n\nReferred to oncologist for further management.\n\nFollow-up in 3 weeks.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "64",
+            "MRN": "760184",
+            "Diagnosis": "Chronic viral hepatitis C"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "abdominal pain",
+                "abdominal distention",
+                "swelling in feet"
+            ],
+            "NegativeFindings": [
+                "no comorbidities",
+                "no allergies",
+                "no significant family history"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "HCV-related cirrhosis with decompensated liver disease (HCV/DCLD)",
+            "Advanced Cholangiocarcinoma"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Tab. Nospa SOS (As needed)",
+                "Tab. Cefixime 400 mg 1 tab OD",
+                "Tab. Aldactone 100 mg 1 tab OD",
+                "Tab. Surbex Z 1 tab OD",
+                "Nebulize Atem 2cc + Clenil 2cc 8 hourly"
+            ],
+            "Procedures": [
+                "CT triphasic for HCC protocol",
+                "palliative ERCP for biliary decompression"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "Liver normal, multiple dilated intrahepatic ducts",
+                "Malignant looking poorly enhancing and ill-defined growth at the left lobe of the liver",
+                "Extension into the common hepatic duct",
+                "Suspicious peripancreatic and porta hepatic lymph nodes",
+                "Bilateral lung parenchymal infection and prominent para-tracheal lymph nodes",
+                "Moderate abdominopelvic ascites"
+            ],
+            "LabResults": [
+                "HCV, REACTIVE",
+                "HB: 4.1 (as of 25/11/2023)",
+                "T-BIL: 4.6",
+                "D-BIL: None",
+                "ALT/AST: 390/375",
+                "ALP: 490",
+                "Creatinine: 1.2 (as of 16/12/2024)",
+                "AFP: None",
+                "HCV PCR (Nov 21, 2023): Viral load: 1,860,000",
+                "AFP: 1.64",
+                "CTP: C11",
+                "MELD-Na: 29 points",
+                "CA 19-9: None"
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Chronic viral hepatitis C",
+                "HCV-related cirrhosis with decompensated liver disease"
+            ],
+            "Comorbidities": [
+                "None"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "oncologist for further management"
+            ],
+            "ScheduledTests": [
+                "Baseline AFP",
+                "Sputum for AFB after CT"
+            ],
+            "NextAppointmentDetails": [
+                "Follow-up in 3 weeks"
+            ]
+        },
+        "VisitTimeline": [
+            "First visit at PKLI on 22/2/2024",
+            "Follow-up Visit on 28/2/2024"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient presented with abdominal symptoms and was diagnosed with advanced cholangiocarcinoma.",
+            "DiagnosticJourney": "Initial tests indicated chronic hepatitis C, leading to further imaging and diagnosis of cholangiocarcinoma.",
+            "TreatmentResponse": "Patient requires admission for medical optimization and palliative care.",
+            "OngoingConcerns": "Management of pneumonia and potential chemotherapy options."
+        }
+    }
+}

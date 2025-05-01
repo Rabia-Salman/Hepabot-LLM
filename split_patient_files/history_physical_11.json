@@ -1,0 +1,101 @@
+{
+    "patient_id": "history_physical_11",
+    "raw_text": "Gender: Male\n\nAge: 41\n\nMRN: 767766\n\nDiagnosis: Chronic viral hepatitis C\n\nHistory and Physical:\n\nPatient: Hi, Doctor, Im feeling a bit off today.\n\nDoctor: Hello! How are you feeling overall?\n\nPatient: Ive been having some epigastric discomfort and dizziness after meals.\n\nDoctor: Alright, lets go through your details. You had a liver transplant (SP LDLT) due to HCV, HCC,\n\nand DCLD, with the surgery on July 10th, 2024, and you were discharged on July 29th, 2024. You're\n\ncurrently on POD (post-operative day) 5 months.\n\nDoctor: I see your latest AFP (on November 4th, 2024) is 8.35, which is high. Let's take a look at\n\nyour CT scan from the same date.\n\nCT  Scan:  Transplanted  liver  shows  smooth  margins  with  normal  enhancement.  No  focal  lesion.\n\nPatent hepatic vasculature, including both hepatic arteries. Minimal intrahepatic biliary prominence\n\nis  unchanged.  The  large  air-containing  collection  has  almost  fully  resolved  with  a  small  residual\n\nvolume along the hepatic cut surface in the right sub-diaphragmatic region, measuring 2 x 5 x 1.2\n\ncm, corresponding to a volume of 6 ml. No other collection or significant findings. Splenomegaly of\n\n13.5 cm is noted without ascites or significant abdominal lymphadenopathy.\n\nDoctor:  Your  wound  looks  healthy  with  no  major  concerns.  Theres  no  active  issue  other  than  the\n\nepigastric discomfort after meals. Your medications and lab results are reviewed, and well continue\n\nwith the same doses for tacrolimus and mycophenolate mofetil.\n\n\fDoctor:  Id  recommend  a  follow-up  after  3  weeks.  Also,  please  keep  an  eye  on  your  diet,  and  feel\n\nfree to contact me if anything changes. If you experience any new symptoms or issues, let me know\n\nimmediately.\n\nPatient:  Ive  been  feeling  slightly  better  overall,  but  I  still  have  some  pain  at  the  surgical  site,\n\nespecially on the right hypochondrial area. Its been bothering me for the past week.\n\nDoctor: Noted. You were readmitted on August 22nd, 2024, for abdominal distention and pain. A CT\n\nscan  showed  a  large  collection  along  the  cut  surface,  extending  into  the  subhepatic  region  with  a\n\nvolume  of  about  512  ml.  An  IR-guided  percutaneous  catheter  was  inserted,  and  the  fluid  culture\n\ncame  back  positive  for  Klebsiella  pneumonia.  The  antibiotics  were  adjusted  accordingly.  The\n\ncollection  has  since  reduced,  and  a  follow-up  scan  on  September  4th  showed  a  tiny  collection\n\nremaining, measuring about 2.5 x 1.2 x 1.5 cm with a corresponding volume of 2.5 ml.\n\nDoctor: As for your treatment, well continue monitoring, and your latest plan includes:\n\nDiscontinuing Septran.\n\nDiscontinuing PCT.\n\nDecreasing fluconazole to 50 mg daily.\n\nContinuing with tacrolimus 2.5 mg twice daily and mycophenolate mofetil 500 mg twice daily.\n\nFollow-up in 2 weeks.*\n\n\fPatient: What should I be doing to avoid these collections and manage pain?\n\nDoctor: Ensure you are following the prescribed medications, and continue monitoring for any new\n\nsymptoms.  A  diet  adjustment  could  help  improve  your  overall  condition.  Ill  also  review  your  CT\n\nscans regularly to check for any changes. Pain management can be managed with Panadol 500 mg\n\nas needed.\n\nPatient: Thanks, Doctor. Ill keep monitoring my condition and follow the treatment plan.\n\nDoctor: Great, please do, and make sure to follow up after 2 weeks for your next appointment. Stay\n\nin touch if you have any concerns before then!\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "41",
+            "MRN": "767766",
+            "Diagnosis": "Chronic viral hepatitis C"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "epigastric discomfort",
+                "dizziness after meals",
+                "pain at the surgical site"
+            ],
+            "NegativeFindings": [
+                "no active issue other than epigastric discomfort",
+                "no focal lesion",
+                "no ascites",
+                "no significant abdominal lymphadenopathy"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "high AFP level",
+            "splenomegaly of 13.5 cm",
+            "large air-containing collection resolved",
+            "Klebsiella pneumonia in fluid culture"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "tacrolimus 2.5 mg twice daily",
+                "mycophenolate mofetil 500 mg twice daily",
+                "fluconazole 50 mg daily as adjusted",
+                "Panadol 500 mg as needed"
+            ],
+            "Procedures": [
+                "IR-guided percutaneous catheter insertion"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "CT scan shows smooth margins with normal enhancement",
+                "minimal intrahepatic biliary prominence unchanged",
+                "tiny collection remaining measuring 2.5 x 1.2 x 1.5 cm"
+            ],
+            "LabResults": [
+                "AFP level of 8.35"
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Chronic viral hepatitis C"
+            ],
+            "Comorbidities": [
+                "HCV",
+                "HCC",
+                "DCLD"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "follow-up after 3 weeks",
+                "follow-up in 2 weeks"
+            ],
+            "ScheduledTests": [],
+            "NextAppointmentDetails": [
+                "next appointment after 2 weeks"
+            ]
+        },
+        "VisitTimeline": [
+            {
+                "Date": "July 10th, 2024",
+                "Event": "liver transplant surgery"
+            },
+            {
+                "Date": "July 29th, 2024",
+                "Event": "discharge from hospital"
+            },
+            {
+                "Date": "August 22nd, 2024",
+                "Event": "readmission for abdominal distention and pain"
+            },
+            {
+                "Date": "September 4th, 2024",
+                "Event": "follow-up scan showing tiny collection"
+            },
+            {
+                "Date": "November 4th, 2024",
+                "Event": "latest AFP test"
+            }
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient experienced epigastric discomfort and dizziness after meals, with a history of liver transplant due to chronic viral hepatitis C.",
+            "DiagnosticJourney": "CT scans and lab results were utilized to monitor the patient's condition post-transplant.",
+            "TreatmentResponse": "Patient's condition improved with adjustments to medications and monitoring of collections.",
+            "OngoingConcerns": "Patient continues to experience pain at the surgical site and requires follow-up for monitoring."
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "patient_id": "history_physical_5",
+    "raw_text": "Gender: Female\n\nAge: 53\n\nMRN: 839606\n\nDiagnosis: Chronic hepatic failure\n\nHistory and Physical:\n\n17/10/24 - Diabetic Patient\n\nDoctor: \"Good morning! How are you today?\"\n\nPatient: \"I'm doing okay, but I've been dealing with some health issues lately.\"\n\nDoctor: \"I understand. I see you're a diabetic patient, and you also have HCV positive, right?\"\n\nPatient: \"Yes, I've been treated for HCV and have been through some medication.\"\n\nDoctor: \"And you've been experiencing some liver complications, like portal hypertension, and you\n\nhad an upper GI bleed and ascites. You also mentioned jaundice?\"\n\nPatient: \"Yes, Ive had all of that, and its been quite challenging.\"\n\nDoctor: \"Okay, based on this, the plan is to continue managing your condition with medications and\n\na referral to the OPD for further follow-up. You're currently on a good treatment plan.\"\n\n08/11/2024 - First Visit to Hepatology Clinic, Seen by Dr. Ammara Naveed\n\nDoctor: \"Welcome! What brings you in today?\"\n\nPatient:  \"I  came  in  because  I  had  an  upper  GI  bleed  earlier  this  year  in  February,  and  Id  like  to\n\ndiscuss a possible liver transplant.\"\n\nDoctor:  \"I  see  you  have  a  history  of  HCV  and  have  achieved  a  sustained  viral  response.  Im  also\n\nnoticing  that  youve  had  several  liver  decompensations,  like  ascites  and  jaundice,  and  a  history  of\n\nvariceal bleeding. How are you managing these symptoms?\"\n\nPatient: \"It's been tough. I had variceal bleeding in 2020, and again about six months ago. Ive also\n\nhad melena and multiple gastroscopies.\"\n\nDoctor: \"Okay, well plan for further diagnostic steps like gastroscopy and a CT scan to evaluate the\n\n\fextent of the damage. We need to review your diuretics, as you're not fully optimized on them yet. I\n\nalso  suggest  continuing  your  current  medications  and  adding  a  few  more,  including  lactulose  for\n\nconstipation.\"\n\nPatient: \"Got it, Ill follow through with the medications and tests.\"\n\n12/11/2024 - Follow-up Visit\n\nDoctor: \"How have you been since our last visit?\"\n\nPatient: \"Ive been feeling quite weak and noticed some abdominal distension.\"\n\nDoctor:  \"I  see.  Lets  review  your  situation.  Youre  still  dealing  with  ascites,  jaundice,  and  previous\n\nvariceal bleeds, correct?\"\n\nPatient: \"Yes, thats all still there.\"\n\nDoctor: \"Your CT scan confirms that the HCC lesions are present, with one of them measuring 1.8\n\ncm.  Based  on  this,  the  plan  remains  to  monitor  your  condition  and  consider  a  liver  transplant.  We\n\nwill also optimize your diuretic dosage and continue your medications.\"\n\nPatient: \"That makes sense. Whats the next step?\"\n\nDoctor: \"Well start you on more intensive monitoring, and Ill refer you to a hepatobiliary specialist for\n\na liver transplant evaluation. We also need to check your blood counts and liver function regularly.\"\n\n22/11/2024 - Emergency Care for Variceal Bleed\n\nDoctor: \"Youve come in for surveillance EGD today. How are you feeling?\"\n\nPatient: \"Ive had some bleeding from my varices again, though it seems to be under control.\"\n\nDoctor: \"Yes, the EGD shows altered blood and some oozing from the fundal varix. Weve injected\n\nhistoacryl, and there are no immediate complications. Im admitting you for monitoring and will start\n\nterlipressin and IV fluids. We might also need a blood transfusion.\"\n\nPatient: \"I understand. Ill stay here for observation.\"\n\n03/12/2024 - Liver Transplant Referral\n\n\fDoctor: \"Youre being referred for liver transplant consideration. How are you feeling about this?\"\n\nPatient: \"Its overwhelming, but I know its necessary.\"\n\nDoctor:  \"Your  current  labs  show  that  your  liver  disease  has  progressed,  and  the  HCC  is  still  a\n\nconcern. With your MELD score at 24, we need to move forward with the transplant process. Well\n\ncontinue  managing  your  symptoms  with  lactulose  and  other  medications.  Also,  well  monitor  your\n\nliver function and blood counts.\"\n\nPatient: \"Im ready for the transplant process, just worried about the donors health.\"\n\nDoctor: \"Weve explained the risks and benefits to both you and your family. The next steps include a\n\nfull review and counseling session. Well also discuss donor options.\"\n\n20/12/2024 - Psychiatry Notes\n\nDoctor:  \"How  are  you  coping  with  everything?  Youre  a  potential  liver  transplant  candidate,  and  I\n\nwanted to check in on your mental health.\"\n\nPatient: \"Ive been feeling a bit down, but overall, Im managing.\"\n\nDoctor: \"I see that you have mild depressive symptoms but no major psychiatric concerns. It's good\n\nthat you have family support, and youre aware of the risks and process involved in the transplant.\n\nWeve discussed everything, and youre clear on what to expect.\"\n\nPatient: \"Yes, Im aware. Ill stay in touch with my family for support.\"\n\n30/12/2024 - Follow-up with PSB, Dr. Ahmad Karim\n\nDoctor:  \"It  looks  like  your  workup  for  liver  transplant  is  progressing  well.  Youve  had  consultations\n\nwith psychiatry, cardiac, and pulmonary teams, all of which came back favorable.\"\n\nPatient:  \"Im  glad  everything  is  going  smoothly.  I  still  have  some  weakness,  and  Ive  been  dealing\n\nwith hard stools.\"\n\nDoctor: \"Well increase your lactulose dose to help with constipation and recheck your renal function,\n\nelectrolytes, and CBC. After that, we can continue monitoring you for transplant readiness.\"\n\nPatient: \"Thanks, Ill follow the plan and keep in touch with the team.\"\n\n\f30/12/2024 - Gynecology Consultation\n\nDoctor: \"Youve been referred for a gynecology consultation as part of your liver transplant workup.\n\nHow are you feeling today?\"\n\nPatient: \"Im okay. Ive had some pelvic issues, but nothing major.\"\n\nDoctor: \"Your ultrasound came back with no major findings. We'll repeat the pelvic ultrasound and\n\ndo a pap smear when the kit is available.\"\n\nPatient: \"Alright, I'll wait for the next steps.\"\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Female",
+            "Age": "53",
+            "MRN": "839606",
+            "Diagnosis": "Chronic hepatic failure"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "Weakness",
+                "Abdominal distension",
+                "Ascites",
+                "Jaundice"
+            ],
+            "NegativeFindings": []
+        },
+        "DiagnosticConclusions": [
+            "HCC lesions present, one measuring 1.8 cm",
+            "MELD score at 24"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Lactulose",
+                "Terlipressin"
+            ],
+            "Procedures": [
+                "EGD",
+                "Gastroscopy",
+                "CT scan",
+                "Liver transplant evaluation"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "CT scan shows HCC lesions"
+            ],
+            "LabResults": [
+                "Liver function tests",
+                "Blood counts"
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Diabetes",
+                "HCV positive",
+                "Chronic hepatic failure"
+            ],
+            "Comorbidities": [
+                "Portal hypertension",
+                "Variceal bleeding",
+                "Ascites"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "Hepatobiliary specialist",
+                "Gynecology consultation"
+            ],
+            "ScheduledTests": [
+                "Pelvic ultrasound",
+                "Pap smear",
+                "Renal function tests",
+                "Electrolytes",
+                "CBC"
+            ],
+            "NextAppointmentDetails": [
+                "Follow-up with PSB on 30/12/2024"
+            ]
+        },
+        "VisitTimeline": [
+            "17/10/2024 - Initial visit, discussed health issues and treatment plan",
+            "08/11/2024 - First visit to Hepatology Clinic, discussed liver transplant",
+            "12/11/2024 - Follow-up visit, CT scan results discussed",
+            "22/11/2024 - Emergency care for variceal bleed",
+            "03/12/2024 - Liver transplant referral",
+            "20/12/2024 - Psychiatry notes, mental health check",
+            "30/12/2024 - Follow-up with PSB, progress on transplant workup",
+            "30/12/2024 - Gynecology consultation"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has chronic hepatic failure with multiple complications including ascites, jaundice, and variceal bleeding.",
+            "DiagnosticJourney": "Underwent various diagnostic tests including CT scan and EGD to evaluate liver condition.",
+            "TreatmentResponse": "Patient is on a treatment plan with medications and is being monitored for liver transplant eligibility.",
+            "OngoingConcerns": "Patient continues to experience weakness and abdominal distension, with a need for ongoing monitoring and management."
+        }
+    }
+}

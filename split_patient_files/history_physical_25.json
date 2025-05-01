@@ -1,0 +1,106 @@
+{
+    "patient_id": "history_physical_25",
+    "raw_text": "Gender: Female\n\nAge: 12\n\nMRN: 691761\n\nDiagnosis: Budd-Chiari syndrome\n\nHistory and Physical:\n\nDoctor:  \"Hello,  I  understand  you're  here  for  a  follow-up.  Can  you  tell  me  how  you've  been  feeling\n\nsince your last visit?\"\n\nPatient: \"Ive been doing okay, but recently I had some episodes of hematemesis and melena. This\n\nhappened  between  October  12th  and  13th,  and  I've  also  been  feeling  generally  weak.  Ive  had  a\n\nfever here and there, but nothing constant.\"\n\nDoctor: \"I see. So, how long have you been experiencing these episodes?\"\n\nPatient: \"I didnt have any bleeding episodes between July and October, but after the recent ones,\n\nIve been feeling worse. I also have some abdominal distension and constipation.\"\n\nDoctor:  \"Thank  you  for  sharing  that.  Let's  go  over  your  previous  health  history.  You  mentioned\n\nhaving episodes of upper GI bleeding a few months ago, correct?\"\n\nPatient:  \"Yes,  around  3  months  back,  I  had  5-6  episodes  of  hematemesis  and  melena.  My\n\nhemoglobin dropped after that, and I had to get two units of blood transfused.\"\n\nDoctor:  \"I  see.  You  mentioned  that  your  investigations  showed  liver  cirrhosis,  and  you've  had\n\nseveral endoscopies done. Have any treatments been administered for the bleeding?\"\n\nPatient:  \"Yes,  Ive  had  endoscopies  done,  and  the  last  one  was  on  October  1st.  They  did  band\n\n\fligation on my esophageal varices.\"\n\nDoctor: \"Good. Now, I also see that your viral markers came back negative. No signs of hepatitis,\n\nright?\"\n\nPatient: \"Yes, thats correct. I dont have any history of hepatitis.\"\n\nDoctor:  \"Alright.  Let's  talk  about  your  current  medications.  You  are  on  carvedilol,  spironolactone,\n\nlactulose, furosemide, and albumin, is that correct?\"\n\nPatient: \"Yes, thats right. I take Carvedilol twice a day, Spironolactone once a day, Lactulose syrup\n\nonce a day, Furosemide daily, and Albumin once a week through an IV.\"\n\nDoctor:  \"Thanks  for  confirming.  Now,  lets  go  over  your  investigations.  Your  ultrasound  from  April\n\nshowed  a  heterogeneous  liver  parenchyma  with  portal  vein  thrombus,  splenomegaly,  and  ascites.\n\nYour MRI in June revealed a cirrhotic liver with a mass in segment VIII, and the CT scan confirmed\n\ncirrhosis with splenomegaly and ascites. Your most recent ultrasound shows more irregularities with\n\nyour liver, splenomegaly, and ascites, is that correct?\"\n\nPatient: \"Yes, the ultrasound on October 21st confirmed that, along with the splenomegaly.\"\n\nDoctor:  \"Based  on  these  findings,  you  have  decompensated  chronic  liver  disease  with  features  of\n\nBudd-Chiari syndrome. Your liver is cirrhotic, and there are multiple complications associated with it,\n\nincluding  the  portal  hypertension  and  ascites.  We  also  reviewed  your  lab  results.  I  can  see  your\n\nhemoglobin is now stable, but your bilirubin levels remain elevated, along with your ALT/AST levels,\n\nwhich suggest ongoing liver dysfunction.\"\n\n\fPatient: \"Yes, I noticed that my hemoglobin was better recently, but the bilirubin is still high. What\n\ndoes that mean for my treatment?\"\n\nDoctor: \"The good news is that your liver function is stable for now, but its still quite compromised.\n\nThe  next  step  for  you  is  to  consider  a  liver  transplant,  which  would  be  the  definitive  treatment.\n\nHowever,  if  youre  not  ready  for  that  yet,  we  can  consider  a  procedure  called  TIPS  (Transjugular\n\nIntrahepatic Portosystemic Shunt) as a bridge. This can help manage your portal hypertension.\"\n\nPatient: \"What is the TIPS procedure exactly?\"\n\nDoctor: \"TIPS is a procedure where we create a channel in the liver to relieve the pressure in the\n\nportal  vein.  This  helps  with  the  ascites  and  varices  bleeding.  However,  its  a  temporary  solution.  A\n\nliver transplant is the long-term solution, but it requires finding a suitable donor.\"\n\nPatient: \"What do I need to do for the liver transplant?\"\n\nDoctor: \"The first step is to meet with a transplant coordinator, who will assess both your condition\n\nand find a suitable donor. The donor will need to meet certain criteria, and well go over the financial\n\naspects of the procedure as well.\"\n\nPatient: \"I understand. What should I do now?\"\n\nDoctor: \"For now, continue your medications as prescribed. Youll need regular monitoring with lab\n\nwork  and  imaging.  We'll  repeat  your  ultrasound  and  AFP  levels  in  three  months,  and  you  should\n\nfollow up with us before that if you experience any emergencies.\"\n\nPatient:  \"Okay,  thank  you.  Ill  follow  up  with  the  transplant  coordinator  and  keep  an  eye  on  my\n\n\fsymptoms.\"\n\nDoctor: \"Youre welcome. Take care of yourself, and let us know if anything changes. Well be here to\n\nsupport you through the process.\"\n\nSummary of Investigations and Lab Results:\n\nUltrasound  Abdomen  (21/10/24):  Liver  is  coarse  with  irregular  margins  and  nodular  surface.\n\nSplenomegaly (140mm), moderate ascites.\n\nCT Scan Triphasic (26/04/24): Cirrhotic liver, splenomegaly, moderate to large ascites.\n\nMRI of Liver (12/06/24): Cirrhotic liver, splenomegaly, peripherally enhancing mass in segment VIII\n\nof liver (3.8 x 4.3 cm), aneurysmal dilatation of portal vein, multiple varices, and ascites.\n\nLabs:\n\nHemoglobin:  7.1  (07/05/24),  8.2  (15/05/24),  9.2  (12/06/24),  12  (11/07/24),  11.0  (31/08/24),  9.0\n\n(12/10/24), 8.8 (14/10/24)\n\nTLC: 3.5 (07/05/24), 3.50 (15/05/24), 6.9 (12/06/24), 8.8 (11/07/24)\n\nPlatelets: 122 (07/05/24), 106 (15/05/24), 123 (12/06/24), 113 (11/07/24), 128 (31/08/24)\n\nT-Bil: 1.43 (07/05/24), 1.8 (15/05/24), 1.02 (12/06/24), 2.0 (31/08/24)\n\nD-Bil: 1.0 (15/05/24), 1.4 (12/10/24)\n\n\fALT/AST: 27/36 (07/05/24), 22.1/37.9 (15/05/24), 43/117 (12/06/24)\n\nAlbumin: 3.76 (07/05/24), 2.98 (31/08/24), 3.9 (12/10/24)\n\nCreatinine: 0.80 (07/05/24), 0.56 (15/05/24), 0.64 (12/06/24), 0.67 (31/08/24), 0.8 (12/10/24)\n\nSodium: 137 (07/05/24), 136 (15/05/24), 135 (12/06/24), 140 (31/08/24)\n\nPotassium: 3.6 (07/05/24), 4.25 (15/05/24), 3.81 (12/06/24), 4.0 (31/08/24)\n\nINR: 1.5 (07/05/24), 1.0 (12/10/24)\n\nAFP: 1.56 (25/04/24), 2.5 (07/05/24)\n\nOther Tests:\n\nHCV PCR: Negative\n\nHbcAb: Non-reactive\n\nAutoimmune Profile: Serum LKM-1 IgG: <1.0 (Negative), AMA: Negative, ANA: Positive\n\nCeruloplasmin: 0.40\n\nUrinary Copper: 60.2\n\n\f\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Female",
+            "Age": "12",
+            "MRN": "691761",
+            "Diagnosis": "Budd-Chiari syndrome"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "hematemesis",
+                "melena",
+                "weakness",
+                "fever",
+                "abdominal distension",
+                "constipation"
+            ],
+            "NegativeFindings": [
+                "no history of hepatitis"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "decompensated chronic liver disease",
+            "portal hypertension",
+            "ascites"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "carvedilol",
+                "spironolactone",
+                "lactulose",
+                "furosemide",
+                "albumin"
+            ],
+            "Procedures": [
+                "endoscopy",
+                "band ligation",
+                "TIPS"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "coarse liver with irregular margins and nodular surface",
+                "cirrhotic liver",
+                "splenomegaly",
+                "moderate ascites",
+                "peripherally enhancing mass in segment VIII of liver",
+                "aneurysmal dilatation of portal vein",
+                "multiple varices"
+            ],
+            "LabResults": [
+                "Hemoglobin: 7.1, 8.2, 9.2, 12, 11.0, 9.0, 8.8",
+                "TLC: 3.5, 3.50, 6.9, 8.8",
+                "Platelets: 122, 106, 123, 113, 128",
+                "T-Bil: 1.43, 1.8, 1.02, 2.0",
+                "D-Bil: 1.0, 1.4",
+                "ALT/AST: 27/36, 22.1/37.9, 43/117",
+                "Albumin: 3.76, 2.98, 3.9",
+                "Creatinine: 0.80, 0.56, 0.64, 0.67, 0.8",
+                "Sodium: 137, 136, 135, 140",
+                "Potassium: 3.6, 4.25, 3.81, 4.0",
+                "INR: 1.5, 1.0",
+                "AFP: 1.56, 2.5"
+            ],
+            "PathologyFindings": [
+                "HCV PCR: Negative",
+                "HbcAb: Non-reactive",
+                "Autoimmune Profile: Serum LKM-1 IgG: <1.0 (Negative), AMA: Negative, ANA: Positive",
+                "Ceruloplasmin: 0.40",
+                "Urinary Copper: 60.2"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Budd-Chiari syndrome",
+                "liver cirrhosis"
+            ],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "transplant coordinator"
+            ],
+            "ScheduledTests": [
+                "repeat ultrasound",
+                "AFP levels"
+            ],
+            "NextAppointmentDetails": [
+                "in three months"
+            ]
+        },
+        "VisitTimeline": [
+            "October 1st: last endoscopy",
+            "October 12th-13th: recent episodes of hematemesis and melena",
+            "October 21st: recent ultrasound"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has experienced worsening symptoms including episodes of hematemesis and melena, along with abdominal distension and weakness.",
+            "DiagnosticJourney": "Multiple imaging studies and lab tests have confirmed liver cirrhosis and complications associated with Budd-Chiari syndrome.",
+            "TreatmentResponse": "Hemoglobin levels have stabilized, but bilirubin levels remain elevated indicating ongoing liver dysfunction.",
+            "OngoingConcerns": "Need for potential liver transplant and management of portal hypertension."
+        }
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "patient_id": "history_physical_77",
+    "raw_text": "Gender: Male\n\nAge: 67\n\nMRN: 788449\n\nDiagnosis: Hepatocellular Carcinoma\n\nHistory and Physical:\n\nDate: 31/07/2024\n\nPatient: I've been feeling pain in my right upper abdominal area for about a week now. There's been\n\nsome  on-and-off  constipation,  and  I  had  a  fever  about  6-8  days  ago.  The  fever  reached  up  to\n\n101-102°F  but  has  been  gone  for  the  past  2-3  days.  Also,  I've  noticed  some  weight  loss,  but  I\n\nhaven't really been able to track it accurately.\n\nDoctor: I see. Let's go over your medical history. Do you have any chronic conditions?\n\nPatient:  Yes,  I  have  diabetes  and  hypertension,  but  no  history  of  hepatitis.  I  haven't  had  any\n\nsurgeries before either.\n\nDoctor: Got it. Ill take a look at your recent lab results. Here's what we have:\n\nPIVKA: 20\n\nAFP: 46.7\n\nPSA: 0.8 (normal)\n\nBilirubin: 1.3\n\n\fCreatinine: 0.9\n\nHemoglobin (Hgb): 13.3\n\nMCV: 83\n\nWBC: 11.3\n\nPlatelets (Plt): 247\n\nHbA1C: 6.8%\n\nPatient: Okay, what do these results indicate?\n\nDoctor:  Your  AFP  is  elevated,  which  is  concerning.  It's  associated  with  liver  issues,  like\n\nhepatocellular  carcinoma  (HCC).  But  we  need  more  information.  Your  ultrasound  shows  a  solid\n\nmass measuring 6.2 cm by 6.2 cm, along with an enlarged prostate.\n\nPatient: What does this mean for me?\n\nDoctor:  We  need  to  confirm  whether  this  mass  is  an  abscess  or  potentially  cancer.  Your  CT  scan\n\nshows  a  7  x  6  cm  lesion  in  the  liver,  and  based  on  its  features,  we  are  concerned  about  evolving\n\nhepatic  abscess  versus  metastatic  deposits.  Well  discuss  this  at  the  MDT  (multidisciplinary  team)\n\nmeeting on Friday.\n\nPatient: Whats the plan moving forward?\n\n\fDoctor:  For  now,  well  submit  your  CD  for  review,  and  well  meet  again  on  Friday  after  the  MDT\n\ndiscussion to decide the next steps. Well consider further tests and potential treatments.\n\nDate: 07/08/2024\n\nPatient: I havent had any active complaints since my last visit. No fever, and the pain has also been\n\nmanageable.\n\nDoctor:  Thats  good  to  hear.  Lets  review  your  previous  scans  and  tests.  The  CT  scan  now  shows\n\nthat the lesion in your liver is likely an atypical HCC, with possible tumor thrombus in the portal vein.\n\nThe abscess is less likely. We should consider either TACE or systemic treatments. Ill refer you to\n\nIR for further evaluation.\n\nPatient: So, its still concerning?\n\nDoctor: Yes, but well proceed carefully. Well have another MDT discussion on Friday to determine if\n\nsurgical  resection  might  be  an  option,  along  with  chemotherapy  or  locoregional  therapy.  Well  also\n\ncheck your CA 19-9 levels for further clarity.\n\nDate: 20/08/2024\n\nPatient: What do the latest results show?\n\nDoctor: Weve got the results from your fibroscan and viral screening. Your HBsAg, Anti-HCV, and\n\nAnti-HIV  tests  all  came  back  non-reactive,  which  is  good.  Your  CA  19-9  is  normal  as  well.  The\n\nfibroscan  indicates  that  you  have  an  F0  stage  of  hepatic  fibrosis,  meaning  there's  no  significant\n\nfibrosis at this time. However, your tumor still requires further management.\n\n\fPatient: Whats the next step in treatment?\n\nDoctor:  Well  continue  with  the  plan  to  refer  you  for  a  non-anatomical  resection  or  posterior\n\nsectionectomy.  The  surgery  date  will  be  confirmed  soon.  Afterward,  we'll  begin  discussing\n\nchemotherapy or immunotherapy options based on the latest research.\n\nDate: 21/08/2024\n\nPatient: What did the latest review indicate?\n\nDoctor: Following the re-MDT discussion, we've decided to proceed with immunotherapy, given its\n\nhigher effectiveness, though it can be costly. Well review all available options closely and make sure\n\nyoure informed before moving forward.\n\nPatient: Thank you. Whats next?\n\nDoctor: Ill send you to meet with the oncology team to begin immunotherapy in the next two weeks.\n\nWell also have you follow up in the HPB clinic to monitor your progress.\n\nDate: 19/09/2024\n\nPatient: Im feeling some weakness and drowsiness post-surgery. I also noticed some bleeding from\n\nthe wound site. Should I be concerned?\n\nDoctor: Its important that we monitor this closely. The wound is healing well, but the bleeding and\n\nother symptoms like weakness will need to be evaluated. Well review your lab results:\n\n\fHb: 10.7\n\nWBC: 9.05\n\nPlatelets: 431\n\nTotal Bilirubin: 0.56\n\nDirect Bilirubin: 0.27\n\nALT/AST: 93/34\n\nAlbumin: 3.67\n\nCreatinine: 0.84\n\nAFP: 46.7 (same as previous)\n\nDoctor:  It  seems  like  your  liver  function  is  improving,  but  well  need  to  continue  monitoring  your\n\ncondition closely, especially after the wedge resection. The histopathology report indicates a grade\n\n3 tumor with vascular invasion. The oncology team will help determine the best course of treatment\n\nfrom here.\n\nDate: 16/10/2024\n\nPatient: Hows my recovery going?\n\n\fDoctor: Your recovery seems to be progressing well. Youre at day 36 post-surgery. The tumor was\n\npoorly differentiated, and there was vascular invasion present. However, there was no malignancy\n\nfound  in  the  lymph  nodes.  You  still  need  follow-up  care,  and  chemotherapy  or  immunotherapy  is\n\nrecommended for further treatment.\n\nPatient: What should I do next?\n\nDoctor:  Ill  have  you  continue  follow-up  visits,  and  we'll  proceed  with  the  treatment  plan  based  on\n\nyour histopathology report. Youll also need to follow up with oncology to discuss the next steps for\n\ntreatment.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "67",
+            "MRN": "788449",
+            "Diagnosis": "Hepatocellular Carcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "pain in right upper abdominal area",
+                "on-and-off constipation",
+                "fever",
+                "weight loss",
+                "weakness",
+                "drowsiness",
+                "bleeding from wound site"
+            ],
+            "NegativeFindings": [
+                "no history of hepatitis",
+                "no malignancy found in lymph nodes"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "elevated AFP associated with liver issues",
+            "solid mass in liver likely atypical HCC",
+            "possible tumor thrombus in portal vein",
+            "F0 stage of hepatic fibrosis",
+            "grade 3 tumor with vascular invasion"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "immunotherapy"
+            ],
+            "Procedures": [
+                "CT scan",
+                "ultrasound",
+                "non-anatomical resection",
+                "posterior sectionectomy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "solid mass measuring 6.2 cm by 6.2 cm",
+                "7 x 6 cm lesion in liver",
+                "fibroscan indicating F0 stage of hepatic fibrosis"
+            ],
+            "LabResults": [
+                "PIVKA: 20",
+                "AFP: 46.7",
+                "PSA: 0.8",
+                "Bilirubin: 1.3",
+                "Creatinine: 0.9",
+                "Hemoglobin (Hgb): 13.3",
+                "MCV: 83",
+                "WBC: 11.3",
+                "Platelets (Plt): 247",
+                "HbA1C: 6.8%",
+                "Hb: 10.7",
+                "WBC: 9.05",
+                "Platelets: 431",
+                "Total Bilirubin: 0.56",
+                "Direct Bilirubin: 0.27",
+                "ALT/AST: 93/34",
+                "Albumin: 3.67",
+                "Creatinine: 0.84",
+                "AFP: 46.7"
+            ],
+            "PathologyFindings": [
+                "grade 3 tumor with vascular invasion"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "diabetes",
+                "hypertension"
+            ],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "oncology team",
+                "HPB clinic"
+            ],
+            "ScheduledTests": [
+                "CA 19-9 levels"
+            ],
+            "NextAppointmentDetails": [
+                "follow-up visit after MDT discussion",
+                "next appointment in two weeks for immunotherapy"
+            ]
+        },
+        "VisitTimeline": [
+            "31/07/2024",
+            "07/08/2024",
+            "20/08/2024",
+            "21/08/2024",
+            "19/09/2024",
+            "16/10/2024"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient presented with abdominal pain and fever, diagnosed with hepatocellular carcinoma, underwent surgery, and is recovering.",
+            "DiagnosticJourney": "Initial tests indicated elevated AFP and imaging showed liver lesions, leading to further evaluations and a diagnosis of atypical HCC.",
+            "TreatmentResponse": "Post-surgery recovery is ongoing, with plans for immunotherapy based on histopathology results.",
+            "OngoingConcerns": "Monitoring for symptoms post-surgery and evaluating the effectiveness of the treatment plan."
+        }
+    }
+}

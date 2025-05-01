@@ -1,0 +1,112 @@
+{
+    "patient_id": "history_physical_75",
+    "raw_text": "Gender: Male\n\nAge: 70\n\nMRN: 792361\n\nDiagnosis: Hepatocellular Carcinoma\n\nHistory and Physical:\n\nPatient: \"Doctor, I have been feeling a fullness in my epigastric region for the past six months.\"\n\nDoctor: \"I see. How has your health been overall? Any other issues or changes?\"\n\nPatient: \"Well, I was diagnosed with Hepatitis C five years ago. I underwent treatment with DAAs for\n\nthree  months,  and  I  achieved  a  sustained  virological  response  (SVR).  My  last  HCV  PCR  test  on\n\nApril 26, 2024, was not detected.\"\n\nDoctor: \"Thats good news regarding the HCV. Any recent symptoms or signs of complications?\"\n\nPatient: \"No, I havent had any hematemesis, ascites, or jaundice. I also havent experienced melena\n\nor any encephalopathy.\"\n\nDoctor: \"What about weight changes? Any significant weight loss or other issues?\"\n\nPatient:  \"Yes,  I  lost  10  kilograms  in  the  past  four  months.  I  havent  had  any  blood  transfusions  or\n\nfevers, and no night sweats either.\"\n\nDoctor: \"Okay. Its also important to check your history. Any past surgeries or medical issues?\"\n\nPatient: \"I had an orchidectomy 15 years ago. No other major health problems.\"\n\n\fDoctor: \"Any allergies?\"\n\nPatient: \"No allergies.\"\n\nDoctor: \"What medications are you currently taking?\"\n\nPatient: \"I am on Carvida 3.12mg, Levijon, Painkillers, PPI, and Syp Lilac.\"\n\nDoctor: \"Are there any financial or social factors affecting your treatment?\"\n\nPatient: \"Yes, I am facing some financial strains. I have completed my matriculation and Im retired\n\nfrom my job as a Fuji.\"\n\nDoctor: \"Noted. Any addiction history?\"\n\nPatient: \"I quit smoking five years ago.\"\n\nDoctor: \"Good to know. Whats your family history like?\"\n\nPatient: \"My father had tuberculosis.\"\n\nDoctor: \"Alright, now moving on to your physical examination. Your cognitive function seems intact.\n\nYou  are  conscious  and  oriented.  Your  vital  signs  are  stable,  and  your  abdominal  examination  is\n\nnormalno tenderness or distention.\"\n\nPatient: \"Thats good to hear.\"\n\n\fDoctor:  \"Now,  lets  review  your  test  results.  You  had  a  CT  scan  on  May  8,  2024,  showing  chronic\n\nliver disease with a lesion in the left lobe of your liver and tumor thrombosis in the portal vein. You\n\nalso had an MRI on June 24, 2024, which confirmed a fibrolamellar carcinoma in the left lobe.\"\n\nPatient: \"I remember those scans. What do the latest lab results show?\"\n\nDoctor:  \"Your  recent  lab  results  from  July  11,  2024,  and  August  13,  2024,  show  some  changes.\n\nYour hemoglobin is stable at 10.7 g/dL, and your liver function tests are still a bit off with an ALT of\n\n73 and AST of 352, showing some liver stress. Your bilirubin levels are in the normal range, but your\n\nalbumin is slightly low at 3.25 g/dL, and your AFP remains stable at 2.25.\"\n\nPatient: \"Is that concerning?\"\n\nDoctor: \"The ALT and AST levels are elevated, which suggests ongoing liver damage. However, the\n\nstable  AFP  levels  are  encouraging.  We  will  need  to  proceed  with  further  imaging  and  regular\n\nmonitoring.\"\n\nPatient: \"What about the CT scan you mentioned recently?\"\n\nDoctor:  \"Yes,  the  latest  CT  scan  from  August  13,  2024,  confirmed  that  there  are  exophytic  HCC\n\nlesions  in  the  left  lobe  of  your  liver.  The  disease  is  on  a  background  of  chronic  liver  disease,  but\n\ntheres no sign of ascites.\"\n\nPatient: \"Whats the next step in my treatment?\"\n\nDoctor:  \"Ive  reviewed  your  case  with  the  multidisciplinary  team,  and  we  recommend  left  lateral\n\nsegmentectomy and wedge resection for your HCC. We will also monitor you closely post-surgery,\n\n\fand I will meet with you and your family to discuss the surgery timing.\"\n\nFollow-up Visit - 16/08/2024\n\nDoctor: \"Ive spoken to your son, Umair, on the phone regarding the next steps. We are proceeding\n\nwith the surgery plan, and you should be ready for the procedure soon.\"\n\nFollow-up Visit - 20/08/2024\n\nDoctor:  \"After  reviewing  your  clinical  history  and  your  progress,  we  are  preparing  for  the  surgery.\n\nYou  will  undergo  left  lateral  segmentectomy,  and  we  will  remove  the  part  of  the  stomach  involved\n\nwith the tumor.\"\n\nPost-Op Update - 6/11/2024\n\nDoctor:  \"Youve  undergone  your  surgery,  which  included  left  lateral  segmentectomy  and  gastric\n\nresection. You were discharged on September 26, 2024. How are you feeling now?\"\n\nPatient: \"I feel okay but developed some abdominal distention after the surgery. I had an ultrasound\n\nat a local center, and they diagnosed positive ascites, so Ive started spironolactone. I also had some\n\nconstipation followed by loose stools, 4 to 6 times a day for the last four days.\"\n\nDoctor:  \"I  see.  Your  scar  site  looks  good,  with  no  active  discharge,  but  there  is  some  tenderness,\n\nand a lump around the scar site. It seems like an incisional hernia, which we will need to monitor.\"\n\nPatient: \"What about my lab results?\"\n\n\fDoctor:  \"Your  latest  labs  show  some  improvement.  Your  hemoglobin  is  at  11.0,  and  your  liver\n\nfunction tests are stable. Your albumin is slightly better at 3.48 g/dL, but your alkaline phosphatase\n\nis still high at 340. Your creatinine and electrolytes are normal. Your MELD score is 6, and your CTP\n\nscore is A6, which is good.\"\n\nPatient: \"Whats the next step?\"\n\nDoctor: \"We need to follow up with imaging, and Ive scheduled a CT scan with HCC protocol. We\n\nwill  also  start  you  on  sorafenib  200mg  twice  daily,  along  with  other  medications  to  support  your\n\nrecovery and prevent complications.\"\n\nHistopathology Report:\n\nLiver  Tumor  (Segment  II/III)  with  partial  stomach  resection:  Hepatocellular  carcinoma  (G3),  poorly\n\ndifferentiated, largest tumor measuring 21 cm.\n\nTumor invading the adjacent stomach wall and liver capsule. Vascular invasion present.\n\nBackground liver shows chronic hepatitis with bridging fibrosis (Metavir score A1/A3, F3/F4).\n\nUltrasound Report:\n\nLiver: Coarse parenchymal echotexture with irregular margins, an ill-defined hypoechoic area noted\n\nin the left lobe measuring 4.1 x 2.4 cm, requiring further evaluation.\n\nDoctor: \"Ive reviewed the ultrasound and histopathology reports. The next steps involve starting the\n\nmedications  I  mentioned,  and  well  monitor  you  closely.  Well  also  need  to  review  your  HCV  PCR,\n\n\fAFP levels, and the upcoming CT scan.\"\n\nPatient: \"Alright, thank you, Doctor. Ill follow your instructions and look forward to the follow-up.\"\n\nDoctor: \"Youre welcome. Lets stay on top of this. Ill see you in a month for a check-up.\"\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "70",
+            "MRN": "792361",
+            "Diagnosis": "Hepatocellular Carcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "fullness in epigastric region",
+                "weight loss of 10 kilograms",
+                "abdominal distention",
+                "constipation followed by loose stools"
+            ],
+            "NegativeFindings": [
+                "no hematemesis",
+                "no ascites",
+                "no jaundice",
+                "no melena",
+                "no encephalopathy",
+                "no allergies",
+                "no blood transfusions",
+                "no fevers",
+                "no night sweats"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Chronic liver disease with lesion in left lobe",
+            "Fibrolamellar carcinoma in left lobe",
+            "Exophytic HCC lesions in left lobe",
+            "Incisional hernia"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Carvida 3.12mg",
+                "Levijon",
+                "Painkillers",
+                "PPI",
+                "Syp Lilac",
+                "spironolactone",
+                "sorafenib 200mg twice daily"
+            ],
+            "Procedures": [
+                "left lateral segmentectomy",
+                "gastric resection"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "CT scan showing chronic liver disease with lesion in left lobe",
+                "MRI confirming fibrolamellar carcinoma",
+                "CT scan confirming exophytic HCC lesions",
+                "Ultrasound showing ill-defined hypoechoic area in left lobe"
+            ],
+            "LabResults": [
+                "hemoglobin 10.7 g/dL",
+                "ALT 73",
+                "AST 352",
+                "bilirubin normal",
+                "albumin 3.25 g/dL",
+                "AFP 2.25",
+                "hemoglobin 11.0",
+                "albumin 3.48",
+                "alkaline phosphatase 340",
+                "MELD score 6",
+                "CTP score A6"
+            ],
+            "PathologyFindings": [
+                "Hepatocellular carcinoma (G3), poorly differentiated, largest tumor measuring 21 cm",
+                "Tumor invading adjacent stomach wall and liver capsule",
+                "Vascular invasion present",
+                "Chronic hepatitis with bridging fibrosis (Metavir score A1/A3, F3/F4)"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Hepatitis C",
+                "Chronic liver disease"
+            ],
+            "Comorbidities": [
+                "None"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "Follow-up with multidisciplinary team"
+            ],
+            "ScheduledTests": [
+                "CT scan with HCC protocol",
+                "Review of HCV PCR",
+                "Review of AFP levels"
+            ],
+            "NextAppointmentDetails": [
+                "Check-up in a month"
+            ]
+        },
+        "VisitTimeline": [
+            "Initial visit on 16/08/2024",
+            "Follow-up visit on 20/08/2024",
+            "Post-op update on 6/11/2024"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient presented with fullness in epigastric region and weight loss, diagnosed with HCC after imaging.",
+            "DiagnosticJourney": "Multiple imaging studies and lab tests confirmed diagnosis and assessed liver function.",
+            "TreatmentResponse": "Underwent surgery with subsequent improvement in lab results but developed complications.",
+            "OngoingConcerns": "Monitoring for ascites, liver function, and potential complications post-surgery."
+        }
+    }
+}

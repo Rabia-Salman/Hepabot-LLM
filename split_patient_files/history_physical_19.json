@@ -1,0 +1,93 @@
+{
+    "patient_id": "history_physical_19",
+    "raw_text": "Gender: Female\n\nAge: 12\n\nMRN: 661446\n\nDiagnosis: Hepatic fibrosis\n\nHistory and Physical:\n\nDoctor: Hello Khadija, how are you today? I see from your records that you're continuing to follow up\n\nfor your condition.\n\nPatient: I'm okay, doctor. Just here for the check-up.\n\nDoctor:  Great.  Lets  go  over  some  of  your  past  history.  I  see  that  you  had  a  significant  episode  of\n\nhematemesis  and  melena  about  a  year  ago,  which  led  to  a  drop  in  your  hemoglobin  levels.  This\n\nrequired a couple of blood transfusions, correct?\n\nPatient: Yes, that's right. It was really bad.\n\nDoctor:  Since  that  episode,  we  also  noted  that  you  underwent  an  EGD  which  showed  Grade  IV\n\nesophageal  varices,  and  you  were  treated  with  banding.  Have  you  had  any  new  episodes  of\n\nvomiting blood or passing black stools since your last visit?\n\nPatient: I had another episode in August, but it wasnt as bad as the first time. I also had melena in\n\nSeptember.\n\nDoctor: Understood. Weve been monitoring your liver closely, and I can see that your MRCP from\n\nearlier this year showed changes consistent with congenital hepatic fibrosis and some intrahepatic\n\nbiliary  dilation.  Your  liver  biopsy  also  confirmed  ductal  plate  malformation,  which  aligns  with  that\n\ndiagnosis. How have you been feeling overall?\n\n\fPatient: I feel okay, just a little tired sometimes.\n\nDoctor:  It's  good  to  hear  that  you're  feeling  alright.  Your  labs  from  the  last  visit  showed  a  slight\n\nimprovement in your hemoglobin levels, but youre still a bit anemic, and your liver function tests are\n\nalso worth noting. I see your albumin is a bit lower than last time.\n\nPatient: Is that something I need to worry about, doctor?\n\nDoctor: It's something we will continue to monitor. Your liver is still not cirrhotic, which is good, but\n\nwe  do  need  to  keep  an  eye  on  the  biliary  channels  and  any  possible  complications  like  varices.\n\nHave you been taking the medications we prescribed?\n\nPatient: Yes, Ive been taking the Inderal, Urso, and Sangobion as you instructed.\n\nDoctor: Good. We will continue the Inderal to manage any risk of variceal bleeding. Im also planning\n\nanother  endoscopy  to  check  the  varices  and  will  schedule  a  follow-up  CT  to  keep  track  of  any\n\nchanges. Have you been following up with any labs recently?\n\nPatient:  Yes,  I  did  some  labs  a  few  weeks  ago,  and  the  results  were  similar  to  before.  My\n\nhemoglobin is still on the lower side, but the liver function tests havent changed much.\n\nDoctor: Alright, Ill order a few more tests today, including viral serology and blood grouping, as well\n\nas some baseline labs. We also need to prepare for a potential procedure tomorrow.\n\nPatient: What procedure is that, doctor?\n\n\fDoctor: We are scheduling another endoscopy to evaluate your varices and check for any changes.\n\nWe will also need anesthesia, so please fast after 2 AM tonight and make sure you're well-hydrated\n\nfor the procedure.\n\nPatient: Okay, Ill follow the instructions.\n\nDoctor:  Perfect.  After  this  procedure,  well  decide  if  any  additional  treatment  is  needed,  including\n\nconsidering the possibility of shunting if the varices are a significant concern. However, I understand\n\nthat your family may not be ready for surgery yet.\n\nPatient: Yes, my father is not comfortable with the idea of surgery right now.\n\nDoctor:  Understood.  Well  keep  it  under  medical  management  for  now,  and  continue  monitoring\n\nclosely. Ill have my team prepare for the procedure and get all necessary labs done today.\n\nPatient: Thank you, doctor. I appreciate your help.\n\nDoctor:  Youre  welcome,  Khadija.  We'll  take  good  care  of  you.  Let's  get  everything  ready  for\n\ntomorrow,  and  well  talk  again  after  the  procedure.  If  you  feel  unwell  or  have  any  new  symptoms\n\nbefore then, don't hesitate to reach out.\n\nMedical Notes:\n\nDiagnosis: Congenital Hepatic Fibrosis, Esophageal Varices\n\nMedications:\n\n\fInderal 10mg, TDS\n\nUrso 250mg, BD\n\nSangobion, BD\n\nLabs:\n\nT.Bil: 0.7 mg/dL\n\nD.Bil: 0.2 mg/dL\n\nALT/AST: 45/66 U/L\n\nALP: 220 U/L\n\nAlbumin: 4.3 g/dL\n\nHemoglobin: 10.2 g/dL\n\nPlatelets: 110\n\nINR: 1.08\n\nPlan:\n\nPrepare for EGD tomorrow.\n\n\fObtain baseline labs, including viral serology.\n\nFast after 2 AM.\n\nAdminister fluids at 40 ml/hr after NPO.\n\nMonitor for signs of bleeding; continue with Inderal.\n\nContinue monitoring liver function closely.\n\nFollow-up after procedure.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Female",
+            "Age": "12",
+            "MRN": "661446",
+            "Diagnosis": "Hepatic fibrosis"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "anemia",
+                "fatigue"
+            ],
+            "NegativeFindings": [
+                "no new episodes of hematemesis",
+                "no new episodes of melena"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Congenital Hepatic Fibrosis",
+            "Esophageal Varices"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Inderal 10mg, TDS",
+                "Urso 250mg, BD",
+                "Sangobion, BD"
+            ],
+            "Procedures": [
+                "EGD"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "MRCP showed changes consistent with congenital hepatic fibrosis and intrahepatic biliary dilation"
+            ],
+            "LabResults": [
+                {
+                    "T.Bil": "0.7 mg/dL"
+                },
+                {
+                    "D.Bil": "0.2 mg/dL"
+                },
+                {
+                    "ALT/AST": "45/66 U/L"
+                },
+                {
+                    "ALP": "220 U/L"
+                },
+                {
+                    "Albumin": "4.3 g/dL"
+                },
+                {
+                    "Hemoglobin": "10.2 g/dL"
+                },
+                {
+                    "Platelets": "110"
+                },
+                {
+                    "INR": "1.08"
+                }
+            ],
+            "PathologyFindings": [
+                "liver biopsy confirmed ductal plate malformation"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Hepatic fibrosis"
+            ],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [],
+            "ScheduledTests": [
+                "viral serology",
+                "baseline labs"
+            ],
+            "NextAppointmentDetails": [
+                "EGD scheduled for tomorrow"
+            ]
+        },
+        "VisitTimeline": [],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has a history of hematemesis and melena, with ongoing monitoring of liver function.",
+            "DiagnosticJourney": "Diagnosis confirmed through imaging and biopsy.",
+            "TreatmentResponse": "Slight improvement in hemoglobin levels, but still anemic.",
+            "OngoingConcerns": "Monitoring for varices and liver function."
+        }
+    }
+}

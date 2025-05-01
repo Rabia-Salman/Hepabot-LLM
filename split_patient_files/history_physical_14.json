@@ -1,0 +1,103 @@
+{
+    "patient_id": "history_physical_14",
+    "raw_text": "Gender: Male\n\nAge: 57\n\nMRN: 762672\n\nDiagnosis: Chronic viral hepatitis C\n\nHistory and Physical:\n\nPatient Visit: 8 March 2024\n\nPatient: Hello, Doctor. This is my first visit here.\n\nDoctor: Welcome. Let's go over your medical history. Do you have any comorbidities?\n\nPatient:  Yes,  I  have  diabetes  mellitus.  Im  on  insulin,  26  units  in  the  morning.  I  used  to  smoke  but\n\nquit 4 months ago. I don't drink alcohol, and I havent taken any hakeem medications.\n\nDoctor: Alright. Have you had any treatments for Hepatitis C?\n\nPatient:  Yes,  I  was  treated  twice.  The  first  time  was  with  interferons  for  6  months,  about  15  years\n\nago. The second time, I was treated with DAAs for 6 months, 7-8 years ago. Both times, I achieved\n\nsustained virological response (SVR).\n\nDoctor: Great to hear. Have you had any liver-related issues?\n\nPatient:  Yes,  I  have  chronic  liver  disease  (DCLD)  and  Ive  had  hematemesis  (last  episode  7  years\n\nago), melena (last episode years ago), ascites, and jaundice.\n\nDoctor: Understood. Lets review your recent tests. You had a USG Abdomen in December 2023. It\n\nshowed  coarse  liver  with  splenomegaly,  multiple  dilated  veins  at  the  splenic  hilum,  moderate\n\nascites, and thick gallbladder sludge with wall edema. How are you feeling?\n\n\fPatient: Ive been having RUQ pain, weakness, yellowing of my eyes, and some weight loss.\n\nDoctor: Okay. Your liver function tests (LFTs) in December 2023 showed a total bilirubin of 2.9, ALT\n\nof  110,  AST  of  83,  and  ALP  of  252.  Creatinine  was  0.9.  Your  last  CT  triphasic  HCC  protocol  in\n\nNovember 2023 showed cirrhotic liver, no arterialized lesions, moderate ascites, and multiple upper\n\nabdominal collateral formations.\n\nPatient: That sounds serious.\n\nDoctor:  It's  important  we  keep  an  eye  on  these  things.  For  now,  we'll  continue  with  your  current\n\nmedications and follow up in 2 weeks. Also, I advise you to eat smaller, more frequent meals.\n\nPatient Visit: 13 March 2024\n\nPatient: Ive been experiencing some pain in my abdomen.\n\nDoctor: Based on your symptoms and a recent CT scan, weve identified a CBD stone. We need to\n\nrefer you for an ERCP procedure to address this.\n\nFollow-Up Visit: 5 April 2024\n\nPatient: How is my condition now, Doctor?\n\nDoctor: Youre showing improvements. Your liver function tests (LFTs) are better, and your bilirubin\n\nlevels  are  trending  down.  Your  diagnosis  is  still  HCV-related  DCLD  with  ascites,  and  you  had  the\n\nobstructive  jaundice  due  to  the  choledocholithiasis.  The  stone  was  successfully  removed  through\n\nthe ERCP.\n\n\fPatient: Thats a relief. Whats next?\n\nDoctor: Well stop the B-blocker due to your low blood pressure and stop the painkillers. I want you\n\nto have LFTs every two weeks. Well follow up in 6 weeks to monitor your progress.\n\nFollow-Up Visit: 3 June 2024\n\nPatient: Doctor, Ive been feeling weak and lethargic.\n\nDoctor:  Based  on  your  recent  CT  scan  from  March  2024,  theres  no  sign  of  HCC,  but  were  still\n\nmanaging your chronic liver disease. We identified a large calculus in the distal end of the CBD. The\n\nERCP was successful in removing it.\n\nPatient: Ive been on Spiromide, but Im still feeling tired.\n\nDoctor: Given your symptoms, well stop Spiromide and start Lasix instead. Your recent lab results\n\nshow  some  improvement,  but  your  albumin  is  low  at  2.2.  We'll  repeat  your  LFTs  and  do  an  USG\n\nabdomen. Youll need a follow-up in 3 months.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "57",
+            "MRN": "762672",
+            "Diagnosis": "Chronic viral hepatitis C"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "RUQ pain",
+                "weakness",
+                "yellowing of eyes",
+                "weight loss",
+                "abdominal pain",
+                "tiredness"
+            ],
+            "NegativeFindings": [
+                "no sign of HCC"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "HCV-related DCLD with ascites",
+            "obstructive jaundice due to choledocholithiasis"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "insulin",
+                "Lasix"
+            ],
+            "Procedures": [
+                "ERCP"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "coarse liver with splenomegaly",
+                "multiple dilated veins at the splenic hilum",
+                "moderate ascites",
+                "thick gallbladder sludge with wall edema",
+                "cirrhotic liver",
+                "multiple upper abdominal collateral formations",
+                "large calculus in the distal end of the CBD"
+            ],
+            "LabResults": [
+                {
+                    "Total Bilirubin": "2.9",
+                    "ALT": "110",
+                    "AST": "83",
+                    "ALP": "252",
+                    "Creatinine": "0.9",
+                    "Albumin": "2.2"
+                }
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "chronic liver disease"
+            ],
+            "Comorbidities": [
+                "diabetes mellitus"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [],
+            "ScheduledTests": [
+                "LFTs every two weeks",
+                "USG abdomen"
+            ],
+            "NextAppointmentDetails": [
+                "6 weeks",
+                "3 months"
+            ]
+        },
+        "VisitTimeline": [
+            {
+                "Date": "8 March 2024",
+                "Details": "First visit, discussed medical history and comorbidities."
+            },
+            {
+                "Date": "13 March 2024",
+                "Details": "Identified CBD stone, referred for ERCP."
+            },
+            {
+                "Date": "5 April 2024",
+                "Details": "Improvement noted, stone removed, adjustments to medications."
+            },
+            {
+                "Date": "3 June 2024",
+                "Details": "No sign of HCC, calculus removed, medication adjustments."
+            }
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has chronic liver disease with a history of hepatitis C treatment and recent complications.",
+            "DiagnosticJourney": "Multiple imaging studies and lab tests conducted to monitor liver function and complications.",
+            "TreatmentResponse": "Patient showed improvement after ERCP and medication adjustments.",
+            "OngoingConcerns": "Continued monitoring of liver function and management of chronic conditions."
+        }
+    }
+}

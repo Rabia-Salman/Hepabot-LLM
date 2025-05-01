@@ -1,0 +1,124 @@
+{
+    "patient_id": "history_physical_57",
+    "raw_text": "Gender: Female\n\nAge: 60\n\nMRN: 775913\n\nDiagnosis: Cholangiocarcinoma\n\nHistory and Physical:\n\nPatient:\n\nIve  been  experiencing  generalized  itching,  abdominal  pain,  jaundice,  anorexia,  and  weight  loss.\n\nThese symptoms have been quite troubling.\n\nDoctor:\n\nI see. How long have you been experiencing these symptoms?\n\nPatient:\n\nThey've been ongoing for some time now. I also have a medical history of diabetes, which Ive been\n\ndealing with for 10 years. Im on insulin and glucophage, but my diabetes is poorly controlled.\n\nDoctor:\n\nI understand. Any other significant medical history?\n\nPatient:\n\nYes,  I  had  breast  cancer  in  the  past.  I  underwent  a  total  mastectomy  on  the  left  side,  followed  by\n\nchemotherapy  6 cycles, about 5 years ago.\n\nDoctor:\n\nThank you for sharing that. Lets take a look at your recent lab results.\n\nDoctor:\n\n\fYour lab results from June 16th, 2024, show:\n\nHBsAg: Negative\n\nAnti-HCV: Negative\n\nOn June 27th, an ultrasound of your abdomen showed a 6x5 cm mass in the left hepatic lobe.\n\nPatient:\n\nWhat does that mean for me?\n\nDoctor:\n\nIt means we need to investigate further. There are possibilities like intrahepatic cholangiocarcinoma\n\nor metastatic malignancy. Based on these findings, we need to explore this with more imaging and\n\nlab tests.\n\nDoctor:\n\nYour blood work from June 25th shows the following:\n\nSodium (Na): 140\n\nPotassium (K): 4.3\n\nHemoglobin (Hb): 10.2\n\nTLC: 8.2\n\n\fMCV: 85\n\nPlatelets (PLT): 197\n\nTotal Bilirubin (T. Bili): 6.4\n\nALT: 236\n\nAST: 244\n\nALP: 963\n\nCreatinine (Cret): 0.4\n\nThese are important markers, particularly the liver enzymes which are elevated.\n\nPatient:\n\nWhat does all this mean?\n\nDoctor:\n\nIt  suggests  liver  involvement.  The  elevated  liver  enzymes  could  be  a  sign  of  liver  dysfunction.  We\n\nwill follow up with imaging and additional tests to narrow down the diagnosis.\n\nDoctor:\n\nHeres the plan moving forward:\n\nWe will get a CT scan with triphasic contrast using the HCC protocol.\n\n\fFresh  blood  work  will  be  done,  including  CA  19-9,  CA  125,  AFP,  and  PIVKA-II,  to  aid  in  further\n\ndiagnosis.\n\nContinue your medical management.\n\nWe'll follow up in 2 weeks for lab review and decide on further interventions such as ERCP or a liver\n\nbiopsy, if needed.\n\nPatient:\n\nI understand. What happens if the cancer is confirmed?\n\nDoctor:\n\nIf confirmed, we will determine whether the malignancy is localized or if it has spread, and we will\n\ndiscuss treatment options accordingly.\n\nFollow-Up: 22/7/2024\n\nDoctor:\n\nLets review your progress. Youve been experiencing loose stools after meals and some itching, but\n\notherwise, there are no active issues. How have you been feeling overall?\n\nPatient:\n\nThe itching has improved, but Im still experiencing loose stools.\n\nDoctor:\n\nWe will manage that. Regarding your condition, your CT scan from July 12th shows a lesion in the\n\nleft hepatic lobe thats likely intrahepatic cholangiocarcinoma, but given the elevated PIVKA-II levels,\n\n\fwe  might  be  dealing  with  a  mixed  hepatocholangiocarcinoma.  There  are  also  metastatic  lymph\n\nnodes above and below the diaphragm, plus a couple of small peritoneal nodules.\n\nPatient:\n\nWhat are the next steps?\n\nDoctor:\n\nWell perform an ERCP with stenting and brushing to get a better look and collect tissue for analysis.\n\nWell then review your case with the oncology team for further management.\n\nPatient:\n\nIs this something that can be treated?\n\nDoctor:\n\nIt  depends  on  how  we  proceed  with  treatment  after  the  ERCP.  The  oncologists  will  guide  us  on\n\nwhether chemotherapy is needed and what options are available.\n\nFollow-Up: 4/9/2024\n\nDoctor:\n\nHow are you feeling now?\n\nPatient:\n\nI feel better overall, but the itching is still there. I had the ERCP done on August 22nd, and it seems\n\nto have helped.\n\nDoctor:\n\nYes, the ERCP you underwent showed a large ulcer at the D1/D2 junction. The procedure included\n\n\fbiliary  sphincterotomy  and  stent  placement,  which  has  helped  with  the  biliary  drainage.  Your  lab\n\nresults from September 2nd show:\n\nTotal Bilirubin (T. Bili): 2.5\n\nDirect Bilirubin (D. Bili): 2.5\n\nALT: 53\n\nAST: 62\n\nALP: 224\n\nCreatinine: 0.5\n\nSodium (Na): 134\n\nPotassium (K): 5.1\n\nPatient:\n\nWhat do these results mean?\n\nDoctor:\n\nYour  bilirubin  levels  are  still  elevated,  but  theyve  improved  since  the  procedure.  The  liver  function\n\ntests are also showing signs of improvement. This is a positive sign.\n\nDoctor:\n\n\fThe CBD brushing from August 22nd showed that the cells collected were positive for malignancy.\n\nThe  pancreaticobiliary  cytology  report  suggests  the  possibility  of  metastatic  cancer  from  your\n\nprevious breast cancer, given the positive markers for GATA 3 and estrogen receptors.\n\nPatient:\n\nWhat happens next?\n\nDoctor:\n\nWe  will  refer  you  to  INMOL  Hospital  for  an  oncology  consultation.  They  will  guide  us  on  whether\n\nchemotherapy  is  needed  based  on  the  findings  from  your  CT  scan  and  brushings.  Weve  also\n\ndiscussed these results with you and your family.\n\nPlan:\n\nReferral to primary oncologist at INMOL Hospital for further treatment.\n\nChemotherapy options will be explored with the oncology team.\n\nDoctor:\n\nWell keep monitoring your progress closely and adjust the treatment as needed.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Female",
+            "Age": "60",
+            "MRN": "775913",
+            "Diagnosis": "Cholangiocarcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "generalized itching",
+                "abdominal pain",
+                "jaundice",
+                "anorexia",
+                "weight loss",
+                "loose stools"
+            ],
+            "NegativeFindings": []
+        },
+        "DiagnosticConclusions": [
+            "intrahepatic cholangiocarcinoma",
+            "mixed hepatocholangiocarcinoma",
+            "metastatic malignancy"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "insulin",
+                "glucophage"
+            ],
+            "Procedures": [
+                "CT scan",
+                "ERCP with stenting and brushing"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "6x5 cm mass in the left hepatic lobe",
+                "lesion in the left hepatic lobe",
+                "metastatic lymph nodes above and below the diaphragm",
+                "small peritoneal nodules"
+            ],
+            "LabResults": [
+                {
+                    "Date": "June 25th, 2024",
+                    "Results": {
+                        "Sodium (Na)": "140",
+                        "Potassium (K)": "4.3",
+                        "Hemoglobin (Hb)": "10.2",
+                        "TLC": "8.2",
+                        "MCV": "85",
+                        "Platelets (PLT)": "197",
+                        "Total Bilirubin (T. Bili)": "6.4",
+                        "ALT": "236",
+                        "AST": "244",
+                        "ALP": "963",
+                        "Creatinine (Cret)": "0.4"
+                    }
+                },
+                {
+                    "Date": "September 2nd, 2024",
+                    "Results": {
+                        "Total Bilirubin (T. Bili)": "2.5",
+                        "Direct Bilirubin (D. Bili)": "2.5",
+                        "ALT": "53",
+                        "AST": "62",
+                        "ALP": "224",
+                        "Creatinine": "0.5",
+                        "Sodium (Na)": "134",
+                        "Potassium (K)": "5.1"
+                    }
+                }
+            ],
+            "PathologyFindings": [
+                "cells collected were positive for malignancy",
+                "positive markers for GATA 3 and estrogen receptors"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "diabetes"
+            ],
+            "Comorbidities": [
+                "breast cancer"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "oncology consultation at INMOL Hospital"
+            ],
+            "ScheduledTests": [
+                "fresh blood work including CA 19-9, CA 125, AFP, and PIVKA-II"
+            ],
+            "NextAppointmentDetails": [
+                "Follow-up in 2 weeks for lab review"
+            ]
+        },
+        "VisitTimeline": [
+            {
+                "Date": "June 16th, 2024",
+                "Notes": "Lab results and ultrasound findings discussed."
+            },
+            {
+                "Date": "July 12th, 2024",
+                "Notes": "CT scan results indicating likely intrahepatic cholangiocarcinoma."
+            },
+            {
+                "Date": "August 22nd, 2024",
+                "Notes": "ERCP performed with biliary sphincterotomy and stent placement."
+            },
+            {
+                "Date": "September 2nd, 2024",
+                "Notes": "Lab results post-ERCP and pathology findings discussed."
+            }
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has experienced worsening symptoms related to liver dysfunction and has undergone multiple diagnostic tests.",
+            "DiagnosticJourney": "Initial diagnosis of cholangiocarcinoma followed by imaging and lab tests leading to further investigation of malignancy.",
+            "TreatmentResponse": "ERCP has improved biliary drainage and lab results show signs of improvement.",
+            "OngoingConcerns": "Persistent itching and loose stools, with further management needed based on oncology consultation."
+        }
+    }
+}

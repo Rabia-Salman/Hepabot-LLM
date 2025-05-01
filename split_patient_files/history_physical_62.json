@@ -1,0 +1,112 @@
+{
+    "patient_id": "history_physical_62",
+    "raw_text": "Gender: Male\n\nAge: 69\n\nMRN: 814227\n\nDiagnosis: Hepatocellular Carcinoma\n\nHistory and Physical:\n\nDate: 10-09-2024\n\nDoctor:  Hello,  I  see  you're  here  today  for  your  follow-up  consultation.  Let's  go  through  your  test\n\nresults.\n\nPatient: Yes, Doctor.\n\nDoctor: Your HCV PCR result came back as 17,900 IU/mL. That's detected, but we will monitor it.\n\nYour platelet count is 276, hemoglobin is 13.1, AST is 88, and ALT is 140. Your bilirubin, GGT, and\n\nALP are all within normal range, which is a good sign.\n\nPatient: That's a relief, Doctor. Is everything okay with my liver?\n\nDoctor:  There  is  an  issue  we  need  to  address.  Your  ultrasound  shows  a  SOL  (Space  Occupying\n\nLesion) in the left lobe of the liver. Based on that, we'll need to perform a triphasic CT scan and also\n\ncheck your serum AFP levels. This will help us further assess the situation.\n\nDate: 16-09-2024\n\nDoctor: The results from the triphasic CT scan are in. It shows an arterialized mass lesion in the left\n\nlobe of the liver, measuring 9.0 x 9.5 cm. There's no dilation of the intrahepatic biliary channels, and\n\nthe portal vein looks normal. No other significant findings.\n\n\fPatient: That sounds concerning, Doctor. What should I expect next?\n\nDoctor:  Don't  worry,  it's  just  a  step-by-step  process.  Your  serum  AFP  level  came  back  as  13.6\n\nIU/mL, which is normal. Based on the CT scan, we'll need to keep an eye on things and determine if\n\nwe need any further intervention.\n\nDate: 19-09-2024 (Initial Visit)\n\nDoctor:  I  see  you're  experiencing  some  abdominal  discomfort.  You  mentioned  that  you  found  out\n\nabout your HCV two months ago, but no treatment has been started yet?\n\nPatient: Yes, Doctor. I didnt take any treatment so far.\n\nDoctor: Understood. Lets also confirm that you have no comorbidities or significant medical history.\n\nYour weight and general health seem stable, and you dont have any allergies, weight loss, or history\n\nof other medical issues?\n\nPatient: No, Doctor, nothing like that.\n\nDoctor: Great, lets take a look at your recent labs. Your platelet count is 283, bilirubin is 0.61, ALT\n\nand  AST  are  112  and  60,  respectively,  and  your  albumin  level  is  4.23.  Everything  seems  stable\n\nexcept for the ALT and AST levels, which are a bit elevated. We also noticed that your AFP is still\n\n13.6 IU/mL, which is good.\n\nPatient: Is there anything I need to worry about regarding the liver mass?\n\n\fDoctor: We'll continue to monitor that closely. Ive scheduled a follow-up for next week. We will need\n\na triphasic CT scan and some baseline tests. I'll discuss the results with you during the follow-up.\n\nDate: 26-11-2024 (Follow-Up)\n\nDoctor: Welcome back. I see youve had another follow-up since we last met. How have you been\n\nfeeling?\n\nPatient: I feel okay, but I'm still concerned about my liver condition, Doctor.\n\nDoctor:  I  understand.  From  the  previous  scans,  we  know  that  you  have  an  angioinvasive\n\nhepatocellular carcinoma (HCC). The CT scan from 21/11/2024 shows a well-circumscribed mass of\n\n8.2  x  9.9  cm  in  the  left  hepatic  lobe  with  tumor  thrombosis  in  the  left  hepatic  vein.  There's  also\n\ncompression of the left portal vein, and we noticed additional changes in the segment IV-A HCC.\n\nPatient: This is scary, Doctor. What are the next steps?\n\nDoctor: Well continue with the plan for a left hepatectomy. I've referred your case to the HPB clinic\n\nfor  a  potential  surgery.  For  now,  well  monitor  your  liver  function  and  proceed  with  your  treatment\n\nplan.\n\nDate: 20-12-2024\n\nDoctor: How have you been feeling since our last appointment?\n\nPatient: Honestly, I dont have any symptoms, but the diagnosis is still on my mind.\n\n\fDoctor:  Youre  right  to  stay  informed.  The  good  news  is  that  you  havent  experienced  any\n\ndecompensations like jaundice, ascites, or bleeding. Your HCV was diagnosed 3 months ago, and\n\nyour  latest  HCV  PCR  was  197,000  IU/mL.  Youre  currently  HCV  treatment-naive,  meaning  you\n\nhaven't started any antiviral treatments yet.\n\nPatient: So, theres still time before we start treatment?\n\nDoctor: Yes, well start treatment soon, but right now, were focusing on the hepatocellular carcinoma.\n\nYou've not had any weight loss, blood transfusions, or fevers. Your family history is unremarkable,\n\nand you're not currently on any medications.\n\nDate: 24-12-2024\n\nDoctor:  Let's  go  over  your  latest  findings.  Your  CT  scan  from  21/11/2024  still  shows  the\n\nangioinvasive  HCC  in  the  left  hepatic  lobe.  Weve  discussed  your  case  in  an  MDT  meeting  on\n\n28/11/2024, and the plan is to proceed with a left hepatectomy.\n\nPatient: That sounds like a major surgery, Doctor. Should I be worried?\n\nDoctor: Its a significant procedure, but its the best option given the condition. We will monitor your\n\nliver function closely and adjust the plan as needed. Your liver function tests are stableyour AFP is\n\n13.6, bilirubin is normal, and your liver enzymes have shown some improvement.\n\nPatient: Will the surgery cure the cancer?\n\nDoctor: Surgery offers the best chance to control the cancer. Well continue to assess your overall\n\ncondition and take it step by step. We'll also keep your case in the MDT for further evaluation.\n\n\fDate: 29-12-2024\n\nDoctor:  Weve  discussed  your  condition  thoroughly  with  the  team.  We  will  proceed  with  the  left\n\nhepatectomy  plan  as  discussed.  The  team  will  also  monitor  your  blood  pressure  and  provide  the\n\nnecessary pre-surgical evaluations.\n\nPatient: Thank you, Doctor. Ill follow all your instructions.\n\nDoctor: You're welcome. Well be in touch soon regarding the surgery and any further steps. Take\n\ncare, and well be here to support you throughout this journey.\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Male",
+            "Age": "69",
+            "MRN": "814227",
+            "Diagnosis": "Hepatocellular Carcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "abdominal discomfort"
+            ],
+            "NegativeFindings": [
+                "no allergies",
+                "no weight loss",
+                "no history of other medical issues"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "Hepatocellular carcinoma with angioinvasion",
+            "Space occupying lesion in the left lobe of the liver"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "None"
+            ],
+            "Procedures": [
+                "left hepatectomy"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "Triphasic CT scan shows arterialized mass lesion in the left lobe of the liver, measuring 9.0 x 9.5 cm",
+                "CT scan shows well-circumscribed mass of 8.2 x 9.9 cm in the left hepatic lobe with tumor thrombosis"
+            ],
+            "LabResults": [
+                "HCV PCR: 17,900 IU/mL",
+                "Platelet count: 276",
+                "Hemoglobin: 13.1",
+                "AST: 88",
+                "ALT: 140",
+                "Serum AFP: 13.6 IU/mL",
+                "Latest HCV PCR: 197,000 IU/mL",
+                "Bilirubin: 0.61",
+                "ALT: 112",
+                "AST: 60",
+                "Albumin: 4.23"
+            ],
+            "PathologyFindings": [
+                "None"
+            ]
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [
+                "Hepatitis C"
+            ],
+            "Comorbidities": [
+                "None"
+            ]
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "HPB clinic for potential surgery"
+            ],
+            "ScheduledTests": [
+                "triphasic CT scan",
+                "baseline tests"
+            ],
+            "NextAppointmentDetails": [
+                "Follow-up scheduled for next week"
+            ]
+        },
+        "VisitTimeline": [
+            {
+                "Date": "10-09-2024",
+                "Details": "Follow-up consultation, discussed test results"
+            },
+            {
+                "Date": "16-09-2024",
+                "Details": "Results from triphasic CT scan discussed"
+            },
+            {
+                "Date": "19-09-2024",
+                "Details": "Initial visit, discussed abdominal discomfort and recent labs"
+            },
+            {
+                "Date": "26-11-2024",
+                "Details": "Follow-up, discussed angioinvasive HCC and treatment plan"
+            },
+            {
+                "Date": "20-12-2024",
+                "Details": "Follow-up, discussed liver function and surgery"
+            },
+            {
+                "Date": "24-12-2024",
+                "Details": "Reviewed latest findings and surgery plan"
+            },
+            {
+                "Date": "29-12-2024",
+                "Details": "Final discussion on surgery and pre-surgical evaluations"
+            }
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient diagnosed with hepatocellular carcinoma, monitored for liver function and symptoms.",
+            "DiagnosticJourney": "Multiple imaging studies and lab tests conducted to assess liver condition.",
+            "TreatmentResponse": "Patient remains treatment-naive for HCV, focusing on HCC management.",
+            "OngoingConcerns": "Patient is concerned about liver condition and upcoming surgery."
+        }
+    }
+}

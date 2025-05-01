@@ -1,0 +1,82 @@
+{
+    "patient_id": "history_physical_56",
+    "raw_text": "Gender: Female\n\nAge: 27\n\nMRN: 790418\n\nDiagnosis: Cholangiocarcinoma\n\nHistory and Physical:\n\nPatient: \"I am a 27-year-old female, and I was diagnosed with metastatic cholangiocarcinoma. Two\n\nweeks  ago,  I  had  an  ERCP  which  led  to  pancreatitis,  but  it's  resolving  now.  I  was  admitted  for\n\npost-ERCP pancreatitis and have come in today for a follow-up to discuss my biopsy report.\"\n\nDoctor: \"Thank you for coming in today. Let's go over your symptoms. You mentioned having some\n\nfever, although it hasn't been documented, along with upper abdominal pain and vomiting since your\n\nadmission. These symptoms persisted even after your discharge, correct?\"\n\nPatient: \"Yes, that's right.\"\n\nDoctor:  \"On  examination,  you  are  a  young  female  with  deep  jaundice  and  noticeable  pallor.  Upon\n\nchecking your abdomen, there is mild tenderness in the epigastric region, but everything else seems\n\nnormal. Your breath sounds are positive, and your cardiovascular exam shows a normal S1, S2 with\n\nno abnormalities. Your respiratory examination is clear bilaterally. Your CNS examination is grossly\n\nintact.\"\n\nPatient: \"So, what does that mean for my condition?\"\n\nDoctor:  \"Given  your  history  and  the  findings,  we  are  concerned  about  advanced  disease  with\n\npossible cholangitis. You were previously on Cefixime at home for this. We need to manage this with\n\nfurther treatment.\"\n\n\fDoctor:  \"Heres  the  plan:  Im  going  to  start  you  on  Inj  Tanz  4.5  g  IV  stat  and  Inj  Provas  1g  IV  stat.\n\nYour brother (or cousin) has been counseled in detail about the situation. Ive also referred you to Dr.\n\nOsama  for  a  detailed  discussion  of  your  underlying  disease  and  to  explore  any  possible\n\nmanagement  options.  Youll  need  to  continue  with  oral  Ciprofloxacin  750mg  once  a  day  and\n\nMetronidazole 400mg three times a day.\"\n\nFollow-up (03/09/24)\n\nPatient:  \"I've  been  feeling  really  uncomfortable,  with  moderate  to  severe  generalized  abdominal\n\npain. Theres also been on-and-off fever and some constipation.\"\n\nDoctor: \"Upon examination, I noticed you are jaundiced, your oral cavity is dry, and youre febrile to\n\nthe  touch.  Theres  generalized  tenderness  in  your  abdomen,  and  your  cardiovascular  exam  shows\n\nnormal S1 and S2 without any abnormalities. Your CNS exam is normal, with a score of 15/15.\"\n\nDoctor:  \"We  did  some  cytology  testing  on  27/08/24,  and  the  results  show  smears  and  cytospin\n\npreparations revealing scattered single cells, groups, and sheets of atypical epithelial cells with high\n\nN/C  ratio,  overlapping  nuclei,  and  pleomorphic  to  hyperchromatic  nuclei.  There  are  also  benign\n\nepithelial cells and a few inflammatory cells with bacterial colonies present.\"\n\nDoctor:  \"We  also  performed  a  CT  scan  on  25/08/24.  The  scan  showed  an  ill-defined,\n\nheterogeneously enhancing soft tissue mass near the neck of the gallbladder, which is infiltrating the\n\nhepatic parenchyma and part of the pancreas. Theres also a cut-off in the common hepatic duct with\n\nmild  to  moderate  intrahepatic  biliary  dilatation.  This  mass  is  concerning  for  primary  gallbladder\n\nmalignancy  or  hilar  cholangiocarcinoma,  with  possible  metastasis  to  the  liver,  right  adrenal  gland,\n\nabdominal nodes, mediastinum, and lungs. There is no evidence of acute pancreatitis on the scan.\"\n\n\fDoctor: \"The plan now is to conduct a fresh ultrasound and chase labs for further clarification. Youll\n\nneed to see Dr. Ahmad Karim after the labs for further evaluation and stabilization.\"\n\nPatient: \"Alright, I understand. Whats the next step?\"\n\nDoctor: \"Well proceed with these tests, and then Dr. Ahmad Karim will assess the situation. He will\n\ndecide  on  the  next  course  of  treatment  based  on  the  results.  In  the  meantime,  lets  monitor  your\n\ncondition closely.\"\n\n\f",
+    "structured_data": {
+        "PatientDemographics": {
+            "Gender": "Female",
+            "Age": "27",
+            "MRN": "790418",
+            "Diagnosis": "Cholangiocarcinoma"
+        },
+        "ClinicalSummary": {
+            "ActiveSymptoms": [
+                "fever",
+                "upper abdominal pain",
+                "vomiting",
+                "generalized abdominal pain",
+                "constipation"
+            ],
+            "NegativeFindings": [
+                "no abnormalities in cardiovascular exam",
+                "no evidence of acute pancreatitis on the scan"
+            ]
+        },
+        "DiagnosticConclusions": [
+            "concern for advanced disease with possible cholangitis",
+            "possible primary gallbladder malignancy or hilar cholangiocarcinoma with metastasis"
+        ],
+        "TherapeuticInterventions": {
+            "Medications": [
+                "Cefixime",
+                "Inj Tanz 4.5 g IV stat",
+                "Inj Provas 1g IV stat",
+                "Ciprofloxacin 750mg once a day",
+                "Metronidazole 400mg three times a day"
+            ],
+            "Procedures": [
+                "ERCP",
+                "cytology testing",
+                "CT scan",
+                "ultrasound"
+            ]
+        },
+        "DiagnosticEvidence": {
+            "ImagingFindings": [
+                "ill-defined, heterogeneously enhancing soft tissue mass near the neck of the gallbladder infiltrating hepatic parenchyma and part of the pancreas",
+                "cut-off in the common hepatic duct with mild to moderate intrahepatic biliary dilatation"
+            ],
+            "LabResults": [
+                "smears and cytospin preparations revealing scattered single cells, groups, and sheets of atypical epithelial cells with high N/C ratio, overlapping nuclei, and pleomorphic to hyperchromatic nuclei",
+                "benign epithelial cells and a few inflammatory cells with bacterial colonies present"
+            ],
+            "PathologyFindings": []
+        },
+        "ChronicConditions": {
+            "ChronicDiseases": [],
+            "Comorbidities": []
+        },
+        "Follow-upPlan": {
+            "PlannedConsultations": [
+                "Dr. Osama for discussion of underlying disease and management options",
+                "Dr. Ahmad Karim for further evaluation and stabilization"
+            ],
+            "ScheduledTests": [
+                "fresh ultrasound",
+                "labs for further clarification"
+            ],
+            "NextAppointmentDetails": [
+                "after labs with Dr. Ahmad Karim"
+            ]
+        },
+        "VisitTimeline": [
+            "Initial visit for follow-up after ERCP and pancreatitis",
+            "Follow-up visit on 03/09/24"
+        ],
+        "SummaryNarrative": {
+            "ClinicalCourseProgression": "Patient has experienced worsening symptoms including abdominal pain and fever post-ERCP.",
+            "DiagnosticJourney": "CT scan and cytology testing conducted to assess the extent of disease.",
+            "TreatmentResponse": "Patient was started on antibiotics and further treatment is planned based on test results.",
+            "OngoingConcerns": "Concern for advanced cholangiocarcinoma with possible metastasis."
+        }
+    }
+}
