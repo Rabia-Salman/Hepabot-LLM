@@ -9,13 +9,36 @@ import re
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 import time
+import base64
+from dotenv import load_dotenv
+from io import BytesIO
+from typing import List
+import altair as alt
 
-# Import the vector_db functions
+# Import vector_db functions from the first file
 from vector_db import initialize_vector_db, add_patient_record, search_records
 from extract_each_patient_json import save_patient_records
 
+# Import utility modules from the second file
+from utils import process_documents, create_vector_db, load_vector_db, create_rag_chain, ask_question
+
+# Optional voice support
+try:
+    from elevenlabs import Voice, VoiceSettings, generate, play
+    from elevenlabs.api import User
+    ELEVENLABS_AVAILABLE = True
+except ImportError as e:
+    print(f"ImportError: {e}")
+    ELEVENLABS_AVAILABLE = False
+
+# Constants from the second file
+DB_PATH = "./db/vector_db"
+COLLECTION_NAME = "docs-hepabot-rag"
+MODEL_NAME = "llama3.2"
+ALLOWED_EXTENSIONS = ['.pdf', '.txt', '.json']
 input_json_path = "doctor_patient_data_80.json"
 output_directory = "split_patient_files"
+
 # Set page configuration
 st.set_page_config(
     page_title="HEPABOT",
@@ -96,8 +119,8 @@ def main():
             st.session_state.page = "generate_report"
         if st.button("Clinical Assistant", use_container_width=True):
             st.session_state.page = "clinical_assistant"
-        if st.button("Disease Diagnosis", use_container_width=True):
-            st.session_state.page = "disease_diagnosis"
+        # if st.button("Disease Diagnosis", use_container_width=True):
+        #     st.session_state.page = "disease_diagnosis"
 
     # Page selection
     if st.session_state.page == "search":
@@ -110,14 +133,469 @@ def main():
         show_generate_report_page()
     elif st.session_state.page == "clinical_assistant":
         show_clinical_assistant_page()
-    elif st.session_state.page == "disease_diagnosis":
-        show_disease_diagnosis_page()
+    # elif st.session_state.page == "disease_diagnosis":
+    #     show_disease_diagnosis_page()
+
+
+
+def save_uploaded_files(uploaded_files) -> List[str]:
+    """Save uploaded files and return their paths"""
+    temp_dir = tempfile.mkdtemp()
+    file_paths = []
+
+    for uploaded_file in uploaded_files:
+        file_extension = os.path.splitext(uploaded_file.name)[1].lower()
+
+        if file_extension not in ALLOWED_EXTENSIONS:
+            st.warning(f"Unsupported file format: {file_extension}. Skipping {uploaded_file.name}")
+            continue
+
+        temp_file_path = os.path.join(temp_dir, uploaded_file.name)
+        with open(temp_file_path, "wb") as f:
+            f.write(uploaded_file.getbuffer())
+        file_paths.append(temp_file_path)
+
+    return file_paths
+
+def text_to_speech(text: str, api_key: str = None) -> BytesIO:
+    """Convert text to speech using ElevenLabs API"""
+    if not ELEVENLABS_AVAILABLE:
+        st.error("ElevenLabs package is not installed. Voice over is not available.")
+        return None
+
+    if not api_key:
+        api_key = os.getenv("ELEVENLABS_API_KEY")
+
+    if not api_key:
+        st.error("ElevenLabs API key is not set. Voice over is not available.")
+        return None
+
+    try:
+        import elevenlabs
+        elevenlabs.set_api_key(api_key)
+
+        voices = elevenlabs.voices()
+        if not voices:
+            st.error("No voices available in your ElevenLabs account")
+            return None
+        voice_id = voices[0].voice_id
+
+        audio = elevenlabs.generate(
+            text=text,
+            voice=st.session_state.get("selected_voice_id", voice_id),
+            model="eleven_turbo_v2"
+        )
+
+        return BytesIO(audio)
+    except Exception as e:
+        st.error(f"Error generating voice: {str(e)}")
+        return None
+
+def get_download_link(data, filename, text):
+    """Generate a download link for a file"""
+    b64 = base64.b64encode(data).decode()
+    href = f'<a href="data:file/txt;base64,{b64}" download="{filename}">{text}</a>'
+    return href
+
 
 def show_clinical_assistant_page():
-    pass
+    st.header("🩺 Clinical Assistant")
+    st.write("Upload medical documents and ask questions to get AI-assisted medical insights.")
+
+    # Initialize session state variables
+    if 'vector_db_created' not in st.session_state:
+        st.session_state.vector_db_created = False
+    if 'rag_chain' not in st.session_state:
+        st.session_state.rag_chain = None
+    if 'last_response' not in st.session_state:
+        st.session_state.last_response = ""
+    if 'selected_voice_id' not in st.session_state:
+        st.session_state.selected_voice_id = "21m00Tcm4TlvDq8ikWAM"  # Default voice ID (Adam)
+
+    # Check if database exists at startup
+    if os.path.exists(DB_PATH) and not st.session_state.vector_db_created:
+        st.session_state.vector_db_created = True
+
+    # Sidebar for database operations
+    with st.sidebar:
+        st.header("Document Management")
+
+        # Check if database exists
+        db_exists = os.path.exists(DB_PATH)
+        if db_exists:
+            st.success("Vector database exists! Ready to answer questions.")
+        else:
+            st.warning("No vector database found. Please upload documents.")
+
+        # Upload files section
+        uploaded_files = st.file_uploader(
+            "Upload PDF, TXT, or JSON files",
+            accept_multiple_files=True,
+            type=["pdf", "txt", "json"]
+        )
+
+        # Database creation options
+        with st.expander("Advanced Options", expanded=False):
+            chunk_size = st.number_input("Chunk Size", value=1200, min_value=500, max_value=2000)
+            chunk_overlap = st.number_input("Chunk Overlap", value=300, min_value=0, max_value=500)
+            # use_fast_embeddings = st.checkbox("Use Fast Embeddings", value=True)
+
+        # Create database button
+        if st.button("Process Documents & Create Database"):
+            if not uploaded_files:
+                st.error("Please upload at least one document.")
+            else:
+                with st.status("Processing documents..."):
+                    # Save the uploaded files to disk
+                    file_paths = save_uploaded_files(uploaded_files)
+
+                    if file_paths:
+                        # Process the documents
+                        st.text(f"Processing {len(file_paths)} documents...")
+                        docs = process_documents(
+                            file_paths,
+                            chunk_size=chunk_size,
+                            chunk_overlap=chunk_overlap
+                        )
+
+                        # Create or update the vector database
+                        st.text("Creating vector database...")
+                        vector_db = create_vector_db(
+                            docs,
+                            persist_directory=DB_PATH,
+                            collection_name=COLLECTION_NAME
+                        )
+
+                        st.session_state.vector_db_created = True
+                        st.success(f"Vector database created with {len(docs)} chunks!")
+                    else:
+                        st.error("No valid documents were uploaded.")
+
+        # Delete database button
+        if st.button("Delete Database"):
+            if os.path.exists(DB_PATH):
+                import shutil
+                shutil.rmtree(DB_PATH)
+                st.session_state.vector_db_created = False
+                st.session_state.rag_chain = None
+                st.success("Database deleted successfully.")
+            else:
+                st.info("No database to delete.")
+
+    # Main area for question answering
+    st.subheader("Medical Diagnosis Assistant")
+
+    # Check if chain is loaded or needs to be loaded
+    if st.session_state.vector_db_created and not st.session_state.rag_chain:
+        with st.status("Loading RAG chain..."):
+            try:
+                # Load the vector database
+                vector_db = load_vector_db(
+                    persist_directory=DB_PATH,
+                    collection_name=COLLECTION_NAME
+                )
+
+                if vector_db:
+                    # Create RAG chain
+                    st.session_state.rag_chain = create_rag_chain(vector_db, MODEL_NAME)
+                    st.success("Ready to answer your medical questions!")
+                else:
+                    st.error("Failed to load vector database. Please create a new one.")
+            except Exception as e:
+                st.error(f"Error loading database: {str(e)}")
+                st.session_state.vector_db_created = False
+
+    # Question input
+    if st.session_state.vector_db_created:
+        col1, col2 = st.columns([3, 1])
+
+        with col1:
+            question = st.text_area(
+                "Enter your medical question:",
+                height=100,
+                placeholder="Example: Patient has age 70 and shows symptoms of nausea and abdominal pain with fatigue, find disease"
+            )
+
+        with col2:
+            voice_enabled = st.checkbox("Enable voice output", value=ELEVENLABS_AVAILABLE)
+
+            if voice_enabled:
+                if not ELEVENLABS_AVAILABLE:
+                    st.warning("ElevenLabs package is not installed. Voice output disabled.")
+                    voice_enabled = False
+                else:
+                    api_key = None
+                    if not os.getenv("ELEVENLABS_API_KEY"):
+                        api_key = st.text_input("ElevenLabs API Key", type="password")
+                        if api_key:
+                            os.environ["ELEVENLABS_API_KEY"] = api_key
+
+                    # Try to show available voices if API key is provided
+                    if api_key or os.getenv("ELEVENLABS_API_KEY"):
+                        try:
+                            import elevenlabs
+                            elevenlabs.set_api_key(api_key or os.getenv("ELEVENLABS_API_KEY"))
+                            voices = elevenlabs.voices()
+                            if voices:
+                                voice_options = {voice.name: voice.voice_id for voice in voices}
+                                selected_voice = st.selectbox("Select voice", options=list(voice_options.keys()))
+                                st.session_state.selected_voice_id = voice_options[selected_voice]
+                            else:
+                                st.info("No custom voices found. Will use default voice.")
+                        except Exception:
+                            st.info("Could not fetch voices. Will use default voice.")
+
+        # Submit button
+        if st.button("Get Diagnosis"):
+            if not question:
+                st.warning("Please enter a question.")
+            elif not st.session_state.rag_chain:
+                st.error("RAG chain is not loaded. Please create or load a database first.")
+            else:
+                with st.status("Generating answer..."):
+                    try:
+                        # Get answer from RAG chain
+                        response = ask_question(st.session_state.rag_chain, question)
+                        st.session_state.last_response = response
+                    except Exception as e:
+                        st.error(f"Error generating diagnosis: {str(e)}")
+
+        # Display the response
+        if st.session_state.last_response:
+            st.subheader("Diagnosis Result:")
+            st.markdown(st.session_state.last_response)
+
+            col1, col2 = st.columns(2)
+
+            # Download button
+            with col1:
+                if st.button("Download Result"):
+                    download_data = st.session_state.last_response.encode()
+                    st.markdown(
+                        get_download_link(
+                            download_data,
+                            "diagnosis_result.txt",
+                            "Download Diagnosis Result"
+                        ),
+                        unsafe_allow_html=True
+                    )
+
+            # Voice playback
+            with col2:
+                if voice_enabled and st.button("Play Voice"):
+                    with st.spinner("Generating voice..."):
+                        audio_data = text_to_speech(st.session_state.last_response, api_key)
+                        if audio_data:
+                            st.audio(audio_data, format='audio/mp3')
+    else:
+        st.info("Please upload documents and create a vector database to start asking questions.")
 
 def show_disease_diagnosis_page():
-    pass
+
+    # Define diagnostic criteria for liver diseases
+    liver_diseases = {
+        "Alcoholic Liver Disease": {
+            "symptoms": ["jaundice", "abdominal pain", "fatigue"],
+            "history": ["alcohol use", "heavy drinking"],
+            "labs": [
+                {"test": "ALT", "condition": "elevated", "threshold": 45},
+                {"test": "AST", "condition": "elevated", "threshold": 35},
+                {"test": "albumin", "condition": "low", "threshold": 3.5},
+                {"type": "ratio", "tests": ["AST", "ALT"], "condition": "AST > ALT"}
+            ],
+            "age_factor": {"min": 30, "max": 60, "boost": 10}
+        },
+        "Viral Hepatitis": {
+            "symptoms": ["jaundice", "fatigue", "nausea"],
+            "history": ["viral infection", "hepatitis", "IV drug use", "unprotected sex"],
+            "labs": [
+                {"test": "ALT", "condition": "elevated", "threshold": 45},
+                {"test": "AST", "condition": "elevated", "threshold": 35}
+            ],
+            "age_factor": {"min": 0, "max": 100, "boost": 5}
+        },
+        "Cirrhosis": {
+            "symptoms": ["jaundice", "ascites", "fatigue"],
+            "history": ["alcohol use", "hepatitis", "chronic liver disease"],
+            "labs": [
+                {"test": "albumin", "condition": "low", "threshold": 3.5},
+                {"test": "bilirubin", "condition": "elevated", "threshold": 1.2}
+            ],
+            "imaging": ["nodular liver"],
+            "age_factor": {"min": 40, "max": 80, "boost": 10}
+        },
+        "Fatty Liver Disease": {
+            "symptoms": ["fatigue", "abdominal discomfort"],
+            "history": ["obesity", "diabetes", "metabolic syndrome"],
+            "labs": [
+                {"test": "ALT", "condition": "elevated", "threshold": 45},
+                {"test": "AST", "condition": "elevated", "threshold": 35}
+            ],
+            "imaging": ["fatty liver"],
+            "age_factor": {"min": 30, "max": 70, "boost": 5}
+        },
+        "Liver Cancer": {
+            "symptoms": ["abdominal pain", "weight loss"],
+            "labs": [
+                {"test": "AFP", "condition": "elevated", "threshold": 20}
+            ],
+            "imaging": ["mass", "tumor"],
+            "age_factor": {"min": 50, "max": 100, "boost": 15}
+        }
+    }
+
+    # Define lab tests and their units
+    lab_tests = {
+        "ALT": "U/L",
+        "AST": "U/L",
+        "bilirubin": "mg/dL",
+        "albumin": "g/dL",
+        "AFP": "ng/mL"
+    }
+
+    # Extraction functions
+    def extract_age(text):
+        age_match = re.search(r'(\d+)-year-old', text)
+        if age_match:
+            return int(age_match.group(1))
+        age_match = re.search(r'age (\d+)', text)
+        if age_match:
+            return int(age_match.group(1))
+        return None
+
+    def extract_symptoms(text):
+        all_symptoms = set()
+        for disease in liver_diseases.values():
+            all_symptoms.update(disease.get("symptoms", []))
+        return [s for s in all_symptoms if s in text.lower()]
+
+    def extract_history(text):
+        return text.lower()
+
+    def extract_labs(text):
+        labs = {}
+        for test, unit in lab_tests.items():
+            pattern = rf"{test}\s*(\d+\.?\d*)\s*{unit}"
+            match = re.search(pattern, text, re.IGNORECASE)
+            if match:
+                labs[test] = float(match.group(1))
+        return labs
+
+    def extract_imaging(text):
+        all_imaging = set()
+        for disease in liver_diseases.values():
+            all_imaging.update(disease.get("imaging", []))
+        return [i for i in all_imaging if i in text.lower()]
+
+    def format_labs(labs):
+        if not labs:
+            return "None detected"
+        return ", ".join([f"{test} {value} {lab_tests[test]}" for test, value in labs.items()])
+
+    def calculate_score(extracted, disease):
+        score = 0
+        matching_criteria = []
+
+        # Check symptoms
+        if "symptoms" in disease:
+            matching_symptoms = [s for s in disease["symptoms"] if s in extracted["symptoms"]]
+            score += len(matching_symptoms) * 10
+            if matching_symptoms:
+                matching_criteria.append(f"{len(matching_symptoms)} symptom(s)")
+
+        # Check history
+        if "history" in disease:
+            matching_history = [h for h in disease["history"] if h in extracted["history"]]
+            score += len(matching_history) * 15
+            if matching_history:
+                matching_criteria.append(f"{len(matching_history)} history factor(s)")
+
+        # Check labs
+        if "labs" in disease:
+            for lab_cond in disease["labs"]:
+                if "type" in lab_cond and lab_cond["type"] == "ratio":
+                    if lab_cond["condition"] == "AST > ALT" and extracted["labs"].get("AST", 0) > extracted["labs"].get(
+                            "ALT", 0):
+                        score += 20
+                        matching_criteria.append("AST > ALT")
+                else:
+                    test = lab_cond["test"]
+                    if test in extracted["labs"]:
+                        value = extracted["labs"][test]
+                        if lab_cond["condition"] == "elevated" and value > lab_cond["threshold"]:
+                            score += 20
+                            matching_criteria.append(f"{test} elevated")
+                        elif lab_cond["condition"] == "low" and value < lab_cond["threshold"]:
+                            score += 20
+                            matching_criteria.append(f"{test} low")
+
+        # Check imaging
+        if "imaging" in disease:
+            matching_imaging = [i for i in disease["imaging"] if i in extracted["imaging"]]
+            score += len(matching_imaging) * 20
+            if matching_imaging:
+                matching_criteria.append(f"{len(matching_imaging)} imaging finding(s)")
+
+        # Check age
+        if extracted["age"] and "age_factor" in disease:
+            if disease["age_factor"]["min"] <= extracted["age"] <= disease["age_factor"]["max"]:
+                score += disease["age_factor"]["boost"]
+                matching_criteria.append("age within range")
+
+        return score, matching_criteria
+
+    # Streamlit app for disease diagnosis page
+    def show_disease_diagnosis_page():
+        st.header("Liver Disease Diagnosis Assistant")
+        st.write("Enter a patient description or medical notes below to analyze possible liver disease diagnoses.")
+        input_text = st.text_area("Patient Description",
+                                  placeholder="E.g., A 45-year-old male with a history of heavy alcohol use presents with jaundice, abdominal pain, and fatigue. Lab tests show ALT 150 U/L, AST 200 U/L, bilirubin 3.5 mg/dL, albumin 3.0 g/dL.")
+
+        if st.button("Analyze"):
+            # Extract data
+            extracted = {
+                "age": extract_age(input_text),
+                "symptoms": extract_symptoms(input_text),
+                "history": extract_history(input_text),
+                "labs": extract_labs(input_text),
+                "imaging": extract_imaging(input_text)
+            }
+
+            # Calculate diagnoses
+            diagnoses = []
+            for disease_name, criteria in liver_diseases.items():
+                score, matching_criteria = calculate_score(extracted, criteria)
+                if score > 0:
+                    diagnoses.append({
+                        "name": disease_name,
+                        "score": score,
+                        "matching_criteria": matching_criteria
+                    })
+
+            # Sort diagnoses by score descending
+            diagnoses.sort(key=lambda x: x["score"], reverse=True)
+
+            # Display results
+            st.subheader("Extracted Information")
+            st.write(f"**Age:** {extracted['age'] or 'Not specified'}")
+            st.write(f"**Symptoms:** {', '.join(extracted['symptoms']) if extracted['symptoms'] else 'None detected'}")
+            st.write(f"**Medical History:** {extracted['history'] if extracted['history'] else 'None detected'}")
+            st.write(f"**Lab Tests:** {format_labs(extracted['labs'])}")
+            st.write(f"**Imaging:** {', '.join(extracted['imaging']) if extracted['imaging'] else 'Not specified'}")
+
+            st.subheader("Suggested Diagnoses")
+            if diagnoses:
+                for d in diagnoses:
+                    st.write(f"**{d['name']}** - Confidence Score: {d['score']}")
+                    st.write(f"Matching Criteria: {', '.join(d['matching_criteria'])}")
+            else:
+                st.write("No clear diagnosis could be determined from the input.")
+
+            st.write(
+                "**Disclaimer:** This tool is for informational purposes only and not a substitute for professional medical advice. Consult a healthcare professional for an accurate diagnosis.")
+
+    # Call this function in your app.py when the disease diagnosis page is selected
+    show_disease_diagnosis_page()
 
 def show_search_page():
     st.header("Diagnosis Search")
@@ -881,11 +1359,26 @@ def show_generate_report_page():
                 if not result:
                     st.error("❌ Failed to process PDF. No data extracted.")
                 else:
-                    # Step 2: Set patient_id to MRN
+                    # Step 2: Set patient_id to MRN - Check both structured data and raw text
                     demographics = result.get('structured_data', {}).get('PatientDemographics', {})
                     mrn = demographics.get('MRN', None)
+
+                    # If MRN not found in structured data, try to extract it from raw text
+                    if not mrn and 'raw_text' in result:
+                        # Look for MRN pattern in raw text (common formats like MRN:123, MRN: 123, etc.)
+                        raw_text = result.get('raw_text', '')
+                        import re
+                        mrn_match = re.search(r'[Mm][Rr][Nn]:?\s*(\d+)', raw_text)
+                        if mrn_match:
+                            mrn = mrn_match.group(1)
+                            # Update the structured data with the found MRN
+                            demographics['MRN'] = mrn
+                            result['structured_data']['PatientDemographics'] = demographics
+                            st.info(f"MRN extracted from raw text: {mrn}")
+
                     if mrn:
                         result['patient_id'] = mrn
+                        st.success(f"Using MRN as patient ID: {mrn}")
                     else:
                         st.warning("No MRN found in patient data. Using default patient ID.")
                         result['patient_id'] = result.get('patient_id', f"patient_{int(time.time())}")
