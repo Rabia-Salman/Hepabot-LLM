@@ -13,6 +13,8 @@ import base64
 from dotenv import load_dotenv
 from io import BytesIO
 from typing import List
+import requests
+from audio_transcription import process_audio_to_pdf
 import altair as alt
 
 # Import vector_db functions from the first file
@@ -1253,8 +1255,185 @@ def show_analytics_page():
         st.altair_chart(chart, use_container_width=True)
 
 
+def show_generate_report_page():
+    # Constants
+    OUTPUT_JSON = input_json_path
+
+    st.header("🩺 Generate Patient Report")
+    st.write("Upload a clinical conversation PDF or audio file to generate a structured medical report")
+
+    # Tabs for upload options
+    tab1, tab2 = st.tabs([ "Upload Audio","Upload PDF"])
+
+    with tab2:
+        uploaded_pdf = st.file_uploader("Upload a clinical conversation PDF", type=["pdf"], key="pdf_uploader")
+
+    with tab1:
+        uploaded_audio = st.file_uploader(
+            "Upload an audio file",
+            type=["mp3", "wav", "m4a", "flac", "aac", "ogg"],
+            key="audio_uploader"
+        )
+
+        if uploaded_audio:
+            st.audio(uploaded_audio, format=f"audio/{uploaded_audio.name.split('.')[-1]}")
+
+    if uploaded_pdf or uploaded_audio:
+        # Determine which file to process
+        if uploaded_pdf:
+            # Save PDF to temporary file
+            with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as patient_file:
+                patient_file.write(uploaded_pdf.read())
+                tmp_path = patient_file.name
+            # st.write("Debug: PDF uploaded and saved to temporary file")
+        elif uploaded_audio:
+            # Process audio to PDF
+            with st.spinner("🔊 Transcribing audio..."):
+                pdf_path, error = process_audio_to_pdf(uploaded_audio)
+                if error:
+                    st.error(f"❌ Error transcribing audio: {error}")
+                    return
+                tmp_path = pdf_path
+                st.success("✅ Audio transcribed and converted to PDF")
+                # st.write("Debug: Audio transcribed and PDF created")
+
+        with st.spinner("🔍 Analyzing data..."):
+            try:
+                # Step 1: Process the PDF
+                # st.write("Debug: Starting PDF processing")
+                result = process_pdf(tmp_path)
+                # st.write("Debug: PDF processed")
+
+                if not result:
+                    st.error("❌ Failed to process PDF. No data extracted.")
+                    return
+
+                # Step 2: Set patient_id to MRN - Check both structured data and raw text
+                demographics = result.get('structured_data', {}).get('PatientDemographics', {})
+                mrn = demographics.get('MRN', None)
+
+                # If MRN not found in structured data, try to extract it from raw text
+                if not mrn and 'raw_text' in result:
+                    raw_text = result.get('raw_text', '')
+                    mrn_match = re.search(r'[Mm][Rr][Nn]:?\s*(\d+)', raw_text)
+                    if mrn_match:
+                        mrn = mrn_match.group(1)
+                        demographics['MRN'] = mrn
+                        result['structured_data']['PatientDemographics'] = demographics
+                        st.info(f"MRN extracted from raw text: {mrn}")
+                        # st.write("Debug: MRN extracted from raw text")
+
+                if mrn:
+                    result['patient_id'] = mrn
+                    st.success(f"Using MRN as patient ID: {mrn}")
+                    # st.write("Debug: Patient ID set to MRN")
+                else:
+                    st.warning("No MRN found in patient data. Using default patient ID.")
+                    result['patient_id'] = result.get('patient_id', f"patient_{int(time.time())}")
+                    # st.write("Debug: Default patient ID assigned")
+
+                # Step 3: Append to JSON file
+                if os.path.exists(OUTPUT_JSON):
+                    with open(OUTPUT_JSON, "r") as f:
+                        existing_data = json.load(f)
+                else:
+                    existing_data = []
+
+                # Check if this patient already exists
+                existing_ids = [item.get('patient_id') for item in existing_data]
+                if result['patient_id'] in existing_ids:
+                    for i, item in enumerate(existing_data):
+                        if item['patient_id'] == result['patient_id']:
+                            existing_data[i] = result
+                            st.info(f"⚠️ Updated existing record for patient {result['patient_id']}")
+                            # st.write("Debug: Updated existing patient record")
+                else:
+                    existing_data.append(result)
+                    st.success(f"✅ Added new patient record: {result['patient_id']}")
+                    # st.write("Debug: Added new patient record")
+
+                # Save to combined JSON file
+                with open(OUTPUT_JSON, "w") as f:
+                    json.dump(existing_data, f, indent=2)
+                # st.write("Debug: JSON file saved")
+
+                # Step 4: Create individual JSON files
+                os.makedirs(output_directory, exist_ok=True)
+                save_patient_records(existing_data, output_directory)
+                # st.write("Debug: Individual JSON files created")
+
+                # Step 5: Add to vector database
+                try:
+                    collection = get_vector_db()
+                    add_patient_record(collection, result)
+                    st.success("✅ Patient record added to vector database")
+                    # st.write("Debug: Record added to vector database")
+                except Exception as e:
+                    st.error(f"❌ Error adding to vector database: {e}")
+                    # st.write(f"Debug: Vector database error: {e}")
+
+                # Step 6: Generate and display results
+                st.subheader("📋 Generated Patient Report")
+
+                # Generate PDF report and provide download button
+                with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as report_file:
+                    generate_pdf_report(result, report_file.name)
+                    with open(report_file.name, "rb") as f:
+                        st.download_button(
+                            label="📥 Download Patient Report PDF",
+                            data=f,
+                            file_name=f"patient_report_{result['patient_id']}.pdf",
+                            mime="application/pdf",
+                            key=f"download_pdf_{result['patient_id']}"
+                        )
+                    # st.write("Debug: PDF report generated and download button created")
+
+                # Step 7: Display extracted data
+                st.subheader("Extracted Patient Data")
+                tabs = st.tabs(["Full Report", "Summary"])
+
+                with tabs[1]:
+                    demographics = result.get('structured_data', {}).get('PatientDemographics', {})
+                    col1, col2, col3 = st.columns(3)
+                    with col1:
+                        st.metric("MRN", demographics.get('MRN', 'N/A'))
+                    with col2:
+                        st.metric("Age", demographics.get('Age', 'N/A'))
+                    with col3:
+                        st.metric("Gender", demographics.get('Gender', 'N/A'))
+                    st.write(f"**Diagnosis:** {demographics.get('Diagnosis', 'N/A')}")
+                    st.write(
+                        f"**Summary:** {result.get('structured_data', {}).get('SummaryNarrative', {}).get('ClinicalCourseProgression', 'N/A')}")
+                    # st.write("Debug: Summary tab rendered")
+
+                with tabs[0]:
+                    st.json(result.get('structured_data', {}))
+                    # st.write("Debug: Full report tab rendered")
+
+                # Step 8: Refresh metadata cache
+                st.session_state.refresh_data = True
+                st.cache_data.clear()
+                # st.write("Debug: Metadata cache cleared")
+
+                # Add navigation button to patient browser
+                if st.button("View in Patient Browser"):
+                    st.session_state.page = "browser"
+                    st.experimental_rerun()
+                    # st.write("Debug: Navigating to patient browser")
+
+            except Exception as e:
+                st.error(f"❌ Error processing PDF: {e}")
+                # st.write(f"Debug: Exception occurred: {e}")
+            finally:
+                # Clean up temporary file
+                try:
+                    os.unlink(tmp_path)
+                    # st.write("Debug: Temporary file cleaned up")
+                except Exception:
+                    st.write("Debug: Failed to clean up temporary file")
+
 def generate_pdf_report(patient_data, output_path):
-    """Generate a PDF report for the patient data."""
+    """Generateate a PDF report for the patient data."""
     c = canvas.Canvas(output_path, pagesize=letter)
     width, height = letter
     y_position = height - 50
@@ -1335,133 +1514,6 @@ def generate_pdf_report(patient_data, output_path):
 
     c.showPage()
     c.save()
-
-
-def show_generate_report_page():
-    # Constants
-    OUTPUT_JSON = input_json_path
-
-    st.header("🩺 Generate Patient Report")
-    st.write("Upload a clinical conversation PDF to generate a structured medical report")
-
-    uploaded_file = st.file_uploader("Upload a clinical conversation PDF", type=["pdf"])
-
-    if uploaded_file:
-        with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as patient_file:
-            patient_file.write(uploaded_file.read())
-            tmp_path = patient_file.name
-
-        with st.spinner("🔍 Analyzing data..."):
-            try:
-                # Step 1: Process the uploaded PDF
-                result = process_pdf(tmp_path)
-
-                if not result:
-                    st.error("❌ Failed to process PDF. No data extracted.")
-                else:
-                    # Step 2: Set patient_id to MRN - Check both structured data and raw text
-                    demographics = result.get('structured_data', {}).get('PatientDemographics', {})
-                    mrn = demographics.get('MRN', None)
-
-                    # If MRN not found in structured data, try to extract it from raw text
-                    if not mrn and 'raw_text' in result:
-                        # Look for MRN pattern in raw text (common formats like MRN:123, MRN: 123, etc.)
-                        raw_text = result.get('raw_text', '')
-                        import re
-                        mrn_match = re.search(r'[Mm][Rr][Nn]:?\s*(\d+)', raw_text)
-                        if mrn_match:
-                            mrn = mrn_match.group(1)
-                            # Update the structured data with the found MRN
-                            demographics['MRN'] = mrn
-                            result['structured_data']['PatientDemographics'] = demographics
-                            st.info(f"MRN extracted from raw text: {mrn}")
-
-                    if mrn:
-                        result['patient_id'] = mrn
-                        st.success(f"Using MRN as patient ID: {mrn}")
-                    else:
-                        st.warning("No MRN found in patient data. Using default patient ID.")
-                        result['patient_id'] = result.get('patient_id', f"patient_{int(time.time())}")
-
-                    # Step 3: Append to JSON file
-                    if os.path.exists(OUTPUT_JSON):
-                        with open(OUTPUT_JSON, "r") as f:
-                            existing_data = json.load(f)
-                    else:
-                        existing_data = []
-
-                    # Check if this patient already exists
-                    existing_ids = [item.get('patient_id') for item in existing_data]
-                    if result['patient_id'] in existing_ids:
-                        # Update existing record
-                        for i, item in enumerate(existing_data):
-                            if item['patient_id'] == result['patient_id']:
-                                existing_data[i] = result
-                                st.info(f"⚠️ Updated existing record for patient {result['patient_id']}")
-                    else:
-                        # Add new record
-                        existing_data.append(result)
-                        st.success(f"✅ Added new patient record: {result['patient_id']}")
-
-                    # Save to combined JSON file
-                    with open(OUTPUT_JSON, "w") as f:
-                        json.dump(existing_data, f, indent=2)
-
-                    # Step 4: Create individual JSON files
-                    os.makedirs(output_directory, exist_ok=True)
-                    save_patient_records(existing_data, output_directory)
-
-                    # Step 5: Add to vector database
-                    try:
-                        collection = get_vector_db()
-                        add_patient_record(collection, result)
-                        st.success("✅ Patient record added to vector database")
-                    except Exception as e:
-                        st.error(f"❌ Error adding to vector database: {e}")
-
-                    # Step 6: Generate PDF report
-                    with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as report_file:
-                        generate_pdf_report(result, report_file.name)
-                        with open(report_file.name, "rb") as f:
-                            st.download_button(
-                                label="📥 Download Patient Report PDF",
-                                data=f,
-                                file_name=f"patient_report_{result['patient_id']}.pdf",
-                                mime="application/pdf"
-                            )
-
-                    # Step 7: Display extracted data
-                    st.subheader("Extracted Patient Data")
-                    tabs = st.tabs(["Full Report", "Summary"])
-
-                    with tabs[1]:
-                        demographics = result.get('structured_data', {}).get('PatientDemographics', {})
-                        col1, col2, col3 = st.columns(3)
-                        with col1:
-                            st.metric("MRN", demographics.get('MRN', 'N/A'))
-                        with col2:
-                            st.metric("Age", demographics.get('Age', 'N/A'))
-                        with col3:
-                            st.metric("Gender", demographics.get('Gender', 'N/A'))
-                        st.write(f"**Diagnosis:** {demographics.get('Diagnosis', 'N/A')}")
-                        st.write(
-                            f"**Summary:** {result.get('structured_data', {}).get('SummaryNarrative', {}).get('ClinicalCourseProgression', 'N/A')}")
-
-                    with tabs[0]:
-                        st.json(result.get('structured_data', {}))
-
-                    # Step 8: Refresh metadata cache
-                    st.session_state.refresh_data = True
-                    st.cache_data.clear()
-
-            except Exception as e:
-                st.error(f"❌ Error processing PDF: {e}")
-            finally:
-                # Clean up temporary file
-                try:
-                    os.unlink(tmp_path)
-                except Exception:
-                    pass
 
 
 if __name__ == "__main__":
