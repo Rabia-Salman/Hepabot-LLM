@@ -224,7 +224,7 @@ def main():
     # Sidebar for navigation
     with st.sidebar:
         st.title("Navigation")
-        if st.button("Diagnosis Search", use_container_width=True):
+        if st.button("Advance Search", use_container_width=True):
             st.session_state.page = "search"
         if st.button("Patient Browser", use_container_width=True):
             st.session_state.page = "browser"
@@ -232,6 +232,10 @@ def main():
             st.session_state.page = "analytics"
         if st.button("Generate Report", use_container_width=True):
             st.session_state.page = "generate_report"
+        if st.button("Clinical Assistant", use_container_width=True):
+            st.session_state.page = "clinical_assistant"
+        if st.button("Disease Diagnosis", use_container_width=True):
+            st.session_state.page = "disease_diagnosis"
 
     # Page selection
     if st.session_state.page == "search":
@@ -242,6 +246,10 @@ def main():
         show_analytics_page()
     elif st.session_state.page == "generate_report":
         show_generate_report_page()
+    elif st.session_state.page == "clinical_assistant":
+        show_clinical_assistant_page()
+    elif st.session_state.page == "disease_diagnosis":
+        show_cdisease_diagnosis_page()
 
 
 def show_search_page():
@@ -805,7 +813,7 @@ def generate_pdf_report(patient_data, output_path):
     c.showPage()
     c.save()
 
-
+    
 def show_generate_report_page():
     OUTPUT_JSON = input_json_path
     st.header("🩺 Generate Patient Report")
@@ -953,6 +961,11 @@ def show_generate_report_page():
                 except Exception as e:
                     st.error(f"❌ Error processing text: {e}")
 
+def show_clinical_assistant_page():
+    pass
+
+def show_disease_diagnosis_page():
+    pass
 
 def process_and_save_result(result):
     if os.path.exists(OUTPUT_JSON):
