@@ -477,14 +477,17 @@ def show_browser_page():
                     if patient_record:
                         # Create tabs for better organization of data
                         tabs = st.tabs([
+                            "Full Patient Record",
                             "Clinical Summary",
                             "Diagnostic Information",
                             "Treatment Plan",
-                            "Original Conversation",
-                            "Full JSON Data"
+                            "Conversation"
                         ])
-
                         with tabs[0]:
+                            # Display full JSON data
+                            st.json(patient_record.get('structured_data', {}))
+                            
+                        with tabs[1]:
                             # Display clinical summary
                             clinical_summary = patient_record.get('structured_data', {}).get('ClinicalSummary', {})
 
@@ -534,7 +537,7 @@ def show_browser_page():
                             else:
                                 st.write("No clinical summary available")
 
-                        with tabs[1]:
+                        with tabs[2]:
                             # Display diagnostic information
                             st.subheader("Diagnostic Conclusions")
                             diag_conclusions = patient_record.get('structured_data', {}).get('DiagnosticConclusions',
@@ -570,7 +573,7 @@ def show_browser_page():
                                 for finding in path_findings:
                                     st.write(f"- {finding}")
 
-                        with tabs[2]:
+                        with tabs[3]:
                             # Display treatment plan information
 
                             # Therapeutic interventions
@@ -657,10 +660,6 @@ def show_browser_page():
                             # Display original conversation
                             st.text_area("Full Clinical Text", patient_record.get('raw_text', 'No text available'),
                                          height=400)
-
-                        with tabs[3]:
-                            # Display full JSON data
-                            st.json(patient_record.get('structured_data', {}))
                     else:
                         st.warning(f"Could not find detailed record for patient {selected_id}")
 
