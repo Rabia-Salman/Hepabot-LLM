@@ -367,4 +367,4 @@ def search_records(collection, query, filter_metadata=None, limit=5):
 #         return True
 #     except Exception as e:
 #         logger.error(f"Error deleting patient {patient_id} from vector database: {e}")
-#         return False..
+#         return False
