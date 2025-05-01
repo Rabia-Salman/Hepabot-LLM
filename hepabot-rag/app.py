@@ -148,7 +148,7 @@ def main():
     with st.sidebar.expander("Advanced Options", expanded=False):
         chunk_size = st.number_input("Chunk Size", value=1200, min_value=500, max_value=2000)
         chunk_overlap = st.number_input("Chunk Overlap", value=300, min_value=0, max_value=500)
-        use_fast_embeddings = st.checkbox("Use Fast Embeddings", value=True)
+        # use_fast_embeddings = st.checkbox("Use Fast Embeddings", value=True)
 
     # Create database button
     if st.sidebar.button("Process Documents & Create Database"):
