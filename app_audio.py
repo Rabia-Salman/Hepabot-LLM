@@ -249,7 +249,7 @@ def main():
     elif st.session_state.page == "clinical_assistant":
         show_clinical_assistant_page()
     elif st.session_state.page == "disease_diagnosis":
-        show_cdisease_diagnosis_page()
+        show_disease_diagnosis_page()
 
 
 def show_search_page():
@@ -813,7 +813,7 @@ def generate_pdf_report(patient_data, output_path):
     c.showPage()
     c.save()
 
-    
+
 def show_generate_report_page():
     OUTPUT_JSON = input_json_path
     st.header("🩺 Generate Patient Report")
@@ -961,11 +961,14 @@ def show_generate_report_page():
                 except Exception as e:
                     st.error(f"❌ Error processing text: {e}")
 
+
 def show_clinical_assistant_page():
     pass
 
+
 def show_disease_diagnosis_page():
     pass
+
 
 def process_and_save_result(result):
     if os.path.exists(OUTPUT_JSON):
