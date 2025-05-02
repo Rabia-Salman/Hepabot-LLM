@@ -26,13 +26,16 @@ DO NOT use any external knowledge not found in the context. Only suggest diagnos
 STRICTLY provide only these three sections:
 
 1. Diagnosis:
-Provide ONLY diagnoses found in the context with confidence values:
+- Provide ONLY diagnoses found in the context with confidence values:
 - Budd Chiari Syndrome (Confidence: value based on context)
 - Cholangiocarcinoma (Confidence: value based on context)
 - Chronic viral hepatitis C (Confidence: value based on context)
 - Hepatic fibrosis (Confidence: value based on context)
 - Hepatocellular Carcinoma (Confidence: value based on context)
 - Hepatitis C (Confidence: value based on context)
+- Chronic hepatic failure (Confidence: value based on context)
+
+Confidence Level: [High if direct match; Medium if suggestive; Low if further evaluation needed]
 
 Only include diagnoses with evidence in the context. Assign confidence (High/Medium/Low) based on how strongly the context supports each diagnosis.
 
