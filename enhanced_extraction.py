@@ -54,7 +54,10 @@ def extract_metadata(raw_text: str) -> Dict[str, Any]:
     3. ONLY return the JSON object - no additional text, explanations, or markdown
     4. Ensure all JSON keys and values are properly quoted
     5. Use None as default values e.g ["None"]. don't leave any string to be empty
-
+    6. Diagnosis can only be one of the following: Budd-Chiari syndrome, Cholangiocarcinoma ,Chronic viral hepatitis C ,
+     Hepatic fibrosis ,Hepatocellular Carcinoma ,hepatitis C ,Chronic hepatic failure. if found anything else that may be a spelling mistake
+     try to correct it to one of the these based on what it seems like else assign "None"
+     7. if diagnosis is in lower case or in any style , format it exactly as in point 6
     OUTPUT FORMAT:
     ```json
     {{
