@@ -1,9 +1,8 @@
-from typing import Dict, Any, Optional
-from langchain.prompts import ChatPromptTemplate, PromptTemplate
+from typing import Dict, Any
+from langchain.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 from langchain_ollama import ChatOllama
 from langchain_core.runnables import RunnablePassthrough
-from langchain.retrievers.multi_query import MultiQueryRetriever
 from langchain_community.vectorstores import Chroma
 
 
@@ -11,65 +10,52 @@ def create_rag_chain(vector_db: Chroma,
                      model_name: str = "llama3.2",
                      top_k: int = 4) -> Any:
     """
-    Create a RAG (Retrieval Augmented Generation) chain for medical diagnosis.
-
-    Args:
-        vector_db: Vector database to retrieve from
-        model_name: Name of the LLM model to use
-        top_k: Number of documents to retrieve
-
-    Returns:
-        A runnable chain that can answer medical diagnosis questions
+    Create a deterministic, context-sensitive RAG chain for medical diagnosis.
     """
-    # Initialize LLM
-    llm = ChatOllama(model=model_name)
+    # Initialize deterministic LLM (temperature=0 ensures same output for same input)
+    llm = ChatOllama(model=model_name, temperature=0, top_p=1)
 
-    # Create multi-query retriever for better results
-    query_prompt = PromptTemplate(
-        input_variables=["question"],
-        template="""You are an AI language model assistant specialized in medical terminology. 
-        Your task is to generate five different versions of the given user question to retrieve 
-        relevant medical documents from a vector database. By generating multiple perspectives 
-        on the user question, your goal is to help retrieve the most relevant medical information.
-        Provide these alternative questions separated by newlines.
+    # Use simple retriever (NO multi-query to avoid rephrasing)
+    retriever = vector_db.as_retriever(search_kwargs={"k": top_k})
 
-        Original question: {question}""",
-    )
+    # Updated prompt with new constrained output format
+    template = """You are a clinical assistant. Use ONLY the context below to provide information.
 
-    # Create retriever with multi-query capability for better recall
-    retriever = MultiQueryRetriever.from_llm(
-        vector_db.as_retriever(search_kwargs={"k": top_k}),
-        llm,
-        prompt=query_prompt
-    )
+DO NOT use any external knowledge not found in the context. Only suggest diagnoses, questions, and tests that are explicitly mentioned in the context.
 
-    # Define RAG prompt template
-    template = """Answer the question based ONLY on the following context:
-    {context}
+STRICTLY provide only these three sections:
 
-    Based on the question, retrieve a diagnosis from the context being very precise and brief.
-    Write symptoms, lab tests and medications that are associated with the diagnosis in the documents.
+1. Diagnosis:
+Provide ONLY diagnoses found in the context with confidence values:
+- Budd Chiari Syndrome (Confidence: value based on context)
+- Cholangiocarcinoma (Confidence: value based on context)
+- Chronic viral hepatitis C (Confidence: value based on context)
+- Hepatic fibrosis (Confidence: value based on context)
+- Hepatocellular Carcinoma (Confidence: value based on context)
+- Hepatitis C (Confidence: value based on context)
 
-    Follow this format:
-    Diagnosis: [provide the most likely diagnosis based on the context]
-    Typical Symptoms: [list the main symptoms associated with this diagnosis]
-    Lab Tests Recommended: [list appropriate lab tests to confirm diagnosis]
-    Medications Recommended: [list medications mentioned for this condition]
+Only include diagnoses with evidence in the context. Assign confidence (High/Medium/Low) based on how strongly the context supports each diagnosis.
 
-    If you are not confident in the diagnosis, clearly state this.
-    Do not add introductory or conclusive remarks.
+2. Questions for Doctor:
+List ONLY questions explicitly suggested in the context that a doctor should ask to confirm the diagnosis.
 
-    Question: {question}
-    """
+3. Recommended Lab Tests:
+List ONLY lab tests mentioned in the context that would help confirm the diagnosis.
+
+CONTEXT:
+{context}
+
+QUESTION:
+{question}
+"""
 
     prompt = ChatPromptTemplate.from_template(template)
 
-    # Create the chain
     chain = (
-            {"context": retriever, "question": RunnablePassthrough()}
-            | prompt
-            | llm
-            | StrOutputParser()
+        {"context": retriever, "question": RunnablePassthrough()}
+        | prompt
+        | llm
+        | StrOutputParser()
     )
 
     return chain
@@ -77,19 +63,10 @@ def create_rag_chain(vector_db: Chroma,
 
 def ask_question(chain: Any, question: str) -> str:
     """
-    Ask a question to the RAG chain.
-
-    Args:
-        chain: The RAG chain to use
-        question: The question to ask
-
-    Returns:
-        The response from the chain
+    Ask a diagnosis question using the RAG chain.
     """
     try:
         response = chain.invoke(question)
         return response
     except Exception as e:
-        error_message = f"Error generating response: {str(e)}"
-        print(error_message)
-        return error_message
+        return f"Error generating response: {str(e)}"
