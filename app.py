@@ -1258,12 +1258,26 @@ def show_analytics_page():
 def show_generate_report_page():
     # Constants
     OUTPUT_JSON = input_json_path
+    output_directory = "patient_records"  # Adjust as per your setup
+
+    # Check and load vector database if it exists but isn't loaded
+    if os.path.exists(DB_PATH) and not st.session_state.get('vector_db_created', False):
+        st.session_state.vector_db_created = True
+        try:
+            vector_db = load_vector_db(
+                persist_directory=DB_PATH,
+                collection_name=COLLECTION_NAME
+            )
+            if vector_db:
+                st.session_state.rag_chain = create_rag_chain(vector_db, MODEL_NAME)
+        except Exception as e:
+            st.error(f"Error loading vector database: {e}")
 
     st.header("🩺 Generate Patient Report")
     st.write("Upload a clinical conversation PDF or audio file to generate a structured medical report")
 
     # Tabs for upload options
-    tab1, tab2 = st.tabs([ "Upload Audio","Upload PDF"])
+    tab1, tab2 = st.tabs(["Upload Audio", "Upload PDF"])
 
     with tab2:
         uploaded_pdf = st.file_uploader("Upload a clinical conversation PDF", type=["pdf"], key="pdf_uploader")
@@ -1285,7 +1299,6 @@ def show_generate_report_page():
             with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as patient_file:
                 patient_file.write(uploaded_pdf.read())
                 tmp_path = patient_file.name
-            # st.write("Debug: PDF uploaded and saved to temporary file")
         elif uploaded_audio:
             # Process audio to PDF
             with st.spinner("🔊 Transcribing audio..."):
@@ -1294,15 +1307,12 @@ def show_generate_report_page():
                     st.error(f"❌ Error transcribing audio: {error}")
                     return
                 tmp_path = pdf_path
-                st.success("✅ Audio transcribed and converted to PDF")
-                # st.write("Debug: Audio transcribed and PDF created")
+                # st.success("✅ Audio transcribed and converted to PDF")
 
         with st.spinner("🔍 Analyzing data..."):
             try:
                 # Step 1: Process the PDF
-                # st.write("Debug: Starting PDF processing")
                 result = process_pdf(tmp_path)
-                # st.write("Debug: PDF processed")
 
                 if not result:
                     st.error("❌ Failed to process PDF. No data extracted.")
@@ -1321,16 +1331,13 @@ def show_generate_report_page():
                         demographics['MRN'] = mrn
                         result['structured_data']['PatientDemographics'] = demographics
                         st.info(f"MRN extracted from raw text: {mrn}")
-                        # st.write("Debug: MRN extracted from raw text")
 
                 if mrn:
                     result['patient_id'] = mrn
-                    st.success(f"Using MRN as patient ID: {mrn}")
-                    # st.write("Debug: Patient ID set to MRN")
+                    # st.success(f"Using MRN as patient ID: {mrn}")
                 else:
                     st.warning("No MRN found in patient data. Using default patient ID.")
                     result['patient_id'] = result.get('patient_id', f"patient_{int(time.time())}")
-                    # st.write("Debug: Default patient ID assigned")
 
                 # Step 3: Append to JSON file
                 if os.path.exists(OUTPUT_JSON):
@@ -1346,31 +1353,25 @@ def show_generate_report_page():
                         if item['patient_id'] == result['patient_id']:
                             existing_data[i] = result
                             st.info(f"⚠️ Updated existing record for patient {result['patient_id']}")
-                            # st.write("Debug: Updated existing patient record")
                 else:
                     existing_data.append(result)
-                    st.success(f"✅ Added new patient record: {result['patient_id']}")
-                    # st.write("Debug: Added new patient record")
+                    # st.success(f"✅ Added new patient record: {result['patient_id']}")
 
                 # Save to combined JSON file
                 with open(OUTPUT_JSON, "w") as f:
                     json.dump(existing_data, f, indent=2)
-                # st.write("Debug: JSON file saved")
 
                 # Step 4: Create individual JSON files
                 os.makedirs(output_directory, exist_ok=True)
                 save_patient_records(existing_data, output_directory)
-                # st.write("Debug: Individual JSON files created")
 
                 # Step 5: Add to vector database
                 try:
                     collection = get_vector_db()
                     add_patient_record(collection, result)
-                    st.success("✅ Patient record added to vector database")
-                    # st.write("Debug: Record added to vector database")
+                    # st.success("✅ Patient record added to vector database")
                 except Exception as e:
                     st.error(f"❌ Error adding to vector database: {e}")
-                    # st.write(f"Debug: Vector database error: {e}")
 
                 # Step 6: Generate and display results
                 st.subheader("📋 Generated Patient Report")
@@ -1386,7 +1387,6 @@ def show_generate_report_page():
                             mime="application/pdf",
                             key=f"download_pdf_{result['patient_id']}"
                         )
-                    # st.write("Debug: PDF report generated and download button created")
 
                 # Step 7: Display extracted data
                 st.subheader("Extracted Patient Data")
@@ -1404,33 +1404,82 @@ def show_generate_report_page():
                     st.write(f"**Diagnosis:** {demographics.get('Diagnosis', 'N/A')}")
                     st.write(
                         f"**Summary:** {result.get('structured_data', {}).get('SummaryNarrative', {}).get('ClinicalCourseProgression', 'N/A')}")
-                    # st.write("Debug: Summary tab rendered")
 
                 with tabs[0]:
                     st.json(result.get('structured_data', {}))
-                    # st.write("Debug: Full report tab rendered")
 
-                # Step 8: Refresh metadata cache
+                # Step 8: Generate diagnosis using RAG pipeline
+                if st.session_state.get('rag_chain', None):
+                    with st.spinner("🩺 Generating AI-assisted diagnosis..."):
+                        try:
+                            demographics = result.get('structured_data', {}).get('PatientDemographics', {})
+                            age = demographics.get('Age', 'unknown')
+                            gender = demographics.get('Gender', 'unknown')
+
+                            # Fix the error: Accessing dictionary values properly
+                            summary_report = result.get('structured_data', {}).get('SummaryNarrative', {}).get(
+                                'ClinicalCourseProgression', 'no symptoms provided')
+
+                            # Properly access DiagnosticEvidence - get() with no arguments was causing the error
+                            diagnostic_evidence = result.get('structured_data', {}).get('DiagnosticEvidence', {})
+                            # Convert to string or use specific fields if available
+                            diagnostic_evidence_str = str(
+                                diagnostic_evidence) if diagnostic_evidence else "No diagnostic evidence available"
+
+                            # Similarly fix ClinicalSummary access
+                            clinical_summary = result.get('structured_data', {}).get('ClinicalSummary', {})
+                            clinical_summary_str = str(
+                                clinical_summary) if clinical_summary else "No clinical summary available"
+
+                            question = (
+                                f"Patient is {age} years old, {gender}, showing symptoms: {clinical_summary_str}, his Lab test include"
+                                f" {diagnostic_evidence_str}, and his overall summary report is {summary_report} What is the likely diagnosis?")
+
+                            # Get diagnosis from RAG chain
+                            diagnosis = ask_question(st.session_state.rag_chain, question)
+
+                            # Display diagnosis
+                            st.subheader("AI-Assisted Diagnosis")
+                            st.markdown(diagnosis)
+
+                            # Store diagnosis in session state for potential reuse
+                            # st.session_state.last_response = diagnosis
+
+                            # Provide download button for diagnosis
+                            col1, _ = st.columns(2)
+                            with col1:
+                                if st.button("Download Diagnosis"):
+                                    download_data = diagnosis.encode()
+                                    st.markdown(
+                                        get_download_link(
+                                            download_data,
+                                            f"diagnosis_{result['patient_id']}.txt",
+                                            "Download Diagnosis Result"
+                                        ),
+                                        unsafe_allow_html=True
+                                    )
+                        except Exception as e:
+                            st.error(f"❌ Error generating diagnosis: {str(e)}")
+                else:
+                    st.warning("No vector database or RAG chain available to generate diagnosis.")
+
+                # Step 9: Refresh metadata cache
                 st.session_state.refresh_data = True
                 st.cache_data.clear()
-                # st.write("Debug: Metadata cache cleared")
 
                 # Add navigation button to patient browser
                 if st.button("View in Patient Browser"):
                     st.session_state.page = "browser"
                     st.experimental_rerun()
-                    # st.write("Debug: Navigating to patient browser")
 
             except Exception as e:
                 st.error(f"❌ Error processing PDF: {e}")
-                # st.write(f"Debug: Exception occurred: {e}")
             finally:
                 # Clean up temporary file
                 try:
                     os.unlink(tmp_path)
-                    # st.write("Debug: Temporary file cleaned up")
                 except Exception:
-                    st.write("Debug: Failed to clean up temporary file")
+                    pass
 
 def generate_pdf_report(patient_data, output_path):
     """Generateate a PDF report for the patient data."""
