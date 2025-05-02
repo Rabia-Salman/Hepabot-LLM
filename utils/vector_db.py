@@ -50,3 +50,4 @@ def load_vector_db(persist_directory: str = "./db/vector_db",
     except Exception as e:
         print(f"Failed to load vector DB: {e}")
         return None
+#
