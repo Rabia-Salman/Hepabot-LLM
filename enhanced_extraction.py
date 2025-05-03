@@ -57,8 +57,9 @@ def extract_metadata(raw_text: str) -> Dict[str, Any]:
     6. Diagnosis can only be one of the following: Budd-Chiari syndrome, Cholangiocarcinoma ,Chronic viral hepatitis C ,
      Hepatic fibrosis ,Hepatocellular Carcinoma ,hepatitis C ,Chronic hepatic failure. if found anything else that may be a spelling mistake
      try to correct it to one of the these based on what it seems like else assign "None"
-     7. if diagnosis is in lower case or in any style , format it exactly as in point 6
-    OUTPUT FORMAT:
+    7. if diagnosis is in lower case or in any style , format it exactly as in point 6    
+    8. format gender always like "Male" or "Female"
+OUTPUT FORMAT:
     ```json
     {{
       "PatientDemographics": {{
