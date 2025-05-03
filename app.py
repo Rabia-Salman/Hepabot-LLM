@@ -945,6 +945,7 @@ def show_browser_page():
         # Select patient by ID
         selected_id = st.selectbox("Select Patient ID", sorted([m['patient_id'] for m in metadata_list]))
 
+
         if selected_id:
             # Find patient in metadata
             patient_data = next((m for m in metadata_list if m['patient_id'] == selected_id), None)
@@ -967,7 +968,7 @@ def show_browser_page():
                         data = json.load(f)
 
                     # Find the patient record
-                    patient_record = next((item for item in data if item['patient_id'] == selected_id), None)
+                    patient_record = next((item for item in data if item['patient_id'] == selected_id) or item['MRN']== MRN, None)
 
                     if patient_record:
                         # Create tabs for better organization of data
